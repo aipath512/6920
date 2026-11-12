@@ -477,3 +477,10 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
 .cookie-consent-banner button:focus-visible,.cookie-dialog-actions button:focus-visible{outline:3px solid #3e9d80;outline-offset:2px}
 @media(max-width:720px){.cookie-consent-banner>div{grid-template-columns:repeat(3,minmax(0,1fr))}.cookie-consent-banner button{font-size:11px!important;padding:10px 5px!important}.cookie-dialog-actions{display:grid;grid-template-columns:1fr;gap:8px}}
 @media(max-width:380px){.cookie-consent-banner>div{grid-template-columns:1fr}.cookie-consent-banner{max-height:80dvh;overflow-y:auto}}
+
+/* C6920 HERO restoration — keep image above hero background and behind content */
+.hero.home-hero.luxe-hero{position:relative!important;isolation:isolate!important;overflow:hidden!important}
+.hero.home-hero.luxe-hero>.luxe-photo{position:absolute!important;inset:0!important;display:block!important;z-index:0!important;opacity:1!important;background-image:url('/assets/hero-6920.png?v=restored-20261112')!important;background-size:cover!important;background-position:center 42%!important;background-repeat:no-repeat!important}
+.hero.home-hero.luxe-hero>.luxe-overlay{position:absolute!important;inset:0!important;z-index:1!important;background:linear-gradient(90deg,rgba(5,18,27,.91) 0%,rgba(5,18,27,.76) 32%,rgba(5,18,27,.28) 60%,rgba(5,18,27,.08) 100%)!important;pointer-events:none!important}
+.hero.home-hero.luxe-hero>.luxe-main,.hero.home-hero.luxe-hero>.container{position:relative;z-index:2}
+@media(max-width:650px){.hero.home-hero.luxe-hero>.luxe-photo{background-position:65% center!important}.hero.home-hero.luxe-hero>.luxe-overlay{background:linear-gradient(90deg,rgba(5,18,27,.92) 0%,rgba(5,18,27,.73) 52%,rgba(5,18,27,.35) 100%)!important}}
