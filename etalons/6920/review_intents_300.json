@@ -1,6 +1,6 @@
 {
   "schema": "c6920-review-v1",
-  "publication_status": "NOT_APPROVED",
+  "publication_status": "OWNER_APPROVED_FOR_EVA",
   "source": "master_intents_300.csv",
   "aliases": {
     "191": "49",
@@ -4208,5 +4208,7 @@
       "faq_per_serviciu": "Nu",
       "chatbot": "Da"
     }
-  ]
+  ],
+  "approval_scope": "EVA conversational responses; owner-approved, not independently legislation-verified",
+  "original_row_status": "draft – de validat de owner (historical import status)"
 }
