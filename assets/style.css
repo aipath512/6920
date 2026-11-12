@@ -460,3 +460,11 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
 
 /* C6920 privacy policy */
 .privacy-policy{max-width:920px}.privacy-policy .privacy-section{padding:22px 0;border-bottom:1px solid var(--line)}.privacy-policy .privacy-section h2{font-size:clamp(1.2rem,2vw,1.65rem);margin-bottom:12px}.privacy-policy .privacy-section p{line-height:1.8}.privacy-table-wrap{overflow-x:auto}.privacy-table{border-collapse:collapse;width:100%;font-size:13px;line-height:1.6}.privacy-table th,.privacy-table td{text-align:left;vertical-align:top;border-bottom:1px solid var(--line);padding:12px}.privacy-table th{font-weight:750}
+
+/* Cookie choice: equal prominence for acceptance and refusal */
+.cookie-consent-banner{position:fixed;bottom:16px;left:16px;right:16px;z-index:9999;max-width:1000px;margin:auto;padding:17px 20px;background:#fff;color:#172d28;border:1px solid #bacac5;border-radius:14px;box-shadow:0 14px 45px #0004;display:flex;align-items:center;gap:18px;justify-content:space-between}
+.cookie-consent-banner p{font-size:13px;line-height:1.55;margin:0;flex:1}.cookie-consent-banner>div,.cookie-dialog-actions{display:flex;flex-wrap:wrap;gap:8px}
+.cookie-consent-banner button,.cookie-dialog-actions button{padding:10px 12px;border:1px solid #2a4940;background:#fff;color:#172d28;border-radius:8px;font:600 12px inherit;font-size:12px;font-weight:700;cursor:pointer}
+.cookie-consent-banner button:last-child,.cookie-dialog-actions button:last-child{background:#173f35;color:#fff}
+.cookie-choice{padding:10px 0;border-bottom:1px solid #d9e3df}.cookie-choice label{font-size:14px;font-weight:650;display:flex;gap:10px;align-items:center}.cookie-choice small{font-size:12px;display:block;margin:5px 0 0 23px}.cookie-dialog-actions{margin:20px 0}
+@media(max-width:720px){.cookie-consent-banner{display:block;bottom:8px;left:8px;right:8px;padding:14px}.cookie-consent-banner>div{margin-top:12px}.cookie-consent-banner button{flex:1}}
