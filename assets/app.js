@@ -33,7 +33,20 @@ const evaKB={items:[],ready:false};
 const evaAliases=new Set(["191","192","195"]);
 const evaNorm=s=>String(s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g," ").trim();
 const evaStop=new Set("ce care cum cand unde este sunt pentru despre prin din la pe cu de si sau un o in sa se pot poate vreau am ai eu mea meu unei unui mai trebuie fac face avea aveti avem imi mie dvs".split(" "));
-const evaTokens=s=>evaNorm(s).split(/\s+/).filter(x=>x.length>2&&!evaStop.has(x));
+// Domain-aware lexical normalization: deterministic, no external AI calls.
+const evaConcept=t=>{
+ if(/^(salari|salariz|leaf|fluturas|fluturasi|remuner|retribut)/.test(t))return "salarizare";
+ if(/^(calcul|calcule|calcula|calculat)/.test(t))return "calcul";
+ if(/^(angajat|angajati|angajare|personal|salariat|salariati)/.test(t))return "personal";
+ if(/^(contabil|evident|bilant|balant)/.test(t))return "contabilitate";
+ if(/^(factur|efactur|e-factur)/.test(t))return "factura";
+ if(/^(impozit|taxe|taxa|fiscal)/.test(t))return "fiscal";
+ if(/^(infiint|deschid|deschidere|constitu)/.test(t))return "infiintare";
+ if(/^(pret|tarif|cost|onorari)/.test(t))return "pret";
+ if(/^(declar|depun|depuner)/.test(t))return "declaratie";
+ return t;
+};
+const evaTokens=s=>evaNorm(s).split(/\s+/).filter(x=>x.length>2&&!evaStop.has(x)).map(evaConcept);
 const evaRoute=c=>{const t=evaNorm(c);if(t.includes("infiint"))return "/infiintare-firma/";if(t.includes("salar")||t.includes("personal"))return "/salarii-personal/";if(t.includes("pfa"))return "/contabilitate-pfa/";if(t.includes("pret")||t.includes("tarif"))return "/preturi/";if(t.includes("factur")||t.includes("tva"))return "/tva-e-factura/";if(t.includes("fiscal")||t.includes("anaf"))return "/consultanta-fiscala/";return "/servicii/"};
 async function evaLoad(){try{const r=await fetch("/etalons/6920/review_intents_300.json",{cache:"no-store"});if(!r.ok)throw Error("KB HTTP "+r.status);const d=await r.json();if(!Array.isArray(d.items)||d.items.length!==300)throw Error("KB incomplet");evaKB.items=d.items.filter(x=>!evaAliases.has(String(x.id))&&x.intentie&&x.raspuns_master);evaKB.ready=true}catch(e){evaKB.ready=false;console.warn("EVA KB unavailable",e)}}
 const evaLoading=evaLoad();
