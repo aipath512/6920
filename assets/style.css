@@ -478,9 +478,15 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
 @media(max-width:720px){.cookie-consent-banner>div{grid-template-columns:repeat(3,minmax(0,1fr))}.cookie-consent-banner button{font-size:11px!important;padding:10px 5px!important}.cookie-dialog-actions{display:grid;grid-template-columns:1fr;gap:8px}}
 @media(max-width:380px){.cookie-consent-banner>div{grid-template-columns:1fr}.cookie-consent-banner{max-height:80dvh;overflow-y:auto}}
 
-/* C6920 HERO restoration — keep image above hero background and behind content */
-.hero.home-hero.luxe-hero{position:relative!important;isolation:isolate!important;overflow:hidden!important}
-.hero.home-hero.luxe-hero>.luxe-photo{position:absolute!important;inset:0!important;display:block!important;z-index:0!important;opacity:1!important;background-image:url('/assets/hero-6920.png?v=restored-20261112')!important;background-size:cover!important;background-position:center 42%!important;background-repeat:no-repeat!important}
-.hero.home-hero.luxe-hero>.luxe-overlay{position:absolute!important;inset:0!important;z-index:1!important;background:linear-gradient(90deg,rgba(5,18,27,.91) 0%,rgba(5,18,27,.76) 32%,rgba(5,18,27,.28) 60%,rgba(5,18,27,.08) 100%)!important;pointer-events:none!important}
+/* C6920 premium dark HERO — controlled single override, not a full-screen image */
+.hero.home-hero.luxe-hero{position:relative!important;isolation:isolate!important;background:#050709!important;color:#f8f5f0!important;overflow:hidden!important}
+.hero.home-hero.luxe-hero>.luxe-photo{position:absolute!important;inset:0!important;z-index:0!important;display:block!important;opacity:1!important;background:#050709 url('/assets/hero-6920.png?v=premium-dark-v3') center 42%/cover no-repeat!important}
+.hero.home-hero.luxe-hero>.luxe-overlay{position:absolute!important;inset:0!important;z-index:1!important;pointer-events:none!important;background:linear-gradient(90deg,#050709 0%,rgba(5,7,9,.97) 20%,rgba(5,7,9,.84) 40%,rgba(5,7,9,.42) 56%,rgba(5,7,9,.06) 83%)!important}
 .hero.home-hero.luxe-hero>.luxe-main,.hero.home-hero.luxe-hero>.container{position:relative;z-index:2}
-@media(max-width:650px){.hero.home-hero.luxe-hero>.luxe-photo{background-position:65% center!important}.hero.home-hero.luxe-hero>.luxe-overlay{background:linear-gradient(90deg,rgba(5,18,27,.92) 0%,rgba(5,18,27,.73) 52%,rgba(5,18,27,.35) 100%)!important}}
+.hero.home-hero.luxe-hero .luxe-copy h1,.hero.home-hero.luxe-hero .luxe-copy p{color:#f8f5f0}
+@media(max-width:650px){.hero.home-hero.luxe-hero>.luxe-photo{background-position:66% center!important}.hero.home-hero.luxe-hero>.luxe-overlay{background:linear-gradient(90deg,rgba(5,7,9,.96) 0%,rgba(5,7,9,.87) 43%,rgba(5,7,9,.47) 100%)!important}}
+/* Keep consent banner consistent with premium dark design; equal accept/reject prominence */
+.cookie-consent-banner{background:#101315!important;color:#f4f1eb!important;border-color:#3b4243!important;box-shadow:0 14px 42px #0008!important;max-width:860px!important}
+.cookie-consent-banner a{color:#e7cda3!important}
+.cookie-consent-banner button[data-cookie="reject"],.cookie-consent-banner button[data-cookie="accept"]{background:#f0e6d6!important;color:#101315!important;border-color:#f0e6d6!important}
+.cookie-consent-banner button[data-cookie="settings"]{background:#202629!important;color:#f4f1eb!important;border-color:#8d9593!important}
