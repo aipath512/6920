@@ -1,0 +1,28 @@
+const fs = require('node:fs');
+const assert = require('node:assert/strict');
+const path = require('node:path');
+const root = path.resolve(__dirname, '..');
+const read = p => fs.readFileSync(path.join(root, p), 'utf8');
+const home = read('index.html');
+const css = read('assets/style.css');
+const js = read('assets/app.js');
+const rows = [...home.matchAll(/<article class="premium-service-row([^"]*)">([\s\S]*?)<\/article>/g)];
+assert.equal(rows.length, 6, 'Six service rows required');
+rows.forEach(([_, classes, html], i) => {
+  assert.equal(classes.includes('is-reversed'), i % 2 === 1, 'Alternating L/R order');
+  assert.match(html, /<img\b[^>]*\bsrc="[^"]+"/, 'Service image required');
+  assert.match(html, /<h3>[^<]+<\/h3>/, 'Service title required');
+  assert.match(html, /<a href="\//, 'Service link required');
+});
+assert.match(home, /class="hero home-hero luxe-hero/, 'Premium hero must exist');
+assert.match(css, /hero-6920\.png/, 'Hero background asset must be referenced');
+assert.ok(fs.existsSync(path.join(root, 'assets/hero-6920.png')), 'Hero asset must exist');
+assert.match(home, /<nav\b/, 'Navigation required');
+assert.match(home, /id="eva-form"/, 'EVA form required');
+assert.match(home, /href="\/contact\/#lead-form"/, 'Contact CTA required');
+assert.match(js, /Refuză toate/);
+assert.match(js, /Acceptă toate/);
+assert.match(js, /footer-cookie-settings/);
+assert.match(js, /statistics:false,marketing:false,external:false/, 'Optional consent must default to denied');
+for (const p of ['politica-confidentialitate/index.html','politica-cookies/index.html','gdpr/index.html','drepturi-gdpr/index.html','incidente-securitate/index.html']) assert.ok(fs.existsSync(path.join(root,p)), p+' missing');
+console.log('PASS: C6920 structural invariants, consent defaults and legal routes');
