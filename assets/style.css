@@ -320,3 +320,32 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
 .premium-proof-compact .text-link{font-size:12px}
 @media(max-width:850px){.premium-proof-compact .proof-heading{display:block}.premium-proof-compact .proof-heading>p{margin-top:10px}.premium-proof-compact .proof-value-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:550px){.premium-proof.premium-proof-compact{padding:30px 0!important}.premium-proof-compact .proof-heading h2{font-size:26px}.premium-proof-compact .proof-value-grid{gap:8px}.premium-proof-compact .proof-value-grid article{padding:13px}.premium-proof-compact .proof-value-grid h3{font-size:15px}.premium-proof-compact .proof-value-grid p{font-size:11px}}
+
+/* 6920: Generated premium accounting HERO image, owned asset in this repository.
+   Desktop left 50% dark overlay, right portrait visible; mobile safe crop. */
+.home-hero.luxe-hero { background:#071923!important; isolation:isolate; }
+.luxe-hero .luxe-photo {
+  inset:0!important;
+  display:block!important;
+  background-image:url('/assets/hero-6920.png?v=hero-6920-20261112-a')!important;
+  background-color:#071923!important;
+  background-repeat:no-repeat!important;
+  background-size:cover!important;
+  background-position:center center!important;
+  opacity:1!important;
+  z-index:-3!important;
+}
+.luxe-hero .luxe-overlay {
+  inset:0!important;
+  z-index:-2!important;
+  background:linear-gradient(90deg,rgba(7,25,35,.96) 0%,rgba(7,25,35,.90) 28%,rgba(7,25,35,.72) 48%,rgba(7,25,35,.18) 75%,rgba(7,25,35,.02) 100%),linear-gradient(0deg,rgba(4,15,23,.75),transparent 40%)!important;
+}
+.luxe-hero .luxe-copy h1,.luxe-hero .luxe-eyebrow { text-shadow:0 2px 12px rgba(0,0,0,.26); }
+@media(max-width:850px){
+ .luxe-hero .luxe-photo{inset:0!important;background-position:63% center!important;background-size:cover!important}
+ .luxe-hero .luxe-overlay{background:linear-gradient(90deg,rgba(7,25,35,.98) 0%,rgba(7,25,35,.85) 48%,rgba(7,25,35,.40) 100%),linear-gradient(0deg,rgba(5,18,28,.65),transparent 53%)!important}
+}
+@media(max-width:550px){
+ .luxe-hero .luxe-photo{inset:0!important;background-position:66% 38%!important;background-size:cover!important}
+ .luxe-hero .luxe-overlay{background:linear-gradient(90deg,rgba(7,25,35,.96) 0%,rgba(7,25,35,.84) 58%,rgba(7,25,35,.54) 100%),linear-gradient(0deg,rgba(4,15,24,.83) 0%,transparent 70%)!important}
+}
