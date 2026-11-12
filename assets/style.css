@@ -457,3 +457,6 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
 .cookie-info-dialog::backdrop{background:rgba(0,0,0,.6)}
 @media(max-width:720px){.site-footer-v2 .footer-legal-identity dl{grid-template-columns:1fr 1fr}}
 @media(max-width:460px){.site-footer-v2 .footer-legal-identity dl{grid-template-columns:1fr}}
+
+/* C6920 privacy policy */
+.privacy-policy{max-width:920px}.privacy-policy .privacy-section{padding:22px 0;border-bottom:1px solid var(--line)}.privacy-policy .privacy-section h2{font-size:clamp(1.2rem,2vw,1.65rem);margin-bottom:12px}.privacy-policy .privacy-section p{line-height:1.8}.privacy-table-wrap{overflow-x:auto}.privacy-table{border-collapse:collapse;width:100%;font-size:13px;line-height:1.6}.privacy-table th,.privacy-table td{text-align:left;vertical-align:top;border-bottom:1px solid var(--line);padding:12px}.privacy-table th{font-weight:750}
