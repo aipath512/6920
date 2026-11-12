@@ -369,3 +369,11 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
 .service-editorial-copy{min-width:0}.service-editorial-index{font-size:11px;letter-spacing:.14em;color:#9a8869;font-weight:800}.service-editorial h3{font-size:clamp(24px,2.8vw,39px);letter-spacing:-.04em;line-height:1.17;margin:10px 0 14px}.service-editorial p{font-size:clamp(15px,1.5vw,19px);line-height:1.55;max-width:56ch}.service-editorial-link{font-size:13px;font-weight:800;color:var(--ink)}
 @media(max-width:640px){.service-editorial,.service-editorial-reverse{grid-template-columns:38% minmax(0,1fr);gap:14px;padding:14px}.service-editorial img{height:clamp(130px,34vw,190px);border-radius:13px}.service-editorial-reverse img{order:2}.service-editorial h3{font-size:clamp(18px,4.4vw,25px);margin:5px 0 7px}.service-editorial p{font-size:13px;line-height:1.45;margin-bottom:8px}.service-editorial-index{font-size:9px}.service-editorial-link{font-size:11px}}
 @media(max-width:380px){.service-editorial,.service-editorial-reverse{grid-template-columns:1fr}.service-editorial img,.service-editorial-reverse img{order:0;width:100%;height:160px}.service-editorial-copy,.service-editorial-reverse .service-editorial-copy{order:1}}
+
+/* C6920 SRL service page V2 */
+.srl-disclaimer{font-size:12px;opacity:.8;margin-top:18px;line-height:1.6}
+.srl-faq{display:grid;gap:10px;max-width:960px;margin-top:24px}
+.srl-faq details{border:1px solid var(--line);border-radius:14px;padding:18px 22px;background:var(--surface)}
+.srl-faq summary{cursor:pointer;font-weight:750;line-height:1.45}
+.srl-faq details p{padding-top:12px;margin:0;line-height:1.65}
+@media(max-width:600px){.srl-faq details{padding:15px}.sub-hero .hero-actions{display:flex;flex-wrap:wrap;gap:10px}.sub-hero .hero-actions .btn{max-width:100%;white-space:normal;text-align:center}}
