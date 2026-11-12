@@ -429,3 +429,19 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
 .home-v3-steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:17px;margin-top:26px}.home-v3-steps article{border-top:2px solid currentColor;padding:18px 8px 0 0}.home-v3-steps strong{font-size:13px}.home-v3-steps h3{margin:12px 0}.home-v3-steps p{line-height:1.6}
 @media(max-width:900px){.home-v3-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.home-v3-steps{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:580px){.home-v3-grid,.home-v3-steps{grid-template-columns:1fr}.home-v3-trust-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.home-v3-card{padding:18px}}
+
+/* Shared C6920 footer */
+.site-footer-v2 .footer-grid-v2{display:grid;grid-template-columns:1.6fr repeat(4,minmax(0,1fr));gap:26px;align-items:start}
+.site-footer-v2 .footer-col{display:flex;flex-direction:column;gap:10px;min-width:0}
+.site-footer-v2 .footer-col strong{font-size:13px;margin-bottom:5px}
+.site-footer-v2 .footer-col a,.site-footer-v2 .footer-col span{font-size:12px;line-height:1.65}
+.site-footer-v2 .footer-identity p{font-size:12px;line-height:1.65}
+.site-footer-v2 .footer-demo-note{opacity:.75}
+.site-footer-v2 .footer-actions{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0;padding:20px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.site-footer-v2 .footer-actions a{padding:11px 17px;border-radius:9px;text-decoration:none;font-weight:750;font-size:13px;border:1px solid var(--line)}
+.site-footer-v2 .footer-actions small{font-size:10px;opacity:.7;font-weight:500}
+.site-footer-v2 .footer-offer{background:var(--ink);color:var(--surface,#fff)!important}
+.site-footer-v2 .footer-legal{display:flex;flex-wrap:wrap;gap:10px 20px;margin-bottom:18px}
+.site-footer-v2 .footer-legal a{font-size:11px}
+@media(max-width:1050px){.site-footer-v2 .footer-grid-v2{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:640px){.site-footer-v2 .footer-grid-v2{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.site-footer-v2 .footer-identity{grid-column:1/-1}.site-footer-v2 .footer-actions a{flex:1;text-align:center}.site-footer-v2 .footer-bottom{flex-direction:column;gap:8px}}
