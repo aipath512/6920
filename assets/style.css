@@ -490,3 +490,40 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
 .cookie-consent-banner a{color:#e7cda3!important}
 .cookie-consent-banner button[data-cookie="reject"],.cookie-consent-banner button[data-cookie="accept"]{background:#f0e6d6!important;color:#101315!important;border-color:#f0e6d6!important}
 .cookie-consent-banner button[data-cookie="settings"]{background:#202629!important;color:#f4f1eb!important;border-color:#8d9593!important}
+
+/* C6920 premium refinement v4 — controlled responsive typography and spacing */
+.hero.home-hero.luxe-hero .luxe-main{min-height:clamp(540px,67vh,740px)!important;padding-top:48px!important;padding-bottom:44px!important;align-items:center!important}
+.hero.home-hero.luxe-hero .luxe-copy{width:min(580px,53%)!important;max-width:100%!important;padding:12px 0!important}
+.hero.home-hero.luxe-hero .luxe-copy h1{font-size:clamp(43px,4.15vw,70px)!important;line-height:1.065!important;letter-spacing:-.025em!important;max-width:610px!important;margin:22px 0 18px!important;text-wrap:pretty!important}
+.hero.home-hero.luxe-hero .luxe-deck{font-size:clamp(14px,1.15vw,18px)!important;line-height:1.65!important;max-width:490px!important}
+.hero.home-hero.luxe-hero .luxe-qualification{font-size:11px!important;line-height:1.55!important;max-width:490px!important;opacity:.76}
+.hero.home-hero.luxe-hero>.luxe-photo{background-position:68% 42%!important}
+.hero.home-hero.luxe-hero>.luxe-overlay{background:linear-gradient(90deg,#050709 0%,rgba(5,7,9,.98) 24%,rgba(5,7,9,.85) 41%,rgba(5,7,9,.34) 59%,rgba(5,7,9,.02) 85%)!important}
+.home-v3-trust-row{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px!important;align-items:center!important;padding-top:16px!important;padding-bottom:16px!important}
+.home-v3-trust-row span{font-size:clamp(10px,.95vw,12px)!important;line-height:1.5!important;text-align:center}
+.home-v3-trust-row span+span{border-left:1px solid rgba(160,160,160,.25);padding-left:12px}
+.home-v3-card{transition:transform .2s ease,border-color .2s ease;box-shadow:0 8px 24px rgba(0,0,0,.05)}
+.home-v3-card:hover{transform:translateY(-3px);border-color:#cba46d}
+.home-v3-card h3{line-height:1.3}
+@media(min-width:1050px){.hero.home-hero.luxe-hero .luxe-copy{width:min(620px,52%)!important}}
+@media(min-width:651px) and (max-width:1050px){
+.hero.home-hero.luxe-hero .luxe-main{min-height:510px!important;padding-top:34px!important;padding-bottom:32px!important}
+.hero.home-hero.luxe-hero .luxe-copy{width:55%!important}
+.hero.home-hero.luxe-hero .luxe-copy h1{font-size:clamp(35px,4.7vw,49px)!important}
+.hero.home-hero.luxe-hero .luxe-deck{font-size:13px!important;line-height:1.5!important}
+.hero.home-hero.luxe-hero>.luxe-photo{background-position:64% center!important}
+}
+@media(max-width:650px){
+.hero.home-hero.luxe-hero .luxe-main{min-height:610px!important;padding-top:36px!important;padding-bottom:32px!important;align-items:flex-start!important}
+.hero.home-hero.luxe-hero .luxe-copy{width:100%!important;max-width:440px!important;padding:10px 0!important}
+.hero.home-hero.luxe-hero .luxe-copy h1{font-size:clamp(38px,9vw,54px)!important;max-width:430px!important;line-height:1.04!important}
+.hero.home-hero.luxe-hero .luxe-deck{font-size:14px!important;max-width:380px!important}
+.hero.home-hero.luxe-hero>.luxe-photo{background-position:67% center!important}
+.hero.home-hero.luxe-hero>.luxe-overlay{background:linear-gradient(90deg,rgba(5,7,9,.96) 0%,rgba(5,7,9,.86) 52%,rgba(5,7,9,.43) 100%)!important}
+.home-v3-trust-row{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:0!important}
+.home-v3-trust-row span{padding:12px 8px!important;border-left:0!important;border-bottom:1px solid rgba(160,160,160,.18);text-align:left}
+.home-v3-grid{grid-template-columns:1fr!important;gap:12px!important}
+.home-v3-card{padding:20px!important}
+}
+@media(min-width:651px) and (max-width:980px){.home-v3-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media(prefers-reduced-motion:reduce){.home-v3-card{transition:none!important}.home-v3-card:hover{transform:none!important}}
