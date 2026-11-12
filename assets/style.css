@@ -390,3 +390,17 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
 .ong-price-subhead{margin:36px 0 16px}.ong-table-wrap{width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
 .ong-price-table{width:100%;border-collapse:collapse;min-width:640px;text-align:left}.ong-price-table th,.ong-price-table td{padding:12px 14px;border-bottom:1px solid rgba(115,137,132,.25);vertical-align:top}.ong-price-table thead th{font-weight:750}
 @media(max-width:900px){.ong-pricing-grid{grid-template-columns:1fr}.ong-price-card{padding:20px}}
+
+/* C6920 five-group accessible navigation */
+.main-nav .nav-group{position:relative;display:flex;align-items:center}
+.nav-dropdown-toggle{appearance:none;border:0;background:transparent;color:var(--soft);font:700 12px inherit;font-size:12px;font-weight:700;cursor:pointer;padding:12px 3px;white-space:nowrap}
+.nav-dropdown-toggle:hover,.nav-dropdown-toggle[aria-expanded="true"]{color:var(--ink)}
+.nav-dropdown{display:none;position:absolute;top:100%;left:0;min-width:240px;padding:10px;background:var(--surface);border:1px solid var(--line);border-radius:12px;box-shadow:0 16px 35px #0002;z-index:60}
+.nav-group.is-open>.nav-dropdown,.nav-group:focus-within>.nav-dropdown{display:flex;flex-direction:column}
+.main-nav .nav-dropdown a{display:block;font-size:13px;padding:10px 12px;white-space:normal;border-radius:6px}
+.main-nav .nav-dropdown a:hover{background:var(--bg,#eef2f0)}
+.header-controls .portal-link{font-size:12px;font-weight:700;white-space:nowrap;text-decoration:none;color:var(--ink)}
+.portal-state{font-size:10px;font-weight:500;opacity:.7}
+@media(max-width:1180px){.header-controls .portal-link{font-size:11px}.header-controls .portal-state{display:none}.main-nav{gap:9px}}
+@media(max-width:980px){.main-nav .nav-group{display:block;width:100%}.main-nav .nav-dropdown-toggle{width:100%;text-align:left;font-size:14px;padding:12px 4px;border-bottom:1px solid var(--line)}.main-nav .nav-dropdown{position:static;box-shadow:none;border:0;border-radius:0;padding:2px 0 8px 16px;min-width:0}.main-nav .nav-dropdown a{font-size:14px;padding:10px 6px}.main-nav.open{max-height:calc(100dvh - 78px);overflow-y:auto}.header-controls .portal-link{font-size:11px}}
+@media(max-width:580px){.header-controls .portal-link{display:none}.header-controls .header-cta{font-size:11px;padding:9px 10px}}
