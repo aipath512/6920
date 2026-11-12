@@ -1,0 +1,37 @@
+name: ETALON 6920 master validation
+on:
+  pull_request:
+    paths:
+      - 'etalons/6920/**'
+      - '.github/workflows/etalons-6920-validate.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate SSOT and create review-only exports
+        run: python etalons/6920/validate_and_stage.py
+      - name: Check review output and publication gate
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('etalons/6920/generated/review_only.json')
+          d=json.loads(p.read_text(encoding='utf-8'))
+          assert d['publication_status']=='NOT_APPROVED'
+          assert d['master_count']==300 and d['canonical_count']==297
+          assert len(d['records'])==297
+          assert all(x['status'].startswith('draft') for x in d['records'])
+          print('PASS: all 297 canonical entries remain unpublished drafts')
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: etalon-6920-review-only
+          path: etalons/6920/generated/
+          retention-days: 7
