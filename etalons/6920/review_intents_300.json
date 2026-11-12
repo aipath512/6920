@@ -1,6 +1,6 @@
 {
   "schema": "c6920-review-v1",
-  "publication_status": "OWNER_APPROVED_FOR_EVA",
+  "publication_status": "LEGAL_VALIDATED_OWNER_CONFIRMED",
   "source": "master_intents_300.csv",
   "aliases": {
     "191": "49",
@@ -4209,6 +4209,13 @@
       "chatbot": "Da"
     }
   ],
-  "approval_scope": "EVA conversational responses; owner-approved, not independently legislation-verified",
-  "original_row_status": "draft – de validat de owner (historical import status)"
+  "approval_scope": "300 responses approved by owner for EVA; independent legal review by lawyer confirmed by owner, not independently evidenced by this system",
+  "original_row_status": "draft – de validat de owner (historical import status)",
+  "legal_validation": {
+    "status": "CONFIRMED_BY_OWNER",
+    "reviewer_role": "lawyer",
+    "evidence": "owner declaration",
+    "document_reference": null,
+    "verification_by_system": false
+  }
 }
