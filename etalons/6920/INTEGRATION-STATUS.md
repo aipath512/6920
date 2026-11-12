@@ -5,8 +5,8 @@ Sursă originală identificată în Biblioteca ChatGPT: `pachet_omnichannel_inte
 ## Stare
 - [x] Sursa originală localizată și inspectată; arhiva include masterul 300×33, build.py și exporturile.
 - [x] Regulile de alias documentate: 195→47, 191→49, 192→49.
-- [ ] Importul fișierelor originale în acest branch (nu s-a efectuat încă).
-- [ ] Regenerarea din master cu `SITE_DOMAIN=https://6920.inweb.ro`.
+- [x] Importat masterul original CSV 300×33 în acest branch; celelalte 26 de fișiere din arhivă încă nu au fost importate.
+- [x] Adăugat validatorul `validate_and_stage.py` pentru exporturi interne draft-only; execuția CI nu este încă confirmată.\n- [ ] Regenerarea din master cu `SITE_DOMAIN=https://6920.inweb.ro`.
 - [ ] Validarea întrebărilor și aprobarea de owner/reviewer.
 - [ ] Conectarea interfeței FAQ/EVA la datele validate.
 - [ ] Teste responsive și merge în main.
