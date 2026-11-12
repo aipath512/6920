@@ -349,3 +349,13 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
  .luxe-hero .luxe-photo{inset:0!important;background-position:66% 38%!important;background-size:cover!important}
  .luxe-hero .luxe-overlay{background:linear-gradient(90deg,rgba(7,25,35,.96) 0%,rgba(7,25,35,.84) 58%,rgba(7,25,35,.54) 100%),linear-gradient(0deg,rgba(4,15,24,.83) 0%,transparent 70%)!important}
 }
+
+/* C6920 V2.1 — four client journeys, readable cards and mobile adaptation */
+.audience-grid-four{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.audience-grid-four .audience-card{min-width:0;display:flex;flex-direction:column;gap:12px}
+.audience-grid-four .audience-card h3{font-size:clamp(17px,1.5vw,22px);line-height:1.3;margin:0 0 10px;letter-spacing:-.025em}
+.audience-grid-four .audience-card p{overflow-wrap:anywhere}
+.audience-grid-four .audience-card strong{display:inline-block;margin-top:8px}
+@media(max-width:1000px){.audience-grid-four{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.audience-grid-four{grid-template-columns:1fr;gap:12px}.audience-grid-four .audience-card{padding:22px}.luxe-copy h1{overflow-wrap:normal;hyphens:auto}.luxe-actions{flex-wrap:wrap}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
