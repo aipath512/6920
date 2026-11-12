@@ -1,0 +1,9 @@
+{
+  "canonical_map": {
+    "191": 49,
+    "192": 49,
+    "195": 47
+  },
+  "policy": "Aliases remain searchable in EVA; exclude aliases from public FAQ, SEO and JSON-LD.",
+  "source": "ETALON 6920 omnichannel specification 2026-11-12"
+}
