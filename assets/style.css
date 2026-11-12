@@ -468,3 +468,12 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
 .cookie-consent-banner button:last-child,.cookie-dialog-actions button:last-child{background:#173f35;color:#fff}
 .cookie-choice{padding:10px 0;border-bottom:1px solid #d9e3df}.cookie-choice label{font-size:14px;font-weight:650;display:flex;gap:10px;align-items:center}.cookie-choice small{font-size:12px;display:block;margin:5px 0 0 23px}.cookie-dialog-actions{margin:20px 0}
 @media(max-width:720px){.cookie-consent-banner{display:block;bottom:8px;left:8px;right:8px;padding:14px}.cookie-consent-banner>div{margin-top:12px}.cookie-consent-banner button{flex:1}}
+
+/* Cookie consent: equal visual weight for accept and reject */
+.cookie-consent-banner .cookie-banner-description{display:block;margin:7px 0;font-weight:400}
+.cookie-consent-banner>div{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.cookie-consent-banner button,.cookie-dialog-actions button{min-height:44px;border:1.5px solid #214a3e!important;background:#fff!important;color:#173f35!important;border-radius:9px!important;font-size:12px!important;font-weight:700!important;box-shadow:none!important;white-space:nowrap}
+.cookie-consent-banner button[data-cookie="reject"],.cookie-consent-banner button[data-cookie="accept"],.cookie-dialog-actions button[data-consent-action="reject"],.cookie-dialog-actions button[data-consent-action="accept"]{background:#173f35!important;color:#fff!important;border-color:#173f35!important}
+.cookie-consent-banner button:focus-visible,.cookie-dialog-actions button:focus-visible{outline:3px solid #3e9d80;outline-offset:2px}
+@media(max-width:720px){.cookie-consent-banner>div{grid-template-columns:repeat(3,minmax(0,1fr))}.cookie-consent-banner button{font-size:11px!important;padding:10px 5px!important}.cookie-dialog-actions{display:grid;grid-template-columns:1fr;gap:8px}}
+@media(max-width:380px){.cookie-consent-banner>div{grid-template-columns:1fr}.cookie-consent-banner{max-height:80dvh;overflow-y:auto}}
