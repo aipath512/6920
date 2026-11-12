@@ -558,3 +558,13 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
 .premium-service-copy h3{font-family:Manrope,Arial,sans-serif!important;font-weight:750!important;font-size:clamp(25px,3vw,43px)!important;letter-spacing:-.035em!important}
 .premium-service-copy p{color:#cecece!important;font-size:clamp(15px,1.5vw,19px)!important}
 @media(max-width:680px){.premium-service-row,.premium-service-row.is-reversed{display:flex!important;flex-direction:column!important;gap:16px!important;padding:16px!important}.premium-service-row.is-reversed .premium-service-visual{order:0!important}.premium-service-row.is-reversed .premium-service-copy{order:1!important}.premium-service-visual{height:230px!important;width:100%!important}.premium-service-copy{width:100%!important}.premium-service-copy h3{font-size:28px!important}}
+
+/* C6920 mobile HERO spacing correction — prevent viewport-height blank area.
+   The prior min-height:100svh kept the image far below the final paragraph. */
+@media(max-width:650px){
+  .hero.home-hero.luxe-hero{min-height:0!important;height:auto!important;}
+  .hero.home-hero.luxe-hero .luxe-main{min-height:0!important;height:auto!important;padding-top:clamp(24px,5vw,38px)!important;padding-bottom:clamp(30px,7vw,48px)!important;align-items:flex-start!important;}
+  .hero.home-hero.luxe-hero .luxe-copy{padding:0!important;}
+  .hero.home-hero.luxe-hero>.luxe-photo{inset:0!important;}
+  .hero.home-hero.luxe-hero .luxe-qualification{margin-bottom:0!important;}
+}

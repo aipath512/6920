@@ -1,0 +1,38 @@
+name: C6920 anti-regression
+on:
+  push:
+    branches: [develop/anti-regression-v1]
+  pull_request:
+    branches: [main, develop/anti-regression-v1]
+permissions:
+  contents: read
+jobs:
+  structural:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate structural invariants
+        run: node tests/structural.cjs
+  browser:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Playwright
+        run: |
+          npm install --no-save playwright@1.58.2
+          npx playwright install --with-deps chromium
+      - name: Run local browser checks and capture reference screenshots
+        run: node tests/browser.cjs
+      - name: Upload desktop/tablet/mobile captures
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: c6920-browser-screenshots
+          path: artifacts/screenshots/
+          if-no-files-found: ignore
