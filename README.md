@@ -35,3 +35,6 @@ Site static multipagină demonstrativ, proiectat pentru Cloudflare Pages, cu 33 
 6. Admin/HOLMES și generator multi-tenant.
 
 Detalii de inventar: `site-manifest.json`.
+
+### Simulator comercial
+Pagina /preturi/ conține un simulator client-side cu 14 dimensiuni, care calculează **complexitatea**, NU un preț. Rezultatul se transferă către formularul local /contact/ prin parametri URL (fără informații fiscale sensibile sau date de identificare).

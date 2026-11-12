@@ -28,4 +28,35 @@ toggle?.addEventListener("click",()=>openPanel(panel.hidden));close?.addEventLis
 function respond(q){q=q.trim().slice(0,500);if(!q)return;say(q,"user");const match=knowledge.find(x=>x.re.test(q));if(match)say(match.text,"eva",match.url,match.label);else say("Pot răspunde la întrebări generale despre contabilitate SRL/PFA, înființare, preluare, TVA, salarizare, prețuri și documente. Pentru o situație concretă, pregătește o cerere de evaluare.","eva","/contact/","Cere ofertă")}
 form?.addEventListener("submit",e=>{e.preventDefault();respond(input.value);input.value=""});
 document.querySelectorAll("[data-eva-suggestion]").forEach(b=>b.addEventListener("click",()=>respond(b.dataset.evaSuggestion)));
+
+// Offer-scoping wizard: complexity classification, not a price quotation.
+const wizard=document.getElementById("offer-wizard");
+wizard?.addEventListener("submit",function(e){e.preventDefault();if(!wizard.reportValidity())return;
+ const f=Object.fromEntries(new FormData(wizard).entries());
+ const n=k=>Math.max(0,Number(f[k])||0);
+ let score=0;const factors=[];
+ const add=(points,label)=>{score+=points;if(points>0)factors.push(label)};
+ add(n("docs")>500?5:n("docs")>200?3:n("docs")>80?2:n("docs")>30?1:0,"Volumul documentelor");
+ add(n("issued")+n("received")>350?3:n("issued")+n("received")>90?1:0,"Fluxul facturilor");
+ add(n("employees")>30?4:n("employees")>10?3:n("employees")>0?1:0,"Salarizarea");
+ add(f.vat==="yes"?2:0,"Regim TVA");
+ add(n("accounts")>4?2:n("accounts")>1?1:0,"Conturi multiple");
+ add(n("locations")>3?2:n("locations")>1?1:0,"Puncte de lucru");
+ add(f.crossborder==="global"?4:f.crossborder==="eu"?2:0,"Operațiuni externe");
+ add(f.stocks==="complex"?3:f.stocks==="simple"?1:0,"Gestiunea stocurilor");
+ add(f.commerce==="marketplace"?4:f.commerce==="store"?2:0,"Canale e-commerce");
+ add(f.report==="advanced"?4:f.report==="monthly"?2:0,"Raportare managerială");
+ add(f.frequency==="daily"?3:f.frequency==="weekly"?1:0,"Frecvența lucrului");
+ let plan=f.commerce!=="regular"?"E-commerce":score>=13?"Personalizat":score>=7?"Growth":score>=3?"Business":"Start";
+ const res=document.getElementById("wizard-result");res.hidden=false;res.replaceChildren();
+ const h=document.createElement("h3");h.textContent="Profil orientativ: "+plan;res.append(h);
+ const p=document.createElement("p");p.textContent="Indice intern de complexitate: "+score+". Nu reprezintă un preț sau o ofertă contractuală.";res.append(p);
+ const items=document.createElement("p");items.textContent="Factori: "+(factors.length?factors.join(" · "):"Activitate cu complexitate de bază");res.append(items);
+ const l=document.createElement("a");l.href="/contact/?plan="+encodeURIComponent(plan)+"&scope="+encodeURIComponent("Documente: "+f.docs+"/lună; angajați: "+f.employees+"; TVA: "+f.vat+"; e-commerce: "+f.commerce+"; extern: "+f.crossborder+"; stocuri: "+f.stocks+"; raportare: "+f.report+"; puncte lucru: "+f.locations+"; conturi: "+f.accounts+"; flux: "+f.frequency);
+ l.className="btn btn-primary";l.textContent="Continuă cu această evaluare";res.append(l);
+ res.scrollIntoView({behavior:"smooth",block:"nearest"});
+});
+const q=new URLSearchParams(location.search);const formDetails=document.getElementById("q-details");
+if(formDetails&&q.has("scope")){const details="Pachet orientativ: "+(q.get("plan")||"")+"\\n"+(q.get("scope")||"");formDetails.value=details.slice(0,1950);}
+
 })();
