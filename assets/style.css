@@ -359,3 +359,13 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
 @media(max-width:1000px){.audience-grid-four{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.audience-grid-four{grid-template-columns:1fr;gap:12px}.audience-grid-four .audience-card{padding:22px}.luxe-copy h1{overflow-wrap:normal;hyphens:auto}.luxe-actions{flex-wrap:wrap}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* C6920 V2.2 — editorial alternating service rows */
+.service-editorial-list{display:grid;grid-template-columns:1fr;gap:0;border:1px solid var(--line);border-radius:24px;overflow:hidden;background:var(--surface)}
+.service-editorial{display:grid;grid-template-columns:minmax(150px,32%) 1fr;gap:clamp(18px,3vw,44px);align-items:center;padding:clamp(18px,2.6vw,32px);text-decoration:none;border-bottom:1px solid var(--line);min-width:0;transition:background .2s}
+.service-editorial:last-child{border-bottom:0}.service-editorial:hover{background:var(--surface2)}
+.service-editorial img{width:100%;height:clamp(180px,21vw,275px);object-fit:cover;border-radius:18px;display:block;background:var(--surface2)}
+.service-editorial-reverse{grid-template-columns:1fr minmax(150px,32%)}.service-editorial-reverse img{order:2}.service-editorial-reverse .service-editorial-copy{order:1}
+.service-editorial-copy{min-width:0}.service-editorial-index{font-size:11px;letter-spacing:.14em;color:#9a8869;font-weight:800}.service-editorial h3{font-size:clamp(24px,2.8vw,39px);letter-spacing:-.04em;line-height:1.17;margin:10px 0 14px}.service-editorial p{font-size:clamp(15px,1.5vw,19px);line-height:1.55;max-width:56ch}.service-editorial-link{font-size:13px;font-weight:800;color:var(--ink)}
+@media(max-width:640px){.service-editorial,.service-editorial-reverse{grid-template-columns:38% minmax(0,1fr);gap:14px;padding:14px}.service-editorial img{height:clamp(130px,34vw,190px);border-radius:13px}.service-editorial-reverse img{order:2}.service-editorial h3{font-size:clamp(18px,4.4vw,25px);margin:5px 0 7px}.service-editorial p{font-size:13px;line-height:1.45;margin-bottom:8px}.service-editorial-index{font-size:9px}.service-editorial-link{font-size:11px}}
+@media(max-width:380px){.service-editorial,.service-editorial-reverse{grid-template-columns:1fr}.service-editorial img,.service-editorial-reverse img{order:0;width:100%;height:160px}.service-editorial-copy,.service-editorial-reverse .service-editorial-copy{order:1}}
