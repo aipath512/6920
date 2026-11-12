@@ -238,3 +238,71 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
  .site-footer .footer-grid{gap:19px}
  .eva-trigger{z-index:32;bottom:calc(13px + env(safe-area-inset-bottom,0px))}
 }
+
+/* 6920 compact layout / screen estate discipline */
+/* Header + secondary preview have a shared small footprint */
+.site-header .header-inner{min-height:58px;gap:12px}
+.site-header .logo{font-size:21px}.site-header .logo-icon{width:31px;height:31px;font-size:13px}
+.site-header .header-cta{padding:8px 15px;font-size:11px}
+.site-header .icon-btn{width:33px;height:33px;min-width:33px}
+.demo-note{height:0!important;min-height:0!important;overflow:hidden!important;padding:0!important;border:0!important;visibility:hidden!important}
+/* Compact hero at all breakpoints: visual remains prominent without swallowing the fold */
+.home-hero.luxe-hero{min-height:0!important}
+.luxe-hero .luxe-main{min-height:360px!important;padding-top:32px!important;padding-bottom:26px!important}
+.luxe-hero .luxe-copy{padding:5px 0!important}
+.luxe-hero .luxe-copy h1{font-size:clamp(45px,5.2vw,76px)!important;line-height:1.015!important;margin:13px 0 14px!important}
+.luxe-hero .luxe-deck{font-size:clamp(14px,1.22vw,17px)!important;line-height:1.46!important;margin:0!important;max-width:570px}
+.luxe-hero .luxe-eyebrow{font-size:10px!important}
+.luxe-hero .luxe-actions{margin-top:18px!important;gap:10px!important}
+.luxe-hero .luxe-cta{min-height:40px!important;padding:9px 15px!important;font-size:12px!important}
+.luxe-hero .luxe-qualification{margin:11px 0 0!important;font-size:10px!important}
+.luxe-hero .luxe-photo-caption{display:none!important}
+.luxe-services-wrapper{padding:13px 0 15px!important}
+.luxe-services-heading{margin-bottom:10px!important;font-size:9px!important}
+.luxe-services{gap:8px!important}
+.luxe-icon-ring{width:46px!important;height:46px!important}
+.luxe-icon{width:23px!important;height:23px!important}
+.luxe-service{gap:7px!important}
+.luxe-service-label{font-size:11px!important;line-height:1.25!important}
+.luxe-disclaimer{font-size:8px!important;margin:9px 0 0!important}
+/* Secondary content: more visible within the first viewport */
+.audience-section{padding:42px 0 50px!important}
+.audience-card{min-height:160px!important;padding:22px!important}
+.audience-card h2{font-size:21px!important}
+.section{padding:60px 0}
+@media(max-width:850px){
+ .site-header .header-inner{min-height:56px!important}
+ .main-nav{top:56px!important}
+ .luxe-hero .luxe-main{min-height:320px!important;padding:20px 0 16px!important}
+ .luxe-hero .luxe-copy{width:76%!important}
+ .luxe-hero .luxe-copy h1{font-size:clamp(42px,7.2vw,60px)!important}
+ .luxe-services{grid-template-columns:repeat(7,minmax(0,1fr))!important}
+ .luxe-icon-ring{width:42px!important;height:42px!important}
+ .luxe-service-label{font-size:10px!important}
+}
+@media(max-width:600px){
+ .site-header .header-inner{min-height:52px!important}
+ .site-header .logo{font-size:18px!important}
+ .site-header .logo small{font-size:6px!important}
+ .site-header .logo-icon{width:29px!important;height:29px!important}
+ .main-nav{top:52px!important}
+ .luxe-hero .luxe-main{min-height:0!important;padding:24px 0 16px!important}
+ .luxe-hero .luxe-copy{width:100%!important}
+ .luxe-hero .luxe-copy h1{font-size:clamp(39px,10vw,51px)!important;line-height:1.025!important;margin:15px 0 14px!important}
+ .luxe-hero .luxe-deck{font-size:13px!important;line-height:1.43!important;max-width:310px!important}
+ .luxe-hero .luxe-actions{display:flex!important;gap:8px!important;flex-wrap:wrap!important;margin-top:16px!important}
+ .luxe-hero .luxe-cta{font-size:10px!important;padding:9px 11px!important;min-height:39px!important}
+ .luxe-hero .luxe-qualification{font-size:9px!important;margin:8px 0 0!important;max-width:325px!important}
+ .luxe-services-wrapper{padding:12px 0 12px!important}
+ .luxe-services-heading{margin-bottom:10px!important}
+ .luxe-services{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:13px 5px!important}
+ .luxe-icon-ring{width:40px!important;height:40px!important}
+ .luxe-icon{width:19px!important;height:19px!important}
+ .luxe-service-label{font-size:9px!important;line-height:1.22!important}
+ .luxe-disclaimer{font-size:8px!important;line-height:1.4!important}
+ .audience-section{padding:34px 0 38px!important}
+ .audience-card{padding:18px!important;min-height:130px!important}
+ .audience-card h2{font-size:19px!important}
+ .audience-card p{font-size:12px!important}
+ .section{padding:42px 0!important}
+}
