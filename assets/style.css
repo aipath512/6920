@@ -547,3 +547,14 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
 .premium-service-copy p{color:#d3d0cc;font-size:clamp(15px,1.5vw,19px);line-height:1.6;max-width:520px}
 .premium-service-copy a{display:inline-block;margin-top:12px;color:#e4bc83;font-weight:700;text-decoration:none;border-bottom:1px solid #b99562;padding-bottom:5px}
 @media(max-width:680px){.premium-service-row,.premium-service-row.is-reversed{grid-template-columns:1fr;gap:14px;padding:16px;min-height:0}.premium-service-row.is-reversed .premium-service-visual,.premium-service-row.is-reversed .premium-service-copy{order:initial}.premium-service-visual{height:190px;min-height:190px}.premium-service-copy{padding:8px 4px 14px}.premium-service-copy h3{font-size:30px}.premium-service-visual-mark{font-size:110px}}
+
+/* C6920 service photographs — exact reference composition */
+.premium-service-list{background:#050505!important;border:1px solid #393939!important;border-radius:24px!important}
+.premium-service-row,.premium-service-row.is-reversed{grid-template-columns:minmax(0,34%) minmax(0,1fr)!important;min-height:0!important;gap:clamp(18px,3vw,40px)!important;padding:clamp(18px,2.7vw,32px)!important;border-bottom:1px solid #333!important}
+.premium-service-row.is-reversed{grid-template-columns:minmax(0,1fr) minmax(0,34%)!important}
+.premium-service-visual{height:clamp(200px,25vw,320px)!important;min-height:0!important;background:#171717!important;border:0!important;border-radius:22px!important}
+.premium-service-visual img{display:block;width:100%;height:100%;object-fit:cover;object-position:center;filter:saturate(.86) contrast(1.05)}
+.premium-service-visual-index{top:12px;left:12px;background:rgba(0,0,0,.62);padding:6px 10px;border-radius:20px;letter-spacing:.1em}
+.premium-service-copy h3{font-family:Manrope,Arial,sans-serif!important;font-weight:750!important;font-size:clamp(25px,3vw,43px)!important;letter-spacing:-.035em!important}
+.premium-service-copy p{color:#cecece!important;font-size:clamp(15px,1.5vw,19px)!important}
+@media(max-width:680px){.premium-service-row,.premium-service-row.is-reversed{display:flex!important;flex-direction:column!important;gap:16px!important;padding:16px!important}.premium-service-row.is-reversed .premium-service-visual{order:0!important}.premium-service-row.is-reversed .premium-service-copy{order:1!important}.premium-service-visual{height:230px!important;width:100%!important}.premium-service-copy{width:100%!important}.premium-service-copy h3{font-size:28px!important}}
