@@ -1,0 +1,150 @@
+{
+  "version": "1.0.0",
+  "status": "static-site-implemented",
+  "disclaimer": "Site demonstrativ, nu cabinet contabil real. All pages noindex until tenant validated.",
+  "routes": [
+    {
+      "slug": "/",
+      "title": "Acasă"
+    },
+    {
+      "slug": "/infiintare-firma/",
+      "title": "Înființare firmă"
+    },
+    {
+      "slug": "/infiintare-srl/",
+      "title": "Înființare SRL"
+    },
+    {
+      "slug": "/infiintare-pfa/",
+      "title": "Înființare PFA"
+    },
+    {
+      "slug": "/srl-sau-pfa/",
+      "title": "SRL sau PFA"
+    },
+    {
+      "slug": "/contabilitate/",
+      "title": "Servicii contabile"
+    },
+    {
+      "slug": "/contabilitate-srl/",
+      "title": "Contabilitate SRL"
+    },
+    {
+      "slug": "/contabilitate-pfa/",
+      "title": "Contabilitate PFA"
+    },
+    {
+      "slug": "/contabilitate-ong/",
+      "title": "Contabilitate ONG"
+    },
+    {
+      "slug": "/contabilitate-profesii-liberale/",
+      "title": "Profesii liberale"
+    },
+    {
+      "slug": "/preluare-contabilitate/",
+      "title": "Preluare contabilitate"
+    },
+    {
+      "slug": "/salarii-personal/",
+      "title": "Salarizare și personal"
+    },
+    {
+      "slug": "/salarizare-srl/",
+      "title": "Salarizare SRL"
+    },
+    {
+      "slug": "/consultanta-fiscala/",
+      "title": "Consultanță fiscală"
+    },
+    {
+      "slug": "/tva-e-factura/",
+      "title": "TVA și e-Factura"
+    },
+    {
+      "slug": "/bilant-srl/",
+      "title": "Bilanț și situații financiare"
+    },
+    {
+      "slug": "/contabilitate-ecommerce/",
+      "title": "Contabilitate e-commerce"
+    },
+    {
+      "slug": "/preturi/",
+      "title": "Pachete și prețuri"
+    },
+    {
+      "slug": "/cum-lucram/",
+      "title": "Cum lucrăm"
+    },
+    {
+      "slug": "/despre-noi/",
+      "title": "Despre model"
+    },
+    {
+      "slug": "/echipa/",
+      "title": "Echipa"
+    },
+    {
+      "slug": "/recenzii/",
+      "title": "Experiența clienților"
+    },
+    {
+      "slug": "/faq/",
+      "title": "Întrebări frecvente"
+    },
+    {
+      "slug": "/contact/",
+      "title": "Contact și ofertă"
+    },
+    {
+      "slug": "/client/",
+      "title": "Portal client"
+    },
+    {
+      "slug": "/securitate-documente/",
+      "title": "Protecția documentelor"
+    },
+    {
+      "slug": "/metodologie/",
+      "title": "Responsabilități profesionale"
+    },
+    {
+      "slug": "/resurse/",
+      "title": "Resurse"
+    },
+    {
+      "slug": "/blog/",
+      "title": "Blog"
+    },
+    {
+      "slug": "/politica-confidentialitate/",
+      "title": "Confidențialitate"
+    },
+    {
+      "slug": "/politica-cookies/",
+      "title": "Cookie-uri"
+    },
+    {
+      "slug": "/termeni-conditii/",
+      "title": "Termeni și condiții"
+    },
+    {
+      "slug": "/transparenta-ai/",
+      "title": "Transparență AI"
+    }
+  ],
+  "features": {
+    "navigation": true,
+    "responsive": true,
+    "theme": true,
+    "eva_demo": true,
+    "lead_form": "local-only; not transmitted",
+    "multi_language": "not yet translated",
+    "portal": "not implemented",
+    "crm": "not implemented",
+    "cloudflare": "not deployed"
+  }
+}
