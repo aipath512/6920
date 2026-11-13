@@ -6,6 +6,9 @@ on:
       - 'data/c6920-services-v3.json'
       - 'servicii/index.html'
       - 'tests/catalog-ssot.cjs'
+      - 'tests/catalog-semantic.cjs'
+      - 'audits/C6920-A01-A18-FAQ-REMEDIATION-2026.json'
+      - 'audits/C6920-S01-S10-FAQ-REMEDIATION-2026.json'
       - '.github/workflows/catalog-ssot.yml'
   push:
     branches: [main, develop/anti-regression-v1]
@@ -13,6 +16,9 @@ on:
       - 'data/c6920-services-v3.json'
       - 'servicii/index.html'
       - 'tests/catalog-ssot.cjs'
+      - 'tests/catalog-semantic.cjs'
+      - 'audits/C6920-A01-A18-FAQ-REMEDIATION-2026.json'
+      - 'audits/C6920-S01-S10-FAQ-REMEDIATION-2026.json'
       - '.github/workflows/catalog-ssot.yml'
   workflow_dispatch:
 permissions:
@@ -27,3 +33,5 @@ jobs:
           node-version: '22'
       - name: Validate canonical catalog, visible FAQ and JSON-LD
         run: node tests/catalog-ssot.cjs
+      - name: Validate service-specific FAQs and legal provenance
+        run: node tests/catalog-semantic.cjs
