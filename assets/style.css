@@ -666,3 +666,26 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
  .hero.home-hero.luxe-hero h2.luxe-deck{line-height:1.58!important}
  .hero.home-hero.luxe-hero .luxe-qualification{line-height:1.7!important}
 }
+
+/* C6920 HERO editorial layout inspired by ECB Tax reference: airy left-aligned typography,
+   clear eyebrow/title/subtitle hierarchy, original background and fixed CTA preserved. */
+.hero.home-hero.luxe-hero .luxe-main{align-items:flex-start!important}
+.hero.home-hero.luxe-hero .luxe-copy{display:flex!important;flex-direction:column!important;align-items:flex-start!important;justify-content:flex-start!important}
+.hero.home-hero.luxe-hero .luxe-copy .luxe-eyebrow{margin:0!important}
+.hero.home-hero.luxe-hero .luxe-copy h1{margin:0!important;text-wrap:pretty!important}
+.hero.home-hero.luxe-hero .luxe-copy h2.luxe-deck{margin:0!important;text-align:left!important}
+.hero.home-hero.luxe-hero .luxe-copy .luxe-qualification{margin:0!important}
+@media(max-width:650px){
+ .hero.home-hero.luxe-hero .luxe-main{min-height:730px!important;padding-top:56px!important;padding-bottom:125px!important}
+ .hero.home-hero.luxe-hero .luxe-copy{gap:0!important;max-width:100%!important}
+ .hero.home-hero.luxe-hero .luxe-copy .luxe-eyebrow{margin-bottom:58px!important;font-size:clamp(11px,2.7vw,13px)!important;letter-spacing:.12em!important}
+ .hero.home-hero.luxe-hero .luxe-copy h1{margin-bottom:55px!important;font-size:clamp(36px,8.7vw,49px)!important;line-height:1.14!important;letter-spacing:-.035em!important}
+ .hero.home-hero.luxe-hero .luxe-copy h2.luxe-deck{margin-bottom:46px!important;font-size:clamp(19px,4.8vw,23px)!important;line-height:1.6!important}
+ .hero.home-hero.luxe-hero .luxe-copy .luxe-qualification{font-size:clamp(13px,3.4vw,15px)!important;line-height:1.75!important;opacity:.85}
+}
+@media(min-width:651px){
+ .hero.home-hero.luxe-hero .luxe-copy{gap:0!important}
+ .hero.home-hero.luxe-hero .luxe-copy .luxe-eyebrow{margin-bottom:44px!important}
+ .hero.home-hero.luxe-hero .luxe-copy h1{margin-bottom:44px!important}
+ .hero.home-hero.luxe-hero .luxe-copy h2.luxe-deck{margin-bottom:34px!important}
+}
