@@ -1,0 +1,758 @@
+{
+  "A01": [
+    [
+      "societatea are obligația D406",
+      "Se verifică încadrarea contribuabilului, categoria fiscală, excepțiile și data intrării în obligație potrivit OPANAF 1783/2021, în forma aplicabilă perioadei."
+    ],
+    [
+      "maparea conturilor în SAF-T",
+      "Sunt necesare planul de conturi, nomenclatoarele, jurnalele, configurația ERP și corespondențele cu structurile solicitate de schema ANAF."
+    ],
+    [
+      "taxele și codurile raportate în XML",
+      "Se compară codurile fiscale din sistemul sursă cu nomenclatoarele și regulile schemei D406 valabile pentru perioada raportată."
+    ],
+    [
+      "validatorul D406 respinge fișierul",
+      "Se păstrează mesajul exact de eroare, se identifică elementul XML afectat și se corectează sursa, nu doar fișierul exportat."
+    ],
+    [
+      "sunt omise tranzacții sau solduri",
+      "Un XML valid tehnic poate fi incomplet contabil; se reconciliază totalurile și populația tranzacțiilor cu balanța și registrele sursă."
+    ],
+    [
+      "raportarea stocurilor și activelor",
+      "Se verifică separat secțiunile și momentele de raportare aplicabile; nu se presupune că toate componentele SAF-T se transmit identic."
+    ],
+    [
+      "depunerea și aprobarea D406",
+      "Obligația revine contribuabilului; prestatorul execută verificările și transmiterea doar în limitele mandatului și accesurilor acordate."
+    ],
+    [
+      "versiunea de schemă utilizată",
+      "Se arhivează schema, versiunea validatorului, fișierul XML final, recipisa și jurnalul corecțiilor pentru perioada declarată."
+    ],
+    [
+      "transmiterea D406",
+      "Calendarul se stabilește din categoria contribuabilului, perioada fiscală și termenele legale în vigoare, cu marjă pentru validări și rectificări."
+    ],
+    [
+      "raportarea SAF-T",
+      "Livrabilul include matricea de mapare, erorile rezolvate, reconcilierile, fișierul final și dovada depunerii, dacă transmiterea este contractată."
+    ]
+  ],
+  "A02": [
+    [
+      "transportul intră în RO e-Transport",
+      "Se verifică tipul operațiunii, ruta, bunurile, pragurile și categoria de transport prevăzute de OUG 41/2022 și regulile aplicabile la data deplasării."
+    ],
+    [
+      "identificarea transportului monitorizat",
+      "Sunt necesare expeditorul, destinatarul, bunurile, cantitățile, valoarea, locurile de încărcare și descărcare și informațiile despre vehicul."
+    ],
+    [
+      "datele pentru obținerea codului UIT",
+      "Se compară documentele comerciale și de transport cu datele introduse, inclusiv traseul, operatorii și cantitățile."
+    ],
+    [
+      "vehiculul sau ruta se schimbă",
+      "Se verifică obligația de actualizare și momentul permis pentru corecții; modificările nu se tratează prin reutilizarea necontrolată a datelor."
+    ],
+    [
+      "un transport este declarat incomplet",
+      "Diferențele dintre marfă, documente, UIT și deplasarea reală pot crea risc de neconformare; excepțiile se escaladează înainte de plecare."
+    ],
+    [
+      "transporturi internaționale sau în tranzit",
+      "Se determină regimul operațiunii și persoana obligată la declarare, fără a extinde automat regulile fiecărei categorii de transport."
+    ],
+    [
+      "declararea codului UIT",
+      "Operatorul obligat legal rămâne responsabil; prestatorul poate pregăti sau transmite date doar pe baza unui mandat documentat."
+    ],
+    [
+      "corelarea codului UIT cu documentele",
+      "Se păstrează codul, confirmările sistemului și documentele justificative corespunzătoare transportului concret."
+    ],
+    [
+      "obținerea și valabilitatea codului UIT",
+      "Se verifică termenele de declarare și perioada de valabilitate aplicabile operațiunii; acestea nu se confundă cu termenul facturării."
+    ],
+    [
+      "asistența RO e-Transport",
+      "Se livrează lista operațiunilor analizate, responsabilitățile, datele validate și dovezile transmiterii, dacă serviciul este contractat."
+    ]
+  ],
+  "A03": [
+    [
+      "vânzările din marketplace trebuie reconciliate",
+      "Se identifică platformele, modelele de încasare, rolul comerciantului și perioadele de decontare, înainte de stabilirea fluxului contabil."
+    ],
+    [
+      "raportarea comisioanelor și retururilor",
+      "Se colectează comenzile, facturile, rapoartele platformei, tranzacțiile procesatorului, comisioanele, rambursările și extrasul bancar."
+    ],
+    [
+      "concordanța comenzilor cu încasările",
+      "Se reconciliază brutul comenzilor, taxele platformei, rambursările și netul virat; diferențele se urmăresc la nivel de tranzacție."
+    ],
+    [
+      "un retur aparține altei perioade",
+      "Se identifică data operațiunii, documentul de corecție și tratamentul fiscal aplicabil; nu se inversează automat vânzarea fără justificare."
+    ],
+    [
+      "platforma reține comisioane în străinătate",
+      "Se verifică furnizorul serviciului, factura, locul prestării și eventualele obligații de TVA, separat de contabilizarea încasării."
+    ],
+    [
+      "vânzările transfrontaliere B2C",
+      "Se analizează statele de destinație, tipul bunurilor, pragurile și eventualul regim OSS/IOSS, fără a presupune aplicarea unui regim unic."
+    ],
+    [
+      "documentarea obligațiilor TVA e-commerce",
+      "Comerciantul confirmă operațiunile; analiza fiscală specializată și depunerile se fac numai în mandatul și competențele prestatorului."
+    ],
+    [
+      "traseul unei vânzări și al unui retur",
+      "Se păstrează identificatorul comenzii, factura, dovada plății, raportul procesatorului și documentul de retur sau rambursare."
+    ],
+    [
+      "închiderea decontărilor marketplace",
+      "Calendarul ține cont de data vânzării, data decontării și termenele fiscale aplicabile, nu doar de ziua intrării banilor."
+    ],
+    [
+      "contabilitatea unui magazin online",
+      "Livrabilul indică reconcilierea vânzărilor, comisioanelor și retururilor, diferențele rămase și obligațiile fiscale ce necesită confirmare."
+    ]
+  ],
+  "A04": [
+    [
+      "o tranzacție este intracomunitară",
+      "Se verifică natura bunului sau serviciului, localizarea părților, calitatea fiscală și documentele livrării ori prestării."
+    ],
+    [
+      "justificarea tratamentului TVA intracomunitar",
+      "Sunt necesare contractele, facturile, verificările codurilor de TVA, documentele de transport și dovezile operațiunii."
+    ],
+    [
+      "diferențele de curs din contabilitate",
+      "Se disting evaluarea inițială, decontarea și reevaluarea la închidere, potrivit cadrului contabil aplicabil."
+    ],
+    [
+      "codul TVA al partenerului nu este valid",
+      "Se verifică data și rezultatul interogării, se clarifică statutul fiscal și se evită aplicarea automată a unui tratament preferențial."
+    ],
+    [
+      "lipsește dovada transportului",
+      "Regimul TVA poate depinde de documente și condiții cumulative; se solicită dovezi înainte de finalizarea tratamentului fiscal."
+    ],
+    [
+      "operațiunile cu parteneri din afara UE",
+      "Acestea se analizează distinct de tranzacțiile intracomunitare, inclusiv din perspectiva importului, exportului și localizării serviciilor."
+    ],
+    [
+      "încadrarea fiscală a tranzacției",
+      "Prestatorul documentează analiza în limita mandatului; tranzacțiile complexe se transmit specialistului autorizat, după caz."
+    ],
+    [
+      "reconcilierea declarațiilor intracomunitare",
+      "Se păstrează facturile, verificările fiscale, evidențele TVA și corespondența cu declarațiile aplicabile perioadei."
+    ],
+    [
+      "raportarea tranzacțiilor în valută",
+      "Termenele se stabilesc separat pentru înregistrarea contabilă și fiecare declarație obligatorie, conform vectorului fiscal."
+    ],
+    [
+      "analiza operațiunilor externe",
+      "Livrabilul prezintă lista tranzacțiilor, documentele lipsă, tratamentele propuse și declarațiile care necesită confirmare."
+    ]
+  ],
+  "A05": [
+    [
+      "stocurile trebuie evaluate printr-o metodă contabilă",
+      "Se stabilește natura stocurilor, politica aprobată și metoda permisă de cadrul contabil, aplicată consecvent pe categorii relevante."
+    ],
+    [
+      "calculul costului de achiziție sau producție",
+      "Sunt necesare facturi, recepții, consumuri, cheltuieli direct atribuibile și informații despre producție, după caz."
+    ],
+    [
+      "costurile unitare și soldurile de stoc",
+      "Se compară mișcările, cantitățile și valorile din gestiune cu evidența contabilă și documentele de intrare-ieșire."
+    ],
+    [
+      "inventarul fizic diferă de evidență",
+      "Diferențele se investighează prin proces-verbal, documente de mișcare și aprobări; nu se regularizează fără stabilirea cauzei."
+    ],
+    [
+      "stocurile sunt depreciate sau greu vandabile",
+      "Se evaluează indicii de depreciere și valoarea recuperabilă potrivit cadrului aplicabil; reducerea de preț comercială nu înlocuiește analiza contabilă."
+    ],
+    [
+      "consumul de materiale include pierderi",
+      "Se disting consumurile normale de pierderile anormale și se verifică tratamentul contabil și fiscal pe documente."
+    ],
+    [
+      "aprobarea metodei de cost",
+      "Conducerea aprobă politicile contabile; prestatorul propune aplicarea și documentează efectele în limita mandatului."
+    ],
+    [
+      "urmărirea loturilor și a diferențelor de inventar",
+      "Se păstrează fișele de magazie, documentele de recepție, bonurile de consum, inventarele și justificările ajustărilor."
+    ],
+    [
+      "închiderea lunară a stocurilor",
+      "Se corelează inventarele, intrările-ieșirile și calendarul de raportare; lipsurile se marchează ca excepții."
+    ],
+    [
+      "analiza stocurilor și costurilor",
+      "Se livrează reconcilierea cantitativ-valorică, metoda de evaluare, costurile calculate și lista diferențelor de soluționat."
+    ]
+  ],
+  "A06": [
+    [
+      "firma are nevoie de o prognoză de lichiditate",
+      "Se stabilesc orizontul, frecvența actualizării și deciziile urmărite, separat de obligațiile contabile și fiscale."
+    ],
+    [
+      "estimarea intrărilor și ieșirilor",
+      "Sunt necesare soldurile bancare, scadențarul creanțelor și datoriilor, statele salariale, taxele și contractele importante."
+    ],
+    [
+      "scenariul de bază al cash-flow-ului",
+      "Se compară estimările cu realizările și se explică deviațiile pe încasări, plăți și calendar."
+    ],
+    [
+      "un client important întârzie plata",
+      "Se simulează efectul asupra lichidității și se propun măsuri; estimarea nu se prezintă ca încasare certă."
+    ],
+    [
+      "prognoza indică un deficit de numerar",
+      "Riscul se cuantifică pe săptămâni sau luni, cu ipoteze explicite privind finanțarea și plățile prioritare."
+    ],
+    [
+      "există sezonalitate ori investiții mari",
+      "Se construiesc scenarii alternative și se evidențiază separat investițiile, TVA și taxele estimate."
+    ],
+    [
+      "aprobarea ipotezelor de buget",
+      "Administratorul validează ipotezele și deciziile financiare; analistul răspunde de consistența modelului în mandat."
+    ],
+    [
+      "versiunile succesive ale prognozei",
+      "Se păstrează ipotezele, datele-sursă, reviziile și explicațiile diferențelor dintre scenarii."
+    ],
+    [
+      "actualizarea previziunilor",
+      "Frecvența se stabilește după volatilitatea încasărilor și necesarul decizional, nu după un termen legal universal."
+    ],
+    [
+      "bugetul și prognoza de cash-flow",
+      "Livrabilul include proiecția, scenariile, indicatorii de lichiditate și limitele datelor utilizate."
+    ]
+  ],
+  "A07": [
+    [
+      "un KPI este relevant pentru management",
+      "Se pornește de la obiectivul managerial și se fixează formula, sursa datelor și responsabilul indicatorului."
+    ],
+    [
+      "calcularea marjei sau a profitabilității",
+      "Se folosesc definiții consecvente pentru venituri, costuri directe și alocări, astfel încât perioadele să poată fi comparate."
+    ],
+    [
+      "indicatorii coincid cu balanța contabilă",
+      "Se efectuează punți de reconciliere între datele manageriale și evidența financiară, explicând ajustările."
+    ],
+    [
+      "două departamente raportează KPI diferiți",
+      "Se uniformizează definițiile și versiunile datelor înainte de compararea performanțelor."
+    ],
+    [
+      "un dashboard ascunde anomalii de date",
+      "Se verifică completitudinea, granularitatea și actualizarea surselor; vizualizarea nu înlocuiește controlul informației."
+    ],
+    [
+      "raportarea include indicatori nefinanciari",
+      "Se identifică sistemul operațional-sursă și se delimitează indicatorii verificați de estimări sau date manuale."
+    ],
+    [
+      "validarea obiectivelor de performanță",
+      "Managementul aprobă țintele; prestatorul definește metodologia de calcul fără a substitui decizia comercială."
+    ],
+    [
+      "istoricul indicatorilor și al versiunilor",
+      "Se arhivează formulele, filtrele, extragerile și explicațiile modificărilor de metodologie."
+    ],
+    [
+      "publicarea raportării lunare",
+      "Calendarul urmărește disponibilitatea datelor și verificările contabile, nu doar un termen fix arbitrar."
+    ],
+    [
+      "raportarea KPI",
+      "Livrabilul cuprinde tabloul de bord, dicționarul indicatorilor, comparațiile și excepțiile documentate."
+    ]
+  ],
+  "A08": [
+    [
+      "un flux contabil merită automatizat",
+      "Se evaluează volumul, erorile recurente, aprobările și costul total al procesului înainte de selectarea tehnologiei."
+    ],
+    [
+      "integrarea dintre ERP și contabilitate",
+      "Sunt necesare schema datelor, codurile contabile, drepturile de acces, regulile de mapare și exemple de tranzacții."
+    ],
+    [
+      "datele transferate între aplicații",
+      "Se folosesc teste de completitudine, unicitate și reconciliere, cu jurnale de erori și reîncercări controlate."
+    ],
+    [
+      "API-ul sau importul eșuează",
+      "Tranzacțiile afectate intră într-o coadă de excepții; nu se reprocesează orb, pentru a evita duplicatele."
+    ],
+    [
+      "automatizarea procesează date salariale",
+      "Se aplică minimizarea datelor, controlul accesului și măsuri de securitate adecvate RGPD, cu roluri documentate."
+    ],
+    [
+      "facturile sunt preluate prin OCR ori AI",
+      "Rezultatele extragerii automate se validează pe câmpuri critice; clasificarea probabilistică nu înlocuiește documentul justificativ."
+    ],
+    [
+      "aprobarea modificărilor de flux",
+      "Responsabilul procesului aprobă regulile, iar echipa tehnică implementează și documentează versiunile."
+    ],
+    [
+      "auditabilitatea integrării",
+      "Se păstrează identificatorii tranzacțiilor, sursa, momentul procesării, versiunile de mapare și traseul erorilor."
+    ],
+    [
+      "lansarea noii integrări",
+      "Se planifică migrare pilot, teste, acceptanță și rollback înainte de activarea operațională."
+    ],
+    [
+      "integrarea ERP",
+      "Livrabilul include arhitectura fluxului, matricea de date, testele de reconciliere și procedura de tratare a excepțiilor."
+    ]
+  ],
+  "A09": [
+    [
+      "politicile contabile trebuie actualizate",
+      "Se verifică activitatea entității, cadrul de raportare și modificările operațiunilor; politicile se adaptează specificului real."
+    ],
+    [
+      "documentarea recunoașterii veniturilor",
+      "Sunt necesare contractele și regulile privind transferul prestației, perioadele și estimările relevante."
+    ],
+    [
+      "aplicarea consecventă a politicilor",
+      "Se testează eșantioane de tranzacții și se compară tratamentele cu manualul contabil aprobat."
+    ],
+    [
+      "o regulă internă contrazice reglementările",
+      "Prevalează cadrul legal aplicabil; modificarea politicii se documentează și se aprobă, cu analiza efectelor."
+    ],
+    [
+      "procedurile omit segregarea atribuțiilor",
+      "Se identifică punctele de control asupra aprobării, înregistrării și reconcilierii, inclusiv controale compensatorii."
+    ],
+    [
+      "firma utilizează un alt cadru de raportare",
+      "Nu se importă automat politici OMFP într-un context IFRS sau invers, fără verificarea cerințelor."
+    ],
+    [
+      "aprobarea politicilor contabile",
+      "Conducerea entității adoptă politicile, iar profesionistul contabil asigură elaborarea și aplicarea în limitele atribuțiilor."
+    ],
+    [
+      "versiunile manualului contabil",
+      "Se arhivează versiunile aprobate, datele de aplicare, justificările și informările către persoanele afectate."
+    ],
+    [
+      "revizuirea periodică a procedurilor",
+      "Frecvența se corelează cu schimbările de legislație, de sistem și de model de afaceri, nu cu un termen arbitrar."
+    ],
+    [
+      "manualul de politici și proceduri",
+      "Livrabilul conține regulile, responsabilitățile, fluxurile de aprobare și exemplele de tratament documentat."
+    ]
+  ],
+  "A10": [
+    [
+      "o solicitare ANAF necesită răspuns documentar",
+      "Se identifică actul procedural, perioada, obiectul verificării și drepturile/obligațiile contribuabilului conform procedurii aplicabile."
+    ],
+    [
+      "pregătirea dosarului pentru control",
+      "Se centralizează declarațiile, fișele contabile, documentele justificative, contractele și corespondența relevantă."
+    ],
+    [
+      "sumele din notificare diferă de evidență",
+      "Se reconciliază pe perioade, contribuții și documente, apoi se documentează explicațiile fără a altera istoricul."
+    ],
+    [
+      "o parte din documente lipsește",
+      "Se înregistrează lipsurile și demersurile de recuperare, cu răspuns procedural adecvat și fără fabricarea de justificative."
+    ],
+    [
+      "controlul depășește mandatul contabil",
+      "Reprezentarea ori opiniile specializate se atribuie persoanelor care au dreptul legal și împuternicirea necesară."
+    ],
+    [
+      "organul fiscal formulează constatări contestate",
+      "Se separă clar asistența documentară de formularea și susținerea contestației, cu verificarea termenelor procedurale."
+    ],
+    [
+      "semnarea răspunsurilor oficiale",
+      "Contribuabilul sau reprezentantul împuternicit aprobă comunicările; prestatorul nu își presupune drepturi de reprezentare."
+    ],
+    [
+      "transmiterea dovezilor la autoritate",
+      "Se păstrează inventarul documentelor, data transmiterii, confirmările și răspunsurile primite."
+    ],
+    [
+      "termenele unei inspecții sau solicitări",
+      "Se preiau din actele și normele procedurale aplicabile cazului, verificând orice regulă specială ori suspendare."
+    ],
+    [
+      "suportul la control fiscal",
+      "Livrabilul include dosarul documentar, reconcilierea diferențelor și lista aspectelor escaladate unui specialist."
+    ]
+  ],
+  "A11": [
+    [
+      "o decizie are risc fiscal semnificativ",
+      "Se descriu faptele, tranzacția, opțiunile și cadrul fiscal aplicabil înainte de formularea ipotezelor."
+    ],
+    [
+      "analiza tratamentelor fiscale posibile",
+      "Sunt necesare contractele, fluxurile de bunuri sau servicii, rezidența părților și justificările economice."
+    ],
+    [
+      "deductibilitatea unei cheltuieli",
+      "Se verifică scopul economic, documentele justificative și condițiile fiscale aplicabile operațiunii."
+    ],
+    [
+      "o structură comercială se schimbă",
+      "Se reanalizează efectele TVA, impozitului pe profit și ale obligațiilor declarative, fără extrapolarea automată a unei opinii vechi."
+    ],
+    [
+      "interpretarea unei norme este incertă",
+      "Se consemnează alternativele, interpretările disponibile și nivelul riscului; nu se prezintă o ipoteză ca soluție certă."
+    ],
+    [
+      "operațiunea este internațională",
+      "Se verifică și normele tratatelor și ale jurisdicțiilor implicate; analiza depășește contabilitatea de rutină."
+    ],
+    [
+      "emiterea unei opinii de consultanță fiscală",
+      "Se verifică întinderea dreptului profesional și mandatul, apelând la consultant fiscal autorizat acolo unde legea o cere."
+    ],
+    [
+      "fundamentarea concluziei fiscale",
+      "Se păstrează situația de fapt, forma legii aplicate, sursele și ipotezele pe care se bazează recomandarea."
+    ],
+    [
+      "actualizarea evaluării riscului",
+      "Revizuirea are loc înainte de decizia semnificativă și atunci când se schimbă legislația ori faptele relevante."
+    ],
+    [
+      "analiza fiscală preventivă",
+      "Livrabilul separă faptele, alternativele, concluziile, riscurile și aspectele care cer opinie profesională autorizată."
+    ]
+  ],
+  "A12": [
+    [
+      "un proiect cere raportare financiară separată",
+      "Se verifică contractul de finanțare, bugetul aprobat, criteriile de eligibilitate și perioada proiectului."
+    ],
+    [
+      "justificarea cheltuielilor din proiect",
+      "Sunt necesare contracte, facturi, dovezi de plată, documente de recepție și evidențe de alocare pe activități."
+    ],
+    [
+      "alocarea costurilor între proiecte",
+      "Se aplică o cheie documentată și consecventă, evitând finanțarea dublă a aceleiași cheltuieli."
+    ],
+    [
+      "o cheltuială depășește bugetul aprobat",
+      "Se identifică regula de realocare și aprobările cerute de finanțator; înregistrarea contabilă nu garantează eligibilitatea."
+    ],
+    [
+      "un document este insuficient pentru rambursare",
+      "Se raportează excepția și se solicită completări; nu se declară eligibilitatea fără dovezile prevăzute de finanțare."
+    ],
+    [
+      "raportarea unui proiect internațional",
+      "Se verifică moneda, cursul, normele finanțatorului și standardul de raportare cerut contractual."
+    ],
+    [
+      "aprobarea cererii de rambursare",
+      "Beneficiarul confirmă realitatea cheltuielilor și semnează declarațiile; prestatorul pregătește suportul documentar în mandat."
+    ],
+    [
+      "pista de audit a finanțării",
+      "Se păstrează codurile analitice, justificările alocărilor, dovezile de achiziție și rapoartele transmise."
+    ],
+    [
+      "calendarul raportărilor de proiect",
+      "Termenele provin din contractul de finanțare și din eventualele notificări ale finanțatorului, distinct de termenele fiscale."
+    ],
+    [
+      "raportarea financiară a proiectului",
+      "Livrabilul include buget-realizat, cheltuieli eligibile propuse, excepții și dosarul justificativ."
+    ]
+  ],
+  "A13": [
+    [
+      "o companie trebuie să migreze date contabile",
+      "Se stabilesc perioada de tranziție, sistemele implicate, aria datelor și criteriile de acceptanță."
+    ],
+    [
+      "maparea vechiului plan de conturi",
+      "Sunt necesare balanțele, planurile de conturi, analiticele, jurnalele și regulile de conversie documentate."
+    ],
+    [
+      "soldurile după importul datelor",
+      "Se compară totalurile debitoare/creditoare și soldurile analitice cu sursa, pe conturi și perioade."
+    ],
+    [
+      "o tranzacție nu are corespondență în noul sistem",
+      "Se înregistrează excepția, se validează tratamentul și se păstrează legătura cu identificatorul tranzacției originale."
+    ],
+    [
+      "migrarea pierde istoric sau atașamente",
+      "Se testează completitudinea datelor și se asigură accesul la documentele istorice pe durata păstrării legale."
+    ],
+    [
+      "există monede și planuri contabile diferite",
+      "Se documentează conversiile și eventualele diferențe, fără combinarea nejustificată a conversiei valutare cu reclasificarea contabilă."
+    ],
+    [
+      "aprobarea balanței de deschidere",
+      "Responsabilul financiar validează reconcilierea, iar implementatorul corectează erorile tehnice înainte de punerea în funcțiune."
+    ],
+    [
+      "trasabilitatea migrării",
+      "Se păstrează exporturile originale, versiunile de mapare, jurnalele importurilor și rapoartele de reconciliere."
+    ],
+    [
+      "momentul trecerii în sistemul nou",
+      "Se alege o dată de cut-over și se definesc înghețarea datelor, testele, rollback-ul și reconcilierile ulterioare."
+    ],
+    [
+      "predarea proiectului de migrare",
+      "Livrabilul include matricea de conversie, balanța reconciliată, registrul excepțiilor și procesul-verbal de acceptanță."
+    ]
+  ],
+  "A14": [
+    [
+      "o firmă are nevoie de controlling financiar",
+      "Se definesc centrele de responsabilitate, obiectivele și nivelul de granularitate necesar deciziilor."
+    ],
+    [
+      "analiza costurilor și marjelor",
+      "Se colectează bugete, realizări, volume, prețuri și cheile de alocare pentru costurile indirecte."
+    ],
+    [
+      "abaterile buget față de realizat",
+      "Se separă efectele de volum, preț, mix și eficiență, cu explicații verificabile în sursele de date."
+    ],
+    [
+      "un centru de cost depășește bugetul",
+      "Se identifică factorii și acțiunile posibile, fără a transforma un indicator de gestiune într-o constatare fiscală."
+    ],
+    [
+      "alocările indirecte distorsionează rentabilitatea",
+      "Se revizuiește cheia de alocare și se prezintă sensibilitatea rezultatului la ipotezele folosite."
+    ],
+    [
+      "analiza acoperă mai multe entități",
+      "Se aliniază metodologiile și monedele înainte de agregare și se marchează diferențele dintre cadrele de raportare."
+    ],
+    [
+      "asumarea măsurilor corective",
+      "Managementul decide bugetele și măsurile; analistul furnizează justificările și calculele relevante."
+    ],
+    [
+      "istoricul calculelor de controlling",
+      "Se arhivează formulele, sursele, versiunile bugetului și explicațiile abaterilor semnificative."
+    ],
+    [
+      "ritmul raportării controlling",
+      "Frecvența este contractuală și ține de disponibilitatea datelor și ciclul decizional, nu de un termen fiscal general."
+    ],
+    [
+      "raportul de controlling",
+      "Livrabilul include variabilele urmărite, abaterile cuantificate, explicațiile și opțiunile de acțiune."
+    ]
+  ],
+  "A15": [
+    [
+      "poate fi externalizată coordonarea contabilă",
+      "Se identifică organizarea entității, atribuțiile persoanelor responsabile și condițiile legale pentru conducerea contabilității."
+    ],
+    [
+      "preluarea atribuțiilor de contabil-șef",
+      "Sunt necesare organigrama, contractele, politicile contabile, calendarul raportării și accesurile la evidențe."
+    ],
+    [
+      "supravegherea închiderii contabile",
+      "Se verifică balanțele, reconcilierile, aprobările și excepțiile înainte de prezentarea raportării conducerii."
+    ],
+    [
+      "firma nu are personal contabil intern suficient",
+      "Se definesc roluri alternative și controale compensatorii; externalizarea nu înlătură responsabilitatea legală a administratorului."
+    ],
+    [
+      "prestatorul depășește atribuțiile contractate",
+      "Se delimitează expres aprobarea tranzacțiilor, executarea plăților și întocmirea situațiilor financiare."
+    ],
+    [
+      "grupul impune politici proprii de raportare",
+      "Se verifică reconcilierea dintre raportarea de grup și normele contabile statutare românești."
+    ],
+    [
+      "semnarea situațiilor financiare",
+      "Se aplică cerințele Legii contabilității privind persoanele care întocmesc și semnează, după tipul organizării."
+    ],
+    [
+      "documentarea controalelor contabile",
+      "Se păstrează matricea de responsabilități, dosarul de închidere, revizuirile și aprobările conducerii."
+    ],
+    [
+      "preluarea funcției externalizate",
+      "Se stabilește o perioadă de tranziție, cu inventarul obligațiilor și analiza soldurilor istorice."
+    ],
+    [
+      "misiunea de contabil-șef externalizat",
+      "Livrabilul descrie atribuțiile, limitele mandatului, calendarul controalelor și raportările către management."
+    ]
+  ],
+  "A16": [
+    [
+      "un grup are obligații fiscale în mai multe entități",
+      "Se inventariază jurisdicțiile, entitățile, vectorii fiscali și responsabilitățile locale."
+    ],
+    [
+      "centralizarea calendarelor fiscale",
+      "Sunt necesare listele de entități, codurile fiscale, termenele locale și persoanele responsabile."
+    ],
+    [
+      "datele fiscale consolidate de management",
+      "Se confruntă raportările entităților cu informațiile sursă și se documentează diferențele de perioadă sau monedă."
+    ],
+    [
+      "o filială nu transmite datele la termen",
+      "Se evidențiază raportarea incompletă și riscul local, cu escaladarea către persoana desemnată."
+    ],
+    [
+      "un grup folosește un singur tratament fiscal peste tot",
+      "Se verifică regulile fiecărei jurisdicții; o politică de grup nu înlocuiește legea locală."
+    ],
+    [
+      "tranzacțiile dintre entități afiliate",
+      "Se urmăresc documentele și eventualele obligații privind prețurile de transfer ori alte raportări specifice."
+    ],
+    [
+      "semnarea și depunerea declarațiilor locale",
+      "Entitatea și reprezentantul său autorizat rămân responsabili potrivit normelor locale; coordonatorul nu dobândește automat mandat."
+    ],
+    [
+      "pista de audit a raportărilor de grup",
+      "Se păstrează versiunile primite, reconcilierea diferențelor și confirmările de depunere ale entităților."
+    ],
+    [
+      "calendarul consolidat fiscal",
+      "Se aliniază termenele interne înaintea termenelor legale locale, fără presupunerea unei scadențe universale."
+    ],
+    [
+      "raportarea fiscală de grup",
+      "Livrabilul constă în matricea entități-obligații, starea depunerilor, excepțiile și riscurile pentru decizie."
+    ]
+  ],
+  "A17": [
+    [
+      "un control intern este necesar în contabilitate",
+      "Se identifică riscurile de eroare sau fraudă în fluxurile de achiziții, plăți, facturare și raportare."
+    ],
+    [
+      "testarea controalelor financiare",
+      "Sunt necesare proceduri, matrice de aprobări, jurnal de acces și eșantioane de tranzacții."
+    ],
+    [
+      "separarea atribuțiilor la plăți",
+      "Se verifică dacă inițierea, aprobarea, executarea și înregistrarea au controale distincte sau compensatorii."
+    ],
+    [
+      "aceeași persoană aprobă și înregistrează",
+      "Se evaluează riscul și se propune un control compensator documentat, adaptat dimensiunii firmei."
+    ],
+    [
+      "controalele există doar pe hârtie",
+      "Se testează funcționarea efectivă și se conservă dovezi, fără a presupune eficacitatea din existența procedurii."
+    ],
+    [
+      "testele includ informații personale",
+      "Accesul la eșantioane se limitează la datele necesare și la persoanele autorizate."
+    ],
+    [
+      "asumarea riscurilor reziduale",
+      "Conducerea aprobă toleranța la risc și remediile; evaluatorul raportează constatări în limitele mandatului."
+    ],
+    [
+      "pista de audit a unui control",
+      "Se păstrează criteriul, eșantionul, dovada testului, constatarea și acțiunea corectivă."
+    ],
+    [
+      "reevaluarea controalelor",
+      "Calendarul depinde de riscurile identificate, schimbările de proces și severitatea deficiențelor."
+    ],
+    [
+      "raportul de control intern",
+      "Livrabilul include matricea risc-control, deficiențele, impactul estimat și responsabilul remedierii."
+    ]
+  ],
+  "A18": [
+    [
+      "funcția financiară trebuie transformată",
+      "Se identifică obiectivele de business, costurile și timpii proceselor actuale, prioritizând blocajele reale."
+    ],
+    [
+      "evaluarea automatizărilor posibile",
+      "Sunt necesare hărțile de proces, volumele de documente, sistemele utilizate și indicatorii de calitate."
+    ],
+    [
+      "performanța fluxului înainte și după schimbare",
+      "Se măsoară durata, erorile, costul pe tranzacție și proporția excepțiilor, folosind aceeași metodologie."
+    ],
+    [
+      "o automatizare reduce controalele existente",
+      "Se redesenează verificările și separarea atribuțiilor înainte de lansare; economiile nu justifică pierderea trasabilității."
+    ],
+    [
+      "implementarea folosește AI pentru documente",
+      "Se evaluează calitatea extragerii, protecția datelor, supravegherea umană și erorile cu impact financiar."
+    ],
+    [
+      "mai multe entități folosesc procese diferite",
+      "Se stabilește ce se standardizează și ce trebuie păstrat local din motive legale sau operaționale."
+    ],
+    [
+      "aprobarea schimbării operaționale",
+      "Managementul validează investiția și riscurile, iar responsabilii de proces acceptă controalele reproiectate."
+    ],
+    [
+      "monitorizarea transformării",
+      "Se păstrează versiunile proceselor, deciziile, rezultatele testelor și indicatorii de performanță."
+    ],
+    [
+      "planificarea etapelor de transformare",
+      "Se folosesc incrementări pilot, criterii de acceptanță și posibilitatea de revenire, nu doar o dată de lansare."
+    ],
+    [
+      "planul de transformare financiară",
+      "Livrabilul include procesele țintă, prioritățile, responsabilitățile, estimările și controalele de succes."
+    ]
+  ]
+}
