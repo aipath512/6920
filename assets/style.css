@@ -727,3 +727,11 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
  .hero.home-hero.luxe-hero .luxe-copy h1{font-size:clamp(37.4px,9.9vw,70.4px)!important}
  .hero.home-hero.luxe-hero .luxe-copy h1 em.hero-title-line{font-size:clamp(40.7px,10.56vw,74.8px)!important}
 }
+
+/* C6920 H1: another +10% over v13, cumulative +21% vs initial approved sizes. */
+.hero.home-hero.luxe-hero .luxe-copy h1{font-size:clamp(77.44px,6.05vw,87.12px)!important}
+.hero.home-hero.luxe-hero .luxe-copy h1 em.hero-title-line{font-size:clamp(82.28px,6.413vw,91.96px)!important}
+@media(max-width:650px){
+ .hero.home-hero.luxe-hero .luxe-copy h1{font-size:clamp(41.14px,10.89vw,77.44px)!important}
+ .hero.home-hero.luxe-hero .luxe-copy h1 em.hero-title-line{font-size:clamp(44.77px,11.616vw,82.28px)!important}
+}
