@@ -56,55 +56,60 @@
       "faq": [
         {
           "id": "E01-FAQ01",
-          "question": "Ce trebuie clarificat înainte de contabilitate financiară srl?",
-          "answer": "Se delimitează situația concretă: un SRL de servicii vrea o balanță lunară explicată. Sunt necesare obiectivul, perioada analizată și confirmarea datelor disponibile; fără acestea, aria intervenției rămâne neclară."
+          "question": "Ce documente trebuie să trimit lunar pentru contabilitatea unui SRL?",
+          "answer": "În funcție de activitate, sunt necesare facturile emise și primite, extrasele bancare, documentele de casă, contractele relevante și justificările pentru operațiuni precum deconturi sau achiziții de active. Lista și calendarul de predare se stabilesc cu prestatorul, iar lipsurile se urmăresc explicit."
         },
         {
           "id": "E01-FAQ02",
-          "question": "Cum se desfășoară etapa „Clasificarea documentelor pe conturi”?",
-          "answer": "Această etapă urmărește clasificarea documentelor pe conturi. Se stabilesc sursele de date și responsabilul verificării, apoi se consemnează documentele lipsă sau diferențele care pot influența contabilitate financiară srl."
+          "question": "Cum verific dacă toate facturile au fost înregistrate?",
+          "answer": "Se confruntă registrul de facturi, documentele primite și emise, evidențele din sistemele electronice aplicabile și conturile contabile. Se investighează numerele lipsă, dublurile, facturile anulate și documentele primite după închiderea perioadei."
         },
         {
           "id": "E01-FAQ03",
-          "question": "Ce documente susțin operațiunea „Înregistrarea operațiunilor și verificarea jurnalelor”?",
-          "answer": "Pentru înregistrarea operațiunilor și verificarea jurnalelor se pornește de la Facturi, extrase, contracte și documente justificative. Relevanța fiecărui document se confirmă în raport cu tranzacțiile efective; nu se presupune că lista este exhaustivă."
+          "question": "De ce soldul din bancă nu coincide cu soldul contabil?",
+          "answer": "Diferența poate proveni din tranzacții neînregistrate, comisioane, operațiuni în curs, erori de alocare sau perioade diferite. Reconcilierea pornește de la extrasul bancar și fișa contului, apoi documentează fiecare diferență și corecția justificată."
         },
         {
           "id": "E01-FAQ04",
-          "question": "Cum se verifică rezultatul activității „Reconcilierea balanței cu evidențele auxiliare”?",
-          "answer": "Se documentează reconcilierea balanței cu evidențele auxiliare, apoi se confruntă rezultatul cu evidențele și documentele-sursă. Neconcordanțele se investighează înainte ca livrabilul să fie considerat final."
+          "question": "Ce ar trebui să înțeleg din balanța lunară a SRL-ului?",
+          "answer": "Balanța prezintă rulajele și soldurile conturilor, dar nu explică singură lichiditatea sau profitabilitatea. Pentru decizii sunt utile clarificări privind creanțele restante, datoriile exigibile, cheltuielile neobișnuite și variațiile față de lunile anterioare."
         },
         {
           "id": "E01-FAQ05",
-          "question": "Ce primește concret clientul după contabilitate financiară srl?",
-          "answer": "Livrabilul orientativ este Registre, balanță și situații periodice convenite. El trebuie însoțit, după caz, de ipoteze, limitări, explicația diferențelor și evidența clarificărilor rămase deschise."
+          "question": "Cum sunt tratate facturile primite după închiderea lunii?",
+          "answer": "Se verifică data operațiunii, perioada la care se referă cheltuiala sau achiziția și documentele disponibile. Înregistrarea și eventualele ajustări se stabilesc potrivit regulilor contabile aplicabile; documentul nu trebuie mutat arbitrar într-o perioadă doar pentru a închide balanța."
         },
         {
           "id": "E01-FAQ06",
-          "question": "Ce se întâmplă dacă lipsesc datele pentru „Clasificarea documentelor pe conturi”?",
-          "answer": "Se întocmește o listă de completări, iar concluziile care depind de informațiile lipsă se marchează provizorii. În cazul contabilitate financiară srl, etapa afectată direct este clasificarea documentelor pe conturi."
+          "question": "Ce se întâmplă dacă am pierdut un document justificativ?",
+          "answer": "Se identifică operațiunea și se solicită un duplicat sau altă documentație admisibilă, după natura actului. Până la clarificare, tranzacția și riscul asociat se evidențiază în lista de excepții; nu se inventează documente și nu se presupune automat deductibilitatea."
         },
         {
           "id": "E01-FAQ07",
-          "question": "Ce risc specific trebuie controlat în „Înregistrarea operațiunilor și verificarea jurnalelor”?",
-          "answer": "Riscul este ca înregistrarea operațiunilor și verificarea jurnalelor să fie realizată pe date incomplete, necorelate sau interpretate greșit. Controlul presupune documentarea sursei, a ipotezelor și a verificării de consistență."
+          "question": "Cum se verifică în contabilitate încasările de la clienți?",
+          "answer": "Se corelează facturile, încasările bancare sau de casă și fișele de client. Plățile parțiale, avansurile, compensările și încasările fără referință se investighează separat, pentru a nu prezenta eronat creanțe restante."
         },
         {
           "id": "E01-FAQ08",
-          "question": "Cum se tratează o excepție apărută la „Reconcilierea balanței cu evidențele auxiliare”?",
-          "answer": "Excepția se izolează, se descrie și se verifică față de Facturi. Nu se corectează automat fără justificare; se consemnează impactul asupra Registre, balanță și situații periodice convenite și decizia responsabilului."
+          "question": "Cum se reflectă achiziția unui echipament folosit de firmă?",
+          "answer": "Se analizează factura, recepția, destinația economică, valoarea și durata de utilizare estimată. În funcție de regulile aplicabile, echipamentul poate necesita evidență ca imobilizare și amortizare, nu simpla înregistrare integrală pe cheltuieli."
         },
         {
           "id": "E01-FAQ09",
-          "question": "Ce decizie poate lua clientul folosind rezultatul „Contabilitate financiară SRL”?",
-          "answer": "În situația „Un SRL de servicii vrea o balanță lunară explicată”, clientul poate decide dacă solicită clarificări, corectarea evidențelor sau o etapă suplimentară de analiză. Rezultatul Registre, balanță și situații periodice convenite nu substituie deciziile de management."
+          "question": "Ce rapoarte pot cere contabilului pentru a lua decizii lunare?",
+          "answer": "Pe lângă balanță, se pot conveni situația creanțelor și datoriilor pe scadențe, sinteza veniturilor și cheltuielilor, evoluția numerarului și lista tranzacțiilor neclarificate. Aceste rapoarte se definesc contractual și nu înlocuiesc automat un serviciu de controlling."
         },
         {
           "id": "E01-FAQ10",
-          "question": "Ce limite profesionale și contractuale se aplică pentru „Contabilitate financiară SRL”?",
-          "answer": "Mandatul trebuie să delimiteze expres clasificarea documentelor pe conturi, înregistrarea operațiunilor și verificarea jurnalelor și reconcilierea balanței cu evidențele auxiliare. Nu se presupune că serviciul este oferit de orice cabinet. Termenele și onorariile nu pot fi deduse din acest etalon."
+          "question": "Cine aprobă corecțiile contabile și cum sunt documentate?",
+          "answer": "O corecție trebuie să aibă justificare, referință la documentele-sursă, persoană responsabilă și urmă de audit. Circuitul de aprobare depinde de organizarea firmei și de contract; prestatorul nu poate presupune că orice diferență îi permite să modifice evidențele fără clarificare."
         }
-      ]
+      ],
+      "faq_review": {
+        "status": "editorial_rewritten_pending_professional_review",
+        "reviewed_on": "2026-11-13",
+        "criteria": "10 client-intent questions; no duplicate questions or answers; operational specificity; no invented legal deadlines"
+      }
     },
     {
       "id": "E02",
