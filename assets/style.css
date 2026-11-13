@@ -833,3 +833,13 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
 .etalon-tier-code{font-size:12px;color:var(--soft);font-weight:700}
 .etalon-tier-status{grid-column:2;font-size:11px;font-weight:500;color:var(--soft)}
 @media(max-width:700px){.etalon-tier-items{grid-template-columns:1fr}.etalon-tier-service:nth-child(odd){border-right:0}.etalon-tier-heading{padding:18px}.etalon-tier-service{padding:13px 16px}}
+
+/* C6920 V3.2 expanded professional service descriptions */
+.etalon-tier-service-detailed{align-content:start;min-height:0;padding:19px 18px;align-items:start}
+.etalon-tier-service-detailed h4{font-size:16px;line-height:1.35;margin:0 0 8px}
+.etalon-tier-service-detailed p{font-size:13px;line-height:1.65;font-weight:400;margin:0 0 12px;color:var(--soft)}
+.etalon-tier-service-detailed details{font-weight:400;font-size:13px;margin:10px 0}
+.etalon-tier-service-detailed summary{cursor:pointer;color:var(--ink);font-weight:600;text-decoration:underline;text-underline-offset:3px}
+.etalon-tier-service-detailed details[open]{padding:10px 0}
+.etalon-tier-service-detailed details p{margin:9px 0}
+.etalon-tier-service-detailed .etalon-tier-status{display:block;margin-top:8px}
