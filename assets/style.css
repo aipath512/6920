@@ -710,3 +710,12 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
 .hero.home-hero.luxe-hero .luxe-copy h1{font-family:'Cormorant Garamond',Georgia,serif!important;font-weight:400!important;letter-spacing:-.04em!important}
 .hero.home-hero.luxe-hero .luxe-copy h1 em.hero-title-line{font-family:'Cormorant Garamond',Georgia,serif!important;font-style:italic!important;font-weight:400!important;color:#f1c34e!important}
 @media(max-width:650px){.hero.home-hero.luxe-hero .luxe-copy h1{font-size:clamp(36px,9.6vw,47px)!important;line-height:1.03!important}}
+
+/* Requested ECB Tax H1 typography: regular 64–72px, italic 68–76px. */
+.hero.home-hero.luxe-hero .luxe-copy h1{font-family:'Cormorant Garamond',Georgia,serif!important;font-weight:400!important;font-size:clamp(64px,5vw,72px)!important;line-height:1.02!important;letter-spacing:-.045em!important}
+.hero.home-hero.luxe-hero .luxe-copy h1 em.hero-title-line{font-family:'Cormorant Garamond',Georgia,serif!important;font-weight:400!important;font-style:italic!important;font-size:clamp(68px,5.3vw,76px)!important;line-height:1.02!important}
+@media(max-width:650px){
+ /* Scale to narrow phone viewports so entire words remain visible, no clipping. */
+ .hero.home-hero.luxe-hero .luxe-copy h1{font-size:clamp(34px,9vw,64px)!important}
+ .hero.home-hero.luxe-hero .luxe-copy h1 em.hero-title-line{font-size:clamp(37px,9.6vw,68px)!important}
+}
