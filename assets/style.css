@@ -779,3 +779,26 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
 .page-scroll-controls{right:8px!important;gap:7px!important}
 .page-scroll-controls button{width:32px!important;height:32px!important;border:1px solid #c6a16b!important;background:rgba(16,31,35,.82)!important;color:#d6b37c!important;font-size:19px!important;font-weight:300!important;box-shadow:0 2px 8px #0004!important}
 @media(max-width:650px){.page-scroll-controls button{width:32px!important;height:32px!important;font-size:19px!important}}
+
+/* C6920 etalon v20: buyer guidance, no invented credentials or claims. */
+.etalon-clarity{background:#10191c;color:#eae9e4;padding:66px 0 70px}
+.etalon-clarity h2{font-size:clamp(30px,4vw,52px);line-height:1.16;letter-spacing:-.035em;max-width:900px;margin:12px 0 16px}
+.etalon-clarity h2 em{font-family:'Cormorant Garamond',Georgia,serif;color:#d6b37c;font-weight:400}
+.etalon-clarity-intro{color:#c1c9c8;font-size:clamp(15px,1.5vw,18px);max-width:800px;line-height:1.65;margin:0 0 30px}
+.etalon-clarity-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.etalon-clarity-grid article{border:1px solid #344044;border-radius:12px;padding:24px 18px;background:#172328}
+.etalon-step{font-size:13px;color:#d6b37c;letter-spacing:.08em}
+.etalon-clarity-grid h3{font-size:19px;line-height:1.25;margin:14px 0 9px;color:#f5f0e8}
+.etalon-clarity-grid p{font-size:14px;line-height:1.65;color:#bfc9c8;margin:0}
+.etalon-clarity-link{display:inline-flex;gap:10px;color:#e5bc7f!important;font-weight:600;margin-top:26px;text-decoration:underline;text-underline-offset:5px}
+@media(max-width:800px){.etalon-clarity-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){
+ .hero.home-hero.luxe-hero .luxe-main{min-height:0!important;padding-bottom:52px!important}
+ .hero.home-hero.luxe-hero .luxe-copy .luxe-eyebrow{margin-bottom:22px!important}
+ .hero.home-hero.luxe-hero .luxe-copy .luxe-qualification{line-height:1.5!important;margin-top:14px!important}
+ .etalon-clarity{padding:36px 0 42px}
+ .etalon-clarity-grid{gap:10px}
+ .etalon-clarity-grid article{padding:17px 13px}
+ .etalon-clarity-grid h3{font-size:16px}
+ .etalon-clarity-grid p{font-size:13px}
+}
