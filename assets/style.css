@@ -697,3 +697,10 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
 .hero.home-hero.luxe-hero .luxe-copy h1 .hero-title-line{display:block!important;white-space:nowrap!important;hyphens:none!important;-webkit-hyphens:none!important;word-break:normal!important;overflow-wrap:normal!important}
 .hero.home-hero.luxe-hero .luxe-copy h1 em.hero-title-line{font-style:italic!important;color:#f1c34e!important}
 @media(max-width:650px){.hero.home-hero.luxe-hero .luxe-copy h1{font-size:clamp(29px,7.7vw,42px)!important;letter-spacing:-.045em!important;line-height:1.12!important}}
+
+/* User-supplied EVA GIF replaces SVG doll; show whole animated speech bubble. */
+.eva-trigger .eva-avatar.eva-avatar-portrait{position:relative!important;display:block!important;overflow:visible!important;background:transparent!important;background-image:none!important;border-radius:0!important;width:100%!important;height:100%!important;flex:1 1 auto!important}
+.eva-trigger .eva-gif{display:block!important;width:100%!important;height:100%!important;object-fit:contain!important;max-width:100%!important;border:0!important;border-radius:0!important}
+.eva-trigger{background:transparent!important;border:0!important;box-shadow:none!important;padding:0!important;overflow:visible!important}
+.eva-trigger::after{content:none!important;display:none!important}
+@media(max-width:650px){.eva-trigger{width:72px!important;height:72px!important;min-width:72px!important;min-height:72px!important;right:9px!important;bottom:calc(10px + env(safe-area-inset-bottom,0px))!important}}
