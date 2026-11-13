@@ -151,55 +151,60 @@
       "faq": [
         {
           "id": "E02-FAQ01",
-          "question": "Ce trebuie clarificat înainte de evidență fiscală pfa / ii?",
-          "answer": "Se delimitează situația concretă: un PFA cu încasări variabile dorește să își organizeze evidența. Sunt necesare obiectivul, perioada analizată și confirmarea datelor disponibile; fără acestea, aria intervenției rămâne neclară."
+          "question": "Ce documente trebuie să păstreze un PFA pentru evidența fiscală?",
+          "answer": "În funcție de activitate și de regimul aplicabil, dosarul poate include facturi emise și primite, documente de încasare și plată, extrase bancare, contracte și justificări pentru achiziții. Documentele se corelează cu evidențele și se păstrează potrivit obligațiilor legale aplicabile."
         },
         {
           "id": "E02-FAQ02",
-          "question": "Cum se desfășoară etapa „Încadrarea veniturilor și cheltuielilor”?",
-          "answer": "Această etapă urmărește încadrarea veniturilor și cheltuielilor. Se stabilesc sursele de date și responsabilul verificării, apoi se consemnează documentele lipsă sau diferențele care pot influența evidență fiscală pfa / ii."
+          "question": "Cum diferă evidența unui PFA în sistem real de cea la normă de venit?",
+          "answer": "În sistem real, determinarea venitului net fiscal pornește, în principiu, de la veniturile și cheltuielile relevante, cu ajustările prevăzute de lege. La normă de venit, calculul are altă bază, iar obligațiile de evidență nu sunt identice. Eligibilitatea pentru normă se verifică pentru activitatea și anul fiscal în cauză."
         },
         {
           "id": "E02-FAQ03",
-          "question": "Ce documente susțin operațiunea „Organizarea registrului de evidență fiscală”?",
-          "answer": "Pentru organizarea registrului de evidență fiscală se pornește de la Documente de încasări și plăți, activitate și regim fiscal. Relevanța fiecărui document se confirmă în raport cu tranzacțiile efective; nu se presupune că lista este exhaustivă."
+          "question": "Pot deduce integral cheltuielile personale plătite din contul PFA?",
+          "answer": "Nu. Plata dintr-un cont utilizat de PFA nu transformă automat o cheltuială personală într-una deductibilă. Se verifică legătura cu activitatea, documentul justificativ, natura cheltuielii și eventualele limitări fiscale; utilizarea mixtă necesită analiză distinctă."
         },
         {
           "id": "E02-FAQ04",
-          "question": "Cum se verifică rezultatul activității „Verificarea documentelor justificative”?",
-          "answer": "Se documentează verificarea documentelor justificative, apoi se confruntă rezultatul cu evidențele și documentele-sursă. Neconcordanțele se investighează înainte ca livrabilul să fie considerat final."
+          "question": "Cum se înregistrează încasările prin numerar, card și transfer bancar?",
+          "answer": "Se corelează fiecare încasare cu documentul și operațiunea care a generat-o. Pentru plățile cu cardul se verifică inclusiv decontările procesatorului și comisioanele; transferurile și numerarul se urmăresc separat, pentru a evita omisiuni sau dublări."
         },
         {
           "id": "E02-FAQ05",
-          "question": "Ce primește concret clientul după evidență fiscală pfa / ii?",
-          "answer": "Livrabilul orientativ este Registre și informații pentru declarațiile aplicabile. El trebuie însoțit, după caz, de ipoteze, limitări, explicația diferențelor și evidența clarificărilor rămase deschise."
+          "question": "Ce fac dacă am încasat o factură într-un alt an decât cel în care am emis-o?",
+          "answer": "Se verifică regimul fiscal aplicabil și regula de recunoaștere relevantă pentru venitul respectiv. Data facturii și data încasării pot avea consecințe diferite; nu se atribuie automat venitul unui an doar după data emiterii documentului."
         },
         {
           "id": "E02-FAQ06",
-          "question": "Ce se întâmplă dacă lipsesc datele pentru „Încadrarea veniturilor și cheltuielilor”?",
-          "answer": "Se întocmește o listă de completări, iar concluziile care depind de informațiile lipsă se marchează provizorii. În cazul evidență fiscală pfa / ii, etapa afectată direct este încadrarea veniturilor și cheltuielilor."
+          "question": "Cum tratez un laptop sau un autoturism folosit și pentru activitate, și personal?",
+          "answer": "Se analizează destinația bunului, documentele de achiziție, utilizarea efectivă și regulile de deductibilitate sau amortizare aplicabile. Utilizarea mixtă și anumite categorii de bunuri pot impune limitări; procentul deductibil nu se presupune fără verificare."
         },
         {
           "id": "E02-FAQ07",
-          "question": "Ce risc specific trebuie controlat în „Organizarea registrului de evidență fiscală”?",
-          "answer": "Riscul este ca organizarea registrului de evidență fiscală să fie realizată pe date incomplete, necorelate sau interpretate greșit. Controlul presupune documentarea sursei, a ipotezelor și a verificării de consistență."
+          "question": "Cum verific dacă registrul de evidență fiscală este complet?",
+          "answer": "Se confruntă înregistrările cu documentele de venituri și cheltuieli, extrasele bancare și situațiile auxiliare relevante. Se urmăresc lipsurile, dublurile, operațiunile neclasificate și concordanța dintre totalurile registrului și calculele fiscale."
         },
         {
           "id": "E02-FAQ08",
-          "question": "Cum se tratează o excepție apărută la „Verificarea documentelor justificative”?",
-          "answer": "Excepția se izolează, se descrie și se verifică față de Documente de încasări și plăți. Nu se corectează automat fără justificare; se consemnează impactul asupra Registre și informații pentru declarațiile aplicabile și decizia responsabilului."
+          "question": "Ce trebuie analizat dacă PFA-ul începe să lucreze cu clienți din alte țări?",
+          "answer": "Se verifică natura serviciilor sau bunurilor, țara clientului, statutul său fiscal, locul operațiunii și eventualele obligații privind TVA ori raportările. Tratamentul nu poate fi stabilit doar din faptul că plata vine din străinătate."
         },
         {
           "id": "E02-FAQ09",
-          "question": "Ce decizie poate lua clientul folosind rezultatul „Evidență fiscală PFA / II”?",
-          "answer": "În situația „Un PFA cu încasări variabile dorește să își organizeze evidența”, clientul poate decide dacă solicită clarificări, corectarea evidențelor sau o etapă suplimentară de analiză. Rezultatul Registre și informații pentru declarațiile aplicabile nu substituie deciziile de management."
+          "question": "Ce informații sunt necesare pentru estimarea obligațiilor fiscale ale unui PFA?",
+          "answer": "Sunt utile forma de organizare, activitatea desfășurată, regimul de determinare a venitului, veniturile și cheltuielile relevante, alte venituri care influențează obligațiile și anul fiscal analizat. Impozitul și contribuțiile se calculează pe baza regulilor valabile pentru acel an, nu după praguri memorate din anii anteriori."
         },
         {
           "id": "E02-FAQ10",
-          "question": "Ce limite profesionale și contractuale se aplică pentru „Evidență fiscală PFA / II”?",
-          "answer": "Mandatul trebuie să delimiteze expres încadrarea veniturilor și cheltuielilor, organizarea registrului de evidență fiscală și verificarea documentelor justificative. Nu se presupune că serviciul este oferit de orice cabinet. Termenele și onorariile nu pot fi deduse din acest etalon."
+          "question": "Ce verific înainte să depun declarația fiscală aferentă activității PFA?",
+          "answer": "Verific identificarea contribuabilului, anul și tipul venitului, metoda de determinare, sumele susținute de evidențe, eventualele contribuții și existența altor obligații relevante. Versiunea formularului și termenul de depunere se confirmă din surse oficiale pentru anul respectiv."
         }
-      ]
+      ],
+      "faq_review": {
+        "status": "editorial_rewritten_pending_professional_review",
+        "reviewed_on": "2026-11-13",
+        "criteria": "10 client-intent questions; tax rules and deadlines deliberately conditional on applicable year; no textual duplicates"
+      }
     },
     {
       "id": "E03",
