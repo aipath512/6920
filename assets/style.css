@@ -817,3 +817,5 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
 .etalon-trust-table thead{background:var(--surface2)}
 .etalon-unverified{font-size:12px;color:var(--soft);font-weight:600}
 @media(max-width:650px){.etalon-service-grid{grid-template-columns:1fr}.etalon-service-item{padding:19px}}
+
+.etalon-v2-navigation{background:var(--surface);border-block:1px solid var(--line);padding:26px 0}.etalon-v2-links{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:13px}.etalon-v2-links a{display:flex;align-items:center;min-height:70px;padding:15px;border:1px solid var(--line);border-radius:10px;background:var(--surface2);font-size:14px;font-weight:600;text-decoration:none}.etalon-v2-links a:hover{border-color:var(--accent)}@media(max-width:800px){.etalon-v2-links{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:420px){.etalon-v2-links a{font-size:12px;padding:11px;min-height:65px}}
