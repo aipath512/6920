@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
 :root{--bg:#f8f8f5;--surface:#fff;--surface2:#f0f2ef;--ink:#162424;--soft:#536364;--line:#dfe5e0;--accent:#bca47c;--deep:#102c2b;--gold:#ccb58e;--radius:18px;--max:1240px;color-scheme:light}
 html[data-theme="dark"]{--bg:#0b1719;--surface:#152326;--surface2:#1b2d30;--ink:#eaf0e9;--soft:#abbfba;--line:#324748;--deep:#112a2b;color-scheme:dark}
@@ -704,3 +705,8 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
 .eva-trigger{background:transparent!important;border:0!important;box-shadow:none!important;padding:0!important;overflow:visible!important}
 .eva-trigger::after{content:none!important;display:none!important}
 @media(max-width:650px){.eva-trigger{width:72px!important;height:72px!important;min-width:72px!important;min-height:72px!important;right:9px!important;bottom:calc(10px + env(safe-area-inset-bottom,0px))!important}}
+
+/* C6920 title matches ECB Tax editorial font: loaded Cormorant Garamond, large serif + gold italic. */
+.hero.home-hero.luxe-hero .luxe-copy h1{font-family:'Cormorant Garamond',Georgia,serif!important;font-weight:400!important;letter-spacing:-.04em!important}
+.hero.home-hero.luxe-hero .luxe-copy h1 em.hero-title-line{font-family:'Cormorant Garamond',Georgia,serif!important;font-style:italic!important;font-weight:400!important;color:#f1c34e!important}
+@media(max-width:650px){.hero.home-hero.luxe-hero .luxe-copy h1{font-size:clamp(36px,9.6vw,47px)!important;line-height:1.03!important}}
