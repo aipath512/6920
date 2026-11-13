@@ -650,3 +650,20 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
 .eva-wave-hand{position:absolute;z-index:4;right:-9px;top:-12px;font-size:25px;line-height:1;transform-origin:70% 80%;animation:eva-wave-hello 2s ease-in-out 1 both;pointer-events:none;filter:drop-shadow(0 2px 2px #0008)}
 @keyframes eva-wave-hello{0%{opacity:0;transform:rotate(-20deg) scale(.6)}10%{opacity:1;transform:rotate(16deg) scale(1)}25%{transform:rotate(-20deg)}40%{transform:rotate(22deg)}55%{transform:rotate(-18deg)}70%{transform:rotate(18deg)}85%{opacity:1;transform:rotate(0)}100%{opacity:0;transform:rotate(0) scale(.8)}}
 @media(prefers-reduced-motion:reduce){.eva-wave-hand{animation:none;opacity:0}}
+
+/* C6920 spacious HERO: intentional vertical rhythm across title, subtitle and actions. */
+@media(min-width:651px){
+ .hero.home-hero.luxe-hero .luxe-copy{display:flex!important;flex-direction:column!important;gap:28px!important}
+ .hero.home-hero.luxe-hero .luxe-copy h1,
+ .hero.home-hero.luxe-hero .luxe-copy h2.luxe-deck,
+ .hero.home-hero.luxe-hero .luxe-copy .luxe-qualification{margin:0!important}
+ .hero.home-hero.luxe-hero .luxe-actions{margin-top:12px!important}
+}
+@media(max-width:650px){
+ .hero.home-hero.luxe-hero .luxe-main{padding-top:clamp(42px,9vw,60px)!important;padding-bottom:clamp(90px,20vw,120px)!important;min-height:660px!important;height:auto!important}
+ .hero.home-hero.luxe-hero .luxe-copy{gap:30px!important;padding:0!important}
+ .hero.home-hero.luxe-hero .luxe-copy h1{line-height:1.17!important}
+ .hero.home-hero.luxe-hero h2.luxe-deck{line-height:1.58!important}
+ .hero.home-hero.luxe-hero .luxe-qualification{line-height:1.7!important}
+ .home-mobile-cta-dock{gap:12px!important}
+}
