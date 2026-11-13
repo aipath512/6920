@@ -1,0 +1,796 @@
+{
+  "schema": "scara.c6920.service-catalog.v1",
+  "version": "3.0.0",
+  "generated_at": "2026-11-13",
+  "default_publication_policy": "informational_only",
+  "offer_states": [
+    "unconfirmed",
+    "confirmed",
+    "unavailable"
+  ],
+  "rules": {
+    "unconfirmed": "Display as reference information only; never as a provider offer",
+    "confirmed": "May appear in provider offer only after provider attestation and required professional authorization checks",
+    "unavailable": "Do not display in provider offer",
+    "regulated": "Requires manual professional authorization and scope verification; CAEN alone is not sufficient"
+  },
+  "services": [
+    {
+      "id": "E01",
+      "level": "essential",
+      "name": "Contabilitate financiară SRL",
+      "category": "Esențiale IMM",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Fișă informativă pentru contabilitate financiară srl.",
+      "inputs": [
+        "Date și documente relevante",
+        "Contextul fiscal și contractual"
+      ],
+      "potential_deliverables": [
+        "Evaluare inițială",
+        "Livrabile stabilite prin ofertă și contract"
+      ],
+      "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
+      "sources": [],
+      "version": "3.0.0"
+    },
+    {
+      "id": "E02",
+      "level": "essential",
+      "name": "Evidență fiscală PFA / II",
+      "category": "Esențiale IMM",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Fișă informativă pentru evidență fiscală pfa / ii.",
+      "inputs": [
+        "Date și documente relevante",
+        "Contextul fiscal și contractual"
+      ],
+      "potential_deliverables": [
+        "Evaluare inițială",
+        "Livrabile stabilite prin ofertă și contract"
+      ],
+      "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
+      "sources": [],
+      "version": "3.0.0"
+    },
+    {
+      "id": "E03",
+      "level": "essential",
+      "name": "Contabilitate ONG",
+      "category": "Esențiale IMM",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Fișă informativă pentru contabilitate ong.",
+      "inputs": [
+        "Date și documente relevante",
+        "Contextul fiscal și contractual"
+      ],
+      "potential_deliverables": [
+        "Evaluare inițială",
+        "Livrabile stabilite prin ofertă și contract"
+      ],
+      "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
+      "sources": [],
+      "version": "3.0.0"
+    },
+    {
+      "id": "E04",
+      "level": "essential",
+      "name": "Prelucrare documente contabile",
+      "category": "Esențiale IMM",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Fișă informativă pentru prelucrare documente contabile.",
+      "inputs": [
+        "Date și documente relevante",
+        "Contextul fiscal și contractual"
+      ],
+      "potential_deliverables": [
+        "Evaluare inițială",
+        "Livrabile stabilite prin ofertă și contract"
+      ],
+      "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
+      "sources": [],
+      "version": "3.0.0"
+    },
+    {
+      "id": "E05",
+      "level": "essential",
+      "name": "Reconciliere bancară și solduri",
+      "category": "Esențiale IMM",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Fișă informativă pentru reconciliere bancară și solduri.",
+      "inputs": [
+        "Date și documente relevante",
+        "Contextul fiscal și contractual"
+      ],
+      "potential_deliverables": [
+        "Evaluare inițială",
+        "Livrabile stabilite prin ofertă și contract"
+      ],
+      "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
+      "sources": [],
+      "version": "3.0.0"
+    },
+    {
+      "id": "E06",
+      "level": "essential",
+      "name": "Închideri contabile lunare",
+      "category": "Esențiale IMM",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Fișă informativă pentru închideri contabile lunare.",
+      "inputs": [
+        "Date și documente relevante",
+        "Contextul fiscal și contractual"
+      ],
+      "potential_deliverables": [
+        "Evaluare inițială",
+        "Livrabile stabilite prin ofertă și contract"
+      ],
+      "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
+      "sources": [],
+      "version": "3.0.0"
+    },
+    {
+      "id": "E07",
+      "level": "essential",
+      "name": "Situații financiare anuale",
+      "category": "Esențiale IMM",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Fișă informativă pentru situații financiare anuale.",
+      "inputs": [
+        "Date și documente relevante",
+        "Contextul fiscal și contractual"
+      ],
+      "potential_deliverables": [
+        "Evaluare inițială",
+        "Livrabile stabilite prin ofertă și contract"
+      ],
+      "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
+      "sources": [],
+      "version": "3.0.0"
+    },
+    {
+      "id": "E08",
+      "level": "essential",
+      "name": "Declarații fiscale periodice",
+      "category": "Esențiale IMM",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Fișă informativă pentru declarații fiscale periodice.",
+      "inputs": [
+        "Date și documente relevante",
+        "Contextul fiscal și contractual"
+      ],
+      "potential_deliverables": [
+        "Evaluare inițială",
+        "Livrabile stabilite prin ofertă și contract"
+      ],
+      "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
+      "sources": [],
+      "version": "3.0.0"
+    },
+    {
+      "id": "E09",
+      "level": "essential",
+      "name": "TVA și evidențe aferente",
+      "category": "Esențiale IMM",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Fișă informativă pentru tva și evidențe aferente.",
+      "inputs": [
+        "Date și documente relevante",
+        "Contextul fiscal și contractual"
+      ],
+      "potential_deliverables": [
+        "Evaluare inițială",
+        "Livrabile stabilite prin ofertă și contract"
+      ],
+      "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
+      "sources": [],
+      "version": "3.0.0"
+    },
+    {
+      "id": "E10",
+      "level": "essential",
+      "name": "RO e-Factura",
+      "category": "Esențiale IMM",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Fișă informativă pentru ro e-factura.",
+      "inputs": [
+        "Date și documente relevante",
+        "Contextul fiscal și contractual"
+      ],
+      "potential_deliverables": [
+        "Evaluare inițială",
+        "Livrabile stabilite prin ofertă și contract"
+      ],
+      "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
+      "sources": [],
+      "version": "3.0.0"
+    },
+    {
+      "id": "E11",
+      "level": "essential",
+      "name": "Salarizare și D112",
+      "category": "Esențiale IMM",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Fișă informativă pentru salarizare și d112.",
+      "inputs": [
+        "Date și documente relevante",
+        "Contextul fiscal și contractual"
+      ],
+      "potential_deliverables": [
+        "Evaluare inițială",
+        "Livrabile stabilite prin ofertă și contract"
+      ],
+      "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
+      "sources": [],
+      "version": "3.0.0"
+    },
+    {
+      "id": "E12",
+      "level": "essential",
+      "name": "Administrare personal și REGES-ONLINE",
+      "category": "Esențiale IMM",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Fișă informativă pentru administrare personal și reges-online.",
+      "inputs": [
+        "Date și documente relevante",
+        "Contextul fiscal și contractual"
+      ],
+      "potential_deliverables": [
+        "Evaluare inițială",
+        "Livrabile stabilite prin ofertă și contract"
+      ],
+      "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
+      "sources": [],
+      "version": "3.0.0"
+    },
+    {
+      "id": "E13",
+      "level": "essential",
+      "name": "Preluare contabilitate de la alt prestator",
+      "category": "Esențiale IMM",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Fișă informativă pentru preluare contabilitate de la alt prestator.",
+      "inputs": [
+        "Date și documente relevante",
+        "Contextul fiscal și contractual"
+      ],
+      "potential_deliverables": [
+        "Evaluare inițială",
+        "Livrabile stabilite prin ofertă și contract"
+      ],
+      "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
+      "sources": [],
+      "version": "3.0.0"
+    },
+    {
+      "id": "E14",
+      "level": "essential",
+      "name": "Inventariere și imobilizări",
+      "category": "Esențiale IMM",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Fișă informativă pentru inventariere și imobilizări.",
+      "inputs": [
+        "Date și documente relevante",
+        "Contextul fiscal și contractual"
+      ],
+      "potential_deliverables": [
+        "Evaluare inițială",
+        "Livrabile stabilite prin ofertă și contract"
+      ],
+      "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
+      "sources": [],
+      "version": "3.0.0"
+    },
+    {
+      "id": "E15",
+      "level": "essential",
+      "name": "Asistență la înființare SRL/PFA",
+      "category": "Esențiale IMM",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Fișă informativă pentru asistență la înființare srl/pfa.",
+      "inputs": [
+        "Date și documente relevante",
+        "Contextul fiscal și contractual"
+      ],
+      "potential_deliverables": [
+        "Evaluare inițială",
+        "Livrabile stabilite prin ofertă și contract"
+      ],
+      "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
+      "sources": [],
+      "version": "3.0.0"
+    },
+    {
+      "id": "A01",
+      "level": "advanced",
+      "name": "SAF-T / D406",
+      "category": "Avansate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Fișă informativă pentru saf-t / d406.",
+      "inputs": [
+        "Date și documente relevante",
+        "Contextul fiscal și contractual"
+      ],
+      "potential_deliverables": [
+        "Evaluare inițială",
+        "Livrabile stabilite prin ofertă și contract"
+      ],
+      "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
+      "sources": [],
+      "version": "3.0.0"
+    },
+    {
+      "id": "A02",
+      "level": "advanced",
+      "name": "RO e-Transport",
+      "category": "Avansate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Fișă informativă pentru ro e-transport.",
+      "inputs": [
+        "Date și documente relevante",
+        "Contextul fiscal și contractual"
+      ],
+      "potential_deliverables": [
+        "Evaluare inițială",
+        "Livrabile stabilite prin ofertă și contract"
+      ],
+      "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
+      "sources": [],
+      "version": "3.0.0"
+    },
+    {
+      "id": "A03",
+      "level": "advanced",
+      "name": "Contabilitate e-commerce și marketplace",
+      "category": "Avansate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Fișă informativă pentru contabilitate e-commerce și marketplace.",
+      "inputs": [
+        "Date și documente relevante",
+        "Contextul fiscal și contractual"
+      ],
+      "potential_deliverables": [
+        "Evaluare inițială",
+        "Livrabile stabilite prin ofertă și contract"
+      ],
+      "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
+      "sources": [],
+      "version": "3.0.0"
+    },
+    {
+      "id": "A04",
+      "level": "advanced",
+      "name": "Operațiuni intracomunitare și valutare",
+      "category": "Avansate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Fișă informativă pentru operațiuni intracomunitare și valutare.",
+      "inputs": [
+        "Date și documente relevante",
+        "Contextul fiscal și contractual"
+      ],
+      "potential_deliverables": [
+        "Evaluare inițială",
+        "Livrabile stabilite prin ofertă și contract"
+      ],
+      "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
+      "sources": [],
+      "version": "3.0.0"
+    },
+    {
+      "id": "A05",
+      "level": "advanced",
+      "name": "Gestiune stocuri și costuri",
+      "category": "Avansate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Fișă informativă pentru gestiune stocuri și costuri.",
+      "inputs": [
+        "Date și documente relevante",
+        "Contextul fiscal și contractual"
+      ],
+      "potential_deliverables": [
+        "Evaluare inițială",
+        "Livrabile stabilite prin ofertă și contract"
+      ],
+      "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
+      "sources": [],
+      "version": "3.0.0"
+    },
+    {
+      "id": "A06",
+      "level": "advanced",
+      "name": "Bugete și prognoze cash-flow",
+      "category": "Avansate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Fișă informativă pentru bugete și prognoze cash-flow.",
+      "inputs": [
+        "Date și documente relevante",
+        "Contextul fiscal și contractual"
+      ],
+      "potential_deliverables": [
+        "Evaluare inițială",
+        "Livrabile stabilite prin ofertă și contract"
+      ],
+      "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
+      "sources": [],
+      "version": "3.0.0"
+    },
+    {
+      "id": "A07",
+      "level": "advanced",
+      "name": "Raportare managerială și KPI",
+      "category": "Avansate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Fișă informativă pentru raportare managerială și kpi.",
+      "inputs": [
+        "Date și documente relevante",
+        "Contextul fiscal și contractual"
+      ],
+      "potential_deliverables": [
+        "Evaluare inițială",
+        "Livrabile stabilite prin ofertă și contract"
+      ],
+      "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
+      "sources": [],
+      "version": "3.0.0"
+    },
+    {
+      "id": "A08",
+      "level": "advanced",
+      "name": "Digitalizare fluxuri contabile și integrare ERP",
+      "category": "Avansate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Fișă informativă pentru digitalizare fluxuri contabile și integrare erp.",
+      "inputs": [
+        "Date și documente relevante",
+        "Contextul fiscal și contractual"
+      ],
+      "potential_deliverables": [
+        "Evaluare inițială",
+        "Livrabile stabilite prin ofertă și contract"
+      ],
+      "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
+      "sources": [],
+      "version": "3.0.0"
+    },
+    {
+      "id": "A09",
+      "level": "advanced",
+      "name": "Politici și proceduri contabile",
+      "category": "Avansate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Fișă informativă pentru politici și proceduri contabile.",
+      "inputs": [
+        "Date și documente relevante",
+        "Contextul fiscal și contractual"
+      ],
+      "potential_deliverables": [
+        "Evaluare inițială",
+        "Livrabile stabilite prin ofertă și contract"
+      ],
+      "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
+      "sources": [],
+      "version": "3.0.0"
+    },
+    {
+      "id": "A10",
+      "level": "advanced",
+      "name": "Asistență documentară la controale fiscale",
+      "category": "Avansate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Fișă informativă pentru asistență documentară la controale fiscale.",
+      "inputs": [
+        "Date și documente relevante",
+        "Contextul fiscal și contractual"
+      ],
+      "potential_deliverables": [
+        "Evaluare inițială",
+        "Livrabile stabilite prin ofertă și contract"
+      ],
+      "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
+      "sources": [],
+      "version": "3.0.0"
+    },
+    {
+      "id": "A11",
+      "level": "advanced",
+      "name": "Analiză fiscală preventivă",
+      "category": "Avansate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Fișă informativă pentru analiză fiscală preventivă.",
+      "inputs": [
+        "Date și documente relevante",
+        "Contextul fiscal și contractual"
+      ],
+      "potential_deliverables": [
+        "Evaluare inițială",
+        "Livrabile stabilite prin ofertă și contract"
+      ],
+      "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
+      "sources": [],
+      "version": "3.0.0"
+    },
+    {
+      "id": "A12",
+      "level": "advanced",
+      "name": "Raportare pe proiecte și finanțări",
+      "category": "Avansate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Fișă informativă pentru raportare pe proiecte și finanțări.",
+      "inputs": [
+        "Date și documente relevante",
+        "Contextul fiscal și contractual"
+      ],
+      "potential_deliverables": [
+        "Evaluare inițială",
+        "Livrabile stabilite prin ofertă și contract"
+      ],
+      "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
+      "sources": [],
+      "version": "3.0.0"
+    },
+    {
+      "id": "S01",
+      "level": "regulated",
+      "name": "Consultanță fiscală rezervată profesiilor reglementate",
+      "category": "Specializate / condiționate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": true,
+      "description": "Fișă informativă pentru consultanță fiscală rezervată profesiilor reglementate.",
+      "inputs": [
+        "Date și documente relevante",
+        "Contextul fiscal și contractual"
+      ],
+      "potential_deliverables": [
+        "Evaluare inițială",
+        "Livrabile stabilite prin ofertă și contract"
+      ],
+      "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
+      "sources": [],
+      "version": "3.0.0"
+    },
+    {
+      "id": "S02",
+      "level": "regulated",
+      "name": "Audit financiar și servicii de asigurare",
+      "category": "Specializate / condiționate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": true,
+      "description": "Fișă informativă pentru audit financiar și servicii de asigurare.",
+      "inputs": [
+        "Date și documente relevante",
+        "Contextul fiscal și contractual"
+      ],
+      "potential_deliverables": [
+        "Evaluare inițială",
+        "Livrabile stabilite prin ofertă și contract"
+      ],
+      "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
+      "sources": [],
+      "version": "3.0.0"
+    },
+    {
+      "id": "S03",
+      "level": "regulated",
+      "name": "Revizuire independentă și misiuni de asigurare",
+      "category": "Specializate / condiționate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": true,
+      "description": "Fișă informativă pentru revizuire independentă și misiuni de asigurare.",
+      "inputs": [
+        "Date și documente relevante",
+        "Contextul fiscal și contractual"
+      ],
+      "potential_deliverables": [
+        "Evaluare inițială",
+        "Livrabile stabilite prin ofertă și contract"
+      ],
+      "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
+      "sources": [],
+      "version": "3.0.0"
+    },
+    {
+      "id": "S04",
+      "level": "regulated",
+      "name": "Consolidare și raportare IFRS",
+      "category": "Specializate / condiționate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": true,
+      "description": "Fișă informativă pentru consolidare și raportare ifrs.",
+      "inputs": [
+        "Date și documente relevante",
+        "Contextul fiscal și contractual"
+      ],
+      "potential_deliverables": [
+        "Evaluare inițială",
+        "Livrabile stabilite prin ofertă și contract"
+      ],
+      "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
+      "sources": [],
+      "version": "3.0.0"
+    },
+    {
+      "id": "S05",
+      "level": "regulated",
+      "name": "Prețuri de transfer și documentație aferentă",
+      "category": "Specializate / condiționate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": true,
+      "description": "Fișă informativă pentru prețuri de transfer și documentație aferentă.",
+      "inputs": [
+        "Date și documente relevante",
+        "Contextul fiscal și contractual"
+      ],
+      "potential_deliverables": [
+        "Evaluare inițială",
+        "Livrabile stabilite prin ofertă și contract"
+      ],
+      "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
+      "sources": [],
+      "version": "3.0.0"
+    },
+    {
+      "id": "S06",
+      "level": "regulated",
+      "name": "Fiscalitate internațională complexă",
+      "category": "Specializate / condiționate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": true,
+      "description": "Fișă informativă pentru fiscalitate internațională complexă.",
+      "inputs": [
+        "Date și documente relevante",
+        "Contextul fiscal și contractual"
+      ],
+      "potential_deliverables": [
+        "Evaluare inițială",
+        "Livrabile stabilite prin ofertă și contract"
+      ],
+      "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
+      "sources": [],
+      "version": "3.0.0"
+    },
+    {
+      "id": "S07",
+      "level": "regulated",
+      "name": "Due diligence financiar și fiscal",
+      "category": "Specializate / condiționate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": true,
+      "description": "Fișă informativă pentru due diligence financiar și fiscal.",
+      "inputs": [
+        "Date și documente relevante",
+        "Contextul fiscal și contractual"
+      ],
+      "potential_deliverables": [
+        "Evaluare inițială",
+        "Livrabile stabilite prin ofertă și contract"
+      ],
+      "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
+      "sources": [],
+      "version": "3.0.0"
+    },
+    {
+      "id": "S08",
+      "level": "regulated",
+      "name": "Asistență și reprezentare în litigii fiscale",
+      "category": "Specializate / condiționate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": true,
+      "description": "Fișă informativă pentru asistență și reprezentare în litigii fiscale.",
+      "inputs": [
+        "Date și documente relevante",
+        "Contextul fiscal și contractual"
+      ],
+      "potential_deliverables": [
+        "Evaluare inițială",
+        "Livrabile stabilite prin ofertă și contract"
+      ],
+      "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
+      "sources": [],
+      "version": "3.0.0"
+    },
+    {
+      "id": "S09",
+      "level": "regulated",
+      "name": "Evaluări de întreprinderi și active",
+      "category": "Specializate / condiționate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": true,
+      "description": "Fișă informativă pentru evaluări de întreprinderi și active.",
+      "inputs": [
+        "Date și documente relevante",
+        "Contextul fiscal și contractual"
+      ],
+      "potential_deliverables": [
+        "Evaluare inițială",
+        "Livrabile stabilite prin ofertă și contract"
+      ],
+      "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
+      "sources": [],
+      "version": "3.0.0"
+    },
+    {
+      "id": "S10",
+      "level": "regulated",
+      "name": "Consultanță în tranzacții și restructurări",
+      "category": "Specializate / condiționate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": true,
+      "description": "Fișă informativă pentru consultanță în tranzacții și restructurări.",
+      "inputs": [
+        "Date și documente relevante",
+        "Contextul fiscal și contractual"
+      ],
+      "potential_deliverables": [
+        "Evaluare inițială",
+        "Livrabile stabilite prin ofertă și contract"
+      ],
+      "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
+      "sources": [],
+      "version": "3.0.0"
+    }
+  ]
+}
