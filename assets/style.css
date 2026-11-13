@@ -802,3 +802,18 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
  .etalon-clarity-grid h3{font-size:16px}
  .etalon-clarity-grid p{font-size:13px}
 }
+
+/* C6920 V2 reusable service catalog, process and evidence UI */
+.etalon-catalog-note{max-width:850px;color:var(--soft);line-height:1.7;margin:12px 0 28px}
+.etalon-service-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.etalon-service-item{border:1px solid var(--line);border-radius:14px;background:var(--surface);padding:24px;min-width:0}
+.etalon-service-item h3{font-size:clamp(18px,2vw,23px);line-height:1.3;margin:0 0 15px}
+.etalon-service-item p{font-size:14px;line-height:1.7;color:var(--soft);margin:0 0 9px}
+.etalon-service-item p strong{color:var(--ink)}
+.etalon-service-item a{display:inline-block;margin-top:10px;color:var(--ink);text-decoration:underline;text-underline-offset:4px}
+.etalon-table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px}
+.etalon-trust-table{width:100%;border-collapse:collapse;text-align:left;min-width:590px}
+.etalon-trust-table th,.etalon-trust-table td{padding:14px 16px;border-bottom:1px solid var(--line);vertical-align:top;font-size:14px}
+.etalon-trust-table thead{background:var(--surface2)}
+.etalon-unverified{font-size:12px;color:var(--soft);font-weight:600}
+@media(max-width:650px){.etalon-service-grid{grid-template-columns:1fr}.etalon-service-item{padding:19px}}
