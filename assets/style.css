@@ -689,3 +689,6 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
  .hero.home-hero.luxe-hero .luxe-copy h1{margin-bottom:44px!important}
  .hero.home-hero.luxe-hero .luxe-copy h2.luxe-deck{margin-bottom:34px!important}
 }
+
+/* Editorial title emphasis: same H1 wording, selected phrase italic gold as reference. */
+.hero.home-hero.luxe-hero .luxe-copy h1 em{font-family:'Cormorant Garamond',Georgia,serif!important;font-style:italic!important;font-weight:400!important;color:#f1c34e!important;letter-spacing:-.035em!important}
