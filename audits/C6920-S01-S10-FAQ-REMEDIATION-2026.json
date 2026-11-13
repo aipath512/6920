@@ -1,0 +1,422 @@
+{
+  "S01": [
+    [
+      "persoana poate acorda consultanță fiscală reglementată",
+      "Se verifică statutul profesional, dreptul de exercitare și aria serviciului potrivit OG 71/2001; un cod CAEN nu conferă automat această calitate."
+    ],
+    [
+      "fundamentarea unei opinii fiscale",
+      "Sunt necesare contractele, tranzacțiile reale, perioadele, corespondența cu autoritățile și întrebarea fiscală precis formulată."
+    ],
+    [
+      "normele aplicabile unei restructurări",
+      "Se corelează situația de fapt cu forma legii și interpretările relevante, inclusiv efectele asupra TVA și impozitelor."
+    ],
+    [
+      "documentele prezentate sunt incomplete",
+      "Se exprimă rezerve și ipoteze explicite; nu se emite o concluzie necondiționată pe fapte neverificate."
+    ],
+    [
+      "o opinie fiscală este utilizată pentru alte tranzacții",
+      "Concluzia poate deveni inaplicabilă dacă diferă faptele ori perioada; este necesară revalidarea condițiilor."
+    ],
+    [
+      "clientul solicită reprezentare la autoritate",
+      "Se verifică dreptul profesional, mandatul și procedura concretă; consultanța nu echivalează automat cu reprezentarea în orice procedură."
+    ],
+    [
+      "aprobarea strategiei fiscale",
+      "Clientul decide și își asumă tranzacția; consultantul furnizează analiza în limitele mandatului și competenței profesionale."
+    ],
+    [
+      "traseul concluziei fiscale",
+      "Se păstrează versiunea legislației, faptele, ipotezele, sursele și comunicarea opiniei către client."
+    ],
+    [
+      "actualizarea unei opinii fiscale",
+      "Se revizuiește înainte de implementare și după modificări relevante de lege sau de situație factuală."
+    ],
+    [
+      "opinia de consultanță fiscală",
+      "Livrabilul delimitează întrebarea, analiza, alternativele, concluzia, riscurile și limitele profesionale ale mandatului."
+    ]
+  ],
+  "S02": [
+    [
+      "o misiune constituie audit statutar",
+      "Se verifică obligația legală a entității, standardele aplicabile și dreptul de exercitare al auditorului ori firmei autorizate."
+    ],
+    [
+      "planificarea auditului financiar",
+      "Sunt necesare situațiile financiare, registrele, politicile contabile, tranzacțiile semnificative și accesul la persoanele relevante."
+    ],
+    [
+      "riscurile de denaturare semnificativă",
+      "Auditorul stabilește proceduri și probe suficiente adecvate potrivit standardelor; verificarea nu este simpla reconciliere a balanței."
+    ],
+    [
+      "auditorul a pregătit informațiile auditate",
+      "Se analizează amenințarea de autoevaluare și cerințele de independență potrivit Legii 162/2017 și normelor etice."
+    ],
+    [
+      "managementul solicită garantarea lipsei fraudei",
+      "Auditul oferă asigurare rezonabilă în condițiile standardelor, nu certificarea absolută a tuturor tranzacțiilor."
+    ],
+    [
+      "misiunea este pentru o entitate de interes public",
+      "Se verifică cerințele suplimentare privind independența, rotația și serviciile neauditate, după caz."
+    ],
+    [
+      "responsabilitatea pentru situațiile financiare",
+      "Conducerea răspunde de întocmire și controale; auditorul exprimă o opinie independentă pe baza probelor obținute."
+    ],
+    [
+      "păstrarea documentației de audit",
+      "Auditorul administrează dosarul misiunii conform regulilor profesionale și cerințelor de confidențialitate."
+    ],
+    [
+      "calendarul semnării raportului de audit",
+      "Se corelează disponibilitatea probelor, aprobările situațiilor financiare și termenele statutare aplicabile entității."
+    ],
+    [
+      "raportul de audit",
+      "Livrabilul este raportul profesional cu opinia, baza acesteia și alte secțiuni cerute de standarde; forma depinde de constatări."
+    ]
+  ],
+  "S03": [
+    [
+      "este necesară revizuire limitată sau altă asigurare",
+      "Se definește obiectul, utilizatorul raportului, standardul aplicabil și nivelul de asigurare înainte de acceptarea misiunii."
+    ],
+    [
+      "stabilirea procedurilor de revizuire",
+      "Se cer situațiile financiare sau informațiile vizate, explicațiile conducerii și documentele pentru procedurile contractate."
+    ],
+    [
+      "probele obținute într-o revizuire",
+      "Se aplică procedurile prevăzute de standardul relevant; o revizuire nu trebuie prezentată drept audit complet."
+    ],
+    [
+      "se identifică indicii de denaturare",
+      "Se extind clarificările sau se modifică concluzia conform standardului și probelor disponibile, fără promisiunea unei opinii curate."
+    ],
+    [
+      "o parte implicată confundă asigurarea limitată cu auditul",
+      "Raportul trebuie să explice natura și limitele misiunii, inclusiv ce proceduri nu au fost efectuate."
+    ],
+    [
+      "obiectul privește indicatori nefinanciari",
+      "Se verifică existența criteriilor adecvate și a unui standard de asigurare aplicabil, distinct de auditul situațiilor financiare."
+    ],
+    [
+      "independența profesionistului",
+      "Se verifică cerințele etice, conflictul de interese și autorizarea pentru misiunea concretă înainte de acceptare."
+    ],
+    [
+      "documentarea procedurilor efectuate",
+      "Se păstrează criteriile, procedurile, probele, explicațiile și raționamentele profesionale relevante."
+    ],
+    [
+      "termenul de raportare al unei revizuiri",
+      "Se stabilește contractual în concordanță cu disponibilitatea informațiilor și obligațiile aplicabile, fără confundare cu termenul bilanțului."
+    ],
+    [
+      "raportul de revizuire sau asigurare",
+      "Livrabilul precizează obiectul, standardul, nivelul de asigurare, responsabilitățile și concluzia formulată."
+    ]
+  ],
+  "S04": [
+    [
+      "un grup trebuie să întocmească situații consolidate",
+      "Se verifică structura de control, cadrul de raportare și eventualele excepții legale aplicabile grupului."
+    ],
+    [
+      "pregătirea pachetului de consolidare",
+      "Sunt necesare balanțele filialelor, politicile contabile, participațiile, tranzacțiile intragrup și cursurile relevante."
+    ],
+    [
+      "eliminarea soldurilor și tranzacțiilor intragrup",
+      "Se confruntă balanțele reciproce, se documentează diferențele și se elimină efectele în limitele cadrului de consolidare."
+    ],
+    [
+      "filialele aplică politici contabile diferite",
+      "Se determină ajustările de uniformizare necesare, fără rescrierea necontrolată a contabilității statutare locale."
+    ],
+    [
+      "consolidarea omite o entitate controlată",
+      "Se reanalizează perimetrul, controlul efectiv și prevederile standardului relevant; neconsolidarea necesită justificare."
+    ],
+    [
+      "raportarea este în IFRS",
+      "Se aplică standardele IFRS relevante pentru grup și forma lor adoptată în jurisdicția aplicabilă, nu doar reguli generale OMFP."
+    ],
+    [
+      "aprobarea situațiilor consolidate",
+      "Conducerea grupului răspunde de informațiile și aprobările proprii, iar prestatorul oferă asistența tehnică definită contractual."
+    ],
+    [
+      "pista de audit a consolidării",
+      "Se păstrează pachetele, ajustările, eliminările, calculul participațiilor și reconcilierea cu raportările locale."
+    ],
+    [
+      "calendarul consolidării",
+      "Se aliniază închiderile filialelor, auditul, aprobările și termenele de depunere aplicabile grupului."
+    ],
+    [
+      "pachetul de raportare IFRS consolidat",
+      "Livrabilul include situațiile, notele, ajustările și reconcilierile relevante pentru cadrul ales."
+    ]
+  ],
+  "S05": [
+    [
+      "există tranzacții între persoane afiliate",
+      "Se identifică relațiile de afiliere, natura tranzacțiilor, valoarea și jurisdicțiile părților."
+    ],
+    [
+      "documentarea politicii de prețuri de transfer",
+      "Sunt necesare contracte intra-grup, funcțiile și riscurile părților, situații financiare și date despre tranzacții comparabile."
+    ],
+    [
+      "respectarea principiului valorii de piață",
+      "Se alege și se justifică metoda adecvată, pe baza analizei funcționale și a datelor comparabile disponibile."
+    ],
+    [
+      "comparabilele sunt insuficiente",
+      "Se documentează limitele căutării, ajustările și raționamentul economic; nu se inventează o marjă de piață."
+    ],
+    [
+      "prețurile intra-grup sunt stabilite fără analiză",
+      "Există risc de ajustare fiscală și dublă impunere; politica trebuie fundamentată înainte de utilizarea rezultatelor."
+    ],
+    [
+      "grupul tranzacționează cu jurisdicții diferite",
+      "Se verifică și regulile locale, tratatele și mecanismele de evitare a dublei impuneri, după caz."
+    ],
+    [
+      "pregătirea dosarului pentru autorități",
+      "Clientul validează faptele; analiza și reprezentarea fiscală se efectuează de persoane cu competențele și mandatul necesare."
+    ],
+    [
+      "dovezile analizei de comparabilitate",
+      "Se păstrează strategia de căutare, sursele datelor, criteriile de selecție și calculul ajustărilor."
+    ],
+    [
+      "obligația de întocmire a dosarului",
+      "Termenele și pragurile se stabilesc pentru categoria contribuabilului și legislația perioadei, nu printr-o regulă universală."
+    ],
+    [
+      "documentația de prețuri de transfer",
+      "Livrabilul descrie tranzacțiile, analiza funcțională, metoda, comparabilele, rezultatul și limitările."
+    ]
+  ],
+  "S06": [
+    [
+      "o operațiune este supusă fiscalității internaționale",
+      "Se identifică rezidența fiscală, jurisdicțiile, natura venitului și posibilitatea existenței unui sediu permanent."
+    ],
+    [
+      "aplicarea unui tratat de evitare a dublei impuneri",
+      "Sunt necesare certificatul de rezidență, contractele, natura plății și documentele privind beneficiarul efectiv, după caz."
+    ],
+    [
+      "reținerea la sursă pentru o plată externă",
+      "Se compară normele interne cu tratatul relevant și condițiile documentare valabile la data plății."
+    ],
+    [
+      "lipsesc documentele de rezidență fiscală",
+      "Nu se presupune automat aplicarea tratatului; se evaluează regimul intern și eventualele proceduri ulterioare."
+    ],
+    [
+      "structura transfrontalieră creează sediu permanent",
+      "Se analizează activitățile, durata, personalul și regulile tratatului, fără concluzii pe simpla existență a unei adrese."
+    ],
+    [
+      "este implicată o regulă antiabuz ori raportare specială",
+      "Se verifică legislația specifică și obligațiile pe jurisdicții, inclusiv tranzacțiile între afiliați."
+    ],
+    [
+      "formularea concluziei fiscale internaționale",
+      "Expertul cu drept de exercitare relevant documentează opinia; deciziile economice și fiscale rămân ale contribuabilului."
+    ],
+    [
+      "documentarea structurii internaționale",
+      "Se păstrează tratatele folosite, versiunea legislației, contractele și ipotezele juridice."
+    ],
+    [
+      "actualizarea analizei transfrontaliere",
+      "Revizuirea are loc înainte de tranzacție și când se schimbă legislația, rezidența ori structura operațiunii."
+    ],
+    [
+      "raportul de fiscalitate internațională",
+      "Livrabilul conține jurisdicțiile, regulile, riscurile, alternativele și aspectele unde este necesară opinie locală."
+    ]
+  ],
+  "S07": [
+    [
+      "o achiziție necesită due diligence financiar-fiscal",
+      "Se stabilesc obiectivul tranzacției, perioada, perimetrul, accesul la date și pragurile de semnificație."
+    ],
+    [
+      "analiza performanței istorice a țintei",
+      "Sunt necesare situații financiare, balanțe, contracte, datorii, creanțe, date fiscale și ajustări de management."
+    ],
+    [
+      "normalizarea EBITDA și a capitalului de lucru",
+      "Se separă elementele nerecurente și se explică ipotezele, fără a prezenta ajustările ca valori auditate."
+    ],
+    [
+      "datele din camera virtuală sunt incomplete",
+      "Se semnalează limitarea ariei și impactul asupra concluziilor; nu se asumă implicit că lipsa probelor înseamnă absența riscului."
+    ],
+    [
+      "apar datorii contingente sau riscuri fiscale",
+      "Se cuantifică expunerea unde există dovezi și se explică incertitudinile în raportul pentru investitor."
+    ],
+    [
+      "tranzacția acoperă mai multe jurisdicții",
+      "Se implică specialiști locali după natura riscurilor și se coordonează rezultatele fără a substitui opiniile juridice."
+    ],
+    [
+      "decizia de achiziție",
+      "Investitorul decide prețul și condițiile; specialistul analizează informațiile în mandat și cu limite explicite."
+    ],
+    [
+      "pista de audit a due diligence",
+      "Se păstrează indexul documentelor, întrebările transmise, răspunsurile și calculele ajustărilor relevante."
+    ],
+    [
+      "perioada de lucru și data-limită a tranzacției",
+      "Calendarul depinde de accesul la informații, aria agreată și procesul tranzacției, nu de o scadență fiscală unică."
+    ],
+    [
+      "raportul de due diligence",
+      "Livrabilul sintetizează constatările, ajustările, riscurile, limitările și implicațiile posibile asupra tranzacției."
+    ]
+  ],
+  "S08": [
+    [
+      "un contribuabil dorește contestarea unui act fiscal",
+      "Se identifică actul, data comunicării, procedura și calea de atac, cu verificarea dreptului de reprezentare."
+    ],
+    [
+      "pregătirea dosarului de contestație",
+      "Se colectează actul contestat, anexele, corespondența, documentele justificative și argumentele de fapt."
+    ],
+    [
+      "legalitatea constatărilor fiscale",
+      "Se confruntă motivarea actului cu documentele și normele aplicabile perioadei, fără substituirea probelor cu simple afirmații."
+    ],
+    [
+      "termenul de contestație este pe cale să expire",
+      "Se escaladează imediat către profesionistul competent; termenul legal se verifică individual din procedura aplicabilă."
+    ],
+    [
+      "reprezentantul nu are împuternicirea necesară",
+      "Nu se depun acte în numele clientului fără mandat și drept de reprezentare prevăzute de lege."
+    ],
+    [
+      "litigiul ajunge în instanță",
+      "Se delimitează asistența fiscală de reprezentarea judiciară rezervată profesiilor îndreptățite potrivit legii."
+    ],
+    [
+      "aprobarea argumentelor și a căii de atac",
+      "Contribuabilul și reprezentantul competent stabilesc strategia; contabilul poate furniza explicații și documente."
+    ],
+    [
+      "dovada comunicărilor procedurale",
+      "Se păstrează actele, datele comunicării, dovezile depunerii și documentele folosite pentru calculul termenelor."
+    ],
+    [
+      "calendarul procedurii fiscale",
+      "Se calculează din comunicarea actului și normele aplicabile, verificând suspendări și proceduri speciale după caz."
+    ],
+    [
+      "asistența într-un litigiu fiscal",
+      "Livrabilul cuprinde dosarul documentar, cronologia, argumentele analizate și delimitarea reprezentării autorizate."
+    ]
+  ],
+  "S09": [
+    [
+      "este necesară o evaluare profesională reglementată",
+      "Se identifică scopul, utilizatorul, tipul valorii și eventualele cerințe privind evaluatorul autorizat ANEVAR."
+    ],
+    [
+      "evaluarea unei întreprinderi sau a unui activ",
+      "Sunt necesare drepturile asupra activului, situații financiare, contracte, planuri, date de piață și ipoteze relevante."
+    ],
+    [
+      "alegerea metodei de evaluare",
+      "Se selectează abordări conforme cu standardele aplicabile și informațiile disponibile, explicând limitările."
+    ],
+    [
+      "piața nu oferă tranzacții comparabile",
+      "Se justifică metode alternative și sensibilități; nu se inventează comparabile sau prețuri de piață."
+    ],
+    [
+      "clientul cere o valoare prestabilită",
+      "Evaluatorul trebuie să-și păstreze independența și obiectivitatea; concluzia nu se negociază ca rezultat impus."
+    ],
+    [
+      "evaluarea este pentru raportare financiară",
+      "Se verifică definiția valorii și standardul contabil aplicabil, separat de o estimare comercială informală."
+    ],
+    [
+      "semnarea raportului de evaluare",
+      "Raportul reglementat este întocmit și semnat de profesionistul competent, cu respectarea regulilor profesionale."
+    ],
+    [
+      "trasabilitatea ipotezelor de evaluare",
+      "Se păstrează sursele de piață, calculele, ipotezele, vizitele sau inspecțiile și limitările."
+    ],
+    [
+      "data evaluării",
+      "Se stabilește data relevantă scopului și condițiilor misiunii; valoarea nu poate fi extrapolată automat la altă dată."
+    ],
+    [
+      "raportul de evaluare",
+      "Livrabilul precizează scopul, standardele, metodele, ipotezele, data valorii, rezultatul și restricțiile de utilizare."
+    ]
+  ],
+  "S10": [
+    [
+      "o societate analizează o fuziune sau restructurare",
+      "Se identifică obiectivele, entitățile, scenariile și condițiile legale ale operațiunii înainte de modelarea financiară."
+    ],
+    [
+      "compararea scenariilor de tranzacție",
+      "Sunt necesare situațiile financiare, structura capitalului, contractele relevante și proiecțiile operaționale."
+    ],
+    [
+      "impactul financiar și fiscal al scenariilor",
+      "Se compară efectele asupra lichidității, capitalului și impozitelor, cu ipoteze și limite distinct documentate."
+    ],
+    [
+      "o tranzacție implică transfer de active",
+      "Se verifică natura activelor, evaluarea, contractele și implicațiile contabile și fiscale înainte de recomandare."
+    ],
+    [
+      "modelul presupune sinergii neverificate",
+      "Se testează sensibilitatea la ipoteze și se separă economiile potențiale de beneficii deja realizate."
+    ],
+    [
+      "restructurarea implică insolvență ori lichidare",
+      "Se apelează la specialiștii și practicienii îndreptățiți, fără a confunda analiza financiară cu atribuțiile legale rezervate."
+    ],
+    [
+      "aprobarea și reprezentarea în tranzacție",
+      "Organele societare decid, iar consultanții juridici și fiscali competenți acoperă activitățile rezervate."
+    ],
+    [
+      "documentarea alternativelor de tranzacție",
+      "Se păstrează modelele, sursele, aprobările și modificările de ipoteze dintre versiuni."
+    ],
+    [
+      "calendarul operațiunilor societare",
+      "Se stabilește din actele corporative, procedurile aplicabile și calendarul contractual, nu dintr-un termen universal."
+    ],
+    [
+      "raportul de consultanță tranzacțională",
+      "Livrabilul include scenariile, efectele estimate, riscurile, recomandările și aspectele care cer opinie autorizată."
+    ]
+  ]
+}
