@@ -719,3 +719,11 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
  .hero.home-hero.luxe-hero .luxe-copy h1{font-size:clamp(34px,9vw,64px)!important}
  .hero.home-hero.luxe-hero .luxe-copy h1 em.hero-title-line{font-size:clamp(37px,9.6vw,68px)!important}
 }
+
+/* C6920 H1: +10% over approved Cormorant sizes, both regular and gold italic. */
+.hero.home-hero.luxe-hero .luxe-copy h1{font-size:clamp(70.4px,5.5vw,79.2px)!important}
+.hero.home-hero.luxe-hero .luxe-copy h1 em.hero-title-line{font-size:clamp(74.8px,5.83vw,83.6px)!important}
+@media(max-width:650px){
+ .hero.home-hero.luxe-hero .luxe-copy h1{font-size:clamp(37.4px,9.9vw,70.4px)!important}
+ .hero.home-hero.luxe-hero .luxe-copy h1 em.hero-title-line{font-size:clamp(40.7px,10.56vw,74.8px)!important}
+}
