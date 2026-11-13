@@ -1,0 +1,29 @@
+name: C6920 catalog SSOT integrity
+on:
+  pull_request:
+    branches: [main, develop/anti-regression-v1]
+    paths:
+      - 'data/c6920-services-v3.json'
+      - 'servicii/index.html'
+      - 'tests/catalog-ssot.cjs'
+      - '.github/workflows/catalog-ssot.yml'
+  push:
+    branches: [main, develop/anti-regression-v1]
+    paths:
+      - 'data/c6920-services-v3.json'
+      - 'servicii/index.html'
+      - 'tests/catalog-ssot.cjs'
+      - '.github/workflows/catalog-ssot.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  catalog-integrity:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate canonical catalog, visible FAQ and JSON-LD
+        run: node tests/catalog-ssot.cjs
