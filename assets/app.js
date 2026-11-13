@@ -1,6 +1,21 @@
 (function(){
 const html=document.documentElement;
 const themeButton=document.getElementById("theme-toggle");
+const evaPortrait=document.querySelector(".eva-avatar-video");
+if(evaPortrait){
+ const holder=evaPortrait.closest(".eva-avatar-portrait");
+ evaPortrait.addEventListener("loadeddata",()=>holder?.classList.add("is-ready"),{once:true});
+ evaPortrait.addEventListener("error",()=>holder?.classList.remove("is-ready"));
+ // A single discreet two-second greeting; the last frame remains as the portrait.
+ const greeted=sessionStorage.getItem("eva-portrait-greeted")==="1";
+ if(greeted){evaPortrait.currentTime=2;evaPortrait.addEventListener("loadeddata",()=>{evaPortrait.currentTime=2},{once:true})}
+ else if(!window.matchMedia("(prefers-reduced-motion: reduce)").matches){
+  evaPortrait.addEventListener("loadeddata",()=>{evaPortrait.play().catch(()=>{});},{once:true});
+  evaPortrait.addEventListener("timeupdate",()=>{if(evaPortrait.currentTime>=2){evaPortrait.pause();try{sessionStorage.setItem("eva-portrait-greeted","1")}catch(e){}}});
+ }
+ else{evaPortrait.addEventListener("loadeddata",()=>{evaPortrait.currentTime=2},{once:true})}
+}
+
 let stored;try{stored=localStorage.getItem("6920-theme")}catch(e){}
 if(stored==="dark"||stored==="light")html.dataset.theme=stored;
 themeButton?.addEventListener("click",()=>{html.dataset.theme=html.dataset.theme==="dark"?"light":"dark";try{localStorage.setItem("6920-theme",html.dataset.theme)}catch(e){}});
