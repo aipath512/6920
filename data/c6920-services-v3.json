@@ -22,7 +22,7 @@
       "category": "Esențiale IMM",
       "offer_status": "unconfirmed",
       "published_as_offer": false,
-      "requires_professional_verification": false,
+      "requires_professional_verification": true,
       "description": "Organizarea evidenței contabile curente a societății, în concordanță cu reglementările aplicabile.",
       "inputs": [
         "Facturi",
@@ -37,9 +37,9 @@
         {
           "act": "Legea contabilității nr. 82/1991",
           "url": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/173931",
-          "scope": "relevant legal framework; specific applicability must be checked",
+          "scope": "Art. 10 alin. (1)–(4): răspunderea administratorului; organizarea internă; prestarea externă prin profesioniști autorizați membri CECCAR",
           "reviewed_on": "2026-11-13",
-          "verification": "official act/framework located; current applicability and article-level interpretation pending qualified review"
+          "verification": "Art. 10 alin. (1)–(4) text verified against official legislative portal; final current-consolidated-law and case-specific sign-off pending"
         },
         {
           "act": "OMFP nr. 1802/2014",
@@ -59,7 +59,7 @@
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de contabilitate financiară srl și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
-      "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
+      "professional_note": "Pentru organizarea și conducerea contabilității externalizate, înainte de activarea ofertei se verifică autorizarea prestatorului și calitatea de membru CECCAR, potrivit art. 10 alin. (3) din Legea nr. 82/1991. Conform art. 10 alin. (1) și (4), se delimitează răspunderea administratorului pentru organizare de răspunderea prestatorului pentru conducerea contabilității, în limitele legii și ale contractului. Activitatea contabilă organizată intern are condiții distincte potrivit art. 10 alin. (2).",
       "benchmark": {
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
@@ -133,10 +133,10 @@
         "criteria": "10 client-intent questions; no duplicate questions or answers; operational specificity; no invented legal deadlines"
       },
       "legal_review": {
-        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "status": "targeted_provision_verified_pending_qualified_professional_signoff",
         "as_of": "2026-11-13",
         "source_validation": "official_framework_identified",
-        "article_level_validation": "pending",
+        "article_level_validation": "art_10_1_2_3_4_checked_pending_professional_signoff",
         "contractual_provider_validation": "pending"
       },
       "professional_authorization_category": "ceccar_if_outsourced_accounting"
