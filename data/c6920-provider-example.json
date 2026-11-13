@@ -1,0 +1,22 @@
+{
+  "schema": "scara.c6920.provider-selection.v1",
+  "catalog_version": "3.0.0",
+  "provider_id": null,
+  "provider_identity_verified": false,
+  "selection_status": "draft",
+  "services": [],
+  "instructions": "Only add confirmed services after provider approval. Regulated services additionally require authorization scope, evidence and manual verification.",
+  "example_selection_not_an_offer": {
+    "service_id": "E01",
+    "status": "confirmed",
+    "provider_approved_at": null,
+    "professional_verification": {
+      "required": false,
+      "verified": false,
+      "evidence_reference": null
+    },
+    "publishable": false
+  },
+  "publication_predicate": "status === confirmed AND provider_identity_verified === true AND provider_approved_at != null AND (professional_verification.required === false OR professional_verification.verified === true)",
+  "disclaimer": "This file is a template; no actual provider services have been approved."
+}
