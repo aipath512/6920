@@ -247,55 +247,60 @@
       "faq": [
         {
           "id": "E03-FAQ01",
-          "question": "Ce trebuie clarificat înainte de contabilitate ong?",
-          "answer": "Se delimitează situația concretă: o asociație gestionează donații și două proiecte finanțate. Sunt necesare obiectivul, perioada analizată și confirmarea datelor disponibile; fără acestea, aria intervenției rămâne neclară."
+          "question": "Cum ține o asociație evidența donațiilor primite de la persoane fizice?",
+          "answer": "Se păstrează documentele care atestă proveniența și valoarea donației, încasarea și eventualele condiții impuse de donator. Evidența trebuie să permită identificarea sumelor primite, a utilizării lor și a soldului rămas, cu respectarea cerințelor de protecție a datelor personale."
         },
         {
           "id": "E03-FAQ02",
-          "question": "Cum se desfășoară etapa „Separarea activităților nonprofit și economice”?",
-          "answer": "Această etapă urmărește separarea activităților nonprofit și economice. Se stabilesc sursele de date și responsabilul verificării, apoi se consemnează documentele lipsă sau diferențele care pot influența contabilitate ong."
+          "question": "Cum diferențiez cotizațiile membrilor de veniturile din activități economice?",
+          "answer": "Cotizațiile se urmăresc pe baza statutului, a hotărârilor și a evidenței membrilor. Încasările din vânzări sau servicii se analizează separat după natura operațiunii; simpla încasare de bani de către ONG nu înseamnă automat cotizație sau venit neimpozabil."
         },
         {
           "id": "E03-FAQ03",
-          "question": "Ce documente susțin operațiunea „Urmărirea fondurilor cu destinație specifică”?",
-          "answer": "Pentru urmărirea fondurilor cu destinație specifică se pornește de la Contracte de finanțare, donații, cheltuieli și documente justificative. Relevanța fiecărui document se confirmă în raport cu tranzacțiile efective; nu se presupune că lista este exhaustivă."
+          "question": "Cum urmăresc separat două proiecte finanțate de donatori diferiți?",
+          "answer": "Se folosesc coduri analitice sau centre de cost distincte pentru fiecare proiect, corelate cu bugetul, contractul și perioada de eligibilitate. Fiecare cheltuială se leagă de documentul justificativ și de proiectul căruia îi aparține, pentru a evita dubla decontare."
         },
         {
           "id": "E03-FAQ04",
-          "question": "Cum se verifică rezultatul activității „Reconcilierea cheltuielilor pe proiecte”?",
-          "answer": "Se documentează reconcilierea cheltuielilor pe proiecte, apoi se confruntă rezultatul cu evidențele și documentele-sursă. Neconcordanțele se investighează înainte ca livrabilul să fie considerat final."
+          "question": "Ce fac dacă o donație este destinată exclusiv unui anumit proiect?",
+          "answer": "Se documentează restricția de utilizare din contract, corespondență sau alt act relevant și se urmărește distinct suma disponibilă. Cheltuielile se verifică față de destinația acceptată; mutarea banilor către alt proiect nu se presupune permisă fără verificarea condițiilor donatorului."
         },
         {
           "id": "E03-FAQ05",
-          "question": "Ce primește concret clientul după contabilitate ong?",
-          "answer": "Livrabilul orientativ este Evidențe și situații adaptate raportării organizației. El trebuie însoțit, după caz, de ipoteze, limitări, explicația diferențelor și evidența clarificărilor rămase deschise."
+          "question": "Cum înregistrez o sponsorizare și ce acte trebuie păstrate?",
+          "answer": "Se verifică acordul sau contractul, identitatea părților, obiectul sponsorizării, dovada transferului și eventualele obligații de raportare. Tratamentul contabil și fiscal se stabilește în funcție de forma sprijinului și de regulile aplicabile, fără a confunda sponsorizarea cu prestarea unui serviciu comercial."
         },
         {
           "id": "E03-FAQ06",
-          "question": "Ce se întâmplă dacă lipsesc datele pentru „Separarea activităților nonprofit și economice”?",
-          "answer": "Se întocmește o listă de completări, iar concluziile care depind de informațiile lipsă se marchează provizorii. În cazul contabilitate ong, etapa afectată direct este separarea activităților nonprofit și economice."
+          "question": "Pot deconta aceeași factură din două granturi?",
+          "answer": "Aceeași cheltuială nu trebuie prezentată de două ori ca finanțată integral din surse diferite. Dacă regulile finanțărilor permit împărțirea costului, alocarea trebuie justificată printr-o metodă documentată și urmărită pe fiecare proiect; eligibilitatea se verifică în fiecare contract."
         },
         {
           "id": "E03-FAQ07",
-          "question": "Ce risc specific trebuie controlat în „Urmărirea fondurilor cu destinație specifică”?",
-          "answer": "Riscul este ca urmărirea fondurilor cu destinație specifică să fie realizată pe date incomplete, necorelate sau interpretate greșit. Controlul presupune documentarea sursei, a ipotezelor și a verificării de consistență."
+          "question": "Cum se repartizează chiria și utilitățile între proiecte și activitatea generală?",
+          "answer": "Se stabilește o cheie de alocare justificabilă, de exemplu pe suprafață, utilizare sau timp, dacă regulile finanțatorilor o permit. Metoda se aplică consecvent, se păstrează calculul și se evită alocarea unor costuri neeligibile către proiecte."
         },
         {
           "id": "E03-FAQ08",
-          "question": "Cum se tratează o excepție apărută la „Reconcilierea cheltuielilor pe proiecte”?",
-          "answer": "Excepția se izolează, se descrie și se verifică față de Contracte de finanțare. Nu se corectează automat fără justificare; se consemnează impactul asupra Evidențe și situații adaptate raportării organizației și decizia responsabilului."
+          "question": "Ce verific dacă un finanțator respinge o cheltuială din raportul de proiect?",
+          "answer": "Se compară motivul respingerii cu contractul, bugetul aprobat, documentele justificative și dovada plății. Se determină dacă problema este de eligibilitate, perioadă, achiziție sau documentare și se stabilește corecția în raportare și, când este cazul, în evidența contabilă."
         },
         {
           "id": "E03-FAQ09",
-          "question": "Ce decizie poate lua clientul folosind rezultatul „Contabilitate ONG”?",
-          "answer": "În situația „O asociație gestionează donații și două proiecte finanțate”, clientul poate decide dacă solicită clarificări, corectarea evidențelor sau o etapă suplimentară de analiză. Rezultatul Evidențe și situații adaptate raportării organizației nu substituie deciziile de management."
+          "question": "Cum se reflectă munca voluntarilor și donațiile în natură?",
+          "answer": "Se păstrează acordurile, procesele-verbale și documentele de predare-primire relevante. Recunoașterea și evaluarea contabilă depind de natura bunurilor sau serviciilor și de reglementările aplicabile; orele de voluntariat nu se transformă automat în cheltuieli contabile."
         },
         {
           "id": "E03-FAQ10",
-          "question": "Ce limite profesionale și contractuale se aplică pentru „Contabilitate ONG”?",
-          "answer": "Mandatul trebuie să delimiteze expres separarea activităților nonprofit și economice, urmărirea fondurilor cu destinație specifică și reconcilierea cheltuielilor pe proiecte. Nu se presupune că serviciul este oferit de orice cabinet. Termenele și onorariile nu pot fi deduse din acest etalon."
+          "question": "Ce rapoarte trebuie pregătite pentru conducerea ONG-ului și finanțatori?",
+          "answer": "În funcție de obligațiile organizației, pot fi necesare situații financiare, execuția bugetară pe proiect, centralizatorul cheltuielilor eligibile, situația fondurilor cu destinație specială și reconcilierea soldurilor. Formatul și termenele cerute de finanțator se verifică în contractul de finanțare."
         }
-      ]
+      ],
+      "faq_review": {
+        "status": "editorial_rewritten_pending_professional_review",
+        "reviewed_on": "2026-11-13",
+        "criteria": "10 NGO-specific client questions; restricted funds, grants, double funding, volunteer contributions; no invented deadlines"
+      }
     },
     {
       "id": "E04",
