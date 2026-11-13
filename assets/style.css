@@ -768,3 +768,14 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
 .home-benefit-link:hover,.home-benefit-link:focus-visible{color:#d5a66e!important}
 .home-benefit-link:hover span,.home-benefit-link:focus-visible span{opacity:1}
 @media(max-width:650px){.home-benefits-links{padding:30px 0}.home-benefits-grid{gap:24px 20px}.home-benefit-link{min-height:76px;font-size:clamp(16px,4.3vw,22px);line-height:1.4}.home-benefit-link span{font-size:16px;opacity:.8}}
+
+/* Refined non-clickable benefits on black with thin gold ticks. */
+.home-benefits-links{background:#090b0c!important;color:#f0ece4!important;padding:35px 0!important}
+.home-benefits-grid{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:30px 40px!important}
+.home-benefit-item{display:flex;align-items:flex-start;gap:12px;color:#e9e5df;font-family:'DM Sans',sans-serif;font-size:clamp(16px,1.65vw,22px);font-weight:400;line-height:1.45;letter-spacing:-.015em;min-height:0}
+.home-benefit-check{color:#d2a760;flex:0 0 auto;font-size:21px;font-weight:400;line-height:1.2}
+@media(max-width:650px){.home-benefits-links{padding:25px 0!important}.home-benefits-grid{gap:22px 16px!important}.home-benefit-item{font-size:clamp(13px,3.4vw,17px)!important;gap:7px!important;line-height:1.4!important}.home-benefit-check{font-size:17px!important}}
+/* Slim discreet scroll controls, while preserving touch targets. */
+.page-scroll-controls{right:8px!important;gap:7px!important}
+.page-scroll-controls button{width:32px!important;height:32px!important;border:1px solid #c6a16b!important;background:rgba(16,31,35,.82)!important;color:#d6b37c!important;font-size:19px!important;font-weight:300!important;box-shadow:0 2px 8px #0004!important}
+@media(max-width:650px){.page-scroll-controls button{width:32px!important;height:32px!important;font-size:19px!important}}
