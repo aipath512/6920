@@ -634,3 +634,7 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
 /* C6920 HERO semantic H2: preserve deck typography, no browser heading defaults */
 .hero.home-hero.luxe-hero h2.luxe-deck{display:block;font-family:inherit;font-weight:500;letter-spacing:normal;text-transform:none;margin:0;max-width:600px;color:#f2f0e9}
 @media(max-width:650px){.hero.home-hero.luxe-hero h2.luxe-deck{font-size:clamp(18px,4.6vw,21px)!important;line-height:1.5!important;max-width:100%!important}}
+
+/* C6920: never hyphenate HERO H1 in Romanian; wrap at word boundaries only. */
+.hero.home-hero.luxe-hero .luxe-copy h1{hyphens:none!important;-webkit-hyphens:none!important;word-break:normal!important;overflow-wrap:normal!important}
+@media(max-width:650px){.hero.home-hero.luxe-hero .luxe-copy h1{font-size:clamp(34px,8.5vw,46px)!important;line-height:1.12!important;letter-spacing:-.035em!important;max-width:100%!important}}
