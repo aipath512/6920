@@ -1,6 +1,6 @@
 {
   "schema": "scara.c6920.service-catalog.v1",
-  "version": "3.0.0",
+  "version": "3.2.0",
   "generated_at": "2026-11-13",
   "default_publication_policy": "informational_only",
   "offer_states": [
@@ -23,18 +23,26 @@
       "offer_status": "unconfirmed",
       "published_as_offer": false,
       "requires_professional_verification": false,
-      "description": "Fișă informativă pentru contabilitate financiară srl.",
+      "description": "Organizarea evidenței contabile curente a societății, în concordanță cu reglementările aplicabile.",
       "inputs": [
-        "Date și documente relevante",
-        "Contextul fiscal și contractual"
+        "Facturi",
+        "extrase",
+        "contracte și documente justificative"
       ],
       "potential_deliverables": [
-        "Evaluare inițială",
-        "Livrabile stabilite prin ofertă și contract"
+        "Registre, balanță și situații periodice convenite"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.0.0"
+      "version": "3.2.0",
+      "client_problem": "Ce presupune serviciul de contabilitate financiară srl și ce informații trebuie pregătite?",
+      "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
+      "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
+      "benchmark": {
+        "reference": "Forvis Mazars Romania - public service taxonomy",
+        "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
+        "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
+      }
     },
     {
       "id": "E02",
@@ -44,18 +52,25 @@
       "offer_status": "unconfirmed",
       "published_as_offer": false,
       "requires_professional_verification": false,
-      "description": "Fișă informativă pentru evidență fiscală pfa / ii.",
+      "description": "Evidența veniturilor și cheltuielilor și evaluarea obligațiilor fiscale specifice formei de organizare.",
       "inputs": [
-        "Date și documente relevante",
-        "Contextul fiscal și contractual"
+        "Documente de încasări și plăți",
+        "activitate și regim fiscal"
       ],
       "potential_deliverables": [
-        "Evaluare inițială",
-        "Livrabile stabilite prin ofertă și contract"
+        "Registre și informații pentru declarațiile aplicabile"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.0.0"
+      "version": "3.2.0",
+      "client_problem": "Ce presupune serviciul de evidență fiscală pfa / ii și ce informații trebuie pregătite?",
+      "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
+      "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
+      "benchmark": {
+        "reference": "Forvis Mazars Romania - public service taxonomy",
+        "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
+        "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
+      }
     },
     {
       "id": "E03",
@@ -65,18 +80,26 @@
       "offer_status": "unconfirmed",
       "published_as_offer": false,
       "requires_professional_verification": false,
-      "description": "Fișă informativă pentru contabilitate ong.",
+      "description": "Evidență distinctă pentru activități nonprofit, proiecte și surse de finanțare.",
       "inputs": [
-        "Date și documente relevante",
-        "Contextul fiscal și contractual"
+        "Contracte de finanțare",
+        "donații",
+        "cheltuieli și documente justificative"
       ],
       "potential_deliverables": [
-        "Evaluare inițială",
-        "Livrabile stabilite prin ofertă și contract"
+        "Evidențe și situații adaptate raportării organizației"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.0.0"
+      "version": "3.2.0",
+      "client_problem": "Ce presupune serviciul de contabilitate ong și ce informații trebuie pregătite?",
+      "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
+      "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
+      "benchmark": {
+        "reference": "Forvis Mazars Romania - public service taxonomy",
+        "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
+        "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
+      }
     },
     {
       "id": "E04",
@@ -86,18 +109,26 @@
       "offer_status": "unconfirmed",
       "published_as_offer": false,
       "requires_professional_verification": false,
-      "description": "Fișă informativă pentru prelucrare documente contabile.",
+      "description": "Colectarea, clasificarea și înregistrarea documentelor, cu identificarea informațiilor incomplete.",
       "inputs": [
-        "Date și documente relevante",
-        "Contextul fiscal și contractual"
+        "Facturi",
+        "bonuri",
+        "extrase și alte justificative"
       ],
       "potential_deliverables": [
-        "Evaluare inițială",
-        "Livrabile stabilite prin ofertă și contract"
+        "Documente înregistrate și listă de clarificări"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.0.0"
+      "version": "3.2.0",
+      "client_problem": "Ce presupune serviciul de prelucrare documente contabile și ce informații trebuie pregătite?",
+      "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
+      "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
+      "benchmark": {
+        "reference": "Forvis Mazars Romania - public service taxonomy",
+        "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
+        "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
+      }
     },
     {
       "id": "E05",
@@ -107,18 +138,26 @@
       "offer_status": "unconfirmed",
       "published_as_offer": false,
       "requires_professional_verification": false,
-      "description": "Fișă informativă pentru reconciliere bancară și solduri.",
+      "description": "Compararea extraselor, soldurilor și evidențelor pentru identificarea diferențelor.",
       "inputs": [
-        "Date și documente relevante",
-        "Contextul fiscal și contractual"
+        "Extrase bancare",
+        "jurnale",
+        "balanțe și fișe de cont"
       ],
       "potential_deliverables": [
-        "Evaluare inițială",
-        "Livrabile stabilite prin ofertă și contract"
+        "Reconciliere și listă de diferențe de investigat"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.0.0"
+      "version": "3.2.0",
+      "client_problem": "Ce presupune serviciul de reconciliere bancară și solduri și ce informații trebuie pregătite?",
+      "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
+      "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
+      "benchmark": {
+        "reference": "Forvis Mazars Romania - public service taxonomy",
+        "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
+        "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
+      }
     },
     {
       "id": "E06",
@@ -128,18 +167,25 @@
       "offer_status": "unconfirmed",
       "published_as_offer": false,
       "requires_professional_verification": false,
-      "description": "Fișă informativă pentru închideri contabile lunare.",
+      "description": "Verificarea operațiunilor perioadei și pregătirea închiderii contabile lunare.",
       "inputs": [
-        "Date și documente relevante",
-        "Contextul fiscal și contractual"
+        "Documente ale perioadei",
+        "solduri și ajustări"
       ],
       "potential_deliverables": [
-        "Evaluare inițială",
-        "Livrabile stabilite prin ofertă și contract"
+        "Balanță și sinteză de închidere, după mandat"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.0.0"
+      "version": "3.2.0",
+      "client_problem": "Ce presupune serviciul de închideri contabile lunare și ce informații trebuie pregătite?",
+      "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
+      "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
+      "benchmark": {
+        "reference": "Forvis Mazars Romania - public service taxonomy",
+        "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
+        "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
+      }
     },
     {
       "id": "E07",
@@ -149,18 +195,26 @@
       "offer_status": "unconfirmed",
       "published_as_offer": false,
       "requires_professional_verification": false,
-      "description": "Fișă informativă pentru situații financiare anuale.",
+      "description": "Pregătirea datelor și documentației pentru situațiile financiare statutare.",
       "inputs": [
-        "Date și documente relevante",
-        "Contextul fiscal și contractual"
+        "Balanță finală",
+        "inventariere",
+        "note și ajustări"
       ],
       "potential_deliverables": [
-        "Evaluare inițială",
-        "Livrabile stabilite prin ofertă și contract"
+        "Set de situații financiare aplicabile, în limita contractului"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.0.0"
+      "version": "3.2.0",
+      "client_problem": "Ce presupune serviciul de situații financiare anuale și ce informații trebuie pregătite?",
+      "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
+      "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
+      "benchmark": {
+        "reference": "Forvis Mazars Romania - public service taxonomy",
+        "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
+        "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
+      }
     },
     {
       "id": "E08",
@@ -170,18 +224,26 @@
       "offer_status": "unconfirmed",
       "published_as_offer": false,
       "requires_professional_verification": false,
-      "description": "Fișă informativă pentru declarații fiscale periodice.",
+      "description": "Identificarea și pregătirea declarațiilor fiscale aplicabile contribuabilului.",
       "inputs": [
-        "Date și documente relevante",
-        "Contextul fiscal și contractual"
+        "Regim fiscal",
+        "operațiuni",
+        "evidențe și perioade"
       ],
       "potential_deliverables": [
-        "Evaluare inițială",
-        "Livrabile stabilite prin ofertă și contract"
+        "Declarații pregătite și verificări documentate"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.0.0"
+      "version": "3.2.0",
+      "client_problem": "Ce presupune serviciul de declarații fiscale periodice și ce informații trebuie pregătite?",
+      "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
+      "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
+      "benchmark": {
+        "reference": "Forvis Mazars Romania - public service taxonomy",
+        "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
+        "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
+      }
     },
     {
       "id": "E09",
@@ -191,18 +253,26 @@
       "offer_status": "unconfirmed",
       "published_as_offer": false,
       "requires_professional_verification": false,
-      "description": "Fișă informativă pentru tva și evidențe aferente.",
+      "description": "Organizarea evidenței TVA și analiza operațiunilor care influențează decontarea.",
       "inputs": [
-        "Date și documente relevante",
-        "Contextul fiscal și contractual"
+        "Facturi",
+        "jurnal TVA",
+        "tranzacții interne și externe"
       ],
       "potential_deliverables": [
-        "Evaluare inițială",
-        "Livrabile stabilite prin ofertă și contract"
+        "Jurnale, reconciliere TVA și declarații aplicabile"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.0.0"
+      "version": "3.2.0",
+      "client_problem": "Ce presupune serviciul de tva și evidențe aferente și ce informații trebuie pregătite?",
+      "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
+      "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
+      "benchmark": {
+        "reference": "Forvis Mazars Romania - public service taxonomy",
+        "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
+        "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
+      }
     },
     {
       "id": "E10",
@@ -212,18 +282,26 @@
       "offer_status": "unconfirmed",
       "published_as_offer": false,
       "requires_professional_verification": false,
-      "description": "Fișă informativă pentru ro e-factura.",
+      "description": "Organizarea fluxului de facturi electronice și tratarea erorilor de procesare.",
       "inputs": [
-        "Date și documente relevante",
-        "Contextul fiscal și contractual"
+        "Facturi",
+        "identificatori",
+        "fluxuri de emitere și primire"
       ],
       "potential_deliverables": [
-        "Evaluare inițială",
-        "Livrabile stabilite prin ofertă și contract"
+        "Situație a documentelor și excepțiilor, după mandat"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.0.0"
+      "version": "3.2.0",
+      "client_problem": "Ce presupune serviciul de ro e-factura și ce informații trebuie pregătite?",
+      "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
+      "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
+      "benchmark": {
+        "reference": "Forvis Mazars Romania - public service taxonomy",
+        "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
+        "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
+      }
     },
     {
       "id": "E11",
@@ -233,18 +311,27 @@
       "offer_status": "unconfirmed",
       "published_as_offer": false,
       "requires_professional_verification": false,
-      "description": "Fișă informativă pentru salarizare și d112.",
+      "description": "Calculul drepturilor salariale și pregătirea raportării fiscale aferente.",
       "inputs": [
-        "Date și documente relevante",
-        "Contextul fiscal și contractual"
+        "Contracte",
+        "pontaje",
+        "concedii",
+        "beneficii și rețineri"
       ],
       "potential_deliverables": [
-        "Evaluare inițială",
-        "Livrabile stabilite prin ofertă și contract"
+        "State salariale și declarația D112, după contract"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.0.0"
+      "version": "3.2.0",
+      "client_problem": "Ce presupune serviciul de salarizare și d112 și ce informații trebuie pregătite?",
+      "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
+      "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
+      "benchmark": {
+        "reference": "Forvis Mazars Romania - public service taxonomy",
+        "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
+        "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
+      }
     },
     {
       "id": "E12",
@@ -254,18 +341,26 @@
       "offer_status": "unconfirmed",
       "published_as_offer": false,
       "requires_professional_verification": false,
-      "description": "Fișă informativă pentru administrare personal și reges-online.",
+      "description": "Administrarea operațiunilor de personal și a evidențelor electronice aplicabile.",
       "inputs": [
-        "Date și documente relevante",
-        "Contextul fiscal și contractual"
+        "Contracte",
+        "acte adiționale",
+        "modificări și încetări"
       ],
       "potential_deliverables": [
-        "Evaluare inițială",
-        "Livrabile stabilite prin ofertă și contract"
+        "Documente de personal și operațiuni REGES, după mandat"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.0.0"
+      "version": "3.2.0",
+      "client_problem": "Ce presupune serviciul de administrare personal și reges-online și ce informații trebuie pregătite?",
+      "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
+      "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
+      "benchmark": {
+        "reference": "Forvis Mazars Romania - public service taxonomy",
+        "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
+        "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
+      }
     },
     {
       "id": "E13",
@@ -275,18 +370,27 @@
       "offer_status": "unconfirmed",
       "published_as_offer": false,
       "requires_professional_verification": false,
-      "description": "Fișă informativă pentru preluare contabilitate de la alt prestator.",
+      "description": "Transferul organizat al evidenței de la prestatorul precedent, cu identificarea diferențelor.",
       "inputs": [
-        "Date și documente relevante",
-        "Contextul fiscal și contractual"
+        "Balanțe",
+        "registre",
+        "declarații",
+        "solduri și documente istorice"
       ],
       "potential_deliverables": [
-        "Evaluare inițială",
-        "Livrabile stabilite prin ofertă și contract"
+        "Proces-verbal de preluare și listă de neconcordanțe"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.0.0"
+      "version": "3.2.0",
+      "client_problem": "Ce presupune serviciul de preluare contabilitate de la alt prestator și ce informații trebuie pregătite?",
+      "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
+      "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
+      "benchmark": {
+        "reference": "Forvis Mazars Romania - public service taxonomy",
+        "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
+        "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
+      }
     },
     {
       "id": "E14",
@@ -296,18 +400,25 @@
       "offer_status": "unconfirmed",
       "published_as_offer": false,
       "requires_professional_verification": false,
-      "description": "Fișă informativă pentru inventariere și imobilizări.",
+      "description": "Evidența activelor, amortizării și diferențelor rezultate din inventariere.",
       "inputs": [
-        "Date și documente relevante",
-        "Contextul fiscal și contractual"
+        "Registru mijloace fixe",
+        "inventare și documente de achiziție"
       ],
       "potential_deliverables": [
-        "Evaluare inițială",
-        "Livrabile stabilite prin ofertă și contract"
+        "Fișe de active și situații de reconciliere"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.0.0"
+      "version": "3.2.0",
+      "client_problem": "Ce presupune serviciul de inventariere și imobilizări și ce informații trebuie pregătite?",
+      "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
+      "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
+      "benchmark": {
+        "reference": "Forvis Mazars Romania - public service taxonomy",
+        "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
+        "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
+      }
     },
     {
       "id": "E15",
@@ -317,18 +428,26 @@
       "offer_status": "unconfirmed",
       "published_as_offer": false,
       "requires_professional_verification": false,
-      "description": "Fișă informativă pentru asistență la înființare srl/pfa.",
+      "description": "Orientare privind etapele și documentele pentru constituirea unei entități.",
       "inputs": [
-        "Date și documente relevante",
-        "Contextul fiscal și contractual"
+        "Formă juridică",
+        "activități",
+        "asociați și opțiuni fiscale"
       ],
       "potential_deliverables": [
-        "Evaluare inițială",
-        "Livrabile stabilite prin ofertă și contract"
+        "Checklist și documentație orientativă, după competențe"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.0.0"
+      "version": "3.2.0",
+      "client_problem": "Ce presupune serviciul de asistență la înființare srl/pfa și ce informații trebuie pregătite?",
+      "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
+      "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
+      "benchmark": {
+        "reference": "Forvis Mazars Romania - public service taxonomy",
+        "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
+        "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
+      }
     },
     {
       "id": "A01",
@@ -338,18 +457,26 @@
       "offer_status": "unconfirmed",
       "published_as_offer": false,
       "requires_professional_verification": false,
-      "description": "Fișă informativă pentru saf-t / d406.",
+      "description": "Evaluarea obligației SAF-T și structurarea datelor necesare raportării D406.",
       "inputs": [
-        "Date și documente relevante",
-        "Contextul fiscal și contractual"
+        "Registre",
+        "nomenclatoare",
+        "tranzacții și configurația sistemului"
       ],
       "potential_deliverables": [
-        "Evaluare inițială",
-        "Livrabile stabilite prin ofertă și contract"
+        "Mapare de date, controale și fișier de raportare, dacă este contractat"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.0.0"
+      "version": "3.2.0",
+      "client_problem": "Ce presupune serviciul de saf-t / d406 și ce informații trebuie pregătite?",
+      "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
+      "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
+      "benchmark": {
+        "reference": "Forvis Mazars Romania - public service taxonomy",
+        "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
+        "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
+      }
     },
     {
       "id": "A02",
@@ -359,18 +486,27 @@
       "offer_status": "unconfirmed",
       "published_as_offer": false,
       "requires_professional_verification": false,
-      "description": "Fișă informativă pentru ro e-transport.",
+      "description": "Identificarea operațiunilor relevante pentru RO e-Transport și organizarea datelor.",
       "inputs": [
-        "Date și documente relevante",
-        "Contextul fiscal și contractual"
+        "Transporturi",
+        "bunuri",
+        "parteneri",
+        "trasee și documente"
       ],
       "potential_deliverables": [
-        "Evaluare inițială",
-        "Livrabile stabilite prin ofertă și contract"
+        "Flux de verificare și date pentru raportare, dacă este aplicabil"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.0.0"
+      "version": "3.2.0",
+      "client_problem": "Ce presupune serviciul de ro e-transport și ce informații trebuie pregătite?",
+      "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
+      "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
+      "benchmark": {
+        "reference": "Forvis Mazars Romania - public service taxonomy",
+        "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
+        "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
+      }
     },
     {
       "id": "A03",
@@ -380,18 +516,26 @@
       "offer_status": "unconfirmed",
       "published_as_offer": false,
       "requires_professional_verification": false,
-      "description": "Fișă informativă pentru contabilitate e-commerce și marketplace.",
+      "description": "Reconcilierea vânzărilor, comisioanelor, retururilor și încasărilor din canale online.",
       "inputs": [
-        "Date și documente relevante",
-        "Contextul fiscal și contractual"
+        "Exporturi marketplace",
+        "procesatori de plăți",
+        "facturi și retururi"
       ],
       "potential_deliverables": [
-        "Evaluare inițială",
-        "Livrabile stabilite prin ofertă și contract"
+        "Situații de reconciliere pe platforme și perioade"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.0.0"
+      "version": "3.2.0",
+      "client_problem": "Ce presupune serviciul de contabilitate e-commerce și marketplace și ce informații trebuie pregătite?",
+      "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
+      "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
+      "benchmark": {
+        "reference": "Forvis Mazars Romania - public service taxonomy",
+        "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
+        "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
+      }
     },
     {
       "id": "A04",
@@ -401,18 +545,26 @@
       "offer_status": "unconfirmed",
       "published_as_offer": false,
       "requires_professional_verification": false,
-      "description": "Fișă informativă pentru operațiuni intracomunitare și valutare.",
+      "description": "Analiza documentară a tranzacțiilor transfrontaliere și a diferențelor valutare.",
       "inputs": [
-        "Date și documente relevante",
-        "Contextul fiscal și contractual"
+        "Facturi externe",
+        "contracte",
+        "cursuri și dovezi de transport"
       ],
       "potential_deliverables": [
-        "Evaluare inițială",
-        "Livrabile stabilite prin ofertă și contract"
+        "Evidențe și tratamente contabile propuse spre validare"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.0.0"
+      "version": "3.2.0",
+      "client_problem": "Ce presupune serviciul de operațiuni intracomunitare și valutare și ce informații trebuie pregătite?",
+      "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
+      "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
+      "benchmark": {
+        "reference": "Forvis Mazars Romania - public service taxonomy",
+        "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
+        "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
+      }
     },
     {
       "id": "A05",
@@ -422,18 +574,26 @@
       "offer_status": "unconfirmed",
       "published_as_offer": false,
       "requires_professional_verification": false,
-      "description": "Fișă informativă pentru gestiune stocuri și costuri.",
+      "description": "Organizarea evidenței stocurilor și a calculului costurilor pentru decizii operaționale.",
       "inputs": [
-        "Date și documente relevante",
-        "Contextul fiscal și contractual"
+        "Intrări-ieșiri",
+        "inventare",
+        "consumuri și politici de cost"
       ],
       "potential_deliverables": [
-        "Evaluare inițială",
-        "Livrabile stabilite prin ofertă și contract"
+        "Fișe de stoc, analize de cost și diferențe"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.0.0"
+      "version": "3.2.0",
+      "client_problem": "Ce presupune serviciul de gestiune stocuri și costuri și ce informații trebuie pregătite?",
+      "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
+      "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
+      "benchmark": {
+        "reference": "Forvis Mazars Romania - public service taxonomy",
+        "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
+        "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
+      }
     },
     {
       "id": "A06",
@@ -443,18 +603,27 @@
       "offer_status": "unconfirmed",
       "published_as_offer": false,
       "requires_professional_verification": false,
-      "description": "Fișă informativă pentru bugete și prognoze cash-flow.",
+      "description": "Modelarea lichidității și a scenariilor financiare pornind de la datele disponibile.",
       "inputs": [
-        "Date și documente relevante",
-        "Contextul fiscal și contractual"
+        "Încasări",
+        "plăți",
+        "scadențe",
+        "bugete și ipoteze"
       ],
       "potential_deliverables": [
-        "Evaluare inițială",
-        "Livrabile stabilite prin ofertă și contract"
+        "Buget și proiecție cash-flow cu ipoteze explicite"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.0.0"
+      "version": "3.2.0",
+      "client_problem": "Ce presupune serviciul de bugete și prognoze cash-flow și ce informații trebuie pregătite?",
+      "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
+      "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
+      "benchmark": {
+        "reference": "Forvis Mazars Romania - public service taxonomy",
+        "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
+        "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
+      }
     },
     {
       "id": "A07",
@@ -464,18 +633,26 @@
       "offer_status": "unconfirmed",
       "published_as_offer": false,
       "requires_professional_verification": false,
-      "description": "Fișă informativă pentru raportare managerială și kpi.",
+      "description": "Transformarea datelor contabile în indicatori de management și rapoarte recurente.",
       "inputs": [
-        "Date și documente relevante",
-        "Contextul fiscal și contractual"
+        "Balanțe",
+        "venituri",
+        "cheltuieli și obiective de management"
       ],
       "potential_deliverables": [
-        "Evaluare inițială",
-        "Livrabile stabilite prin ofertă și contract"
+        "Tablou de bord și raport managerial convenit"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.0.0"
+      "version": "3.2.0",
+      "client_problem": "Ce presupune serviciul de raportare managerială și kpi și ce informații trebuie pregătite?",
+      "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
+      "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
+      "benchmark": {
+        "reference": "Forvis Mazars Romania - public service taxonomy",
+        "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
+        "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
+      }
     },
     {
       "id": "A08",
@@ -485,18 +662,26 @@
       "offer_status": "unconfirmed",
       "published_as_offer": false,
       "requires_professional_verification": false,
-      "description": "Fișă informativă pentru digitalizare fluxuri contabile și integrare erp.",
+      "description": "Analiza fluxului documentelor și integrarea aplicațiilor contabile cu sistemele operaționale.",
       "inputs": [
-        "Date și documente relevante",
-        "Contextul fiscal și contractual"
+        "Sisteme folosite",
+        "formate de export",
+        "procese și permisiuni"
       ],
       "potential_deliverables": [
-        "Evaluare inițială",
-        "Livrabile stabilite prin ofertă și contract"
+        "Hartă de integrare, reguli de import și plan de testare"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.0.0"
+      "version": "3.2.0",
+      "client_problem": "Ce presupune serviciul de digitalizare fluxuri contabile și integrare erp și ce informații trebuie pregătite?",
+      "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
+      "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
+      "benchmark": {
+        "reference": "Forvis Mazars Romania - public service taxonomy",
+        "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
+        "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
+      }
     },
     {
       "id": "A09",
@@ -506,18 +691,25 @@
       "offer_status": "unconfirmed",
       "published_as_offer": false,
       "requires_professional_verification": false,
-      "description": "Fișă informativă pentru politici și proceduri contabile.",
+      "description": "Documentarea regulilor de recunoaștere, înregistrare și control intern contabil.",
       "inputs": [
-        "Date și documente relevante",
-        "Contextul fiscal și contractual"
+        "Procese",
+        "reglementări aplicabile și practici existente"
       ],
       "potential_deliverables": [
-        "Evaluare inițială",
-        "Livrabile stabilite prin ofertă și contract"
+        "Manual de politici și proceduri adaptat, dacă este contractat"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.0.0"
+      "version": "3.2.0",
+      "client_problem": "Ce presupune serviciul de politici și proceduri contabile și ce informații trebuie pregătite?",
+      "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
+      "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
+      "benchmark": {
+        "reference": "Forvis Mazars Romania - public service taxonomy",
+        "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
+        "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
+      }
     },
     {
       "id": "A10",
@@ -527,18 +719,26 @@
       "offer_status": "unconfirmed",
       "published_as_offer": false,
       "requires_professional_verification": false,
-      "description": "Fișă informativă pentru asistență documentară la controale fiscale.",
+      "description": "Pregătirea evidențelor și răspunsurilor documentare pentru verificări fiscale.",
       "inputs": [
-        "Date și documente relevante",
-        "Contextul fiscal și contractual"
+        "Notificări",
+        "perioade controlate",
+        "registre și justificative"
       ],
       "potential_deliverables": [
-        "Evaluare inițială",
-        "Livrabile stabilite prin ofertă și contract"
+        "Dosar de documente și listă de întrebări de clarificat"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.0.0"
+      "version": "3.2.0",
+      "client_problem": "Ce presupune serviciul de asistență documentară la controale fiscale și ce informații trebuie pregătite?",
+      "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
+      "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
+      "benchmark": {
+        "reference": "Forvis Mazars Romania - public service taxonomy",
+        "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
+        "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
+      }
     },
     {
       "id": "A11",
@@ -548,18 +748,25 @@
       "offer_status": "unconfirmed",
       "published_as_offer": false,
       "requires_professional_verification": false,
-      "description": "Fișă informativă pentru analiză fiscală preventivă.",
+      "description": "Identificarea riscurilor fiscale înainte de tranzacții sau raportări semnificative.",
       "inputs": [
-        "Date și documente relevante",
-        "Contextul fiscal și contractual"
+        "Structura operațiunilor",
+        "contracte și tratamente propuse"
       ],
       "potential_deliverables": [
-        "Evaluare inițială",
-        "Livrabile stabilite prin ofertă și contract"
+        "Memoriu de risc și puncte ce necesită opinie autorizată"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.0.0"
+      "version": "3.2.0",
+      "client_problem": "Ce presupune serviciul de analiză fiscală preventivă și ce informații trebuie pregătite?",
+      "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
+      "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
+      "benchmark": {
+        "reference": "Forvis Mazars Romania - public service taxonomy",
+        "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
+        "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
+      }
     },
     {
       "id": "A12",
@@ -569,18 +776,26 @@
       "offer_status": "unconfirmed",
       "published_as_offer": false,
       "requires_professional_verification": false,
-      "description": "Fișă informativă pentru raportare pe proiecte și finanțări.",
+      "description": "Evidență analitică a cheltuielilor și surselor de finanțare pe proiecte.",
       "inputs": [
-        "Date și documente relevante",
-        "Contextul fiscal și contractual"
+        "Bugete",
+        "contracte de finanțare",
+        "cheltuieli și centre de cost"
       ],
       "potential_deliverables": [
-        "Evaluare inițială",
-        "Livrabile stabilite prin ofertă și contract"
+        "Rapoarte pe proiect și reconciliere cu evidența contabilă"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.0.0"
+      "version": "3.2.0",
+      "client_problem": "Ce presupune serviciul de raportare pe proiecte și finanțări și ce informații trebuie pregătite?",
+      "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
+      "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
+      "benchmark": {
+        "reference": "Forvis Mazars Romania - public service taxonomy",
+        "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
+        "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
+      }
     },
     {
       "id": "S01",
@@ -590,18 +805,25 @@
       "offer_status": "unconfirmed",
       "published_as_offer": false,
       "requires_professional_verification": true,
-      "description": "Fișă informativă pentru consultanță fiscală rezervată profesiilor reglementate.",
+      "description": "Analiză și opinii de consultanță fiscală în limitele drepturilor profesionale aplicabile.",
       "inputs": [
-        "Date și documente relevante",
-        "Contextul fiscal și contractual"
+        "Documente fiscale",
+        "contracte și fapte relevante"
       ],
       "potential_deliverables": [
-        "Evaluare inițială",
-        "Livrabile stabilite prin ofertă și contract"
+        "Opinie fiscală sau recomandări, conform mandatului autorizat"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.0.0"
+      "version": "3.2.0",
+      "client_problem": "Ce presupune serviciul de consultanță fiscală rezervată profesiilor reglementate și ce informații trebuie pregătite?",
+      "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
+      "professional_note": "Publicabil ca ofertă numai după verificarea dreptului de exercitare, autorizărilor, independenței și limitelor mandatului, după caz.",
+      "benchmark": {
+        "reference": "Forvis Mazars Romania - public service taxonomy",
+        "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
+        "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
+      }
     },
     {
       "id": "S02",
@@ -611,18 +833,25 @@
       "offer_status": "unconfirmed",
       "published_as_offer": false,
       "requires_professional_verification": true,
-      "description": "Fișă informativă pentru audit financiar și servicii de asigurare.",
+      "description": "Misiuni de audit și asigurare realizate exclusiv de profesioniști și entități autorizate.",
       "inputs": [
-        "Date și documente relevante",
-        "Contextul fiscal și contractual"
+        "Situații financiare",
+        "evidențe și documente de control"
       ],
       "potential_deliverables": [
-        "Evaluare inițială",
-        "Livrabile stabilite prin ofertă și contract"
+        "Raport de audit sau de asigurare, conform standardelor aplicabile"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.0.0"
+      "version": "3.2.0",
+      "client_problem": "Ce presupune serviciul de audit financiar și servicii de asigurare și ce informații trebuie pregătite?",
+      "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
+      "professional_note": "Publicabil ca ofertă numai după verificarea dreptului de exercitare, autorizărilor, independenței și limitelor mandatului, după caz.",
+      "benchmark": {
+        "reference": "Forvis Mazars Romania - public service taxonomy",
+        "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
+        "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
+      }
     },
     {
       "id": "S03",
@@ -632,18 +861,26 @@
       "offer_status": "unconfirmed",
       "published_as_offer": false,
       "requires_professional_verification": true,
-      "description": "Fișă informativă pentru revizuire independentă și misiuni de asigurare.",
+      "description": "Revizuiri și alte misiuni independente, cu delimitarea clară a nivelului de asigurare.",
       "inputs": [
-        "Date și documente relevante",
-        "Contextul fiscal și contractual"
+        "Situații",
+        "proceduri",
+        "contractul misiunii și probe"
       ],
       "potential_deliverables": [
-        "Evaluare inițială",
-        "Livrabile stabilite prin ofertă și contract"
+        "Raport profesional conform standardului misiunii"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.0.0"
+      "version": "3.2.0",
+      "client_problem": "Ce presupune serviciul de revizuire independentă și misiuni de asigurare și ce informații trebuie pregătite?",
+      "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
+      "professional_note": "Publicabil ca ofertă numai după verificarea dreptului de exercitare, autorizărilor, independenței și limitelor mandatului, după caz.",
+      "benchmark": {
+        "reference": "Forvis Mazars Romania - public service taxonomy",
+        "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
+        "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
+      }
     },
     {
       "id": "S04",
@@ -653,18 +890,25 @@
       "offer_status": "unconfirmed",
       "published_as_offer": false,
       "requires_professional_verification": true,
-      "description": "Fișă informativă pentru consolidare și raportare ifrs.",
+      "description": "Asistență pentru raportare de grup, conversii de standarde și consolidări.",
       "inputs": [
-        "Date și documente relevante",
-        "Contextul fiscal și contractual"
+        "Pachete de raportare",
+        "politici de grup și ajustări"
       ],
       "potential_deliverables": [
-        "Evaluare inițială",
-        "Livrabile stabilite prin ofertă și contract"
+        "Situații consolidate sau reconcilieri de conversie"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.0.0"
+      "version": "3.2.0",
+      "client_problem": "Ce presupune serviciul de consolidare și raportare ifrs și ce informații trebuie pregătite?",
+      "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
+      "professional_note": "Publicabil ca ofertă numai după verificarea dreptului de exercitare, autorizărilor, independenței și limitelor mandatului, după caz.",
+      "benchmark": {
+        "reference": "Forvis Mazars Romania - public service taxonomy",
+        "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
+        "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
+      }
     },
     {
       "id": "S05",
@@ -674,18 +918,26 @@
       "offer_status": "unconfirmed",
       "published_as_offer": false,
       "requires_professional_verification": true,
-      "description": "Fișă informativă pentru prețuri de transfer și documentație aferentă.",
+      "description": "Analiza tranzacțiilor intra-grup și documentarea politicilor de prețuri de transfer.",
       "inputs": [
-        "Date și documente relevante",
-        "Contextul fiscal și contractual"
+        "Contracte intra-grup",
+        "funcții",
+        "riscuri și date financiare"
       ],
       "potential_deliverables": [
-        "Evaluare inițială",
-        "Livrabile stabilite prin ofertă și contract"
+        "Analiză de comparabilitate și dosar, după mandat"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.0.0"
+      "version": "3.2.0",
+      "client_problem": "Ce presupune serviciul de prețuri de transfer și documentație aferentă și ce informații trebuie pregătite?",
+      "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
+      "professional_note": "Publicabil ca ofertă numai după verificarea dreptului de exercitare, autorizărilor, independenței și limitelor mandatului, după caz.",
+      "benchmark": {
+        "reference": "Forvis Mazars Romania - public service taxonomy",
+        "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
+        "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
+      }
     },
     {
       "id": "S06",
@@ -695,18 +947,26 @@
       "offer_status": "unconfirmed",
       "published_as_offer": false,
       "requires_professional_verification": true,
-      "description": "Fișă informativă pentru fiscalitate internațională complexă.",
+      "description": "Analiză fiscală a tranzacțiilor cu elemente de extraneitate și jurisdicții multiple.",
       "inputs": [
-        "Date și documente relevante",
-        "Contextul fiscal și contractual"
+        "Rezidență",
+        "contracte",
+        "fluxuri și structuri transfrontaliere"
       ],
       "potential_deliverables": [
-        "Evaluare inițială",
-        "Livrabile stabilite prin ofertă și contract"
+        "Memoriu fiscal și scenarii de conformare"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.0.0"
+      "version": "3.2.0",
+      "client_problem": "Ce presupune serviciul de fiscalitate internațională complexă și ce informații trebuie pregătite?",
+      "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
+      "professional_note": "Publicabil ca ofertă numai după verificarea dreptului de exercitare, autorizărilor, independenței și limitelor mandatului, după caz.",
+      "benchmark": {
+        "reference": "Forvis Mazars Romania - public service taxonomy",
+        "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
+        "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
+      }
     },
     {
       "id": "S07",
@@ -716,18 +976,26 @@
       "offer_status": "unconfirmed",
       "published_as_offer": false,
       "requires_professional_verification": true,
-      "description": "Fișă informativă pentru due diligence financiar și fiscal.",
+      "description": "Examinarea financiară și fiscală a unei ținte de investiție sau tranzacție.",
       "inputs": [
-        "Date și documente relevante",
-        "Contextul fiscal și contractual"
+        "Situații financiare",
+        "contracte",
+        "datorii și riscuri"
       ],
       "potential_deliverables": [
-        "Evaluare inițială",
-        "Livrabile stabilite prin ofertă și contract"
+        "Raport de constatări și riscuri, potrivit mandatului"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.0.0"
+      "version": "3.2.0",
+      "client_problem": "Ce presupune serviciul de due diligence financiar și fiscal și ce informații trebuie pregătite?",
+      "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
+      "professional_note": "Publicabil ca ofertă numai după verificarea dreptului de exercitare, autorizărilor, independenței și limitelor mandatului, după caz.",
+      "benchmark": {
+        "reference": "Forvis Mazars Romania - public service taxonomy",
+        "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
+        "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
+      }
     },
     {
       "id": "S08",
@@ -737,18 +1005,26 @@
       "offer_status": "unconfirmed",
       "published_as_offer": false,
       "requires_professional_verification": true,
-      "description": "Fișă informativă pentru asistență și reprezentare în litigii fiscale.",
+      "description": "Asistență în proceduri și dispute fiscale, cu reprezentare numai în limitele legale.",
       "inputs": [
-        "Date și documente relevante",
-        "Contextul fiscal și contractual"
+        "Acte administrative",
+        "notificări",
+        "probe și termene"
       ],
       "potential_deliverables": [
-        "Evaluare inițială",
-        "Livrabile stabilite prin ofertă și contract"
+        "Analiză de poziție și documente procedurale, după competență"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.0.0"
+      "version": "3.2.0",
+      "client_problem": "Ce presupune serviciul de asistență și reprezentare în litigii fiscale și ce informații trebuie pregătite?",
+      "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
+      "professional_note": "Publicabil ca ofertă numai după verificarea dreptului de exercitare, autorizărilor, independenței și limitelor mandatului, după caz.",
+      "benchmark": {
+        "reference": "Forvis Mazars Romania - public service taxonomy",
+        "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
+        "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
+      }
     },
     {
       "id": "S09",
@@ -758,18 +1034,26 @@
       "offer_status": "unconfirmed",
       "published_as_offer": false,
       "requires_professional_verification": true,
-      "description": "Fișă informativă pentru evaluări de întreprinderi și active.",
+      "description": "Estimarea valorii activelor sau afacerilor prin metode și standarde aplicabile.",
       "inputs": [
-        "Date și documente relevante",
-        "Contextul fiscal și contractual"
+        "Situații financiare",
+        "active",
+        "proiecții și scopul evaluării"
       ],
       "potential_deliverables": [
-        "Evaluare inițială",
-        "Livrabile stabilite prin ofertă și contract"
+        "Raport de evaluare, numai prin evaluator competent"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.0.0"
+      "version": "3.2.0",
+      "client_problem": "Ce presupune serviciul de evaluări de întreprinderi și active și ce informații trebuie pregătite?",
+      "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
+      "professional_note": "Publicabil ca ofertă numai după verificarea dreptului de exercitare, autorizărilor, independenței și limitelor mandatului, după caz.",
+      "benchmark": {
+        "reference": "Forvis Mazars Romania - public service taxonomy",
+        "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
+        "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
+      }
     },
     {
       "id": "S10",
@@ -779,18 +1063,30 @@
       "offer_status": "unconfirmed",
       "published_as_offer": false,
       "requires_professional_verification": true,
-      "description": "Fișă informativă pentru consultanță în tranzacții și restructurări.",
+      "description": "Asistență financiară în reorganizări, achiziții și restructurări.",
       "inputs": [
-        "Date și documente relevante",
-        "Contextul fiscal și contractual"
+        "Structura tranzacției",
+        "situații financiare și obiective"
       ],
       "potential_deliverables": [
-        "Evaluare inițială",
-        "Livrabile stabilite prin ofertă și contract"
+        "Analize de scenarii și documentație de tranzacție"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.0.0"
+      "version": "3.2.0",
+      "client_problem": "Ce presupune serviciul de consultanță în tranzacții și restructurări și ce informații trebuie pregătite?",
+      "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
+      "professional_note": "Publicabil ca ofertă numai după verificarea dreptului de exercitare, autorizărilor, independenței și limitelor mandatului, după caz.",
+      "benchmark": {
+        "reference": "Forvis Mazars Romania - public service taxonomy",
+        "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
+        "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
+      }
     }
+  ],
+  "benchmark_sources": [
+    "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale",
+    "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/servicii-administrative",
+    "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/hr-si-salarizare/consultanta-in-salarizare-si-legislatia-muncii/conformitate-administrativa-in-hr"
   ]
 }
