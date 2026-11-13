@@ -1455,6 +1455,385 @@
       }
     },
     {
+      "id": "E16",
+      "level": "essential",
+      "name": "Raportări statistice",
+      "category": "Esențiale IMM",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Pregătirea situațiilor statistice aplicabile activității, pe baza datelor contabile și operaționale.",
+      "inputs": [
+        "Date financiare",
+        "personal",
+        "indicatori operaționali"
+      ],
+      "potential_deliverables": [
+        "Situații statistice și verificări de consistență"
+      ],
+      "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
+      "version": "3.6.0",
+      "client_problem": "Când este necesar serviciul raportări statistice și ce rezultat poate produce?",
+      "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
+      "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
+      "benchmark": {
+        "reference": "Big 5 editorial comparison",
+        "method": "Original editorial synthesis, not an assertion of provider availability",
+        "source_url": null
+      },
+      "operations": [
+        "Identificarea formularelor statistice aplicabile",
+        "Corelarea indicatorilor cu evidențele",
+        "Controlul consistenței înainte de transmitere"
+      ],
+      "practical_example": "O societate primește o solicitare periodică de raportare statistică",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru raportări statistice.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "id": "E16-FAQ01",
+          "question": "Cum aflu dacă firma trebuie să transmită raportări statistice?",
+          "answer": "Obligația poate rezulta din includerea societății într-o cercetare statistică, din domeniul de activitate sau din cerințele unei autorități competente. Se verifică notificarea, identitatea instituției, perioada, formularul și instrucțiunile oficiale; nu toate firmele completează aceleași chestionare."
+        },
+        {
+          "id": "E16-FAQ02",
+          "question": "Ce instituții pot solicita date statistice unei companii?",
+          "answer": "În România, Institutul Național de Statistică (INS) și alți producători de statistici oficiale pot solicita informații în limitele competențelor legale. Banca Națională a României (BNR) colectează și ea raportări statistice de la categoriile de entități prevăzute de Regulamentul BNR nr. 4/2021, cu modificările ulterioare; această obligație nu se aplică automat tuturor IMM-urilor. Pentru fiecare solicitare verificăm temeiul legal, categoria de raportor, canalul oficial și tipul raportării; declarațiile fiscale ANAF nu se confundă cu raportările statistice."
+        },
+        {
+          "id": "E16-FAQ03",
+          "question": "Ce date trebuie pregătite pentru un chestionar statistic?",
+          "answer": "În funcție de cercetare, pot fi cerute cifra de afaceri, activitatea pe produse sau servicii, personalul, orele lucrate, remunerațiile, investițiile ori alte volume fizice. Se identifică definițiile indicatorilor și sursele din contabilitate, salarizare și sistemele operaționale."
+        },
+        {
+          "id": "E16-FAQ04",
+          "question": "Cum verificăm concordanța dintre datele statistice și contabilitate?",
+          "answer": "Corelăm indicatorii cu balanța, situațiile de venituri și cheltuieli, registrele și perioadele de referință. Diferențele determinate de definiții statistice distincte, estimări sau perimetre diferite se explică și se documentează, în loc să fie eliminate arbitrar."
+        },
+        {
+          "id": "E16-FAQ05",
+          "question": "Ce facem dacă un indicator solicitat nu există direct în sistemul contabil?",
+          "answer": "Verificăm definiția oficială și construim un calcul trasabil din surse verificabile, cum ar fi evidențe de producție, vânzări, pontaje sau gestiune. Dacă este permisă estimarea, metoda și limitele se documentează; datele lipsă nu se inventează."
+        },
+        {
+          "id": "E16-FAQ06",
+          "question": "Cum tratăm raportările despre salariați și costurile cu personalul?",
+          "answer": "Se confruntă indicatorii ceruți cu statele salariale, pontajele și evidența contractelor, ținând seama de definițiile statistice ale personalului, timpului lucrat și remunerațiilor. Indicatorii statistici pot avea alt perimetru decât totalurile declarate fiscal."
+        },
+        {
+          "id": "E16-FAQ07",
+          "question": "Cine stabilește termenele și cine transmite raportările statistice?",
+          "answer": "Termenele și modalitatea de transmitere se preiau din instrucțiunile oficiale aferente fiecărui chestionar. Firma desemnează persoana responsabilă de date și aprobare, iar prestatorul poate pregăti sau transmite formularul numai în limitele mandatului și ale accesului permis."
+        },
+        {
+          "id": "E16-FAQ08",
+          "question": "Cum procedăm dacă primim o solicitare statistică pentru prima dată?",
+          "answer": "Verificăm autenticitatea solicitării și obligația de răspuns, apoi identificăm formularul, perioada, unitatea de măsură, sursele de date și termenul. Pregătim un responsabil intern și o listă de întrebări pentru clarificări către instituția emitentă."
+        },
+        {
+          "id": "E16-FAQ09",
+          "question": "Ce facem dacă descoperim o eroare după transmiterea datelor statistice?",
+          "answer": "Se identifică indicatorul, perioada și cauza erorii. Potrivit art. 25 alin. (2) din Legea nr. 226/2009, furnizorul de date are obligația să corecteze, să actualizeze ori să completeze datele incorecte și să notifice de îndată producătorul de statistici oficiale care le-a solicitat; dacă eroarea este semnalată de instituție, se respectă măsurile și termenele comunicate. Se urmează procedura de rectificare a instituției, păstrând varianta inițială, explicația și confirmarea, fără a presupune că toate platformele permit aceeași modalitate de retrimitere."
+        },
+        {
+          "id": "E16-FAQ10",
+          "question": "Ce primește clientul după pregătirea unei raportări statistice?",
+          "answer": "În funcție de contract, livrabilele pot include chestionarul completat, tabelul indicatorilor și surselor, verificările de consistență, lista de excepții și confirmarea transmiterii, dacă este inclusă. Etalonul nu garantează acoperirea tuturor cercetărilor statistice."
+        }
+      ],
+      "faq_review": {
+        "status": "editorial_synced_from_reviewed_html_pending_professional_review",
+        "reviewed_on": "2026-11-13",
+        "criteria": "Exact parity across SSOT, HTML and JSON-LD; 10 distinct questions per service; statutory and professional checks remain separate"
+      }
+    },
+    {
+      "id": "E17",
+      "level": "essential",
+      "name": "Revizuire salarizare",
+      "category": "Esențiale IMM",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Verificarea calculului salarial, a pontajelor, reținerilor și raportărilor pentru identificarea diferențelor.",
+      "inputs": [
+        "State de plată",
+        "contracte",
+        "pontaje și declarații"
+      ],
+      "potential_deliverables": [
+        "Raport de diferențe și recomandări de corecție"
+      ],
+      "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
+      "version": "3.6.0",
+      "client_problem": "Când este necesar serviciul revizuire salarizare și ce rezultat poate produce?",
+      "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
+      "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
+      "benchmark": {
+        "reference": "Big 5 editorial comparison",
+        "method": "Original editorial synthesis, not an assertion of provider availability",
+        "source_url": null
+      },
+      "operations": [
+        "Recalcularea selectivă a drepturilor",
+        "Verificarea tratamentului beneficiilor",
+        "Identificarea diferențelor între state și declarații"
+      ],
+      "practical_example": "Un angajator suspectează diferențe în calculul concediilor",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru revizuire salarizare.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "id": "E17-FAQ01",
+          "question": "Când este utilă o revizuire independentă a salarizării?",
+          "answer": "Revizuirea este utilă la schimbarea prestatorului de payroll, după modificări ale legislației sau când apar diferențe între fluturași, statele de plată și declarații. Aria, perioada și eșantionul se stabilesc contractual; o verificare selectivă nu reprezintă audit financiar sau garanție că nu există alte erori."
+        },
+        {
+          "id": "E17-FAQ02",
+          "question": "Ce documente sunt necesare pentru verificarea calculului salarial?",
+          "answer": "Se analizează contractele și actele adiționale, pontajele, statele de plată, concediile, bonusurile, beneficiile, reținerile și declarațiile D112 relevante. Accesul la date se limitează la persoanele autorizate și la informațiile necesare verificării."
+        },
+        {
+          "id": "E17-FAQ03",
+          "question": "Cum se verifică diferența dintre salariul brut și salariul net?",
+          "answer": "Recalculăm pe baza drepturilor contractuale, a timpului lucrat și a regulilor fiscale aplicabile perioadei: contribuții, impozit, deduceri și eventuale facilități. Comparăm rezultatul cu statul de plată și explicăm fiecare diferență identificată."
+        },
+        {
+          "id": "E17-FAQ04",
+          "question": "Cum se controlează calculul concediului de odihnă și al concediului medical?",
+          "answer": "Verificăm cererile, aprobările, certificatele și perioadele, apoi baza și metoda de calcul aplicabile fiecărui tip de concediu și fiecărei perioade revizuite. Pentru certificatele medicale emise între 1 februarie 2026 și 31 decembrie 2027, OUG nr. 91/2025, modificată prin Legea nr. 64/2026, prevede, cu excepțiile legale, diminuarea indemnizației cu o zi; pentru un episod de boală continuu, diminuarea se aplică o singură dată, indiferent de numărul certificatelor. Verificăm distinct excepțiile, sursa de suportare și eventualele rectificări, fără aplicare retroactivă a regulilor noi perioadelor anterioare."
+        },
+        {
+          "id": "E17-FAQ05",
+          "question": "Cum se verifică orele suplimentare, sporurile și bonusurile?",
+          "answer": "Confruntăm pontajele, evidența zilnică a timpului de lucru și aprobările cu prevederile contractuale și legale. Potrivit art. 122–123 din Codul muncii, munca suplimentară se compensează, de regulă, prin ore libere plătite în următoarele 90 de zile calendaristice; dacă această compensare nu este posibilă, se verifică plata cu un spor negociat de minimum 75% din salariul de bază, în condițiile legii. Verificăm separat încadrarea bonusurilor și sporurilor în perioada corectă și tratamentul fiscal aplicabil."
+        },
+        {
+          "id": "E17-FAQ06",
+          "question": "Cum identificați erorile privind beneficiile extrasalariale?",
+          "answer": "Inventariem tipurile de beneficii și documentele de acordare, apoi verificăm limitele, condițiile și tratamentul fiscal valabile în perioada analizată. Beneficiile cu reguli distincte nu sunt încadrate automat ca venituri neimpozabile."
+        },
+        {
+          "id": "E17-FAQ07",
+          "question": "Cum se verifică dacă D112 corespunde statelor de salarii?",
+          "answer": "Reconciliem persoanele raportate, veniturile, bazele de calcul, contribuțiile, impozitele și perioadele cu statele și centralizatoarele. Diferențele sunt documentate, iar eventualele rectificări se pregătesc și se aprobă separat."
+        },
+        {
+          "id": "E17-FAQ08",
+          "question": "Ce se întâmplă dacă sunt găsite erori din lunile anterioare?",
+          "answer": "Stabilim persoanele și perioadele afectate, cuantificăm diferențele și verificăm procedurile de corecție pentru state, plăți și declarații. Propunerile includ justificare și responsabil pentru aprobare; rectificarea nu se execută automat în cadrul simplei revizuiri."
+        },
+        {
+          "id": "E17-FAQ09",
+          "question": "Revizuirea salarizării include și verificarea REGES-ONLINE?",
+          "answer": "Corelarea informațiilor contractuale relevante poate face parte din verificare, dar auditarea operațiunilor și termenelor REGES-ONLINE este un flux distinct, care trebuie inclus expres în mandat. Concordanța cu registrul nu înlocuiește recalcularea drepturilor salariale."
+        },
+        {
+          "id": "E17-FAQ10",
+          "question": "Ce primește firma la finalul revizuirii salarizării?",
+          "answer": "În funcție de contract, clientul primește un raport cu perioada și eșantionul analizat, recalculările efectuate, diferențele cuantificate, nivelul de risc și recomandările de remediere. Raportul precizează limitele verificării și nu reprezintă certificare de audit independent."
+        }
+      ],
+      "faq_review": {
+        "status": "editorial_synced_from_reviewed_html_pending_professional_review",
+        "reviewed_on": "2026-11-13",
+        "criteria": "Exact parity across SSOT, HTML and JSON-LD; 10 distinct questions per service; statutory and professional checks remain separate"
+      }
+    },
+    {
+      "id": "E18",
+      "level": "essential",
+      "name": "Administrarea beneficiilor salariaților",
+      "category": "Esențiale IMM",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Evidența și tratarea operațională a beneficiilor, în corelare cu salarizarea și documentele justificative.",
+      "inputs": [
+        "Politici de beneficii",
+        "documente și date salariale"
+      ],
+      "potential_deliverables": [
+        "Centralizatoare și tratamente propuse spre validare"
+      ],
+      "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
+      "version": "3.6.0",
+      "client_problem": "Când este necesar serviciul administrarea beneficiilor salariaților și ce rezultat poate produce?",
+      "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
+      "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
+      "benchmark": {
+        "reference": "Big 5 editorial comparison",
+        "method": "Original editorial synthesis, not an assertion of provider availability",
+        "source_url": null
+      },
+      "operations": [
+        "Inventarierea tipurilor de beneficii",
+        "Verificarea documentelor și încadrării",
+        "Reconcilierea beneficiilor cu statele de plată"
+      ],
+      "practical_example": "O firmă oferă tichete și alte avantaje angajaților",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru administrarea beneficiilor salariaților.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "id": "E18-FAQ01",
+          "question": "Ce tipuri de beneficii pot fi acordate salariaților?",
+          "answer": "În funcție de politica angajatorului, pot exista tichete de masă, vouchere de vacanță, abonamente medicale, contribuții la pensii facultative, beneficii pentru transport, formare sau alte avantaje. Fiecare categorie are condiții, documente și tratament fiscal proprii, care trebuie verificate pentru perioada acordării."
+        },
+        {
+          "id": "E18-FAQ02",
+          "question": "Cum se stabilesc beneficiile în contract și în politica internă?",
+          "answer": "Se verifică prevederile contractuale, regulamentul sau politica de beneficii, eligibilitatea angajaților și aprobările interne. Drepturile acordate trebuie să fie coerente cu documentele de personal și cu regulile aplicabile; schimbările se comunică și se documentează."
+        },
+        {
+          "id": "E18-FAQ03",
+          "question": "Cum se verifică și se acordă tichetele de masă?",
+          "answer": "Se corelează zilele eligibile și evidența timpului lucrat cu regulile Legii nr. 165/2018 și cu emiterea sau încărcarea tichetelor. Pentru drepturile aferente anului 2026, valoarea nominală maximă este de 45 lei/tichet, potrivit Legii nr. 201/2025 și, pentru perioada începând cu octombrie 2026, Ordinului comun nr. 1.254/1.188/2026; aceasta reprezintă plafonul, nu o obligație a angajatorului de a acorda suma maximă. Se verifică zilele lucrate, absențele, eventualele regularizări și tratamentul fiscal înainte de reconcilierea cu salarizarea."
+        },
+        {
+          "id": "E18-FAQ04",
+          "question": "Ce verificări sunt necesare pentru voucherele de vacanță și alte tichete?",
+          "answer": "Se verifică dreptul de acordare, plafoanele, documentele justificative, evidența beneficiarilor și tratamentul fiscal aferent fiecărui instrument. Regulile nu sunt identice pentru toate tipurile de tichete și pot depinde de perioada fiscală și de categoria angajatorului."
+        },
+        {
+          "id": "E18-FAQ05",
+          "question": "Cum tratăm abonamentele medicale și contribuțiile la pensii facultative?",
+          "answer": "Se verifică contractele, facturile, beneficiarul și tratamentul fiscal separat pentru fiecare avantaj. În condițiile art. 76 alin. (4^1) din Codul fiscal, primele de asigurare voluntară de sănătate și abonamentele medicale suportate de angajator au un plafon cumulat de 400 euro anual pe persoană, iar contribuțiile angajatorului la pensii facultative au, distinct, un plafon de 400 euro anual pe persoană. Începând cu veniturile aferente lunii martie 2026, OUG nr. 8/2026 reglementează și contribuțiile angajatorului la pensii ocupaționale, în limita de 400 euro anual, în condițiile legii. Pentru aceste beneficii se verifică și plafonul lunar cumulat de 33% din salariul de bază; partea care nu îndeplinește condițiile se tratează fiscal conform regulilor aplicabile."
+        },
+        {
+          "id": "E18-FAQ06",
+          "question": "Ce reprezintă un avantaj salarial în natură și cum se evaluează?",
+          "answer": "Un bun, serviciu ori drept oferit salariatului poate constitui avantaj în natură, în funcție de situație. Se stabilește valoarea potrivit regulilor aplicabile, se verifică eventualele excepții și se documentează includerea sau neincluderea în bazele fiscale și în statele de plată."
+        },
+        {
+          "id": "E18-FAQ07",
+          "question": "Cum evităm depășirea limitelor fiscale pentru beneficii?",
+          "answer": "Se menține un registru pe salariat, categorie de beneficiu, valoare și perioadă. Pentru avantajele prevăzute la art. 76 alin. (4^1) din Codul fiscal se controlează atât limitele individuale (de exemplu, cele anuale în euro), cât și plafonul cumulat lunar de maximum 33% din salariul de bază corespunzător locului de muncă ocupat; acesta nu se aplică indistinct tuturor beneficiilor, inclusiv tichetelor de masă. Se urmăresc ordinea de includere stabilită de angajator, condițiile de eligibilitate și tratamentul fiscal al eventualelor depășiri. Politica internă singură nu conferă neimpozabilitate."
+        },
+        {
+          "id": "E18-FAQ08",
+          "question": "Cum reconciliem beneficiile acordate cu statele de salarii și D112?",
+          "answer": "Comparăm evidența furnizorilor și a beneficiilor acordate cu registrele interne, statele salariale, tratamentele fiscale și informațiile raportate prin D112, când acestea sunt aplicabile. Diferențele sunt explicate și aprobate înainte de transmiterea declarațiilor."
+        },
+        {
+          "id": "E18-FAQ09",
+          "question": "Ce se întâmplă cu beneficiile la angajare, concediu sau încetarea contractului?",
+          "answer": "Se verifică momentul acordării, eligibilitatea, eventualele proratări și procedurile de regularizare prevăzute în lege, contract și politica internă. Beneficiile neutilizate ori acordate în plus se tratează conform regulilor instrumentului și documentelor aplicabile."
+        },
+        {
+          "id": "E18-FAQ10",
+          "question": "Ce livrabile primește firma pentru administrarea beneficiilor salariaților?",
+          "answer": "În limita mandatului, pot fi furnizate un catalog de beneficii și reguli, centralizatoare pe salariat și perioadă, reconcilieri cu furnizorii și salarizarea, excepții și propuneri de tratament fiscal. Acordarea efectivă, aprobările și răspunderea pentru politica de beneficii rămân la angajator."
+        }
+      ],
+      "faq_review": {
+        "status": "editorial_synced_from_reviewed_html_pending_professional_review",
+        "reviewed_on": "2026-11-13",
+        "criteria": "Exact parity across SSOT, HTML and JSON-LD; 10 distinct questions per service; statutory and professional checks remain separate"
+      }
+    },
+    {
+      "id": "E19",
+      "level": "essential",
+      "name": "Suport documentar pentru auditul anual",
+      "category": "Esențiale IMM",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Pregătirea documentelor, reconcilierea soldurilor și gestionarea solicitărilor auditorilor.",
+      "inputs": [
+        "Balanțe",
+        "registre",
+        "contracte și solicitări de audit"
+      ],
+      "potential_deliverables": [
+        "Dosar de audit și registru de clarificări"
+      ],
+      "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
+      "version": "3.6.0",
+      "client_problem": "Când este necesar serviciul suport documentar pentru auditul anual și ce rezultat poate produce?",
+      "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
+      "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
+      "benchmark": {
+        "reference": "Big 5 editorial comparison",
+        "method": "Original editorial synthesis, not an assertion of provider availability",
+        "source_url": null
+      },
+      "operations": [
+        "Pregătirea balanțelor și reconcilierilor",
+        "Colectarea documentelor solicitate",
+        "Urmărirea întrebărilor auditorilor"
+      ],
+      "practical_example": "Auditorul solicită justificarea soldurilor de la final de an",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru suport documentar pentru auditul anual.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "id": "E19-FAQ01",
+          "question": "Ce înseamnă suport documentar pentru auditul anual?",
+          "answer": "Înseamnă organizarea evidențelor, reconcilierea soldurilor și coordonarea răspunsurilor la solicitările auditorului. Este un serviciu de pregătire și asistență pentru entitatea auditată, distinct de auditul independent și de emiterea unei opinii de audit."
+        },
+        {
+          "id": "E19-FAQ02",
+          "question": "Ce documente solicită de regulă auditorul la începutul misiunii?",
+          "answer": "În funcție de obiective, pot fi solicitate balanța finală, situațiile financiare, registrele, politicile contabile, contractele semnificative, documentele de inventariere, extrasele și reconcilierile, evidențele fiscale și salariale. Lista efectivă aparține auditorului și se adaptează riscurilor identificate."
+        },
+        {
+          "id": "E19-FAQ03",
+          "question": "Cum pregătim justificarea soldurilor de clienți și furnizori?",
+          "answer": "Corelăm balanța cu fișele analitice, facturile, încasările sau plățile ulterioare, vechimea și eventualele confirmări externe. Diferențele și soldurile neobișnuite sunt documentate; confirmările externe, când sunt folosite ca probe de audit, trebuie controlate de auditor potrivit procedurilor profesionale."
+        },
+        {
+          "id": "E19-FAQ04",
+          "question": "Cum documentăm inventarierea stocurilor și a mijloacelor fixe pentru audit?",
+          "answer": "Organizăm deciziile, listele de inventariere, procesele-verbale, explicațiile diferențelor și registrele de active. Prezentăm reconcilierea cu contabilitatea și ajustările aprobate. Conducerea entității răspunde de organizarea și efectuarea inventarierii potrivit reglementărilor aplicabile; auditorul stabilește independent procedurile de audit necesare, inclusiv participarea la inventarierea fizică atunci când standardele o cer, și evaluează suficiența și adecvarea probelor. Prestatorul de suport nu efectuează aceste proceduri în locul auditorului."
+        },
+        {
+          "id": "E19-FAQ05",
+          "question": "Cum se verifică reconcilierea conturilor bancare și a numerarului?",
+          "answer": "Pregătim extrasele, situațiile de reconciliere, documentele pentru tranzacții în curs și justificările soldurilor de casă. Diferențele sunt investigate și explicate înainte de transmitere; auditorul decide ce teste și confirmări independente sunt necesare."
+        },
+        {
+          "id": "E19-FAQ06",
+          "question": "Ce facem când auditorul identifică documente lipsă sau diferențe contabile?",
+          "answer": "Înregistrăm solicitarea într-un registru de clarificări, desemnăm responsabilul, termenul și documentele suplimentare, apoi analizăm cauza și impactul. Orice corecție contabilă este fundamentată și aprobată; nu se creează justificative retroactive pentru a acoperi lipsuri."
+        },
+        {
+          "id": "E19-FAQ07",
+          "question": "Cine răspunde întrebărilor auditorului și cum se păstrează trasabilitatea?",
+          "answer": "Conducerea entității desemnează persoanele care pot furniza informații și aprobă răspunsurile relevante. Fiecare solicitare se urmărește cu identificator, document-sursă, versiune, responsabil și stare, folosind un canal securizat și respectând confidențialitatea datelor."
+        },
+        {
+          "id": "E19-FAQ08",
+          "question": "Cum pregătim contractele, provizioanele și evenimentele ulterioare închiderii?",
+          "answer": "Centralizăm contractele și angajamentele semnificative, calculele pentru provizioane și ajustări, litigiile comunicate de conducere și informațiile despre evenimentele ulterioare. Tratamentul contabil se analizează potrivit reglementărilor; auditorul evaluează probele și consecințele pentru raportul său."
+        },
+        {
+          "id": "E19-FAQ09",
+          "question": "Care este diferența dintre suportul documentar și auditul financiar independent?",
+          "answer": "Suportul documentar organizează informațiile entității și nu exprimă o opinie sau altă concluzie de asigurare. Auditul statutar se efectuează de auditori financiari ori firme de audit autorizați/autorizate și înregistrați/înregistrate potrivit Legii nr. 162/2017, sub supravegherea ASPAAS. Auditorul trebuie să respecte independența și să evalueze amenințările, inclusiv riscul de autoevaluare atunci când auditorul, firma sa ori rețeaua acesteia a prestat servicii contabile sau a participat la pregătirea situațiilor financiare ale clientului. Compatibilitatea serviciilor se apreciază pentru fiecare misiune conform legii și regulilor etice aplicabile; prestatorul de suport nu promite certificarea situațiilor financiare."
+        },
+        {
+          "id": "E19-FAQ10",
+          "question": "Ce livrabile primește compania și când se consideră dosarul pregătit?",
+          "answer": "Conform mandatului, livrabilele pot include indexul dosarului electronic, reconcilieri, lista documentelor transmise, registrul solicitărilor și al excepțiilor și sinteza punctelor deschise. Dosarul este pregătit pentru predare când materialele convenite sunt disponibile și verificate intern; acceptarea probelor și concluzia auditului aparțin auditorului."
+        }
+      ],
+      "faq_review": {
+        "status": "editorial_synced_from_reviewed_html_pending_professional_review",
+        "reviewed_on": "2026-11-13",
+        "criteria": "Exact parity across SSOT, HTML and JSON-LD; 10 distinct questions per service; statutory and professional checks remain separate"
+      }
+    },
+    {
       "id": "A01",
       "level": "advanced",
       "name": "SAF-T / D406",
@@ -2607,6 +2986,575 @@
       }
     },
     {
+      "id": "A13",
+      "level": "advanced",
+      "name": "Migrare plan de conturi și date contabile",
+      "category": "Avansate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Maparea conturilor și transferul controlat al soldurilor și istoricului între sisteme.",
+      "inputs": [
+        "Planuri de conturi",
+        "balanțe",
+        "exporturi și reguli de mapare"
+      ],
+      "potential_deliverables": [
+        "Matrice de conversie și reconciliere post-migrare"
+      ],
+      "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
+      "version": "3.6.0",
+      "client_problem": "Când este necesar serviciul migrare plan de conturi și date contabile și ce rezultat poate produce?",
+      "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
+      "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
+      "benchmark": {
+        "reference": "Big 5 editorial comparison",
+        "method": "Original editorial synthesis, not an assertion of provider availability",
+        "source_url": null
+      },
+      "operations": [
+        "Inventarierea conturilor din sistemele sursă",
+        "Construirea matricei de corespondență",
+        "Testarea soldurilor migrate"
+      ],
+      "practical_example": "O societate schimbă programul contabil la început de an",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru migrare plan de conturi și date contabile.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "id": "A13-FAQ01",
+          "question": "Ce trebuie clarificat înainte de prețuri de transfer și documentație aferentă?",
+          "answer": "Se delimitează situația concretă: o societate facturează servicii către o companie afiliată. Sunt necesare obiectivul, perioada analizată și confirmarea datelor disponibile; fără acestea, aria intervenției rămâne neclară."
+        },
+        {
+          "id": "A13-FAQ02",
+          "question": "Cum se desfășoară etapa „Analiza funcțiilor, activelor și riscurilor”?",
+          "answer": "Această etapă urmărește analiza funcțiilor, activelor și riscurilor. Se stabilesc sursele de date și responsabilul verificării, apoi se consemnează documentele lipsă sau diferențele care pot influența prețuri de transfer și documentație aferentă."
+        },
+        {
+          "id": "A13-FAQ03",
+          "question": "Ce documente susțin operațiunea „Selectarea metodologiei de comparabilitate”?",
+          "answer": "Pentru selectarea metodologiei de comparabilitate se pornește de la Contracte intra-grup, funcții, riscuri și date financiare. Relevanța fiecărui document se confirmă în raport cu tranzacțiile efective; nu se presupune că lista este exhaustivă."
+        },
+        {
+          "id": "A13-FAQ04",
+          "question": "Cum se verifică rezultatul activității „Documentarea tranzacțiilor intra-grup”?",
+          "answer": "Se documentează documentarea tranzacțiilor intra-grup, apoi se confruntă rezultatul cu evidențele și documentele-sursă. Neconcordanțele se investighează înainte ca livrabilul să fie considerat final."
+        },
+        {
+          "id": "A13-FAQ05",
+          "question": "Ce primește concret clientul după prețuri de transfer și documentație aferentă?",
+          "answer": "Livrabilul orientativ este Analiză de comparabilitate și dosar, după mandat. El trebuie însoțit, după caz, de ipoteze, limitări, explicația diferențelor și evidența clarificărilor rămase deschise."
+        },
+        {
+          "id": "A13-FAQ06",
+          "question": "Ce se întâmplă dacă lipsesc datele pentru „Analiza funcțiilor, activelor și riscurilor”?",
+          "answer": "Se întocmește o listă de completări, iar concluziile care depind de informațiile lipsă se marchează provizorii. În cazul prețuri de transfer și documentație aferentă, etapa afectată direct este analiza funcțiilor, activelor și riscurilor."
+        },
+        {
+          "id": "A13-FAQ07",
+          "question": "Ce risc specific trebuie controlat în „Selectarea metodologiei de comparabilitate”?",
+          "answer": "Riscul este ca selectarea metodologiei de comparabilitate să fie realizată pe date incomplete, necorelate sau interpretate greșit. Controlul presupune documentarea sursei, a ipotezelor și a verificării de consistență."
+        },
+        {
+          "id": "A13-FAQ08",
+          "question": "Cum se tratează o excepție apărută la „Documentarea tranzacțiilor intra-grup”?",
+          "answer": "Excepția se izolează, se descrie și se verifică față de Contracte intra-grup. Nu se corectează automat fără justificare; se consemnează impactul asupra Analiză de comparabilitate și dosar, după mandat și decizia responsabilului."
+        },
+        {
+          "id": "A13-FAQ09",
+          "question": "Ce decizie poate lua clientul folosind rezultatul „Prețuri de transfer și documentație aferentă”?",
+          "answer": "În situația „O societate facturează servicii către o companie afiliată”, clientul poate decide dacă solicită clarificări, corectarea evidențelor sau o etapă suplimentară de analiză. Rezultatul Analiză de comparabilitate și dosar, după mandat nu substituie deciziile de management."
+        },
+        {
+          "id": "A13-FAQ10",
+          "question": "Ce limite profesionale și contractuale se aplică pentru „Prețuri de transfer și documentație aferentă”?",
+          "answer": "Mandatul trebuie să delimiteze expres analiza funcțiilor, activelor și riscurilor, selectarea metodologiei de comparabilitate și documentarea tranzacțiilor intra-grup. Publicabil ca ofertă numai după verificarea dreptului de exercitare, autorizărilor, independenței și limitelor mandatului, după caz. Termenele și onorariile nu pot fi deduse din acest etalon."
+        }
+      ],
+      "faq_review": {
+        "status": "editorial_synced_from_reviewed_html_pending_professional_review",
+        "reviewed_on": "2026-11-13",
+        "criteria": "Exact parity across SSOT, HTML and JSON-LD; 10 distinct questions per service; statutory and professional checks remain separate"
+      }
+    },
+    {
+      "id": "A14",
+      "level": "advanced",
+      "name": "Controlling financiar",
+      "category": "Avansate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Analiza abaterilor dintre buget și realizat, a marjelor și a performanței pe centre de cost.",
+      "inputs": [
+        "Bugete",
+        "costuri",
+        "venituri și date analitice"
+      ],
+      "potential_deliverables": [
+        "Raport de abateri și indicatori de performanță"
+      ],
+      "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
+      "version": "3.6.0",
+      "client_problem": "Când este necesar serviciul controlling financiar și ce rezultat poate produce?",
+      "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
+      "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
+      "benchmark": {
+        "reference": "Big 5 editorial comparison",
+        "method": "Original editorial synthesis, not an assertion of provider availability",
+        "source_url": null
+      },
+      "operations": [
+        "Definirea centrelor de responsabilitate",
+        "Calculul abaterilor buget-realizat",
+        "Analiza cauzelor și acțiunilor corective"
+      ],
+      "practical_example": "Un producător observă creșterea costului pe unitate",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru controlling financiar.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "id": "A14-FAQ01",
+          "question": "Ce trebuie clarificat înainte de fiscalitate internațională complexă?",
+          "answer": "Se delimitează situația concretă: o firmă deschide un sediu în alt stat. Sunt necesare obiectivul, perioada analizată și confirmarea datelor disponibile; fără acestea, aria intervenției rămâne neclară."
+        },
+        {
+          "id": "A14-FAQ02",
+          "question": "Cum se desfășoară etapa „Identificarea jurisdicțiilor relevante”?",
+          "answer": "Această etapă urmărește identificarea jurisdicțiilor relevante. Se stabilesc sursele de date și responsabilul verificării, apoi se consemnează documentele lipsă sau diferențele care pot influența fiscalitate internațională complexă."
+        },
+        {
+          "id": "A14-FAQ03",
+          "question": "Ce documente susțin operațiunea „Analiza tratatelor și obligațiilor locale”?",
+          "answer": "Pentru analiza tratatelor și obligațiilor locale se pornește de la Rezidență, contracte, fluxuri și structuri transfrontaliere. Relevanța fiecărui document se confirmă în raport cu tranzacțiile efective; nu se presupune că lista este exhaustivă."
+        },
+        {
+          "id": "A14-FAQ04",
+          "question": "Cum se verifică rezultatul activității „Documentarea scenariilor și riscurilor”?",
+          "answer": "Se documentează documentarea scenariilor și riscurilor, apoi se confruntă rezultatul cu evidențele și documentele-sursă. Neconcordanțele se investighează înainte ca livrabilul să fie considerat final."
+        },
+        {
+          "id": "A14-FAQ05",
+          "question": "Ce primește concret clientul după fiscalitate internațională complexă?",
+          "answer": "Livrabilul orientativ este Memoriu fiscal și scenarii de conformare. El trebuie însoțit, după caz, de ipoteze, limitări, explicația diferențelor și evidența clarificărilor rămase deschise."
+        },
+        {
+          "id": "A14-FAQ06",
+          "question": "Ce se întâmplă dacă lipsesc datele pentru „Identificarea jurisdicțiilor relevante”?",
+          "answer": "Se întocmește o listă de completări, iar concluziile care depind de informațiile lipsă se marchează provizorii. În cazul fiscalitate internațională complexă, etapa afectată direct este identificarea jurisdicțiilor relevante."
+        },
+        {
+          "id": "A14-FAQ07",
+          "question": "Ce risc specific trebuie controlat în „Analiza tratatelor și obligațiilor locale”?",
+          "answer": "Riscul este ca analiza tratatelor și obligațiilor locale să fie realizată pe date incomplete, necorelate sau interpretate greșit. Controlul presupune documentarea sursei, a ipotezelor și a verificării de consistență."
+        },
+        {
+          "id": "A14-FAQ08",
+          "question": "Cum se tratează o excepție apărută la „Documentarea scenariilor și riscurilor”?",
+          "answer": "Excepția se izolează, se descrie și se verifică față de Rezidență. Nu se corectează automat fără justificare; se consemnează impactul asupra Memoriu fiscal și scenarii de conformare și decizia responsabilului."
+        },
+        {
+          "id": "A14-FAQ09",
+          "question": "Ce decizie poate lua clientul folosind rezultatul „Fiscalitate internațională complexă”?",
+          "answer": "În situația „O firmă deschide un sediu în alt stat”, clientul poate decide dacă solicită clarificări, corectarea evidențelor sau o etapă suplimentară de analiză. Rezultatul Memoriu fiscal și scenarii de conformare nu substituie deciziile de management."
+        },
+        {
+          "id": "A14-FAQ10",
+          "question": "Ce limite profesionale și contractuale se aplică pentru „Fiscalitate internațională complexă”?",
+          "answer": "Mandatul trebuie să delimiteze expres identificarea jurisdicțiilor relevante, analiza tratatelor și obligațiilor locale și documentarea scenariilor și riscurilor. Publicabil ca ofertă numai după verificarea dreptului de exercitare, autorizărilor, independenței și limitelor mandatului, după caz. Termenele și onorariile nu pot fi deduse din acest etalon."
+        }
+      ],
+      "faq_review": {
+        "status": "editorial_synced_from_reviewed_html_pending_professional_review",
+        "reviewed_on": "2026-11-13",
+        "criteria": "Exact parity across SSOT, HTML and JSON-LD; 10 distinct questions per service; statutory and professional checks remain separate"
+      }
+    },
+    {
+      "id": "A15",
+      "level": "advanced",
+      "name": "Externalizarea funcției de contabil-șef",
+      "category": "Avansate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Coordonarea și supravegherea proceselor contabile, cu delimitarea atribuțiilor și răspunderii legale.",
+      "inputs": [
+        "Organigramă",
+        "procese",
+        "evidențe și calendar de raportare"
+      ],
+      "potential_deliverables": [
+        "Plan de control și rapoarte de supervizare"
+      ],
+      "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
+      "version": "3.6.0",
+      "client_problem": "Când este necesar serviciul externalizarea funcției de contabil-șef și ce rezultat poate produce?",
+      "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
+      "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
+      "benchmark": {
+        "reference": "Big 5 editorial comparison",
+        "method": "Original editorial synthesis, not an assertion of provider availability",
+        "source_url": null
+      },
+      "operations": [
+        "Stabilirea matricei de responsabilități",
+        "Revizuirea calendarului de închidere",
+        "Supravegherea controalelor contabile"
+      ],
+      "practical_example": "Un IMM are contabil intern dar nu are coordonare financiară",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru externalizarea funcției de contabil-șef.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "id": "A15-FAQ01",
+          "question": "Ce trebuie clarificat înainte de due diligence financiar și fiscal?",
+          "answer": "Se delimitează situația concretă: un investitor examinează achiziția unei societăți. Sunt necesare obiectivul, perioada analizată și confirmarea datelor disponibile; fără acestea, aria intervenției rămâne neclară."
+        },
+        {
+          "id": "A15-FAQ02",
+          "question": "Cum se desfășoară etapa „Analiza calității rezultatului și capitalului circulant”?",
+          "answer": "Această etapă urmărește analiza calității rezultatului și capitalului circulant. Se stabilesc sursele de date și responsabilul verificării, apoi se consemnează documentele lipsă sau diferențele care pot influența due diligence financiar și fiscal."
+        },
+        {
+          "id": "A15-FAQ03",
+          "question": "Ce documente susțin operațiunea „Identificarea datoriilor și riscurilor”?",
+          "answer": "Pentru identificarea datoriilor și riscurilor se pornește de la Situații financiare, contracte, datorii și riscuri. Relevanța fiecărui document se confirmă în raport cu tranzacțiile efective; nu se presupune că lista este exhaustivă."
+        },
+        {
+          "id": "A15-FAQ04",
+          "question": "Cum se verifică rezultatul activității „Documentarea ajustărilor și constatărilor”?",
+          "answer": "Se documentează documentarea ajustărilor și constatărilor, apoi se confruntă rezultatul cu evidențele și documentele-sursă. Neconcordanțele se investighează înainte ca livrabilul să fie considerat final."
+        },
+        {
+          "id": "A15-FAQ05",
+          "question": "Ce primește concret clientul după due diligence financiar și fiscal?",
+          "answer": "Livrabilul orientativ este Raport de constatări și riscuri, potrivit mandatului. El trebuie însoțit, după caz, de ipoteze, limitări, explicația diferențelor și evidența clarificărilor rămase deschise."
+        },
+        {
+          "id": "A15-FAQ06",
+          "question": "Ce se întâmplă dacă lipsesc datele pentru „Analiza calității rezultatului și capitalului circulant”?",
+          "answer": "Se întocmește o listă de completări, iar concluziile care depind de informațiile lipsă se marchează provizorii. În cazul due diligence financiar și fiscal, etapa afectată direct este analiza calității rezultatului și capitalului circulant."
+        },
+        {
+          "id": "A15-FAQ07",
+          "question": "Ce risc specific trebuie controlat în „Identificarea datoriilor și riscurilor”?",
+          "answer": "Riscul este ca identificarea datoriilor și riscurilor să fie realizată pe date incomplete, necorelate sau interpretate greșit. Controlul presupune documentarea sursei, a ipotezelor și a verificării de consistență."
+        },
+        {
+          "id": "A15-FAQ08",
+          "question": "Cum se tratează o excepție apărută la „Documentarea ajustărilor și constatărilor”?",
+          "answer": "Excepția se izolează, se descrie și se verifică față de Situații financiare. Nu se corectează automat fără justificare; se consemnează impactul asupra Raport de constatări și riscuri, potrivit mandatului și decizia responsabilului."
+        },
+        {
+          "id": "A15-FAQ09",
+          "question": "Ce decizie poate lua clientul folosind rezultatul „Due diligence financiar și fiscal”?",
+          "answer": "În situația „Un investitor examinează achiziția unei societăți”, clientul poate decide dacă solicită clarificări, corectarea evidențelor sau o etapă suplimentară de analiză. Rezultatul Raport de constatări și riscuri, potrivit mandatului nu substituie deciziile de management."
+        },
+        {
+          "id": "A15-FAQ10",
+          "question": "Ce limite profesionale și contractuale se aplică pentru „Due diligence financiar și fiscal”?",
+          "answer": "Mandatul trebuie să delimiteze expres analiza calității rezultatului și capitalului circulant, identificarea datoriilor și riscurilor și documentarea ajustărilor și constatărilor. Publicabil ca ofertă numai după verificarea dreptului de exercitare, autorizărilor, independenței și limitelor mandatului, după caz. Termenele și onorariile nu pot fi deduse din acest etalon."
+        }
+      ],
+      "faq_review": {
+        "status": "editorial_synced_from_reviewed_html_pending_professional_review",
+        "reviewed_on": "2026-11-13",
+        "criteria": "Exact parity across SSOT, HTML and JSON-LD; 10 distinct questions per service; statutory and professional checks remain separate"
+      }
+    },
+    {
+      "id": "A16",
+      "level": "advanced",
+      "name": "Coordonarea raportării fiscale de grup",
+      "category": "Avansate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Organizarea raportărilor fiscale ale entităților dintr-un grup și urmărirea termenelor și diferențelor.",
+      "inputs": [
+        "Structura grupului",
+        "calendare fiscale și raportări locale"
+      ],
+      "potential_deliverables": [
+        "Calendar consolidat și matrice de conformare"
+      ],
+      "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
+      "version": "3.6.0",
+      "client_problem": "Când este necesar serviciul coordonarea raportării fiscale de grup și ce rezultat poate produce?",
+      "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
+      "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
+      "benchmark": {
+        "reference": "Big 5 editorial comparison",
+        "method": "Original editorial synthesis, not an assertion of provider availability",
+        "source_url": null
+      },
+      "operations": [
+        "Inventarierea obligațiilor pe entități",
+        "Centralizarea calendarelor și statusurilor",
+        "Controlul diferențelor între jurisdicții"
+      ],
+      "practical_example": "Un grup are filiale cu termene fiscale diferite",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru coordonarea raportării fiscale de grup.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "id": "A16-FAQ01",
+          "question": "Ce trebuie clarificat înainte de asistență și reprezentare în litigii fiscale?",
+          "answer": "Se delimitează situația concretă: o firmă contestă un act administrativ fiscal. Sunt necesare obiectivul, perioada analizată și confirmarea datelor disponibile; fără acestea, aria intervenției rămâne neclară."
+        },
+        {
+          "id": "A16-FAQ02",
+          "question": "Cum se desfășoară etapa „Analiza actelor și termenelor procedurale”?",
+          "answer": "Această etapă urmărește analiza actelor și termenelor procedurale. Se stabilesc sursele de date și responsabilul verificării, apoi se consemnează documentele lipsă sau diferențele care pot influența asistență și reprezentare în litigii fiscale."
+        },
+        {
+          "id": "A16-FAQ03",
+          "question": "Ce documente susțin operațiunea „Organizarea probelor și argumentelor”?",
+          "answer": "Pentru organizarea probelor și argumentelor se pornește de la Acte administrative, notificări, probe și termene. Relevanța fiecărui document se confirmă în raport cu tranzacțiile efective; nu se presupune că lista este exhaustivă."
+        },
+        {
+          "id": "A16-FAQ04",
+          "question": "Cum se verifică rezultatul activității „Pregătirea documentelor prin profesioniști competenți”?",
+          "answer": "Se documentează pregătirea documentelor prin profesioniști competenți, apoi se confruntă rezultatul cu evidențele și documentele-sursă. Neconcordanțele se investighează înainte ca livrabilul să fie considerat final."
+        },
+        {
+          "id": "A16-FAQ05",
+          "question": "Ce primește concret clientul după asistență și reprezentare în litigii fiscale?",
+          "answer": "Livrabilul orientativ este Analiză de poziție și documente procedurale, după competență. El trebuie însoțit, după caz, de ipoteze, limitări, explicația diferențelor și evidența clarificărilor rămase deschise."
+        },
+        {
+          "id": "A16-FAQ06",
+          "question": "Ce se întâmplă dacă lipsesc datele pentru „Analiza actelor și termenelor procedurale”?",
+          "answer": "Se întocmește o listă de completări, iar concluziile care depind de informațiile lipsă se marchează provizorii. În cazul asistență și reprezentare în litigii fiscale, etapa afectată direct este analiza actelor și termenelor procedurale."
+        },
+        {
+          "id": "A16-FAQ07",
+          "question": "Ce risc specific trebuie controlat în „Organizarea probelor și argumentelor”?",
+          "answer": "Riscul este ca organizarea probelor și argumentelor să fie realizată pe date incomplete, necorelate sau interpretate greșit. Controlul presupune documentarea sursei, a ipotezelor și a verificării de consistență."
+        },
+        {
+          "id": "A16-FAQ08",
+          "question": "Cum se tratează o excepție apărută la „Pregătirea documentelor prin profesioniști competenți”?",
+          "answer": "Excepția se izolează, se descrie și se verifică față de Acte administrative. Nu se corectează automat fără justificare; se consemnează impactul asupra Analiză de poziție și documente procedurale, după competență și decizia responsabilului."
+        },
+        {
+          "id": "A16-FAQ09",
+          "question": "Ce decizie poate lua clientul folosind rezultatul „Asistență și reprezentare în litigii fiscale”?",
+          "answer": "În situația „O firmă contestă un act administrativ fiscal”, clientul poate decide dacă solicită clarificări, corectarea evidențelor sau o etapă suplimentară de analiză. Rezultatul Analiză de poziție și documente procedurale, după competență nu substituie deciziile de management."
+        },
+        {
+          "id": "A16-FAQ10",
+          "question": "Ce limite profesionale și contractuale se aplică pentru „Asistență și reprezentare în litigii fiscale”?",
+          "answer": "Mandatul trebuie să delimiteze expres analiza actelor și termenelor procedurale, organizarea probelor și argumentelor și pregătirea documentelor prin profesioniști competenți. Publicabil ca ofertă numai după verificarea dreptului de exercitare, autorizărilor, independenței și limitelor mandatului, după caz. Termenele și onorariile nu pot fi deduse din acest etalon."
+        }
+      ],
+      "faq_review": {
+        "status": "editorial_synced_from_reviewed_html_pending_professional_review",
+        "reviewed_on": "2026-11-13",
+        "criteria": "Exact parity across SSOT, HTML and JSON-LD; 10 distinct questions per service; statutory and professional checks remain separate"
+      }
+    },
+    {
+      "id": "A17",
+      "level": "advanced",
+      "name": "Controale interne financiar-contabile",
+      "category": "Avansate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Evaluarea punctelor de control din procesele de aprobare, înregistrare și reconciliere.",
+      "inputs": [
+        "Proceduri",
+        "roluri",
+        "fluxuri și eșantioane de tranzacții"
+      ],
+      "potential_deliverables": [
+        "Matrice de riscuri și controale, plan de remediere"
+      ],
+      "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
+      "version": "3.6.0",
+      "client_problem": "Când este necesar serviciul controale interne financiar-contabile și ce rezultat poate produce?",
+      "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
+      "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
+      "benchmark": {
+        "reference": "Big 5 editorial comparison",
+        "method": "Original editorial synthesis, not an assertion of provider availability",
+        "source_url": null
+      },
+      "operations": [
+        "Identificarea riscurilor de proces",
+        "Testarea controalelor selectate",
+        "Documentarea deficiențelor și remediilor"
+      ],
+      "practical_example": "O firmă dorește separarea aprobării plăților de înregistrare",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru controale interne financiar-contabile.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "id": "A17-FAQ01",
+          "question": "Ce trebuie clarificat înainte de evaluări de întreprinderi și active?",
+          "answer": "Se delimitează situația concretă: un asociat solicită evaluarea participației sale. Sunt necesare obiectivul, perioada analizată și confirmarea datelor disponibile; fără acestea, aria intervenției rămâne neclară."
+        },
+        {
+          "id": "A17-FAQ02",
+          "question": "Cum se desfășoară etapa „Definirea scopului și bazei evaluării”?",
+          "answer": "Această etapă urmărește definirea scopului și bazei evaluării. Se stabilesc sursele de date și responsabilul verificării, apoi se consemnează documentele lipsă sau diferențele care pot influența evaluări de întreprinderi și active."
+        },
+        {
+          "id": "A17-FAQ03",
+          "question": "Ce documente susțin operațiunea „Selectarea abordărilor și ipotezelor”?",
+          "answer": "Pentru selectarea abordărilor și ipotezelor se pornește de la Situații financiare, active, proiecții și scopul evaluării. Relevanța fiecărui document se confirmă în raport cu tranzacțiile efective; nu se presupune că lista este exhaustivă."
+        },
+        {
+          "id": "A17-FAQ04",
+          "question": "Cum se verifică rezultatul activității „Analiza sensibilității valorii estimate”?",
+          "answer": "Se documentează analiza sensibilității valorii estimate, apoi se confruntă rezultatul cu evidențele și documentele-sursă. Neconcordanțele se investighează înainte ca livrabilul să fie considerat final."
+        },
+        {
+          "id": "A17-FAQ05",
+          "question": "Ce primește concret clientul după evaluări de întreprinderi și active?",
+          "answer": "Livrabilul orientativ este Raport de evaluare, numai prin evaluator competent. El trebuie însoțit, după caz, de ipoteze, limitări, explicația diferențelor și evidența clarificărilor rămase deschise."
+        },
+        {
+          "id": "A17-FAQ06",
+          "question": "Ce se întâmplă dacă lipsesc datele pentru „Definirea scopului și bazei evaluării”?",
+          "answer": "Se întocmește o listă de completări, iar concluziile care depind de informațiile lipsă se marchează provizorii. În cazul evaluări de întreprinderi și active, etapa afectată direct este definirea scopului și bazei evaluării."
+        },
+        {
+          "id": "A17-FAQ07",
+          "question": "Ce risc specific trebuie controlat în „Selectarea abordărilor și ipotezelor”?",
+          "answer": "Riscul este ca selectarea abordărilor și ipotezelor să fie realizată pe date incomplete, necorelate sau interpretate greșit. Controlul presupune documentarea sursei, a ipotezelor și a verificării de consistență."
+        },
+        {
+          "id": "A17-FAQ08",
+          "question": "Cum se tratează o excepție apărută la „Analiza sensibilității valorii estimate”?",
+          "answer": "Excepția se izolează, se descrie și se verifică față de Situații financiare. Nu se corectează automat fără justificare; se consemnează impactul asupra Raport de evaluare, numai prin evaluator competent și decizia responsabilului."
+        },
+        {
+          "id": "A17-FAQ09",
+          "question": "Ce decizie poate lua clientul folosind rezultatul „Evaluări de întreprinderi și active”?",
+          "answer": "În situația „Un asociat solicită evaluarea participației sale”, clientul poate decide dacă solicită clarificări, corectarea evidențelor sau o etapă suplimentară de analiză. Rezultatul Raport de evaluare, numai prin evaluator competent nu substituie deciziile de management."
+        },
+        {
+          "id": "A17-FAQ10",
+          "question": "Ce limite profesionale și contractuale se aplică pentru „Evaluări de întreprinderi și active”?",
+          "answer": "Mandatul trebuie să delimiteze expres definirea scopului și bazei evaluării, selectarea abordărilor și ipotezelor și analiza sensibilității valorii estimate. Publicabil ca ofertă numai după verificarea dreptului de exercitare, autorizărilor, independenței și limitelor mandatului, după caz. Termenele și onorariile nu pot fi deduse din acest etalon."
+        }
+      ],
+      "faq_review": {
+        "status": "editorial_synced_from_reviewed_html_pending_professional_review",
+        "reviewed_on": "2026-11-13",
+        "criteria": "Exact parity across SSOT, HTML and JSON-LD; 10 distinct questions per service; statutory and professional checks remain separate"
+      }
+    },
+    {
+      "id": "A18",
+      "level": "advanced",
+      "name": "Transformarea funcției financiare",
+      "category": "Avansate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Reproiectarea proceselor de contabilitate și raportare pentru eficiență, trasabilitate și automatizare.",
+      "inputs": [
+        "Procese curente",
+        "sisteme",
+        "indicatori și obiective"
+      ],
+      "potential_deliverables": [
+        "Hartă de procese și plan etapizat de transformare"
+      ],
+      "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
+      "version": "3.6.0",
+      "client_problem": "Când este necesar serviciul transformarea funcției financiare și ce rezultat poate produce?",
+      "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
+      "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
+      "benchmark": {
+        "reference": "Big 5 editorial comparison",
+        "method": "Original editorial synthesis, not an assertion of provider availability",
+        "source_url": null
+      },
+      "operations": [
+        "Evaluarea proceselor și timpilor de execuție",
+        "Prioritizarea automatizărilor",
+        "Definirea etapelor și indicatorilor de succes"
+      ],
+      "practical_example": "Un departament financiar procesează manual sute de documente",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru transformarea funcției financiare.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "id": "A18-FAQ01",
+          "question": "Ce trebuie clarificat înainte de consultanță în tranzacții și restructurări?",
+          "answer": "Se delimitează situația concretă: un grup analizează o fuziune sau separare. Sunt necesare obiectivul, perioada analizată și confirmarea datelor disponibile; fără acestea, aria intervenției rămâne neclară."
+        },
+        {
+          "id": "A18-FAQ02",
+          "question": "Cum se desfășoară etapa „Modelarea scenariilor de tranzacție”?",
+          "answer": "Această etapă urmărește modelarea scenariilor de tranzacție. Se stabilesc sursele de date și responsabilul verificării, apoi se consemnează documentele lipsă sau diferențele care pot influența consultanță în tranzacții și restructurări."
+        },
+        {
+          "id": "A18-FAQ03",
+          "question": "Ce documente susțin operațiunea „Analiza efectelor financiare și fiscale”?",
+          "answer": "Pentru analiza efectelor financiare și fiscale se pornește de la Structura tranzacției, situații financiare și obiective. Relevanța fiecărui document se confirmă în raport cu tranzacțiile efective; nu se presupune că lista este exhaustivă."
+        },
+        {
+          "id": "A18-FAQ04",
+          "question": "Cum se verifică rezultatul activității „Pregătirea informațiilor pentru decizie”?",
+          "answer": "Se documentează pregătirea informațiilor pentru decizie, apoi se confruntă rezultatul cu evidențele și documentele-sursă. Neconcordanțele se investighează înainte ca livrabilul să fie considerat final."
+        },
+        {
+          "id": "A18-FAQ05",
+          "question": "Ce primește concret clientul după consultanță în tranzacții și restructurări?",
+          "answer": "Livrabilul orientativ este Analize de scenarii și documentație de tranzacție. El trebuie însoțit, după caz, de ipoteze, limitări, explicația diferențelor și evidența clarificărilor rămase deschise."
+        },
+        {
+          "id": "A18-FAQ06",
+          "question": "Ce se întâmplă dacă lipsesc datele pentru „Modelarea scenariilor de tranzacție”?",
+          "answer": "Se întocmește o listă de completări, iar concluziile care depind de informațiile lipsă se marchează provizorii. În cazul consultanță în tranzacții și restructurări, etapa afectată direct este modelarea scenariilor de tranzacție."
+        },
+        {
+          "id": "A18-FAQ07",
+          "question": "Ce risc specific trebuie controlat în „Analiza efectelor financiare și fiscale”?",
+          "answer": "Riscul este ca analiza efectelor financiare și fiscale să fie realizată pe date incomplete, necorelate sau interpretate greșit. Controlul presupune documentarea sursei, a ipotezelor și a verificării de consistență."
+        },
+        {
+          "id": "A18-FAQ08",
+          "question": "Cum se tratează o excepție apărută la „Pregătirea informațiilor pentru decizie”?",
+          "answer": "Excepția se izolează, se descrie și se verifică față de Structura tranzacției. Nu se corectează automat fără justificare; se consemnează impactul asupra Analize de scenarii și documentație de tranzacție și decizia responsabilului."
+        },
+        {
+          "id": "A18-FAQ09",
+          "question": "Ce decizie poate lua clientul folosind rezultatul „Consultanță în tranzacții și restructurări”?",
+          "answer": "În situația „Un grup analizează o fuziune sau separare”, clientul poate decide dacă solicită clarificări, corectarea evidențelor sau o etapă suplimentară de analiză. Rezultatul Analize de scenarii și documentație de tranzacție nu substituie deciziile de management."
+        },
+        {
+          "id": "A18-FAQ10",
+          "question": "Ce limite profesionale și contractuale se aplică pentru „Consultanță în tranzacții și restructurări”?",
+          "answer": "Mandatul trebuie să delimiteze expres modelarea scenariilor de tranzacție, analiza efectelor financiare și fiscale și pregătirea informațiilor pentru decizie. Publicabil ca ofertă numai după verificarea dreptului de exercitare, autorizărilor, independenței și limitelor mandatului, după caz. Termenele și onorariile nu pot fi deduse din acest etalon."
+        }
+      ],
+      "faq_review": {
+        "status": "editorial_synced_from_reviewed_html_pending_professional_review",
+        "reviewed_on": "2026-11-13",
+        "criteria": "Exact parity across SSOT, HTML and JSON-LD; 10 distinct questions per service; statutory and professional checks remain separate"
+      }
+    },
+    {
       "id": "S01",
       "level": "regulated",
       "name": "Consultanță fiscală rezervată profesiilor reglementate",
@@ -3554,954 +4502,6 @@
           "id": "S10-FAQ10",
           "question": "Ce limite profesionale și contractuale se aplică pentru „Transformarea funcției financiare”?",
           "answer": "Mandatul trebuie să delimiteze expres evaluarea proceselor și timpilor de execuție, prioritizarea automatizărilor și definirea etapelor și indicatorilor de succes. Disponibilitatea serviciului se confirmă de cabinet. Termenele și onorariile nu pot fi deduse din acest etalon."
-        }
-      ],
-      "faq_review": {
-        "status": "editorial_synced_from_reviewed_html_pending_professional_review",
-        "reviewed_on": "2026-11-13",
-        "criteria": "Exact parity across SSOT, HTML and JSON-LD; 10 distinct questions per service; statutory and professional checks remain separate"
-      }
-    },
-    {
-      "id": "E16",
-      "level": "essential",
-      "name": "Raportări statistice",
-      "category": "Esențiale IMM",
-      "offer_status": "unconfirmed",
-      "published_as_offer": false,
-      "requires_professional_verification": false,
-      "description": "Pregătirea situațiilor statistice aplicabile activității, pe baza datelor contabile și operaționale.",
-      "inputs": [
-        "Date financiare",
-        "personal",
-        "indicatori operaționali"
-      ],
-      "potential_deliverables": [
-        "Situații statistice și verificări de consistență"
-      ],
-      "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
-      "version": "3.6.0",
-      "client_problem": "Când este necesar serviciul raportări statistice și ce rezultat poate produce?",
-      "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
-      "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
-      "benchmark": {
-        "reference": "Big 5 editorial comparison",
-        "method": "Original editorial synthesis, not an assertion of provider availability",
-        "source_url": null
-      },
-      "operations": [
-        "Identificarea formularelor statistice aplicabile",
-        "Corelarea indicatorilor cu evidențele",
-        "Controlul consistenței înainte de transmitere"
-      ],
-      "practical_example": "O societate primește o solicitare periodică de raportare statistică",
-      "client_benefits": [
-        "Înțelegerea documentelor și verificărilor necesare pentru raportări statistice.",
-        "Trasabilitatea activităților și a rezultatelor convenite contractual."
-      ],
-      "faq": [
-        {
-          "id": "E16-FAQ01",
-          "question": "Cum aflu dacă firma trebuie să transmită raportări statistice?",
-          "answer": "Obligația poate rezulta din includerea societății într-o cercetare statistică, din domeniul de activitate sau din cerințele unei autorități competente. Se verifică notificarea, identitatea instituției, perioada, formularul și instrucțiunile oficiale; nu toate firmele completează aceleași chestionare."
-        },
-        {
-          "id": "E16-FAQ02",
-          "question": "Ce instituții pot solicita date statistice unei companii?",
-          "answer": "În România, Institutul Național de Statistică (INS) și alți producători de statistici oficiale pot solicita informații în limitele competențelor legale. Banca Națională a României (BNR) colectează și ea raportări statistice de la categoriile de entități prevăzute de Regulamentul BNR nr. 4/2021, cu modificările ulterioare; această obligație nu se aplică automat tuturor IMM-urilor. Pentru fiecare solicitare verificăm temeiul legal, categoria de raportor, canalul oficial și tipul raportării; declarațiile fiscale ANAF nu se confundă cu raportările statistice."
-        },
-        {
-          "id": "E16-FAQ03",
-          "question": "Ce date trebuie pregătite pentru un chestionar statistic?",
-          "answer": "În funcție de cercetare, pot fi cerute cifra de afaceri, activitatea pe produse sau servicii, personalul, orele lucrate, remunerațiile, investițiile ori alte volume fizice. Se identifică definițiile indicatorilor și sursele din contabilitate, salarizare și sistemele operaționale."
-        },
-        {
-          "id": "E16-FAQ04",
-          "question": "Cum verificăm concordanța dintre datele statistice și contabilitate?",
-          "answer": "Corelăm indicatorii cu balanța, situațiile de venituri și cheltuieli, registrele și perioadele de referință. Diferențele determinate de definiții statistice distincte, estimări sau perimetre diferite se explică și se documentează, în loc să fie eliminate arbitrar."
-        },
-        {
-          "id": "E16-FAQ05",
-          "question": "Ce facem dacă un indicator solicitat nu există direct în sistemul contabil?",
-          "answer": "Verificăm definiția oficială și construim un calcul trasabil din surse verificabile, cum ar fi evidențe de producție, vânzări, pontaje sau gestiune. Dacă este permisă estimarea, metoda și limitele se documentează; datele lipsă nu se inventează."
-        },
-        {
-          "id": "E16-FAQ06",
-          "question": "Cum tratăm raportările despre salariați și costurile cu personalul?",
-          "answer": "Se confruntă indicatorii ceruți cu statele salariale, pontajele și evidența contractelor, ținând seama de definițiile statistice ale personalului, timpului lucrat și remunerațiilor. Indicatorii statistici pot avea alt perimetru decât totalurile declarate fiscal."
-        },
-        {
-          "id": "E16-FAQ07",
-          "question": "Cine stabilește termenele și cine transmite raportările statistice?",
-          "answer": "Termenele și modalitatea de transmitere se preiau din instrucțiunile oficiale aferente fiecărui chestionar. Firma desemnează persoana responsabilă de date și aprobare, iar prestatorul poate pregăti sau transmite formularul numai în limitele mandatului și ale accesului permis."
-        },
-        {
-          "id": "E16-FAQ08",
-          "question": "Cum procedăm dacă primim o solicitare statistică pentru prima dată?",
-          "answer": "Verificăm autenticitatea solicitării și obligația de răspuns, apoi identificăm formularul, perioada, unitatea de măsură, sursele de date și termenul. Pregătim un responsabil intern și o listă de întrebări pentru clarificări către instituția emitentă."
-        },
-        {
-          "id": "E16-FAQ09",
-          "question": "Ce facem dacă descoperim o eroare după transmiterea datelor statistice?",
-          "answer": "Se identifică indicatorul, perioada și cauza erorii. Potrivit art. 25 alin. (2) din Legea nr. 226/2009, furnizorul de date are obligația să corecteze, să actualizeze ori să completeze datele incorecte și să notifice de îndată producătorul de statistici oficiale care le-a solicitat; dacă eroarea este semnalată de instituție, se respectă măsurile și termenele comunicate. Se urmează procedura de rectificare a instituției, păstrând varianta inițială, explicația și confirmarea, fără a presupune că toate platformele permit aceeași modalitate de retrimitere."
-        },
-        {
-          "id": "E16-FAQ10",
-          "question": "Ce primește clientul după pregătirea unei raportări statistice?",
-          "answer": "În funcție de contract, livrabilele pot include chestionarul completat, tabelul indicatorilor și surselor, verificările de consistență, lista de excepții și confirmarea transmiterii, dacă este inclusă. Etalonul nu garantează acoperirea tuturor cercetărilor statistice."
-        }
-      ],
-      "faq_review": {
-        "status": "editorial_synced_from_reviewed_html_pending_professional_review",
-        "reviewed_on": "2026-11-13",
-        "criteria": "Exact parity across SSOT, HTML and JSON-LD; 10 distinct questions per service; statutory and professional checks remain separate"
-      }
-    },
-    {
-      "id": "E17",
-      "level": "essential",
-      "name": "Revizuire salarizare",
-      "category": "Esențiale IMM",
-      "offer_status": "unconfirmed",
-      "published_as_offer": false,
-      "requires_professional_verification": false,
-      "description": "Verificarea calculului salarial, a pontajelor, reținerilor și raportărilor pentru identificarea diferențelor.",
-      "inputs": [
-        "State de plată",
-        "contracte",
-        "pontaje și declarații"
-      ],
-      "potential_deliverables": [
-        "Raport de diferențe și recomandări de corecție"
-      ],
-      "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
-      "version": "3.6.0",
-      "client_problem": "Când este necesar serviciul revizuire salarizare și ce rezultat poate produce?",
-      "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
-      "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
-      "benchmark": {
-        "reference": "Big 5 editorial comparison",
-        "method": "Original editorial synthesis, not an assertion of provider availability",
-        "source_url": null
-      },
-      "operations": [
-        "Recalcularea selectivă a drepturilor",
-        "Verificarea tratamentului beneficiilor",
-        "Identificarea diferențelor între state și declarații"
-      ],
-      "practical_example": "Un angajator suspectează diferențe în calculul concediilor",
-      "client_benefits": [
-        "Înțelegerea documentelor și verificărilor necesare pentru revizuire salarizare.",
-        "Trasabilitatea activităților și a rezultatelor convenite contractual."
-      ],
-      "faq": [
-        {
-          "id": "E17-FAQ01",
-          "question": "Când este utilă o revizuire independentă a salarizării?",
-          "answer": "Revizuirea este utilă la schimbarea prestatorului de payroll, după modificări ale legislației sau când apar diferențe între fluturași, statele de plată și declarații. Aria, perioada și eșantionul se stabilesc contractual; o verificare selectivă nu reprezintă audit financiar sau garanție că nu există alte erori."
-        },
-        {
-          "id": "E17-FAQ02",
-          "question": "Ce documente sunt necesare pentru verificarea calculului salarial?",
-          "answer": "Se analizează contractele și actele adiționale, pontajele, statele de plată, concediile, bonusurile, beneficiile, reținerile și declarațiile D112 relevante. Accesul la date se limitează la persoanele autorizate și la informațiile necesare verificării."
-        },
-        {
-          "id": "E17-FAQ03",
-          "question": "Cum se verifică diferența dintre salariul brut și salariul net?",
-          "answer": "Recalculăm pe baza drepturilor contractuale, a timpului lucrat și a regulilor fiscale aplicabile perioadei: contribuții, impozit, deduceri și eventuale facilități. Comparăm rezultatul cu statul de plată și explicăm fiecare diferență identificată."
-        },
-        {
-          "id": "E17-FAQ04",
-          "question": "Cum se controlează calculul concediului de odihnă și al concediului medical?",
-          "answer": "Verificăm cererile, aprobările, certificatele și perioadele, apoi baza și metoda de calcul aplicabile fiecărui tip de concediu și fiecărei perioade revizuite. Pentru certificatele medicale emise între 1 februarie 2026 și 31 decembrie 2027, OUG nr. 91/2025, modificată prin Legea nr. 64/2026, prevede, cu excepțiile legale, diminuarea indemnizației cu o zi; pentru un episod de boală continuu, diminuarea se aplică o singură dată, indiferent de numărul certificatelor. Verificăm distinct excepțiile, sursa de suportare și eventualele rectificări, fără aplicare retroactivă a regulilor noi perioadelor anterioare."
-        },
-        {
-          "id": "E17-FAQ05",
-          "question": "Cum se verifică orele suplimentare, sporurile și bonusurile?",
-          "answer": "Confruntăm pontajele, evidența zilnică a timpului de lucru și aprobările cu prevederile contractuale și legale. Potrivit art. 122–123 din Codul muncii, munca suplimentară se compensează, de regulă, prin ore libere plătite în următoarele 90 de zile calendaristice; dacă această compensare nu este posibilă, se verifică plata cu un spor negociat de minimum 75% din salariul de bază, în condițiile legii. Verificăm separat încadrarea bonusurilor și sporurilor în perioada corectă și tratamentul fiscal aplicabil."
-        },
-        {
-          "id": "E17-FAQ06",
-          "question": "Cum identificați erorile privind beneficiile extrasalariale?",
-          "answer": "Inventariem tipurile de beneficii și documentele de acordare, apoi verificăm limitele, condițiile și tratamentul fiscal valabile în perioada analizată. Beneficiile cu reguli distincte nu sunt încadrate automat ca venituri neimpozabile."
-        },
-        {
-          "id": "E17-FAQ07",
-          "question": "Cum se verifică dacă D112 corespunde statelor de salarii?",
-          "answer": "Reconciliem persoanele raportate, veniturile, bazele de calcul, contribuțiile, impozitele și perioadele cu statele și centralizatoarele. Diferențele sunt documentate, iar eventualele rectificări se pregătesc și se aprobă separat."
-        },
-        {
-          "id": "E17-FAQ08",
-          "question": "Ce se întâmplă dacă sunt găsite erori din lunile anterioare?",
-          "answer": "Stabilim persoanele și perioadele afectate, cuantificăm diferențele și verificăm procedurile de corecție pentru state, plăți și declarații. Propunerile includ justificare și responsabil pentru aprobare; rectificarea nu se execută automat în cadrul simplei revizuiri."
-        },
-        {
-          "id": "E17-FAQ09",
-          "question": "Revizuirea salarizării include și verificarea REGES-ONLINE?",
-          "answer": "Corelarea informațiilor contractuale relevante poate face parte din verificare, dar auditarea operațiunilor și termenelor REGES-ONLINE este un flux distinct, care trebuie inclus expres în mandat. Concordanța cu registrul nu înlocuiește recalcularea drepturilor salariale."
-        },
-        {
-          "id": "E17-FAQ10",
-          "question": "Ce primește firma la finalul revizuirii salarizării?",
-          "answer": "În funcție de contract, clientul primește un raport cu perioada și eșantionul analizat, recalculările efectuate, diferențele cuantificate, nivelul de risc și recomandările de remediere. Raportul precizează limitele verificării și nu reprezintă certificare de audit independent."
-        }
-      ],
-      "faq_review": {
-        "status": "editorial_synced_from_reviewed_html_pending_professional_review",
-        "reviewed_on": "2026-11-13",
-        "criteria": "Exact parity across SSOT, HTML and JSON-LD; 10 distinct questions per service; statutory and professional checks remain separate"
-      }
-    },
-    {
-      "id": "E18",
-      "level": "essential",
-      "name": "Administrarea beneficiilor salariaților",
-      "category": "Esențiale IMM",
-      "offer_status": "unconfirmed",
-      "published_as_offer": false,
-      "requires_professional_verification": false,
-      "description": "Evidența și tratarea operațională a beneficiilor, în corelare cu salarizarea și documentele justificative.",
-      "inputs": [
-        "Politici de beneficii",
-        "documente și date salariale"
-      ],
-      "potential_deliverables": [
-        "Centralizatoare și tratamente propuse spre validare"
-      ],
-      "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
-      "version": "3.6.0",
-      "client_problem": "Când este necesar serviciul administrarea beneficiilor salariaților și ce rezultat poate produce?",
-      "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
-      "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
-      "benchmark": {
-        "reference": "Big 5 editorial comparison",
-        "method": "Original editorial synthesis, not an assertion of provider availability",
-        "source_url": null
-      },
-      "operations": [
-        "Inventarierea tipurilor de beneficii",
-        "Verificarea documentelor și încadrării",
-        "Reconcilierea beneficiilor cu statele de plată"
-      ],
-      "practical_example": "O firmă oferă tichete și alte avantaje angajaților",
-      "client_benefits": [
-        "Înțelegerea documentelor și verificărilor necesare pentru administrarea beneficiilor salariaților.",
-        "Trasabilitatea activităților și a rezultatelor convenite contractual."
-      ],
-      "faq": [
-        {
-          "id": "E18-FAQ01",
-          "question": "Ce tipuri de beneficii pot fi acordate salariaților?",
-          "answer": "În funcție de politica angajatorului, pot exista tichete de masă, vouchere de vacanță, abonamente medicale, contribuții la pensii facultative, beneficii pentru transport, formare sau alte avantaje. Fiecare categorie are condiții, documente și tratament fiscal proprii, care trebuie verificate pentru perioada acordării."
-        },
-        {
-          "id": "E18-FAQ02",
-          "question": "Cum se stabilesc beneficiile în contract și în politica internă?",
-          "answer": "Se verifică prevederile contractuale, regulamentul sau politica de beneficii, eligibilitatea angajaților și aprobările interne. Drepturile acordate trebuie să fie coerente cu documentele de personal și cu regulile aplicabile; schimbările se comunică și se documentează."
-        },
-        {
-          "id": "E18-FAQ03",
-          "question": "Cum se verifică și se acordă tichetele de masă?",
-          "answer": "Se corelează zilele eligibile și evidența timpului lucrat cu regulile Legii nr. 165/2018 și cu emiterea sau încărcarea tichetelor. Pentru drepturile aferente anului 2026, valoarea nominală maximă este de 45 lei/tichet, potrivit Legii nr. 201/2025 și, pentru perioada începând cu octombrie 2026, Ordinului comun nr. 1.254/1.188/2026; aceasta reprezintă plafonul, nu o obligație a angajatorului de a acorda suma maximă. Se verifică zilele lucrate, absențele, eventualele regularizări și tratamentul fiscal înainte de reconcilierea cu salarizarea."
-        },
-        {
-          "id": "E18-FAQ04",
-          "question": "Ce verificări sunt necesare pentru voucherele de vacanță și alte tichete?",
-          "answer": "Se verifică dreptul de acordare, plafoanele, documentele justificative, evidența beneficiarilor și tratamentul fiscal aferent fiecărui instrument. Regulile nu sunt identice pentru toate tipurile de tichete și pot depinde de perioada fiscală și de categoria angajatorului."
-        },
-        {
-          "id": "E18-FAQ05",
-          "question": "Cum tratăm abonamentele medicale și contribuțiile la pensii facultative?",
-          "answer": "Se verifică contractele, facturile, beneficiarul și tratamentul fiscal separat pentru fiecare avantaj. În condițiile art. 76 alin. (4^1) din Codul fiscal, primele de asigurare voluntară de sănătate și abonamentele medicale suportate de angajator au un plafon cumulat de 400 euro anual pe persoană, iar contribuțiile angajatorului la pensii facultative au, distinct, un plafon de 400 euro anual pe persoană. Începând cu veniturile aferente lunii martie 2026, OUG nr. 8/2026 reglementează și contribuțiile angajatorului la pensii ocupaționale, în limita de 400 euro anual, în condițiile legii. Pentru aceste beneficii se verifică și plafonul lunar cumulat de 33% din salariul de bază; partea care nu îndeplinește condițiile se tratează fiscal conform regulilor aplicabile."
-        },
-        {
-          "id": "E18-FAQ06",
-          "question": "Ce reprezintă un avantaj salarial în natură și cum se evaluează?",
-          "answer": "Un bun, serviciu ori drept oferit salariatului poate constitui avantaj în natură, în funcție de situație. Se stabilește valoarea potrivit regulilor aplicabile, se verifică eventualele excepții și se documentează includerea sau neincluderea în bazele fiscale și în statele de plată."
-        },
-        {
-          "id": "E18-FAQ07",
-          "question": "Cum evităm depășirea limitelor fiscale pentru beneficii?",
-          "answer": "Se menține un registru pe salariat, categorie de beneficiu, valoare și perioadă. Pentru avantajele prevăzute la art. 76 alin. (4^1) din Codul fiscal se controlează atât limitele individuale (de exemplu, cele anuale în euro), cât și plafonul cumulat lunar de maximum 33% din salariul de bază corespunzător locului de muncă ocupat; acesta nu se aplică indistinct tuturor beneficiilor, inclusiv tichetelor de masă. Se urmăresc ordinea de includere stabilită de angajator, condițiile de eligibilitate și tratamentul fiscal al eventualelor depășiri. Politica internă singură nu conferă neimpozabilitate."
-        },
-        {
-          "id": "E18-FAQ08",
-          "question": "Cum reconciliem beneficiile acordate cu statele de salarii și D112?",
-          "answer": "Comparăm evidența furnizorilor și a beneficiilor acordate cu registrele interne, statele salariale, tratamentele fiscale și informațiile raportate prin D112, când acestea sunt aplicabile. Diferențele sunt explicate și aprobate înainte de transmiterea declarațiilor."
-        },
-        {
-          "id": "E18-FAQ09",
-          "question": "Ce se întâmplă cu beneficiile la angajare, concediu sau încetarea contractului?",
-          "answer": "Se verifică momentul acordării, eligibilitatea, eventualele proratări și procedurile de regularizare prevăzute în lege, contract și politica internă. Beneficiile neutilizate ori acordate în plus se tratează conform regulilor instrumentului și documentelor aplicabile."
-        },
-        {
-          "id": "E18-FAQ10",
-          "question": "Ce livrabile primește firma pentru administrarea beneficiilor salariaților?",
-          "answer": "În limita mandatului, pot fi furnizate un catalog de beneficii și reguli, centralizatoare pe salariat și perioadă, reconcilieri cu furnizorii și salarizarea, excepții și propuneri de tratament fiscal. Acordarea efectivă, aprobările și răspunderea pentru politica de beneficii rămân la angajator."
-        }
-      ],
-      "faq_review": {
-        "status": "editorial_synced_from_reviewed_html_pending_professional_review",
-        "reviewed_on": "2026-11-13",
-        "criteria": "Exact parity across SSOT, HTML and JSON-LD; 10 distinct questions per service; statutory and professional checks remain separate"
-      }
-    },
-    {
-      "id": "E19",
-      "level": "essential",
-      "name": "Suport documentar pentru auditul anual",
-      "category": "Esențiale IMM",
-      "offer_status": "unconfirmed",
-      "published_as_offer": false,
-      "requires_professional_verification": false,
-      "description": "Pregătirea documentelor, reconcilierea soldurilor și gestionarea solicitărilor auditorilor.",
-      "inputs": [
-        "Balanțe",
-        "registre",
-        "contracte și solicitări de audit"
-      ],
-      "potential_deliverables": [
-        "Dosar de audit și registru de clarificări"
-      ],
-      "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
-      "version": "3.6.0",
-      "client_problem": "Când este necesar serviciul suport documentar pentru auditul anual și ce rezultat poate produce?",
-      "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
-      "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
-      "benchmark": {
-        "reference": "Big 5 editorial comparison",
-        "method": "Original editorial synthesis, not an assertion of provider availability",
-        "source_url": null
-      },
-      "operations": [
-        "Pregătirea balanțelor și reconcilierilor",
-        "Colectarea documentelor solicitate",
-        "Urmărirea întrebărilor auditorilor"
-      ],
-      "practical_example": "Auditorul solicită justificarea soldurilor de la final de an",
-      "client_benefits": [
-        "Înțelegerea documentelor și verificărilor necesare pentru suport documentar pentru auditul anual.",
-        "Trasabilitatea activităților și a rezultatelor convenite contractual."
-      ],
-      "faq": [
-        {
-          "id": "E19-FAQ01",
-          "question": "Ce înseamnă suport documentar pentru auditul anual?",
-          "answer": "Înseamnă organizarea evidențelor, reconcilierea soldurilor și coordonarea răspunsurilor la solicitările auditorului. Este un serviciu de pregătire și asistență pentru entitatea auditată, distinct de auditul independent și de emiterea unei opinii de audit."
-        },
-        {
-          "id": "E19-FAQ02",
-          "question": "Ce documente solicită de regulă auditorul la începutul misiunii?",
-          "answer": "În funcție de obiective, pot fi solicitate balanța finală, situațiile financiare, registrele, politicile contabile, contractele semnificative, documentele de inventariere, extrasele și reconcilierile, evidențele fiscale și salariale. Lista efectivă aparține auditorului și se adaptează riscurilor identificate."
-        },
-        {
-          "id": "E19-FAQ03",
-          "question": "Cum pregătim justificarea soldurilor de clienți și furnizori?",
-          "answer": "Corelăm balanța cu fișele analitice, facturile, încasările sau plățile ulterioare, vechimea și eventualele confirmări externe. Diferențele și soldurile neobișnuite sunt documentate; confirmările externe, când sunt folosite ca probe de audit, trebuie controlate de auditor potrivit procedurilor profesionale."
-        },
-        {
-          "id": "E19-FAQ04",
-          "question": "Cum documentăm inventarierea stocurilor și a mijloacelor fixe pentru audit?",
-          "answer": "Organizăm deciziile, listele de inventariere, procesele-verbale, explicațiile diferențelor și registrele de active. Prezentăm reconcilierea cu contabilitatea și ajustările aprobate. Conducerea entității răspunde de organizarea și efectuarea inventarierii potrivit reglementărilor aplicabile; auditorul stabilește independent procedurile de audit necesare, inclusiv participarea la inventarierea fizică atunci când standardele o cer, și evaluează suficiența și adecvarea probelor. Prestatorul de suport nu efectuează aceste proceduri în locul auditorului."
-        },
-        {
-          "id": "E19-FAQ05",
-          "question": "Cum se verifică reconcilierea conturilor bancare și a numerarului?",
-          "answer": "Pregătim extrasele, situațiile de reconciliere, documentele pentru tranzacții în curs și justificările soldurilor de casă. Diferențele sunt investigate și explicate înainte de transmitere; auditorul decide ce teste și confirmări independente sunt necesare."
-        },
-        {
-          "id": "E19-FAQ06",
-          "question": "Ce facem când auditorul identifică documente lipsă sau diferențe contabile?",
-          "answer": "Înregistrăm solicitarea într-un registru de clarificări, desemnăm responsabilul, termenul și documentele suplimentare, apoi analizăm cauza și impactul. Orice corecție contabilă este fundamentată și aprobată; nu se creează justificative retroactive pentru a acoperi lipsuri."
-        },
-        {
-          "id": "E19-FAQ07",
-          "question": "Cine răspunde întrebărilor auditorului și cum se păstrează trasabilitatea?",
-          "answer": "Conducerea entității desemnează persoanele care pot furniza informații și aprobă răspunsurile relevante. Fiecare solicitare se urmărește cu identificator, document-sursă, versiune, responsabil și stare, folosind un canal securizat și respectând confidențialitatea datelor."
-        },
-        {
-          "id": "E19-FAQ08",
-          "question": "Cum pregătim contractele, provizioanele și evenimentele ulterioare închiderii?",
-          "answer": "Centralizăm contractele și angajamentele semnificative, calculele pentru provizioane și ajustări, litigiile comunicate de conducere și informațiile despre evenimentele ulterioare. Tratamentul contabil se analizează potrivit reglementărilor; auditorul evaluează probele și consecințele pentru raportul său."
-        },
-        {
-          "id": "E19-FAQ09",
-          "question": "Care este diferența dintre suportul documentar și auditul financiar independent?",
-          "answer": "Suportul documentar organizează informațiile entității și nu exprimă o opinie sau altă concluzie de asigurare. Auditul statutar se efectuează de auditori financiari ori firme de audit autorizați/autorizate și înregistrați/înregistrate potrivit Legii nr. 162/2017, sub supravegherea ASPAAS. Auditorul trebuie să respecte independența și să evalueze amenințările, inclusiv riscul de autoevaluare atunci când auditorul, firma sa ori rețeaua acesteia a prestat servicii contabile sau a participat la pregătirea situațiilor financiare ale clientului. Compatibilitatea serviciilor se apreciază pentru fiecare misiune conform legii și regulilor etice aplicabile; prestatorul de suport nu promite certificarea situațiilor financiare."
-        },
-        {
-          "id": "E19-FAQ10",
-          "question": "Ce livrabile primește compania și când se consideră dosarul pregătit?",
-          "answer": "Conform mandatului, livrabilele pot include indexul dosarului electronic, reconcilieri, lista documentelor transmise, registrul solicitărilor și al excepțiilor și sinteza punctelor deschise. Dosarul este pregătit pentru predare când materialele convenite sunt disponibile și verificate intern; acceptarea probelor și concluzia auditului aparțin auditorului."
-        }
-      ],
-      "faq_review": {
-        "status": "editorial_synced_from_reviewed_html_pending_professional_review",
-        "reviewed_on": "2026-11-13",
-        "criteria": "Exact parity across SSOT, HTML and JSON-LD; 10 distinct questions per service; statutory and professional checks remain separate"
-      }
-    },
-    {
-      "id": "A13",
-      "level": "advanced",
-      "name": "Migrare plan de conturi și date contabile",
-      "category": "Avansate",
-      "offer_status": "unconfirmed",
-      "published_as_offer": false,
-      "requires_professional_verification": false,
-      "description": "Maparea conturilor și transferul controlat al soldurilor și istoricului între sisteme.",
-      "inputs": [
-        "Planuri de conturi",
-        "balanțe",
-        "exporturi și reguli de mapare"
-      ],
-      "potential_deliverables": [
-        "Matrice de conversie și reconciliere post-migrare"
-      ],
-      "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
-      "version": "3.6.0",
-      "client_problem": "Când este necesar serviciul migrare plan de conturi și date contabile și ce rezultat poate produce?",
-      "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
-      "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
-      "benchmark": {
-        "reference": "Big 5 editorial comparison",
-        "method": "Original editorial synthesis, not an assertion of provider availability",
-        "source_url": null
-      },
-      "operations": [
-        "Inventarierea conturilor din sistemele sursă",
-        "Construirea matricei de corespondență",
-        "Testarea soldurilor migrate"
-      ],
-      "practical_example": "O societate schimbă programul contabil la început de an",
-      "client_benefits": [
-        "Înțelegerea documentelor și verificărilor necesare pentru migrare plan de conturi și date contabile.",
-        "Trasabilitatea activităților și a rezultatelor convenite contractual."
-      ],
-      "faq": [
-        {
-          "id": "A13-FAQ01",
-          "question": "Ce trebuie clarificat înainte de prețuri de transfer și documentație aferentă?",
-          "answer": "Se delimitează situația concretă: o societate facturează servicii către o companie afiliată. Sunt necesare obiectivul, perioada analizată și confirmarea datelor disponibile; fără acestea, aria intervenției rămâne neclară."
-        },
-        {
-          "id": "A13-FAQ02",
-          "question": "Cum se desfășoară etapa „Analiza funcțiilor, activelor și riscurilor”?",
-          "answer": "Această etapă urmărește analiza funcțiilor, activelor și riscurilor. Se stabilesc sursele de date și responsabilul verificării, apoi se consemnează documentele lipsă sau diferențele care pot influența prețuri de transfer și documentație aferentă."
-        },
-        {
-          "id": "A13-FAQ03",
-          "question": "Ce documente susțin operațiunea „Selectarea metodologiei de comparabilitate”?",
-          "answer": "Pentru selectarea metodologiei de comparabilitate se pornește de la Contracte intra-grup, funcții, riscuri și date financiare. Relevanța fiecărui document se confirmă în raport cu tranzacțiile efective; nu se presupune că lista este exhaustivă."
-        },
-        {
-          "id": "A13-FAQ04",
-          "question": "Cum se verifică rezultatul activității „Documentarea tranzacțiilor intra-grup”?",
-          "answer": "Se documentează documentarea tranzacțiilor intra-grup, apoi se confruntă rezultatul cu evidențele și documentele-sursă. Neconcordanțele se investighează înainte ca livrabilul să fie considerat final."
-        },
-        {
-          "id": "A13-FAQ05",
-          "question": "Ce primește concret clientul după prețuri de transfer și documentație aferentă?",
-          "answer": "Livrabilul orientativ este Analiză de comparabilitate și dosar, după mandat. El trebuie însoțit, după caz, de ipoteze, limitări, explicația diferențelor și evidența clarificărilor rămase deschise."
-        },
-        {
-          "id": "A13-FAQ06",
-          "question": "Ce se întâmplă dacă lipsesc datele pentru „Analiza funcțiilor, activelor și riscurilor”?",
-          "answer": "Se întocmește o listă de completări, iar concluziile care depind de informațiile lipsă se marchează provizorii. În cazul prețuri de transfer și documentație aferentă, etapa afectată direct este analiza funcțiilor, activelor și riscurilor."
-        },
-        {
-          "id": "A13-FAQ07",
-          "question": "Ce risc specific trebuie controlat în „Selectarea metodologiei de comparabilitate”?",
-          "answer": "Riscul este ca selectarea metodologiei de comparabilitate să fie realizată pe date incomplete, necorelate sau interpretate greșit. Controlul presupune documentarea sursei, a ipotezelor și a verificării de consistență."
-        },
-        {
-          "id": "A13-FAQ08",
-          "question": "Cum se tratează o excepție apărută la „Documentarea tranzacțiilor intra-grup”?",
-          "answer": "Excepția se izolează, se descrie și se verifică față de Contracte intra-grup. Nu se corectează automat fără justificare; se consemnează impactul asupra Analiză de comparabilitate și dosar, după mandat și decizia responsabilului."
-        },
-        {
-          "id": "A13-FAQ09",
-          "question": "Ce decizie poate lua clientul folosind rezultatul „Prețuri de transfer și documentație aferentă”?",
-          "answer": "În situația „O societate facturează servicii către o companie afiliată”, clientul poate decide dacă solicită clarificări, corectarea evidențelor sau o etapă suplimentară de analiză. Rezultatul Analiză de comparabilitate și dosar, după mandat nu substituie deciziile de management."
-        },
-        {
-          "id": "A13-FAQ10",
-          "question": "Ce limite profesionale și contractuale se aplică pentru „Prețuri de transfer și documentație aferentă”?",
-          "answer": "Mandatul trebuie să delimiteze expres analiza funcțiilor, activelor și riscurilor, selectarea metodologiei de comparabilitate și documentarea tranzacțiilor intra-grup. Publicabil ca ofertă numai după verificarea dreptului de exercitare, autorizărilor, independenței și limitelor mandatului, după caz. Termenele și onorariile nu pot fi deduse din acest etalon."
-        }
-      ],
-      "faq_review": {
-        "status": "editorial_synced_from_reviewed_html_pending_professional_review",
-        "reviewed_on": "2026-11-13",
-        "criteria": "Exact parity across SSOT, HTML and JSON-LD; 10 distinct questions per service; statutory and professional checks remain separate"
-      }
-    },
-    {
-      "id": "A14",
-      "level": "advanced",
-      "name": "Controlling financiar",
-      "category": "Avansate",
-      "offer_status": "unconfirmed",
-      "published_as_offer": false,
-      "requires_professional_verification": false,
-      "description": "Analiza abaterilor dintre buget și realizat, a marjelor și a performanței pe centre de cost.",
-      "inputs": [
-        "Bugete",
-        "costuri",
-        "venituri și date analitice"
-      ],
-      "potential_deliverables": [
-        "Raport de abateri și indicatori de performanță"
-      ],
-      "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
-      "version": "3.6.0",
-      "client_problem": "Când este necesar serviciul controlling financiar și ce rezultat poate produce?",
-      "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
-      "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
-      "benchmark": {
-        "reference": "Big 5 editorial comparison",
-        "method": "Original editorial synthesis, not an assertion of provider availability",
-        "source_url": null
-      },
-      "operations": [
-        "Definirea centrelor de responsabilitate",
-        "Calculul abaterilor buget-realizat",
-        "Analiza cauzelor și acțiunilor corective"
-      ],
-      "practical_example": "Un producător observă creșterea costului pe unitate",
-      "client_benefits": [
-        "Înțelegerea documentelor și verificărilor necesare pentru controlling financiar.",
-        "Trasabilitatea activităților și a rezultatelor convenite contractual."
-      ],
-      "faq": [
-        {
-          "id": "A14-FAQ01",
-          "question": "Ce trebuie clarificat înainte de fiscalitate internațională complexă?",
-          "answer": "Se delimitează situația concretă: o firmă deschide un sediu în alt stat. Sunt necesare obiectivul, perioada analizată și confirmarea datelor disponibile; fără acestea, aria intervenției rămâne neclară."
-        },
-        {
-          "id": "A14-FAQ02",
-          "question": "Cum se desfășoară etapa „Identificarea jurisdicțiilor relevante”?",
-          "answer": "Această etapă urmărește identificarea jurisdicțiilor relevante. Se stabilesc sursele de date și responsabilul verificării, apoi se consemnează documentele lipsă sau diferențele care pot influența fiscalitate internațională complexă."
-        },
-        {
-          "id": "A14-FAQ03",
-          "question": "Ce documente susțin operațiunea „Analiza tratatelor și obligațiilor locale”?",
-          "answer": "Pentru analiza tratatelor și obligațiilor locale se pornește de la Rezidență, contracte, fluxuri și structuri transfrontaliere. Relevanța fiecărui document se confirmă în raport cu tranzacțiile efective; nu se presupune că lista este exhaustivă."
-        },
-        {
-          "id": "A14-FAQ04",
-          "question": "Cum se verifică rezultatul activității „Documentarea scenariilor și riscurilor”?",
-          "answer": "Se documentează documentarea scenariilor și riscurilor, apoi se confruntă rezultatul cu evidențele și documentele-sursă. Neconcordanțele se investighează înainte ca livrabilul să fie considerat final."
-        },
-        {
-          "id": "A14-FAQ05",
-          "question": "Ce primește concret clientul după fiscalitate internațională complexă?",
-          "answer": "Livrabilul orientativ este Memoriu fiscal și scenarii de conformare. El trebuie însoțit, după caz, de ipoteze, limitări, explicația diferențelor și evidența clarificărilor rămase deschise."
-        },
-        {
-          "id": "A14-FAQ06",
-          "question": "Ce se întâmplă dacă lipsesc datele pentru „Identificarea jurisdicțiilor relevante”?",
-          "answer": "Se întocmește o listă de completări, iar concluziile care depind de informațiile lipsă se marchează provizorii. În cazul fiscalitate internațională complexă, etapa afectată direct este identificarea jurisdicțiilor relevante."
-        },
-        {
-          "id": "A14-FAQ07",
-          "question": "Ce risc specific trebuie controlat în „Analiza tratatelor și obligațiilor locale”?",
-          "answer": "Riscul este ca analiza tratatelor și obligațiilor locale să fie realizată pe date incomplete, necorelate sau interpretate greșit. Controlul presupune documentarea sursei, a ipotezelor și a verificării de consistență."
-        },
-        {
-          "id": "A14-FAQ08",
-          "question": "Cum se tratează o excepție apărută la „Documentarea scenariilor și riscurilor”?",
-          "answer": "Excepția se izolează, se descrie și se verifică față de Rezidență. Nu se corectează automat fără justificare; se consemnează impactul asupra Memoriu fiscal și scenarii de conformare și decizia responsabilului."
-        },
-        {
-          "id": "A14-FAQ09",
-          "question": "Ce decizie poate lua clientul folosind rezultatul „Fiscalitate internațională complexă”?",
-          "answer": "În situația „O firmă deschide un sediu în alt stat”, clientul poate decide dacă solicită clarificări, corectarea evidențelor sau o etapă suplimentară de analiză. Rezultatul Memoriu fiscal și scenarii de conformare nu substituie deciziile de management."
-        },
-        {
-          "id": "A14-FAQ10",
-          "question": "Ce limite profesionale și contractuale se aplică pentru „Fiscalitate internațională complexă”?",
-          "answer": "Mandatul trebuie să delimiteze expres identificarea jurisdicțiilor relevante, analiza tratatelor și obligațiilor locale și documentarea scenariilor și riscurilor. Publicabil ca ofertă numai după verificarea dreptului de exercitare, autorizărilor, independenței și limitelor mandatului, după caz. Termenele și onorariile nu pot fi deduse din acest etalon."
-        }
-      ],
-      "faq_review": {
-        "status": "editorial_synced_from_reviewed_html_pending_professional_review",
-        "reviewed_on": "2026-11-13",
-        "criteria": "Exact parity across SSOT, HTML and JSON-LD; 10 distinct questions per service; statutory and professional checks remain separate"
-      }
-    },
-    {
-      "id": "A15",
-      "level": "advanced",
-      "name": "Externalizarea funcției de contabil-șef",
-      "category": "Avansate",
-      "offer_status": "unconfirmed",
-      "published_as_offer": false,
-      "requires_professional_verification": false,
-      "description": "Coordonarea și supravegherea proceselor contabile, cu delimitarea atribuțiilor și răspunderii legale.",
-      "inputs": [
-        "Organigramă",
-        "procese",
-        "evidențe și calendar de raportare"
-      ],
-      "potential_deliverables": [
-        "Plan de control și rapoarte de supervizare"
-      ],
-      "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
-      "version": "3.6.0",
-      "client_problem": "Când este necesar serviciul externalizarea funcției de contabil-șef și ce rezultat poate produce?",
-      "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
-      "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
-      "benchmark": {
-        "reference": "Big 5 editorial comparison",
-        "method": "Original editorial synthesis, not an assertion of provider availability",
-        "source_url": null
-      },
-      "operations": [
-        "Stabilirea matricei de responsabilități",
-        "Revizuirea calendarului de închidere",
-        "Supravegherea controalelor contabile"
-      ],
-      "practical_example": "Un IMM are contabil intern dar nu are coordonare financiară",
-      "client_benefits": [
-        "Înțelegerea documentelor și verificărilor necesare pentru externalizarea funcției de contabil-șef.",
-        "Trasabilitatea activităților și a rezultatelor convenite contractual."
-      ],
-      "faq": [
-        {
-          "id": "A15-FAQ01",
-          "question": "Ce trebuie clarificat înainte de due diligence financiar și fiscal?",
-          "answer": "Se delimitează situația concretă: un investitor examinează achiziția unei societăți. Sunt necesare obiectivul, perioada analizată și confirmarea datelor disponibile; fără acestea, aria intervenției rămâne neclară."
-        },
-        {
-          "id": "A15-FAQ02",
-          "question": "Cum se desfășoară etapa „Analiza calității rezultatului și capitalului circulant”?",
-          "answer": "Această etapă urmărește analiza calității rezultatului și capitalului circulant. Se stabilesc sursele de date și responsabilul verificării, apoi se consemnează documentele lipsă sau diferențele care pot influența due diligence financiar și fiscal."
-        },
-        {
-          "id": "A15-FAQ03",
-          "question": "Ce documente susțin operațiunea „Identificarea datoriilor și riscurilor”?",
-          "answer": "Pentru identificarea datoriilor și riscurilor se pornește de la Situații financiare, contracte, datorii și riscuri. Relevanța fiecărui document se confirmă în raport cu tranzacțiile efective; nu se presupune că lista este exhaustivă."
-        },
-        {
-          "id": "A15-FAQ04",
-          "question": "Cum se verifică rezultatul activității „Documentarea ajustărilor și constatărilor”?",
-          "answer": "Se documentează documentarea ajustărilor și constatărilor, apoi se confruntă rezultatul cu evidențele și documentele-sursă. Neconcordanțele se investighează înainte ca livrabilul să fie considerat final."
-        },
-        {
-          "id": "A15-FAQ05",
-          "question": "Ce primește concret clientul după due diligence financiar și fiscal?",
-          "answer": "Livrabilul orientativ este Raport de constatări și riscuri, potrivit mandatului. El trebuie însoțit, după caz, de ipoteze, limitări, explicația diferențelor și evidența clarificărilor rămase deschise."
-        },
-        {
-          "id": "A15-FAQ06",
-          "question": "Ce se întâmplă dacă lipsesc datele pentru „Analiza calității rezultatului și capitalului circulant”?",
-          "answer": "Se întocmește o listă de completări, iar concluziile care depind de informațiile lipsă se marchează provizorii. În cazul due diligence financiar și fiscal, etapa afectată direct este analiza calității rezultatului și capitalului circulant."
-        },
-        {
-          "id": "A15-FAQ07",
-          "question": "Ce risc specific trebuie controlat în „Identificarea datoriilor și riscurilor”?",
-          "answer": "Riscul este ca identificarea datoriilor și riscurilor să fie realizată pe date incomplete, necorelate sau interpretate greșit. Controlul presupune documentarea sursei, a ipotezelor și a verificării de consistență."
-        },
-        {
-          "id": "A15-FAQ08",
-          "question": "Cum se tratează o excepție apărută la „Documentarea ajustărilor și constatărilor”?",
-          "answer": "Excepția se izolează, se descrie și se verifică față de Situații financiare. Nu se corectează automat fără justificare; se consemnează impactul asupra Raport de constatări și riscuri, potrivit mandatului și decizia responsabilului."
-        },
-        {
-          "id": "A15-FAQ09",
-          "question": "Ce decizie poate lua clientul folosind rezultatul „Due diligence financiar și fiscal”?",
-          "answer": "În situația „Un investitor examinează achiziția unei societăți”, clientul poate decide dacă solicită clarificări, corectarea evidențelor sau o etapă suplimentară de analiză. Rezultatul Raport de constatări și riscuri, potrivit mandatului nu substituie deciziile de management."
-        },
-        {
-          "id": "A15-FAQ10",
-          "question": "Ce limite profesionale și contractuale se aplică pentru „Due diligence financiar și fiscal”?",
-          "answer": "Mandatul trebuie să delimiteze expres analiza calității rezultatului și capitalului circulant, identificarea datoriilor și riscurilor și documentarea ajustărilor și constatărilor. Publicabil ca ofertă numai după verificarea dreptului de exercitare, autorizărilor, independenței și limitelor mandatului, după caz. Termenele și onorariile nu pot fi deduse din acest etalon."
-        }
-      ],
-      "faq_review": {
-        "status": "editorial_synced_from_reviewed_html_pending_professional_review",
-        "reviewed_on": "2026-11-13",
-        "criteria": "Exact parity across SSOT, HTML and JSON-LD; 10 distinct questions per service; statutory and professional checks remain separate"
-      }
-    },
-    {
-      "id": "A16",
-      "level": "advanced",
-      "name": "Coordonarea raportării fiscale de grup",
-      "category": "Avansate",
-      "offer_status": "unconfirmed",
-      "published_as_offer": false,
-      "requires_professional_verification": false,
-      "description": "Organizarea raportărilor fiscale ale entităților dintr-un grup și urmărirea termenelor și diferențelor.",
-      "inputs": [
-        "Structura grupului",
-        "calendare fiscale și raportări locale"
-      ],
-      "potential_deliverables": [
-        "Calendar consolidat și matrice de conformare"
-      ],
-      "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
-      "version": "3.6.0",
-      "client_problem": "Când este necesar serviciul coordonarea raportării fiscale de grup și ce rezultat poate produce?",
-      "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
-      "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
-      "benchmark": {
-        "reference": "Big 5 editorial comparison",
-        "method": "Original editorial synthesis, not an assertion of provider availability",
-        "source_url": null
-      },
-      "operations": [
-        "Inventarierea obligațiilor pe entități",
-        "Centralizarea calendarelor și statusurilor",
-        "Controlul diferențelor între jurisdicții"
-      ],
-      "practical_example": "Un grup are filiale cu termene fiscale diferite",
-      "client_benefits": [
-        "Înțelegerea documentelor și verificărilor necesare pentru coordonarea raportării fiscale de grup.",
-        "Trasabilitatea activităților și a rezultatelor convenite contractual."
-      ],
-      "faq": [
-        {
-          "id": "A16-FAQ01",
-          "question": "Ce trebuie clarificat înainte de asistență și reprezentare în litigii fiscale?",
-          "answer": "Se delimitează situația concretă: o firmă contestă un act administrativ fiscal. Sunt necesare obiectivul, perioada analizată și confirmarea datelor disponibile; fără acestea, aria intervenției rămâne neclară."
-        },
-        {
-          "id": "A16-FAQ02",
-          "question": "Cum se desfășoară etapa „Analiza actelor și termenelor procedurale”?",
-          "answer": "Această etapă urmărește analiza actelor și termenelor procedurale. Se stabilesc sursele de date și responsabilul verificării, apoi se consemnează documentele lipsă sau diferențele care pot influența asistență și reprezentare în litigii fiscale."
-        },
-        {
-          "id": "A16-FAQ03",
-          "question": "Ce documente susțin operațiunea „Organizarea probelor și argumentelor”?",
-          "answer": "Pentru organizarea probelor și argumentelor se pornește de la Acte administrative, notificări, probe și termene. Relevanța fiecărui document se confirmă în raport cu tranzacțiile efective; nu se presupune că lista este exhaustivă."
-        },
-        {
-          "id": "A16-FAQ04",
-          "question": "Cum se verifică rezultatul activității „Pregătirea documentelor prin profesioniști competenți”?",
-          "answer": "Se documentează pregătirea documentelor prin profesioniști competenți, apoi se confruntă rezultatul cu evidențele și documentele-sursă. Neconcordanțele se investighează înainte ca livrabilul să fie considerat final."
-        },
-        {
-          "id": "A16-FAQ05",
-          "question": "Ce primește concret clientul după asistență și reprezentare în litigii fiscale?",
-          "answer": "Livrabilul orientativ este Analiză de poziție și documente procedurale, după competență. El trebuie însoțit, după caz, de ipoteze, limitări, explicația diferențelor și evidența clarificărilor rămase deschise."
-        },
-        {
-          "id": "A16-FAQ06",
-          "question": "Ce se întâmplă dacă lipsesc datele pentru „Analiza actelor și termenelor procedurale”?",
-          "answer": "Se întocmește o listă de completări, iar concluziile care depind de informațiile lipsă se marchează provizorii. În cazul asistență și reprezentare în litigii fiscale, etapa afectată direct este analiza actelor și termenelor procedurale."
-        },
-        {
-          "id": "A16-FAQ07",
-          "question": "Ce risc specific trebuie controlat în „Organizarea probelor și argumentelor”?",
-          "answer": "Riscul este ca organizarea probelor și argumentelor să fie realizată pe date incomplete, necorelate sau interpretate greșit. Controlul presupune documentarea sursei, a ipotezelor și a verificării de consistență."
-        },
-        {
-          "id": "A16-FAQ08",
-          "question": "Cum se tratează o excepție apărută la „Pregătirea documentelor prin profesioniști competenți”?",
-          "answer": "Excepția se izolează, se descrie și se verifică față de Acte administrative. Nu se corectează automat fără justificare; se consemnează impactul asupra Analiză de poziție și documente procedurale, după competență și decizia responsabilului."
-        },
-        {
-          "id": "A16-FAQ09",
-          "question": "Ce decizie poate lua clientul folosind rezultatul „Asistență și reprezentare în litigii fiscale”?",
-          "answer": "În situația „O firmă contestă un act administrativ fiscal”, clientul poate decide dacă solicită clarificări, corectarea evidențelor sau o etapă suplimentară de analiză. Rezultatul Analiză de poziție și documente procedurale, după competență nu substituie deciziile de management."
-        },
-        {
-          "id": "A16-FAQ10",
-          "question": "Ce limite profesionale și contractuale se aplică pentru „Asistență și reprezentare în litigii fiscale”?",
-          "answer": "Mandatul trebuie să delimiteze expres analiza actelor și termenelor procedurale, organizarea probelor și argumentelor și pregătirea documentelor prin profesioniști competenți. Publicabil ca ofertă numai după verificarea dreptului de exercitare, autorizărilor, independenței și limitelor mandatului, după caz. Termenele și onorariile nu pot fi deduse din acest etalon."
-        }
-      ],
-      "faq_review": {
-        "status": "editorial_synced_from_reviewed_html_pending_professional_review",
-        "reviewed_on": "2026-11-13",
-        "criteria": "Exact parity across SSOT, HTML and JSON-LD; 10 distinct questions per service; statutory and professional checks remain separate"
-      }
-    },
-    {
-      "id": "A17",
-      "level": "advanced",
-      "name": "Controale interne financiar-contabile",
-      "category": "Avansate",
-      "offer_status": "unconfirmed",
-      "published_as_offer": false,
-      "requires_professional_verification": false,
-      "description": "Evaluarea punctelor de control din procesele de aprobare, înregistrare și reconciliere.",
-      "inputs": [
-        "Proceduri",
-        "roluri",
-        "fluxuri și eșantioane de tranzacții"
-      ],
-      "potential_deliverables": [
-        "Matrice de riscuri și controale, plan de remediere"
-      ],
-      "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
-      "version": "3.6.0",
-      "client_problem": "Când este necesar serviciul controale interne financiar-contabile și ce rezultat poate produce?",
-      "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
-      "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
-      "benchmark": {
-        "reference": "Big 5 editorial comparison",
-        "method": "Original editorial synthesis, not an assertion of provider availability",
-        "source_url": null
-      },
-      "operations": [
-        "Identificarea riscurilor de proces",
-        "Testarea controalelor selectate",
-        "Documentarea deficiențelor și remediilor"
-      ],
-      "practical_example": "O firmă dorește separarea aprobării plăților de înregistrare",
-      "client_benefits": [
-        "Înțelegerea documentelor și verificărilor necesare pentru controale interne financiar-contabile.",
-        "Trasabilitatea activităților și a rezultatelor convenite contractual."
-      ],
-      "faq": [
-        {
-          "id": "A17-FAQ01",
-          "question": "Ce trebuie clarificat înainte de evaluări de întreprinderi și active?",
-          "answer": "Se delimitează situația concretă: un asociat solicită evaluarea participației sale. Sunt necesare obiectivul, perioada analizată și confirmarea datelor disponibile; fără acestea, aria intervenției rămâne neclară."
-        },
-        {
-          "id": "A17-FAQ02",
-          "question": "Cum se desfășoară etapa „Definirea scopului și bazei evaluării”?",
-          "answer": "Această etapă urmărește definirea scopului și bazei evaluării. Se stabilesc sursele de date și responsabilul verificării, apoi se consemnează documentele lipsă sau diferențele care pot influența evaluări de întreprinderi și active."
-        },
-        {
-          "id": "A17-FAQ03",
-          "question": "Ce documente susțin operațiunea „Selectarea abordărilor și ipotezelor”?",
-          "answer": "Pentru selectarea abordărilor și ipotezelor se pornește de la Situații financiare, active, proiecții și scopul evaluării. Relevanța fiecărui document se confirmă în raport cu tranzacțiile efective; nu se presupune că lista este exhaustivă."
-        },
-        {
-          "id": "A17-FAQ04",
-          "question": "Cum se verifică rezultatul activității „Analiza sensibilității valorii estimate”?",
-          "answer": "Se documentează analiza sensibilității valorii estimate, apoi se confruntă rezultatul cu evidențele și documentele-sursă. Neconcordanțele se investighează înainte ca livrabilul să fie considerat final."
-        },
-        {
-          "id": "A17-FAQ05",
-          "question": "Ce primește concret clientul după evaluări de întreprinderi și active?",
-          "answer": "Livrabilul orientativ este Raport de evaluare, numai prin evaluator competent. El trebuie însoțit, după caz, de ipoteze, limitări, explicația diferențelor și evidența clarificărilor rămase deschise."
-        },
-        {
-          "id": "A17-FAQ06",
-          "question": "Ce se întâmplă dacă lipsesc datele pentru „Definirea scopului și bazei evaluării”?",
-          "answer": "Se întocmește o listă de completări, iar concluziile care depind de informațiile lipsă se marchează provizorii. În cazul evaluări de întreprinderi și active, etapa afectată direct este definirea scopului și bazei evaluării."
-        },
-        {
-          "id": "A17-FAQ07",
-          "question": "Ce risc specific trebuie controlat în „Selectarea abordărilor și ipotezelor”?",
-          "answer": "Riscul este ca selectarea abordărilor și ipotezelor să fie realizată pe date incomplete, necorelate sau interpretate greșit. Controlul presupune documentarea sursei, a ipotezelor și a verificării de consistență."
-        },
-        {
-          "id": "A17-FAQ08",
-          "question": "Cum se tratează o excepție apărută la „Analiza sensibilității valorii estimate”?",
-          "answer": "Excepția se izolează, se descrie și se verifică față de Situații financiare. Nu se corectează automat fără justificare; se consemnează impactul asupra Raport de evaluare, numai prin evaluator competent și decizia responsabilului."
-        },
-        {
-          "id": "A17-FAQ09",
-          "question": "Ce decizie poate lua clientul folosind rezultatul „Evaluări de întreprinderi și active”?",
-          "answer": "În situația „Un asociat solicită evaluarea participației sale”, clientul poate decide dacă solicită clarificări, corectarea evidențelor sau o etapă suplimentară de analiză. Rezultatul Raport de evaluare, numai prin evaluator competent nu substituie deciziile de management."
-        },
-        {
-          "id": "A17-FAQ10",
-          "question": "Ce limite profesionale și contractuale se aplică pentru „Evaluări de întreprinderi și active”?",
-          "answer": "Mandatul trebuie să delimiteze expres definirea scopului și bazei evaluării, selectarea abordărilor și ipotezelor și analiza sensibilității valorii estimate. Publicabil ca ofertă numai după verificarea dreptului de exercitare, autorizărilor, independenței și limitelor mandatului, după caz. Termenele și onorariile nu pot fi deduse din acest etalon."
-        }
-      ],
-      "faq_review": {
-        "status": "editorial_synced_from_reviewed_html_pending_professional_review",
-        "reviewed_on": "2026-11-13",
-        "criteria": "Exact parity across SSOT, HTML and JSON-LD; 10 distinct questions per service; statutory and professional checks remain separate"
-      }
-    },
-    {
-      "id": "A18",
-      "level": "advanced",
-      "name": "Transformarea funcției financiare",
-      "category": "Avansate",
-      "offer_status": "unconfirmed",
-      "published_as_offer": false,
-      "requires_professional_verification": false,
-      "description": "Reproiectarea proceselor de contabilitate și raportare pentru eficiență, trasabilitate și automatizare.",
-      "inputs": [
-        "Procese curente",
-        "sisteme",
-        "indicatori și obiective"
-      ],
-      "potential_deliverables": [
-        "Hartă de procese și plan etapizat de transformare"
-      ],
-      "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
-      "version": "3.6.0",
-      "client_problem": "Când este necesar serviciul transformarea funcției financiare și ce rezultat poate produce?",
-      "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
-      "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
-      "benchmark": {
-        "reference": "Big 5 editorial comparison",
-        "method": "Original editorial synthesis, not an assertion of provider availability",
-        "source_url": null
-      },
-      "operations": [
-        "Evaluarea proceselor și timpilor de execuție",
-        "Prioritizarea automatizărilor",
-        "Definirea etapelor și indicatorilor de succes"
-      ],
-      "practical_example": "Un departament financiar procesează manual sute de documente",
-      "client_benefits": [
-        "Înțelegerea documentelor și verificărilor necesare pentru transformarea funcției financiare.",
-        "Trasabilitatea activităților și a rezultatelor convenite contractual."
-      ],
-      "faq": [
-        {
-          "id": "A18-FAQ01",
-          "question": "Ce trebuie clarificat înainte de consultanță în tranzacții și restructurări?",
-          "answer": "Se delimitează situația concretă: un grup analizează o fuziune sau separare. Sunt necesare obiectivul, perioada analizată și confirmarea datelor disponibile; fără acestea, aria intervenției rămâne neclară."
-        },
-        {
-          "id": "A18-FAQ02",
-          "question": "Cum se desfășoară etapa „Modelarea scenariilor de tranzacție”?",
-          "answer": "Această etapă urmărește modelarea scenariilor de tranzacție. Se stabilesc sursele de date și responsabilul verificării, apoi se consemnează documentele lipsă sau diferențele care pot influența consultanță în tranzacții și restructurări."
-        },
-        {
-          "id": "A18-FAQ03",
-          "question": "Ce documente susțin operațiunea „Analiza efectelor financiare și fiscale”?",
-          "answer": "Pentru analiza efectelor financiare și fiscale se pornește de la Structura tranzacției, situații financiare și obiective. Relevanța fiecărui document se confirmă în raport cu tranzacțiile efective; nu se presupune că lista este exhaustivă."
-        },
-        {
-          "id": "A18-FAQ04",
-          "question": "Cum se verifică rezultatul activității „Pregătirea informațiilor pentru decizie”?",
-          "answer": "Se documentează pregătirea informațiilor pentru decizie, apoi se confruntă rezultatul cu evidențele și documentele-sursă. Neconcordanțele se investighează înainte ca livrabilul să fie considerat final."
-        },
-        {
-          "id": "A18-FAQ05",
-          "question": "Ce primește concret clientul după consultanță în tranzacții și restructurări?",
-          "answer": "Livrabilul orientativ este Analize de scenarii și documentație de tranzacție. El trebuie însoțit, după caz, de ipoteze, limitări, explicația diferențelor și evidența clarificărilor rămase deschise."
-        },
-        {
-          "id": "A18-FAQ06",
-          "question": "Ce se întâmplă dacă lipsesc datele pentru „Modelarea scenariilor de tranzacție”?",
-          "answer": "Se întocmește o listă de completări, iar concluziile care depind de informațiile lipsă se marchează provizorii. În cazul consultanță în tranzacții și restructurări, etapa afectată direct este modelarea scenariilor de tranzacție."
-        },
-        {
-          "id": "A18-FAQ07",
-          "question": "Ce risc specific trebuie controlat în „Analiza efectelor financiare și fiscale”?",
-          "answer": "Riscul este ca analiza efectelor financiare și fiscale să fie realizată pe date incomplete, necorelate sau interpretate greșit. Controlul presupune documentarea sursei, a ipotezelor și a verificării de consistență."
-        },
-        {
-          "id": "A18-FAQ08",
-          "question": "Cum se tratează o excepție apărută la „Pregătirea informațiilor pentru decizie”?",
-          "answer": "Excepția se izolează, se descrie și se verifică față de Structura tranzacției. Nu se corectează automat fără justificare; se consemnează impactul asupra Analize de scenarii și documentație de tranzacție și decizia responsabilului."
-        },
-        {
-          "id": "A18-FAQ09",
-          "question": "Ce decizie poate lua clientul folosind rezultatul „Consultanță în tranzacții și restructurări”?",
-          "answer": "În situația „Un grup analizează o fuziune sau separare”, clientul poate decide dacă solicită clarificări, corectarea evidențelor sau o etapă suplimentară de analiză. Rezultatul Analize de scenarii și documentație de tranzacție nu substituie deciziile de management."
-        },
-        {
-          "id": "A18-FAQ10",
-          "question": "Ce limite profesionale și contractuale se aplică pentru „Consultanță în tranzacții și restructurări”?",
-          "answer": "Mandatul trebuie să delimiteze expres modelarea scenariilor de tranzacție, analiza efectelor financiare și fiscale și pregătirea informațiilor pentru decizie. Publicabil ca ofertă numai după verificarea dreptului de exercitare, autorizărilor, independenței și limitelor mandatului, după caz. Termenele și onorariile nu pot fi deduse din acest etalon."
         }
       ],
       "faq_review": {
