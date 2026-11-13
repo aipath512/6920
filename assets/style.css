@@ -587,3 +587,6 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
  .hero.home-hero.luxe-hero .luxe-qualification{font-size:15px!important;line-height:1.55!important}
  .hero.home-hero.luxe-hero .luxe-eyebrow{font-size:13px!important}
 }
+
+/* Keep the EVA conversation panel unobstructed when open. */
+@media(max-width:650px){body:has(#eva-box:not([hidden])) .hero.home-hero.luxe-hero .luxe-actions{display:none!important}}
