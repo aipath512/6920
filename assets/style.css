@@ -644,3 +644,9 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
 .eva-trigger::after{content:"";position:absolute;right:1px;bottom:-8px;width:16px;height:16px;background:#f9eee0;border-right:3px solid #e9bd81;border-bottom:3px solid #e9bd81;transform:rotate(37deg) skew(8deg,8deg);border-radius:0 0 4px 0;z-index:-1}
 .eva-trigger .eva-avatar.eva-avatar-portrait{background:#e8d6c1!important;background-image:none!important;overflow:hidden!important;border-radius:50%!important}
 .eva-trigger .eva-face{display:block;width:100%;height:100%;border-radius:50%;object-fit:cover}
+
+/* EVA greeting: hand waves for exactly 2 seconds, then remains hidden. */
+.eva-trigger .eva-avatar.eva-avatar-portrait{overflow:visible!important}
+.eva-wave-hand{position:absolute;z-index:4;right:-9px;top:-12px;font-size:25px;line-height:1;transform-origin:70% 80%;animation:eva-wave-hello 2s ease-in-out 1 both;pointer-events:none;filter:drop-shadow(0 2px 2px #0008)}
+@keyframes eva-wave-hello{0%{opacity:0;transform:rotate(-20deg) scale(.6)}10%{opacity:1;transform:rotate(16deg) scale(1)}25%{transform:rotate(-20deg)}40%{transform:rotate(22deg)}55%{transform:rotate(-18deg)}70%{transform:rotate(18deg)}85%{opacity:1;transform:rotate(0)}100%{opacity:0;transform:rotate(0) scale(.8)}}
+@media(prefers-reduced-motion:reduce){.eva-wave-hand{animation:none;opacity:0}}
