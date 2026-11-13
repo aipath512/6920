@@ -752,3 +752,10 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
   text-align:center!important;justify-content:center!important
  }
 }
+
+/* Mid-screen contextual navigation, independent of bottom-right EVA. */
+.page-scroll-controls{position:fixed;top:50%;right:12px;transform:translateY(-50%);z-index:110;display:flex;flex-direction:column;gap:10px;pointer-events:none}
+.page-scroll-controls button{pointer-events:auto;display:grid;place-items:center;width:44px;height:44px;border:1px solid rgba(240,205,130,.6);border-radius:50%;background:rgba(16,44,43,.93);color:#f1c34e;font-size:27px;font-weight:500;line-height:1;box-shadow:0 5px 18px rgba(0,0,0,.22);cursor:pointer;transition:transform .2s,background .2s}
+.page-scroll-controls button:hover{transform:scale(1.08);background:#174641}
+.page-scroll-controls button[hidden]{display:none!important}
+@media(max-width:650px){.page-scroll-controls{right:8px;gap:8px}.page-scroll-controls button{width:39px;height:39px;font-size:24px}}
