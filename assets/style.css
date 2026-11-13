@@ -601,3 +601,20 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
 /* Portrait fallback if external animated source is unavailable */
 .eva-trigger .eva-avatar.eva-avatar-portrait{background-image:url('https://images.unsplash.com/photo-1758518729929-8210d3b0839e?auto=format&fit=crop&w=240&q=75');background-size:cover;background-position:75% 38%}
 .eva-avatar-portrait .eva-avatar-fallback{font-size:0!important}
+
+
+/* C6920 mobile: separate bottom CTA dock, never trapped by HERO stacking context */
+.home-mobile-cta-dock{display:none}
+@media(max-width:650px){
+ .hero.home-hero.luxe-hero .luxe-actions{display:none!important}
+ .home-mobile-cta-dock{position:fixed;z-index:2147483000;left:12px;right:86px;bottom:calc(12px + env(safe-area-inset-bottom,0px));display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8px;align-items:stretch}
+ .home-mobile-cta-dock .luxe-cta{min-height:54px;min-width:0;padding:9px 8px;display:flex;justify-content:center;gap:5px;text-align:center;font-size:clamp(12px,3.2vw,15px);white-space:nowrap;box-shadow:0 8px 25px #0009}
+ .home-mobile-cta-dock .luxe-cta span{font-size:14px}
+ .eva-trigger{z-index:2147483001!important;bottom:calc(12px + env(safe-area-inset-bottom,0px))!important}
+ body:has(#eva-box:not([hidden])) .home-mobile-cta-dock{display:none!important}
+ body{padding-bottom:calc(74px + env(safe-area-inset-bottom,0px))}
+ .hero.home-hero.luxe-hero .luxe-copy{display:flex;flex-direction:column;gap:clamp(15px,4vw,22px)}
+ .hero.home-hero.luxe-hero .luxe-copy h1{margin:0!important}
+ .hero.home-hero.luxe-hero .luxe-deck{margin:0!important}
+ .hero.home-hero.luxe-hero .luxe-qualification{margin:0!important}
+}
