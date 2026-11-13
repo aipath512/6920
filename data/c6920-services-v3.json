@@ -1,6 +1,6 @@
 {
   "schema": "scara.c6920.service-catalog.v1",
-  "version": "3.2.0",
+  "version": "3.3.0",
   "generated_at": "2026-11-13",
   "default_publication_policy": "informational_only",
   "offer_states": [
@@ -1082,11 +1082,428 @@
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
       }
+    },
+    {
+      "id": "E16",
+      "level": "essential",
+      "name": "Raportări statistice",
+      "category": "Esențiale IMM",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Pregătirea situațiilor statistice aplicabile activității, pe baza datelor contabile și operaționale.",
+      "inputs": [
+        "Date financiare",
+        "personal",
+        "indicatori operaționali"
+      ],
+      "potential_deliverables": [
+        "Situații statistice și verificări de consistență"
+      ],
+      "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
+      "version": "3.3.0",
+      "client_problem": "Când este necesar serviciul raportări statistice și ce rezultat poate produce?",
+      "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
+      "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
+      "benchmark": {
+        "reference": "Big 5 editorial comparison",
+        "method": "Original editorial synthesis, not an assertion of provider availability",
+        "source_url": null
+      }
+    },
+    {
+      "id": "E17",
+      "level": "essential",
+      "name": "Revizuire salarizare",
+      "category": "Esențiale IMM",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Verificarea calculului salarial, a pontajelor, reținerilor și raportărilor pentru identificarea diferențelor.",
+      "inputs": [
+        "State de plată",
+        "contracte",
+        "pontaje și declarații"
+      ],
+      "potential_deliverables": [
+        "Raport de diferențe și recomandări de corecție"
+      ],
+      "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
+      "version": "3.3.0",
+      "client_problem": "Când este necesar serviciul revizuire salarizare și ce rezultat poate produce?",
+      "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
+      "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
+      "benchmark": {
+        "reference": "Big 5 editorial comparison",
+        "method": "Original editorial synthesis, not an assertion of provider availability",
+        "source_url": null
+      }
+    },
+    {
+      "id": "E18",
+      "level": "essential",
+      "name": "Administrarea beneficiilor salariaților",
+      "category": "Esențiale IMM",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Evidența și tratarea operațională a beneficiilor, în corelare cu salarizarea și documentele justificative.",
+      "inputs": [
+        "Politici de beneficii",
+        "documente și date salariale"
+      ],
+      "potential_deliverables": [
+        "Centralizatoare și tratamente propuse spre validare"
+      ],
+      "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
+      "version": "3.3.0",
+      "client_problem": "Când este necesar serviciul administrarea beneficiilor salariaților și ce rezultat poate produce?",
+      "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
+      "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
+      "benchmark": {
+        "reference": "Big 5 editorial comparison",
+        "method": "Original editorial synthesis, not an assertion of provider availability",
+        "source_url": null
+      }
+    },
+    {
+      "id": "E19",
+      "level": "essential",
+      "name": "Suport documentar pentru auditul anual",
+      "category": "Esențiale IMM",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Pregătirea documentelor, reconcilierea soldurilor și gestionarea solicitărilor auditorilor.",
+      "inputs": [
+        "Balanțe",
+        "registre",
+        "contracte și solicitări de audit"
+      ],
+      "potential_deliverables": [
+        "Dosar de audit și registru de clarificări"
+      ],
+      "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
+      "version": "3.3.0",
+      "client_problem": "Când este necesar serviciul suport documentar pentru auditul anual și ce rezultat poate produce?",
+      "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
+      "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
+      "benchmark": {
+        "reference": "Big 5 editorial comparison",
+        "method": "Original editorial synthesis, not an assertion of provider availability",
+        "source_url": null
+      }
+    },
+    {
+      "id": "A13",
+      "level": "advanced",
+      "name": "Migrare plan de conturi și date contabile",
+      "category": "Avansate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Maparea conturilor și transferul controlat al soldurilor și istoricului între sisteme.",
+      "inputs": [
+        "Planuri de conturi",
+        "balanțe",
+        "exporturi și reguli de mapare"
+      ],
+      "potential_deliverables": [
+        "Matrice de conversie și reconciliere post-migrare"
+      ],
+      "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
+      "version": "3.3.0",
+      "client_problem": "Când este necesar serviciul migrare plan de conturi și date contabile și ce rezultat poate produce?",
+      "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
+      "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
+      "benchmark": {
+        "reference": "Big 5 editorial comparison",
+        "method": "Original editorial synthesis, not an assertion of provider availability",
+        "source_url": null
+      }
+    },
+    {
+      "id": "A14",
+      "level": "advanced",
+      "name": "Controlling financiar",
+      "category": "Avansate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Analiza abaterilor dintre buget și realizat, a marjelor și a performanței pe centre de cost.",
+      "inputs": [
+        "Bugete",
+        "costuri",
+        "venituri și date analitice"
+      ],
+      "potential_deliverables": [
+        "Raport de abateri și indicatori de performanță"
+      ],
+      "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
+      "version": "3.3.0",
+      "client_problem": "Când este necesar serviciul controlling financiar și ce rezultat poate produce?",
+      "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
+      "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
+      "benchmark": {
+        "reference": "Big 5 editorial comparison",
+        "method": "Original editorial synthesis, not an assertion of provider availability",
+        "source_url": null
+      }
+    },
+    {
+      "id": "A15",
+      "level": "advanced",
+      "name": "Externalizarea funcției de contabil-șef",
+      "category": "Avansate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Coordonarea și supravegherea proceselor contabile, cu delimitarea atribuțiilor și răspunderii legale.",
+      "inputs": [
+        "Organigramă",
+        "procese",
+        "evidențe și calendar de raportare"
+      ],
+      "potential_deliverables": [
+        "Plan de control și rapoarte de supervizare"
+      ],
+      "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
+      "version": "3.3.0",
+      "client_problem": "Când este necesar serviciul externalizarea funcției de contabil-șef și ce rezultat poate produce?",
+      "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
+      "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
+      "benchmark": {
+        "reference": "Big 5 editorial comparison",
+        "method": "Original editorial synthesis, not an assertion of provider availability",
+        "source_url": null
+      }
+    },
+    {
+      "id": "A16",
+      "level": "advanced",
+      "name": "Coordonarea raportării fiscale de grup",
+      "category": "Avansate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Organizarea raportărilor fiscale ale entităților dintr-un grup și urmărirea termenelor și diferențelor.",
+      "inputs": [
+        "Structura grupului",
+        "calendare fiscale și raportări locale"
+      ],
+      "potential_deliverables": [
+        "Calendar consolidat și matrice de conformare"
+      ],
+      "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
+      "version": "3.3.0",
+      "client_problem": "Când este necesar serviciul coordonarea raportării fiscale de grup și ce rezultat poate produce?",
+      "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
+      "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
+      "benchmark": {
+        "reference": "Big 5 editorial comparison",
+        "method": "Original editorial synthesis, not an assertion of provider availability",
+        "source_url": null
+      }
+    },
+    {
+      "id": "A17",
+      "level": "advanced",
+      "name": "Controale interne financiar-contabile",
+      "category": "Avansate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Evaluarea punctelor de control din procesele de aprobare, înregistrare și reconciliere.",
+      "inputs": [
+        "Proceduri",
+        "roluri",
+        "fluxuri și eșantioane de tranzacții"
+      ],
+      "potential_deliverables": [
+        "Matrice de riscuri și controale, plan de remediere"
+      ],
+      "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
+      "version": "3.3.0",
+      "client_problem": "Când este necesar serviciul controale interne financiar-contabile și ce rezultat poate produce?",
+      "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
+      "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
+      "benchmark": {
+        "reference": "Big 5 editorial comparison",
+        "method": "Original editorial synthesis, not an assertion of provider availability",
+        "source_url": null
+      }
+    },
+    {
+      "id": "A18",
+      "level": "advanced",
+      "name": "Transformarea funcției financiare",
+      "category": "Avansate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": false,
+      "description": "Reproiectarea proceselor de contabilitate și raportare pentru eficiență, trasabilitate și automatizare.",
+      "inputs": [
+        "Procese curente",
+        "sisteme",
+        "indicatori și obiective"
+      ],
+      "potential_deliverables": [
+        "Hartă de procese și plan etapizat de transformare"
+      ],
+      "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
+      "version": "3.3.0",
+      "client_problem": "Când este necesar serviciul transformarea funcției financiare și ce rezultat poate produce?",
+      "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
+      "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
+      "benchmark": {
+        "reference": "Big 5 editorial comparison",
+        "method": "Original editorial synthesis, not an assertion of provider availability",
+        "source_url": null
+      }
+    },
+    {
+      "id": "S11",
+      "level": "regulated",
+      "name": "Expertize contabile",
+      "category": "Specializate / condiționate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": true,
+      "description": "Analize și constatări contabile efectuate în limitele calificărilor și cadrului legal aplicabil.",
+      "inputs": [
+        "Documente contabile",
+        "obiectivele expertizei și mandat"
+      ],
+      "potential_deliverables": [
+        "Raport de expertiză, numai prin profesionist competent"
+      ],
+      "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
+      "version": "3.3.0",
+      "client_problem": "Când este necesar serviciul expertize contabile și ce rezultat poate produce?",
+      "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
+      "professional_note": "Dreptul de exercitare și competențele se verifică în funcție de natura concretă a misiunii; clasificarea editorială nu stabilește singură o cerință legală de autorizare.",
+      "benchmark": {
+        "reference": "Big 5 editorial comparison",
+        "method": "Original editorial synthesis, not an assertion of provider availability",
+        "source_url": null
+      }
+    },
+    {
+      "id": "S12",
+      "level": "regulated",
+      "name": "Contabilitatea impozitului amânat",
+      "category": "Specializate / condiționate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": true,
+      "description": "Determinarea diferențelor temporare și a efectelor fiscale în raportarea financiară aplicabilă.",
+      "inputs": [
+        "Baze fiscale",
+        "valori contabile și proiecții"
+      ],
+      "potential_deliverables": [
+        "Calculul impozitului amânat și note explicative"
+      ],
+      "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
+      "version": "3.3.0",
+      "client_problem": "Când este necesar serviciul contabilitatea impozitului amânat și ce rezultat poate produce?",
+      "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
+      "professional_note": "Dreptul de exercitare și competențele se verifică în funcție de natura concretă a misiunii; clasificarea editorială nu stabilește singură o cerință legală de autorizare.",
+      "benchmark": {
+        "reference": "Big 5 editorial comparison",
+        "method": "Original editorial synthesis, not an assertion of provider availability",
+        "source_url": null
+      }
+    },
+    {
+      "id": "S13",
+      "level": "regulated",
+      "name": "Provizioane fiscale complexe",
+      "category": "Specializate / condiționate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": true,
+      "description": "Analiza expunerilor fiscale și documentarea tratamentului contabil al riscurilor și incertitudinilor.",
+      "inputs": [
+        "Poziții fiscale",
+        "controale",
+        "litigii și estimări"
+      ],
+      "potential_deliverables": [
+        "Memoriu de evaluare și tratament contabil propus"
+      ],
+      "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
+      "version": "3.3.0",
+      "client_problem": "Când este necesar serviciul provizioane fiscale complexe și ce rezultat poate produce?",
+      "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
+      "professional_note": "Dreptul de exercitare și competențele se verifică în funcție de natura concretă a misiunii; clasificarea editorială nu stabilește singură o cerință legală de autorizare.",
+      "benchmark": {
+        "reference": "Big 5 editorial comparison",
+        "method": "Original editorial synthesis, not an assertion of provider availability",
+        "source_url": null
+      }
+    },
+    {
+      "id": "S14",
+      "level": "regulated",
+      "name": "Lichidări și reorganizări societare",
+      "category": "Specializate / condiționate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": true,
+      "description": "Asistență financiar-contabilă în operațiuni de dizolvare, lichidare sau reorganizare, cu delimitarea atribuțiilor juridice.",
+      "inputs": [
+        "Hotărâri",
+        "bilanțuri",
+        "active",
+        "datorii și documente societare"
+      ],
+      "potential_deliverables": [
+        "Situații contabile și documentație specifică etapei"
+      ],
+      "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
+      "version": "3.3.0",
+      "client_problem": "Când este necesar serviciul lichidări și reorganizări societare și ce rezultat poate produce?",
+      "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
+      "professional_note": "Dreptul de exercitare și competențele se verifică în funcție de natura concretă a misiunii; clasificarea editorială nu stabilește singură o cerință legală de autorizare.",
+      "benchmark": {
+        "reference": "Big 5 editorial comparison",
+        "method": "Original editorial synthesis, not an assertion of provider availability",
+        "source_url": null
+      }
+    },
+    {
+      "id": "S15",
+      "level": "regulated",
+      "name": "Asistență pentru acorduri de preț în avans",
+      "category": "Specializate / condiționate",
+      "offer_status": "unconfirmed",
+      "published_as_offer": false,
+      "requires_professional_verification": true,
+      "description": "Pregătirea analizelor și documentației necesare procedurilor privind prețurile de transfer.",
+      "inputs": [
+        "Tranzacții intra-grup",
+        "politici și analize economice"
+      ],
+      "potential_deliverables": [
+        "Dosar de susținere și documentație pentru procedură"
+      ],
+      "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
+      "version": "3.3.0",
+      "client_problem": "Când este necesar serviciul asistență pentru acorduri de preț în avans și ce rezultat poate produce?",
+      "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
+      "professional_note": "Dreptul de exercitare și competențele se verifică în funcție de natura concretă a misiunii; clasificarea editorială nu stabilește singură o cerință legală de autorizare.",
+      "benchmark": {
+        "reference": "Big 5 editorial comparison",
+        "method": "Original editorial synthesis, not an assertion of provider availability",
+        "source_url": null
+      }
     }
   ],
   "benchmark_sources": [
     "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale",
     "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/servicii-administrative",
     "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/hr-si-salarizare/consultanta-in-salarizare-si-legislatia-muncii/conformitate-administrativa-in-hr"
-  ]
+  ],
+  "editorial_note": "Catalog de referință: clasificarea în nivelul specializat nu implică automat că fiecare activitate este rezervată legal unei profesii. Verificarea se face pe misiune."
 }
