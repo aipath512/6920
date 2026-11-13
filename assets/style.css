@@ -618,3 +618,14 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
  .hero.home-hero.luxe-hero .luxe-deck{margin:0!important}
  .hero.home-hero.luxe-hero .luxe-qualification{margin:0!important}
 }
+
+
+/* C6920 final mobile correction: ONE CTA pair only, no framed trust boxes. */
+@media(max-width:650px){
+ body .hero.home-hero.luxe-hero .luxe-copy .luxe-actions,
+ body .hero.home-hero.luxe-hero .luxe-actions{display:none!important;visibility:hidden!important;position:static!important;height:0!important;overflow:hidden!important;margin:0!important;padding:0!important}
+ body .home-mobile-cta-dock{display:grid!important}
+ .home-v3-trust-row span,.home-v3-trust-row span+span{border:0!important;box-shadow:none!important;background:transparent!important;outline:0!important}
+ .home-v3-trust-row{border:0!important;gap:14px 18px!important}
+ .home-v3-trust{border:0!important}
+}
