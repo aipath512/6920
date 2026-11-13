@@ -148,7 +148,7 @@
       "category": "Esențiale IMM",
       "offer_status": "unconfirmed",
       "published_as_offer": false,
-      "requires_professional_verification": false,
+      "requires_professional_verification": true,
       "description": "Evidența veniturilor și cheltuielilor și evaluarea obligațiilor fiscale specifice formei de organizare.",
       "inputs": [
         "Documente de încasări și plăți",
@@ -172,12 +172,33 @@
           "scope": "relevant legal framework; specific applicability must be checked",
           "reviewed_on": "2026-11-13",
           "verification": "official act/framework located; current applicability and article-level interpretation pending qualified review"
+        },
+        {
+          "act": "OMFP nr. 170/2015 — contabilitatea în partidă simplă",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/165937",
+          "scope": "Registre și evidență contabilă în partidă simplă; Registrul-jurnal de încasări și plăți și Registrul-inventar",
+          "reviewed_on": "2026-11-13",
+          "verification": "specific provisions checked; current applicability and professional review pending"
+        },
+        {
+          "act": "OMFP nr. 3254/2017 — Registrul de evidență fiscală",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/196396",
+          "scope": "Art. 1 alin. (1)–(2): sistem real și norme de venit; art. 3: corelare cu determinarea venitului",
+          "reviewed_on": "2026-11-13",
+          "verification": "specific provisions checked in official legislative portal; professional sign-off pending"
+        },
+        {
+          "act": "ANAF — Declarația unică D212 2026",
+          "url": "https://www.anaf.ro/declaratii/duf",
+          "scope": "Formular și instrucțiuni privind veniturile anului 2025; contribuții CAS/CASS și opțiuni pentru 2026",
+          "reviewed_on": "2026-11-13",
+          "verification": "official ANAF digital form checked; future filing requirements must be rechecked"
         }
       ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de evidență fiscală pfa / ii și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
-      "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
+      "professional_note": "PFA/II își păstrează responsabilitatea declarării și evidenței. Dacă serviciul implică ținerea contabilității externalizate, se verifică în concret dreptul prestatorului de a efectua activitățile contabile; asistența declarativă sau consultanța fiscală au sfere și competențe care trebuie delimitate contractual.",
       "benchmark": {
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
@@ -202,7 +223,7 @@
         {
           "id": "E02-FAQ02",
           "question": "Cum diferă evidența unui PFA în sistem real de cea la normă de venit?",
-          "answer": "În sistem real, determinarea venitului net fiscal pornește, în principiu, de la veniturile și cheltuielile relevante, cu ajustările prevăzute de lege. La normă de venit, calculul are altă bază, iar obligațiile de evidență nu sunt identice. Eligibilitatea pentru normă se verifică pentru activitatea și anul fiscal în cauză."
+          "answer": "În sistem real, venitul net se determină pe baza veniturilor și cheltuielilor fiscal relevante, iar contabilitatea în partidă simplă presupune, după caz, Registrul-jurnal de încasări și plăți și Registrul-inventar, potrivit OMFP nr. 170/2015. Separat, Registrul de evidență fiscală susține determinarea venitului net conform OMFP nr. 3254/2017. La normă de venit, Registrul de evidență fiscală se completează numai în partea referitoare la venituri; eligibilitatea pentru acest regim se verifică pentru activitatea și anul fiscal analizat."
         },
         {
           "id": "E02-FAQ03",
@@ -237,27 +258,27 @@
         {
           "id": "E02-FAQ09",
           "question": "Ce informații sunt necesare pentru estimarea obligațiilor fiscale ale unui PFA?",
-          "answer": "Sunt utile forma de organizare, activitatea desfășurată, regimul de determinare a venitului, veniturile și cheltuielile relevante, alte venituri care influențează obligațiile și anul fiscal analizat. Impozitul și contribuțiile se calculează pe baza regulilor valabile pentru acel an, nu după praguri memorate din anii anteriori."
+          "answer": "Se identifică activitatea, anul fiscal, sistemul real sau norma de venit, veniturile și cheltuielile relevante, precum și statutul persoanei și alte venituri care influențează CAS/CASS. Plafoanele, baza și excepțiile se verifică separat pentru fiecare contribuție și pentru anul analizat; nu se aplică automat pragurile sau regulile dintr-un an anterior."
         },
         {
           "id": "E02-FAQ10",
           "question": "Ce verific înainte să depun declarația fiscală aferentă activității PFA?",
-          "answer": "Verific identificarea contribuabilului, anul și tipul venitului, metoda de determinare, sumele susținute de evidențe, eventualele contribuții și existența altor obligații relevante. Versiunea formularului și termenul de depunere se confirmă din surse oficiale pentru anul respectiv."
+          "answer": "Se confruntă veniturile și cheltuielile fiscale cu evidențele și registrele aplicabile, se verifică situația CAS/CASS, datele de identificare, categoria veniturilor și eventualele rectificări. Pentru veniturile realizate în 2025, termenul general al D212 și plății a fost 25 mai 2026, potrivit informațiilor ANAF; pentru veniturile din 2026 se verifică formularul și termenul aferente declarării din 2027, fără a confunda eventualele opțiuni CASS din cursul anului cu declarația anuală."
         }
       ],
       "faq_review": {
-        "status": "editorial_rewritten_pending_professional_review",
+        "status": "editorial_corrected_pending_professional_review",
         "reviewed_on": "2026-11-13",
-        "criteria": "10 client-intent questions; tax rules and deadlines deliberately conditional on applicable year; no textual duplicates"
+        "criteria": "Ten specific FAQs; clarified double registry system, income-only norm of income register and tax-year-scoped D212"
       },
       "legal_review": {
-        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "status": "targeted_provisions_verified_pending_qualified_professional_signoff",
         "as_of": "2026-11-13",
         "source_validation": "official_framework_identified",
-        "article_level_validation": "pending",
+        "article_level_validation": "omfp_170_2015_and_3254_2017_checked_tax_year_rule_pending",
         "contractual_provider_validation": "pending"
       },
-      "professional_authorization_category": "provider_competence_and_mandate_check"
+      "professional_authorization_category": "external_accounting_and_tax_advice_scope_check"
     },
     {
       "id": "E03",
