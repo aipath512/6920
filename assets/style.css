@@ -759,3 +759,12 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
 .page-scroll-controls button:hover{transform:scale(1.08);background:#174641}
 .page-scroll-controls button[hidden]{display:none!important}
 @media(max-width:650px){.page-scroll-controls{right:8px;gap:8px}.page-scroll-controls button{width:39px;height:39px;font-size:24px}}
+
+/* Four benefit links from reference, inserted between HERO and services. */
+.home-benefits-links{background:#1c2933;color:#f6f4f0;padding:52px 0}
+.home-benefits-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:48px 54px}
+.home-benefit-link{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:90px;text-decoration:none!important;color:#f6f4f0!important;font-family:'DM Sans',sans-serif;font-weight:700;font-size:clamp(22px,2.6vw,34px);line-height:1.35;transition:color .2s}
+.home-benefit-link span{color:#d5a66e;opacity:0;transition:opacity .2s;flex-shrink:0}
+.home-benefit-link:hover,.home-benefit-link:focus-visible{color:#d5a66e!important}
+.home-benefit-link:hover span,.home-benefit-link:focus-visible span{opacity:1}
+@media(max-width:650px){.home-benefits-links{padding:30px 0}.home-benefits-grid{gap:24px 20px}.home-benefit-link{min-height:76px;font-size:clamp(16px,4.3vw,22px);line-height:1.4}.home-benefit-link span{font-size:16px;opacity:.8}}
