@@ -850,3 +850,9 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
 .etalon-service-faq{border-top:1px solid var(--line);padding-top:10px;margin-top:12px}
 .etalon-service-faq p{margin:10px 0!important}
 .etalon-tier-service-detailed details strong{color:var(--ink)}
+
+/* C6920 V3.5: 520 visible FAQ pairs */
+.etalon-service-faq h5{font-size:14px;margin:14px 0 10px}
+.etalon-tier-service-detailed .etalon-service-faq details.etalon-faq-item{margin:0;border-bottom:1px solid var(--line);padding:9px 0}
+.etalon-tier-service-detailed .etalon-service-faq details.etalon-faq-item summary{font-size:13px;line-height:1.5;text-decoration:none}
+.etalon-tier-service-detailed .etalon-service-faq details.etalon-faq-item p{padding:8px 0 2px;margin:0!important}
