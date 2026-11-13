@@ -33,7 +33,29 @@
         "Registre, balanță și situații periodice convenite"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
-      "sources": [],
+      "sources": [
+        {
+          "act": "Legea contabilității nr. 82/1991",
+          "url": "https://legislatie.just.ro/Public/FormaPrintabila/00000G0G0TWP06Y0RB203NS3FFGT7RKT",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "OMFP nr. 1802/2014",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/260055",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "OG nr. 65/1994 — profesiile contabile",
+          "url": "https://legislatie.just.ro/Public/FormaPrintabila/00000G0I0PA7SDEOV3C3G8NEC74WBQNL",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de contabilitate financiară srl și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
@@ -109,7 +131,15 @@
         "status": "editorial_rewritten_pending_professional_review",
         "reviewed_on": "2026-11-13",
         "criteria": "10 client-intent questions; no duplicate questions or answers; operational specificity; no invented legal deadlines"
-      }
+      },
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "ceccar_if_outsourced_accounting"
     },
     {
       "id": "E02",
@@ -128,7 +158,22 @@
         "Registre și informații pentru declarațiile aplicabile"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
-      "sources": [],
+      "sources": [
+        {
+          "act": "Legea nr. 227/2015 — Codul fiscal",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/309177",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "Legea nr. 207/2015 — Codul de procedură fiscală",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/298826",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de evidență fiscală pfa / ii și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
@@ -204,7 +249,15 @@
         "status": "editorial_rewritten_pending_professional_review",
         "reviewed_on": "2026-11-13",
         "criteria": "10 client-intent questions; tax rules and deadlines deliberately conditional on applicable year; no textual duplicates"
-      }
+      },
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "provider_competence_and_mandate_check"
     },
     {
       "id": "E03",
@@ -224,7 +277,29 @@
         "Evidențe și situații adaptate raportării organizației"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
-      "sources": [],
+      "sources": [
+        {
+          "act": "Legea contabilității nr. 82/1991",
+          "url": "https://legislatie.just.ro/Public/FormaPrintabila/00000G0G0TWP06Y0RB203NS3FFGT7RKT",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "OMFP nr. 1802/2014",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/260055",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "OG nr. 65/1994 — profesiile contabile",
+          "url": "https://legislatie.just.ro/Public/FormaPrintabila/00000G0I0PA7SDEOV3C3G8NEC74WBQNL",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de contabilitate ong și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
@@ -300,7 +375,15 @@
         "status": "editorial_rewritten_pending_professional_review",
         "reviewed_on": "2026-11-13",
         "criteria": "10 NGO-specific client questions; restricted funds, grants, double funding, volunteer contributions; no invented deadlines"
-      }
+      },
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "ceccar_if_outsourced_accounting"
     },
     {
       "id": "E04",
@@ -320,7 +403,15 @@
         "Documente înregistrate și listă de clarificări"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
-      "sources": [],
+      "sources": [
+        {
+          "act": "Legea contabilității nr. 82/1991",
+          "url": "https://legislatie.just.ro/Public/FormaPrintabila/00000G0G0TWP06Y0RB203NS3FFGT7RKT",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de prelucrare documente contabile și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
@@ -396,7 +487,15 @@
         "status": "editorial_synced_from_reviewed_html_pending_professional_review",
         "reviewed_on": "2026-11-13",
         "criteria": "Exact parity across SSOT, HTML and JSON-LD; 10 distinct questions per service; statutory and professional checks remain separate"
-      }
+      },
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "provider_competence_and_mandate_check"
     },
     {
       "id": "E05",
@@ -416,7 +515,22 @@
         "Reconciliere și listă de diferențe de investigat"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
-      "sources": [],
+      "sources": [
+        {
+          "act": "Legea contabilității nr. 82/1991",
+          "url": "https://legislatie.just.ro/Public/FormaPrintabila/00000G0G0TWP06Y0RB203NS3FFGT7RKT",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "OMFP nr. 1802/2014",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/260055",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de reconciliere bancară și solduri și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
@@ -492,7 +606,15 @@
         "status": "editorial_synced_from_reviewed_html_pending_professional_review",
         "reviewed_on": "2026-11-13",
         "criteria": "Exact parity across SSOT, HTML and JSON-LD; 10 distinct questions per service; statutory and professional checks remain separate"
-      }
+      },
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "provider_competence_and_mandate_check"
     },
     {
       "id": "E06",
@@ -511,7 +633,22 @@
         "Balanță și sinteză de închidere, după mandat"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
-      "sources": [],
+      "sources": [
+        {
+          "act": "Legea contabilității nr. 82/1991",
+          "url": "https://legislatie.just.ro/Public/FormaPrintabila/00000G0G0TWP06Y0RB203NS3FFGT7RKT",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "OMFP nr. 1802/2014",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/260055",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de închideri contabile lunare și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
@@ -587,7 +724,15 @@
         "status": "editorial_synced_from_reviewed_html_pending_professional_review",
         "reviewed_on": "2026-11-13",
         "criteria": "Exact parity across SSOT, HTML and JSON-LD; 10 distinct questions per service; statutory and professional checks remain separate"
-      }
+      },
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "ceccar_if_outsourced_accounting"
     },
     {
       "id": "E07",
@@ -607,7 +752,22 @@
         "Set de situații financiare aplicabile, în limita contractului"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
-      "sources": [],
+      "sources": [
+        {
+          "act": "Legea contabilității nr. 82/1991",
+          "url": "https://legislatie.just.ro/Public/FormaPrintabila/00000G0G0TWP06Y0RB203NS3FFGT7RKT",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "OMFP nr. 1802/2014",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/260055",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de situații financiare anuale și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
@@ -683,7 +843,15 @@
         "status": "editorial_synced_from_reviewed_html_pending_professional_review",
         "reviewed_on": "2026-11-13",
         "criteria": "Exact parity across SSOT, HTML and JSON-LD; 10 distinct questions per service; statutory and professional checks remain separate"
-      }
+      },
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "ceccar_if_outsourced_accounting"
     },
     {
       "id": "E08",
@@ -703,7 +871,22 @@
         "Declarații pregătite și verificări documentate"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
-      "sources": [],
+      "sources": [
+        {
+          "act": "Legea nr. 227/2015 — Codul fiscal",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/309177",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "Legea nr. 207/2015 — Codul de procedură fiscală",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/298826",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de declarații fiscale periodice și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
@@ -779,7 +962,15 @@
         "status": "editorial_synced_from_reviewed_html_pending_professional_review",
         "reviewed_on": "2026-11-13",
         "criteria": "Exact parity across SSOT, HTML and JSON-LD; 10 distinct questions per service; statutory and professional checks remain separate"
-      }
+      },
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "provider_competence_and_mandate_check"
     },
     {
       "id": "E09",
@@ -799,7 +990,22 @@
         "Jurnale, reconciliere TVA și declarații aplicabile"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
-      "sources": [],
+      "sources": [
+        {
+          "act": "Legea nr. 227/2015 — Codul fiscal",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/309177",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "Legea nr. 207/2015 — Codul de procedură fiscală",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/298826",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de tva și evidențe aferente și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
@@ -875,7 +1081,15 @@
         "status": "editorial_synced_from_reviewed_html_pending_professional_review",
         "reviewed_on": "2026-11-13",
         "criteria": "Exact parity across SSOT, HTML and JSON-LD; 10 distinct questions per service; statutory and professional checks remain separate"
-      }
+      },
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "provider_competence_and_mandate_check"
     },
     {
       "id": "E10",
@@ -895,7 +1109,22 @@
         "Situație a documentelor și excepțiilor, după mandat"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
-      "sources": [],
+      "sources": [
+        {
+          "act": "Legea nr. 227/2015 — Codul fiscal",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/309177",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "Legea nr. 207/2015 — Codul de procedură fiscală",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/298826",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de ro e-factura și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
@@ -971,7 +1200,15 @@
         "status": "editorial_synced_from_reviewed_html_pending_professional_review",
         "reviewed_on": "2026-11-13",
         "criteria": "Exact parity across SSOT, HTML and JSON-LD; 10 distinct questions per service; statutory and professional checks remain separate"
-      }
+      },
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "provider_competence_and_mandate_check"
     },
     {
       "id": "E11",
@@ -992,7 +1229,15 @@
         "State salariale și declarația D112, după contract"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
-      "sources": [],
+      "sources": [
+        {
+          "act": "Legea nr. 227/2015 — Codul fiscal",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/309177",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de salarizare și d112 și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
@@ -1068,7 +1313,15 @@
         "status": "editorial_synced_from_reviewed_html_pending_professional_review",
         "reviewed_on": "2026-11-13",
         "criteria": "Exact parity across SSOT, HTML and JSON-LD; 10 distinct questions per service; statutory and professional checks remain separate"
-      }
+      },
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "provider_competence_and_mandate_check"
     },
     {
       "id": "E12",
@@ -1088,7 +1341,15 @@
         "Documente de personal și operațiuni REGES, după mandat"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
-      "sources": [],
+      "sources": [
+        {
+          "act": "Legea contabilității nr. 82/1991",
+          "url": "https://legislatie.just.ro/Public/FormaPrintabila/00000G0G0TWP06Y0RB203NS3FFGT7RKT",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de administrare personal și reges-online și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
@@ -1164,7 +1425,15 @@
         "status": "editorial_synced_from_reviewed_html_pending_professional_review",
         "reviewed_on": "2026-11-13",
         "criteria": "Exact parity across SSOT, HTML and JSON-LD; 10 distinct questions per service; statutory and professional checks remain separate"
-      }
+      },
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "provider_competence_and_mandate_check"
     },
     {
       "id": "E13",
@@ -1185,7 +1454,22 @@
         "Proces-verbal de preluare și listă de neconcordanțe"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
-      "sources": [],
+      "sources": [
+        {
+          "act": "Legea contabilității nr. 82/1991",
+          "url": "https://legislatie.just.ro/Public/FormaPrintabila/00000G0G0TWP06Y0RB203NS3FFGT7RKT",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "OG nr. 65/1994 — profesiile contabile",
+          "url": "https://legislatie.just.ro/Public/FormaPrintabila/00000G0I0PA7SDEOV3C3G8NEC74WBQNL",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de preluare contabilitate de la alt prestator și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
@@ -1261,7 +1545,15 @@
         "status": "editorial_synced_from_reviewed_html_pending_professional_review",
         "reviewed_on": "2026-11-13",
         "criteria": "Exact parity across SSOT, HTML and JSON-LD; 10 distinct questions per service; statutory and professional checks remain separate"
-      }
+      },
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "ceccar_if_outsourced_accounting"
     },
     {
       "id": "E14",
@@ -1280,7 +1572,29 @@
         "Fișe de active și situații de reconciliere"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
-      "sources": [],
+      "sources": [
+        {
+          "act": "Legea contabilității nr. 82/1991",
+          "url": "https://legislatie.just.ro/Public/FormaPrintabila/00000G0G0TWP06Y0RB203NS3FFGT7RKT",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "OMFP nr. 1802/2014",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/260055",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "Legea nr. 227/2015 — Codul fiscal",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/309177",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de inventariere și imobilizări și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
@@ -1356,7 +1670,15 @@
         "status": "editorial_synced_from_reviewed_html_pending_professional_review",
         "reviewed_on": "2026-11-13",
         "criteria": "Exact parity across SSOT, HTML and JSON-LD; 10 distinct questions per service; statutory and professional checks remain separate"
-      }
+      },
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "provider_competence_and_mandate_check"
     },
     {
       "id": "E15",
@@ -1376,7 +1698,22 @@
         "Checklist și documentație orientativă, după competențe"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
-      "sources": [],
+      "sources": [
+        {
+          "act": "Legea nr. 227/2015 — Codul fiscal",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/309177",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "Legea nr. 207/2015 — Codul de procedură fiscală",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/298826",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de asistență la înființare srl/pfa și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
@@ -1452,7 +1789,15 @@
         "status": "editorial_synced_from_reviewed_html_pending_professional_review",
         "reviewed_on": "2026-11-13",
         "criteria": "Exact parity across SSOT, HTML and JSON-LD; 10 distinct questions per service; statutory and professional checks remain separate"
-      }
+      },
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "provider_competence_and_mandate_check"
     },
     {
       "id": "E16",
@@ -1547,7 +1892,24 @@
         "status": "editorial_synced_from_reviewed_html_pending_professional_review",
         "reviewed_on": "2026-11-13",
         "criteria": "Exact parity across SSOT, HTML and JSON-LD; 10 distinct questions per service; statutory and professional checks remain separate"
-      }
+      },
+      "sources": [
+        {
+          "act": "Legea contabilității nr. 82/1991",
+          "url": "https://legislatie.just.ro/Public/FormaPrintabila/00000G0G0TWP06Y0RB203NS3FFGT7RKT",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "provider_competence_and_mandate_check"
     },
     {
       "id": "E17",
@@ -1642,7 +2004,24 @@
         "status": "editorial_synced_from_reviewed_html_pending_professional_review",
         "reviewed_on": "2026-11-13",
         "criteria": "Exact parity across SSOT, HTML and JSON-LD; 10 distinct questions per service; statutory and professional checks remain separate"
-      }
+      },
+      "sources": [
+        {
+          "act": "Legea nr. 227/2015 — Codul fiscal",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/309177",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "provider_competence_and_mandate_check"
     },
     {
       "id": "E18",
@@ -1736,7 +2115,24 @@
         "status": "editorial_synced_from_reviewed_html_pending_professional_review",
         "reviewed_on": "2026-11-13",
         "criteria": "Exact parity across SSOT, HTML and JSON-LD; 10 distinct questions per service; statutory and professional checks remain separate"
-      }
+      },
+      "sources": [
+        {
+          "act": "Legea nr. 227/2015 — Codul fiscal",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/309177",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "provider_competence_and_mandate_check"
     },
     {
       "id": "E19",
@@ -1831,7 +2227,31 @@
         "status": "editorial_synced_from_reviewed_html_pending_professional_review",
         "reviewed_on": "2026-11-13",
         "criteria": "Exact parity across SSOT, HTML and JSON-LD; 10 distinct questions per service; statutory and professional checks remain separate"
-      }
+      },
+      "sources": [
+        {
+          "act": "Legea contabilității nr. 82/1991",
+          "url": "https://legislatie.just.ro/Public/FormaPrintabila/00000G0G0TWP06Y0RB203NS3FFGT7RKT",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "Legea nr. 162/2017 — audit statutar",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/292692",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "provider_competence_and_mandate_check"
     },
     {
       "id": "A01",
@@ -1851,7 +2271,29 @@
         "Mapare de date, controale și fișier de raportare, dacă este contractat"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
-      "sources": [],
+      "sources": [
+        {
+          "act": "OPANAF nr. 1783/2021 — D406 SAF-T",
+          "url": "https://static.anaf.ro/static/10/Anaf/legislatie/OPANAF_1783_2021.pdf",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "ANAF — Documentație și validator SAF-T",
+          "url": "https://static.anaf.ro/static/10/Anaf/Informatii_R/saf_t.htm",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "Legea nr. 207/2015 — Codul de procedură fiscală",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/298826",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de saf-t / d406 și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
@@ -1926,8 +2368,17 @@
       "faq_review": {
         "status": "domain_corrected_pending_professional_legal_review",
         "reviewed_on": "2026-11-13",
-        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked"
-      }
+        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked",
+        "semantic_anchor": "societatea are obligația D406"
+      },
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "provider_competence_and_mandate_check"
     },
     {
       "id": "A02",
@@ -1948,7 +2399,22 @@
         "Flux de verificare și date pentru raportare, dacă este aplicabil"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
-      "sources": [],
+      "sources": [
+        {
+          "act": "OUG nr. 41/2022 — RO e-Transport",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/282113",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "Legea nr. 207/2015 — Codul de procedură fiscală",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/298826",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de ro e-transport și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
@@ -2023,8 +2489,17 @@
       "faq_review": {
         "status": "domain_corrected_pending_professional_legal_review",
         "reviewed_on": "2026-11-13",
-        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked"
-      }
+        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked",
+        "semantic_anchor": "transportul intră în RO e-Transport"
+      },
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "provider_competence_and_mandate_check"
     },
     {
       "id": "A03",
@@ -2044,7 +2519,22 @@
         "Situații de reconciliere pe platforme și perioade"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
-      "sources": [],
+      "sources": [
+        {
+          "act": "Legea nr. 227/2015 — Codul fiscal",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/309177",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "OMFP nr. 1802/2014",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/260055",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de contabilitate e-commerce și marketplace și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
@@ -2119,8 +2609,17 @@
       "faq_review": {
         "status": "domain_corrected_pending_professional_legal_review",
         "reviewed_on": "2026-11-13",
-        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked"
-      }
+        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked",
+        "semantic_anchor": "vânzările din marketplace trebuie reconciliate"
+      },
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "provider_competence_and_mandate_check"
     },
     {
       "id": "A04",
@@ -2140,7 +2639,22 @@
         "Evidențe și tratamente contabile propuse spre validare"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
-      "sources": [],
+      "sources": [
+        {
+          "act": "Legea nr. 227/2015 — Codul fiscal",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/309177",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "OMFP nr. 1802/2014",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/260055",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de operațiuni intracomunitare și valutare și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
@@ -2215,8 +2729,17 @@
       "faq_review": {
         "status": "domain_corrected_pending_professional_legal_review",
         "reviewed_on": "2026-11-13",
-        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked"
-      }
+        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked",
+        "semantic_anchor": "o tranzacție este intracomunitară"
+      },
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "provider_competence_and_mandate_check"
     },
     {
       "id": "A05",
@@ -2236,7 +2759,22 @@
         "Fișe de stoc, analize de cost și diferențe"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
-      "sources": [],
+      "sources": [
+        {
+          "act": "OMFP nr. 1802/2014",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/260055",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "Legea contabilității nr. 82/1991",
+          "url": "https://legislatie.just.ro/Public/FormaPrintabila/00000G0G0TWP06Y0RB203NS3FFGT7RKT",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de gestiune stocuri și costuri și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
@@ -2311,8 +2849,17 @@
       "faq_review": {
         "status": "domain_corrected_pending_professional_legal_review",
         "reviewed_on": "2026-11-13",
-        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked"
-      }
+        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked",
+        "semantic_anchor": "stocurile trebuie evaluate printr-o metodă contabilă"
+      },
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "provider_competence_and_mandate_check"
     },
     {
       "id": "A06",
@@ -2333,7 +2880,22 @@
         "Buget și proiecție cash-flow cu ipoteze explicite"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
-      "sources": [],
+      "sources": [
+        {
+          "act": "Legea contabilității nr. 82/1991",
+          "url": "https://legislatie.just.ro/Public/FormaPrintabila/00000G0G0TWP06Y0RB203NS3FFGT7RKT",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "OMFP nr. 1802/2014",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/260055",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de bugete și prognoze cash-flow și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
@@ -2408,8 +2970,17 @@
       "faq_review": {
         "status": "domain_corrected_pending_professional_legal_review",
         "reviewed_on": "2026-11-13",
-        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked"
-      }
+        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked",
+        "semantic_anchor": "firma are nevoie de o prognoză de lichiditate"
+      },
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "provider_competence_and_mandate_check"
     },
     {
       "id": "A07",
@@ -2429,7 +3000,22 @@
         "Tablou de bord și raport managerial convenit"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
-      "sources": [],
+      "sources": [
+        {
+          "act": "Legea contabilității nr. 82/1991",
+          "url": "https://legislatie.just.ro/Public/FormaPrintabila/00000G0G0TWP06Y0RB203NS3FFGT7RKT",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "OMFP nr. 1802/2014",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/260055",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de raportare managerială și kpi și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
@@ -2504,8 +3090,17 @@
       "faq_review": {
         "status": "domain_corrected_pending_professional_legal_review",
         "reviewed_on": "2026-11-13",
-        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked"
-      }
+        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked",
+        "semantic_anchor": "un KPI este relevant pentru management"
+      },
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "provider_competence_and_mandate_check"
     },
     {
       "id": "A08",
@@ -2525,7 +3120,15 @@
         "Hartă de integrare, reguli de import și plan de testare"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
-      "sources": [],
+      "sources": [
+        {
+          "act": "Legea contabilității nr. 82/1991",
+          "url": "https://legislatie.just.ro/Public/FormaPrintabila/00000G0G0TWP06Y0RB203NS3FFGT7RKT",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de digitalizare fluxuri contabile și integrare erp și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
@@ -2600,8 +3203,17 @@
       "faq_review": {
         "status": "domain_corrected_pending_professional_legal_review",
         "reviewed_on": "2026-11-13",
-        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked"
-      }
+        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked",
+        "semantic_anchor": "un flux contabil merită automatizat"
+      },
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "provider_competence_and_mandate_check"
     },
     {
       "id": "A09",
@@ -2620,7 +3232,22 @@
         "Manual de politici și proceduri adaptat, dacă este contractat"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
-      "sources": [],
+      "sources": [
+        {
+          "act": "Legea contabilității nr. 82/1991",
+          "url": "https://legislatie.just.ro/Public/FormaPrintabila/00000G0G0TWP06Y0RB203NS3FFGT7RKT",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "OMFP nr. 1802/2014",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/260055",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de politici și proceduri contabile și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
@@ -2695,8 +3322,17 @@
       "faq_review": {
         "status": "domain_corrected_pending_professional_legal_review",
         "reviewed_on": "2026-11-13",
-        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked"
-      }
+        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked",
+        "semantic_anchor": "politicile contabile trebuie actualizate"
+      },
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "provider_competence_and_mandate_check"
     },
     {
       "id": "A10",
@@ -2716,7 +3352,22 @@
         "Dosar de documente și listă de întrebări de clarificat"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
-      "sources": [],
+      "sources": [
+        {
+          "act": "Legea nr. 207/2015 — Codul de procedură fiscală",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/298826",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "OG nr. 71/2001 — consultanța fiscală",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/302145",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de asistență documentară la controale fiscale și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
@@ -2791,8 +3442,17 @@
       "faq_review": {
         "status": "domain_corrected_pending_professional_legal_review",
         "reviewed_on": "2026-11-13",
-        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked"
-      }
+        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked",
+        "semantic_anchor": "o solicitare ANAF necesită răspuns documentar"
+      },
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "representation_rights_case_dependent"
     },
     {
       "id": "A11",
@@ -2811,7 +3471,22 @@
         "Memoriu de risc și puncte ce necesită opinie autorizată"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
-      "sources": [],
+      "sources": [
+        {
+          "act": "Legea nr. 227/2015 — Codul fiscal",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/309177",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "OG nr. 71/2001 — consultanța fiscală",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/302145",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de analiză fiscală preventivă și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
@@ -2886,8 +3561,17 @@
       "faq_review": {
         "status": "domain_corrected_pending_professional_legal_review",
         "reviewed_on": "2026-11-13",
-        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked"
-      }
+        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked",
+        "semantic_anchor": "o decizie are risc fiscal semnificativ"
+      },
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "tax_consultancy_if_reserved_scope"
     },
     {
       "id": "A12",
@@ -2907,7 +3591,22 @@
         "Rapoarte pe proiect și reconciliere cu evidența contabilă"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
-      "sources": [],
+      "sources": [
+        {
+          "act": "Legea contabilității nr. 82/1991",
+          "url": "https://legislatie.just.ro/Public/FormaPrintabila/00000G0G0TWP06Y0RB203NS3FFGT7RKT",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "OMFP nr. 1802/2014",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/260055",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de raportare pe proiecte și finanțări și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
@@ -2982,8 +3681,17 @@
       "faq_review": {
         "status": "domain_corrected_pending_professional_legal_review",
         "reviewed_on": "2026-11-13",
-        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked"
-      }
+        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked",
+        "semantic_anchor": "un proiect cere raportare financiară separată"
+      },
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "provider_competence_and_mandate_check"
     },
     {
       "id": "A13",
@@ -3077,8 +3785,26 @@
       "faq_review": {
         "status": "domain_corrected_pending_professional_legal_review",
         "reviewed_on": "2026-11-13",
-        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked"
-      }
+        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked",
+        "semantic_anchor": "o companie trebuie să migreze date contabile"
+      },
+      "sources": [
+        {
+          "act": "Legea contabilității nr. 82/1991",
+          "url": "https://legislatie.just.ro/Public/FormaPrintabila/00000G0G0TWP06Y0RB203NS3FFGT7RKT",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "provider_competence_and_mandate_check"
     },
     {
       "id": "A14",
@@ -3172,8 +3898,33 @@
       "faq_review": {
         "status": "domain_corrected_pending_professional_legal_review",
         "reviewed_on": "2026-11-13",
-        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked"
-      }
+        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked",
+        "semantic_anchor": "o firmă are nevoie de controlling financiar"
+      },
+      "sources": [
+        {
+          "act": "Legea contabilității nr. 82/1991",
+          "url": "https://legislatie.just.ro/Public/FormaPrintabila/00000G0G0TWP06Y0RB203NS3FFGT7RKT",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "OMFP nr. 1802/2014",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/260055",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "provider_competence_and_mandate_check"
     },
     {
       "id": "A15",
@@ -3267,8 +4018,33 @@
       "faq_review": {
         "status": "domain_corrected_pending_professional_legal_review",
         "reviewed_on": "2026-11-13",
-        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked"
-      }
+        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked",
+        "semantic_anchor": "poate fi externalizată coordonarea contabilă"
+      },
+      "sources": [
+        {
+          "act": "Legea contabilității nr. 82/1991",
+          "url": "https://legislatie.just.ro/Public/FormaPrintabila/00000G0G0TWP06Y0RB203NS3FFGT7RKT",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "OG nr. 65/1994 — profesiile contabile",
+          "url": "https://legislatie.just.ro/Public/FormaPrintabila/00000G0I0PA7SDEOV3C3G8NEC74WBQNL",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "ceccar_if_outsourced_accounting"
     },
     {
       "id": "A16",
@@ -3361,8 +4137,33 @@
       "faq_review": {
         "status": "domain_corrected_pending_professional_legal_review",
         "reviewed_on": "2026-11-13",
-        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked"
-      }
+        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked",
+        "semantic_anchor": "un grup are obligații fiscale în mai multe entități"
+      },
+      "sources": [
+        {
+          "act": "Legea nr. 227/2015 — Codul fiscal",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/309177",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "Legea nr. 207/2015 — Codul de procedură fiscală",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/298826",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "provider_competence_and_mandate_check"
     },
     {
       "id": "A17",
@@ -3456,8 +4257,26 @@
       "faq_review": {
         "status": "domain_corrected_pending_professional_legal_review",
         "reviewed_on": "2026-11-13",
-        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked"
-      }
+        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked",
+        "semantic_anchor": "un control intern este necesar în contabilitate"
+      },
+      "sources": [
+        {
+          "act": "Legea contabilității nr. 82/1991",
+          "url": "https://legislatie.just.ro/Public/FormaPrintabila/00000G0G0TWP06Y0RB203NS3FFGT7RKT",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "provider_competence_and_mandate_check"
     },
     {
       "id": "A18",
@@ -3551,8 +4370,26 @@
       "faq_review": {
         "status": "domain_corrected_pending_professional_legal_review",
         "reviewed_on": "2026-11-13",
-        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked"
-      }
+        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked",
+        "semantic_anchor": "funcția financiară trebuie transformată"
+      },
+      "sources": [
+        {
+          "act": "Legea contabilității nr. 82/1991",
+          "url": "https://legislatie.just.ro/Public/FormaPrintabila/00000G0G0TWP06Y0RB203NS3FFGT7RKT",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "provider_competence_and_mandate_check"
     },
     {
       "id": "S01",
@@ -3571,7 +4408,22 @@
         "Opinie fiscală sau recomandări, conform mandatului autorizat"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
-      "sources": [],
+      "sources": [
+        {
+          "act": "OG nr. 71/2001 — consultanța fiscală",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/302145",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "Legea nr. 227/2015 — Codul fiscal",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/309177",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de consultanță fiscală rezervată profesiilor reglementate și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
@@ -3646,8 +4498,17 @@
       "faq_review": {
         "status": "domain_corrected_pending_professional_legal_review",
         "reviewed_on": "2026-11-13",
-        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked"
-      }
+        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked",
+        "semantic_anchor": "persoana poate acorda consultanță fiscală reglementată"
+      },
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "ccf_tax_consultant_scope"
     },
     {
       "id": "S02",
@@ -3666,7 +4527,15 @@
         "Raport de audit sau de asigurare, conform standardelor aplicabile"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
-      "sources": [],
+      "sources": [
+        {
+          "act": "Legea nr. 162/2017 — audit statutar",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/292692",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de audit financiar și servicii de asigurare și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
@@ -3741,8 +4610,17 @@
       "faq_review": {
         "status": "domain_corrected_pending_professional_legal_review",
         "reviewed_on": "2026-11-13",
-        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked"
-      }
+        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked",
+        "semantic_anchor": "o misiune constituie audit statutar"
+      },
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "aspaas_statutory_audit_and_independence"
     },
     {
       "id": "S03",
@@ -3762,7 +4640,15 @@
         "Raport profesional conform standardului misiunii"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
-      "sources": [],
+      "sources": [
+        {
+          "act": "Legea nr. 162/2017 — audit statutar",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/292692",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de revizuire independentă și misiuni de asigurare și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
@@ -3837,8 +4723,17 @@
       "faq_review": {
         "status": "domain_corrected_pending_professional_legal_review",
         "reviewed_on": "2026-11-13",
-        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked"
-      }
+        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked",
+        "semantic_anchor": "este necesară revizuire limitată sau altă asigurare"
+      },
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "assurance_standard_and_independence_case_dependent"
     },
     {
       "id": "S04",
@@ -3857,7 +4752,22 @@
         "Situații consolidate sau reconcilieri de conversie"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
-      "sources": [],
+      "sources": [
+        {
+          "act": "OMFP nr. 1802/2014",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/260055",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "Legea contabilității nr. 82/1991",
+          "url": "https://legislatie.just.ro/Public/FormaPrintabila/00000G0G0TWP06Y0RB203NS3FFGT7RKT",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de consolidare și raportare ifrs și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
@@ -3932,8 +4842,17 @@
       "faq_review": {
         "status": "domain_corrected_pending_professional_legal_review",
         "reviewed_on": "2026-11-13",
-        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked"
-      }
+        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked",
+        "semantic_anchor": "un grup trebuie să întocmească situații consolidate"
+      },
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "financial_reporting_scope_case_dependent"
     },
     {
       "id": "S05",
@@ -3953,7 +4872,22 @@
         "Analiză de comparabilitate și dosar, după mandat"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
-      "sources": [],
+      "sources": [
+        {
+          "act": "Legea nr. 227/2015 — Codul fiscal",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/309177",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "Legea nr. 207/2015 — Codul de procedură fiscală",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/298826",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de prețuri de transfer și documentație aferentă și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
@@ -4028,8 +4962,17 @@
       "faq_review": {
         "status": "domain_corrected_pending_professional_legal_review",
         "reviewed_on": "2026-11-13",
-        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked"
-      }
+        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked",
+        "semantic_anchor": "există tranzacții între persoane afiliate"
+      },
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "tax_specialist_scope_case_dependent"
     },
     {
       "id": "S06",
@@ -4049,7 +4992,22 @@
         "Memoriu fiscal și scenarii de conformare"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
-      "sources": [],
+      "sources": [
+        {
+          "act": "Legea nr. 227/2015 — Codul fiscal",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/309177",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "OG nr. 71/2001 — consultanța fiscală",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/302145",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de fiscalitate internațională complexă și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
@@ -4124,8 +5082,17 @@
       "faq_review": {
         "status": "domain_corrected_pending_professional_legal_review",
         "reviewed_on": "2026-11-13",
-        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked"
-      }
+        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked",
+        "semantic_anchor": "o operațiune este supusă fiscalității internaționale"
+      },
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "tax_consultant_scope_case_dependent"
     },
     {
       "id": "S07",
@@ -4145,7 +5112,22 @@
         "Raport de constatări și riscuri, potrivit mandatului"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
-      "sources": [],
+      "sources": [
+        {
+          "act": "Legea contabilității nr. 82/1991",
+          "url": "https://legislatie.just.ro/Public/FormaPrintabila/00000G0G0TWP06Y0RB203NS3FFGT7RKT",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "Legea nr. 227/2015 — Codul fiscal",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/309177",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de due diligence financiar și fiscal și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
@@ -4220,8 +5202,17 @@
       "faq_review": {
         "status": "domain_corrected_pending_professional_legal_review",
         "reviewed_on": "2026-11-13",
-        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked"
-      }
+        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked",
+        "semantic_anchor": "o achiziție necesită due diligence financiar-fiscal"
+      },
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "multidisciplinary_scope_case_dependent"
     },
     {
       "id": "S08",
@@ -4241,7 +5232,22 @@
         "Analiză de poziție și documente procedurale, după competență"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
-      "sources": [],
+      "sources": [
+        {
+          "act": "Legea nr. 207/2015 — Codul de procedură fiscală",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/298826",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "OG nr. 71/2001 — consultanța fiscală",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/302145",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de asistență și reprezentare în litigii fiscale și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
@@ -4316,8 +5322,17 @@
       "faq_review": {
         "status": "domain_corrected_pending_professional_legal_review",
         "reviewed_on": "2026-11-13",
-        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked"
-      }
+        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked",
+        "semantic_anchor": "un contribuabil dorește contestarea unui act fiscal"
+      },
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "tax_and_legal_representation_rights"
     },
     {
       "id": "S09",
@@ -4337,7 +5352,15 @@
         "Raport de evaluare, numai prin evaluator competent"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
-      "sources": [],
+      "sources": [
+        {
+          "act": "OG nr. 24/2011 — evaluatori autorizați",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/150199",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de evaluări de întreprinderi și active și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
@@ -4412,8 +5435,17 @@
       "faq_review": {
         "status": "domain_corrected_pending_professional_legal_review",
         "reviewed_on": "2026-11-13",
-        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked"
-      }
+        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked",
+        "semantic_anchor": "este necesară o evaluare profesională reglementată"
+      },
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "anevar_authorized_valuation_where_regulated"
     },
     {
       "id": "S10",
@@ -4432,7 +5464,29 @@
         "Analize de scenarii și documentație de tranzacție"
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
-      "sources": [],
+      "sources": [
+        {
+          "act": "Legea contabilității nr. 82/1991",
+          "url": "https://legislatie.just.ro/Public/FormaPrintabila/00000G0G0TWP06Y0RB203NS3FFGT7RKT",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "Legea nr. 227/2015 — Codul fiscal",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/309177",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "OUG nr. 86/2006 — practicieni în insolvență",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/205293",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
       "version": "3.6.0",
       "client_problem": "Ce presupune serviciul de consultanță în tranzacții și restructurări și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
@@ -4507,8 +5561,17 @@
       "faq_review": {
         "status": "domain_corrected_pending_professional_legal_review",
         "reviewed_on": "2026-11-13",
-        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked"
-      }
+        "criteria": "Dedicated operational questions aligned with service ID; legal claims require specialist sign-off; SSOT HTML JSON-LD parity checked",
+        "semantic_anchor": "o societate analizează o fuziune sau restructurare"
+      },
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "legal_tax_insolvency_scope_case_dependent"
     },
     {
       "id": "S11",
@@ -4597,7 +5660,24 @@
           "question": "Ce limite profesionale și contractuale se aplică pentru „Expertize contabile”?",
           "answer": "Mandatul trebuie să delimiteze expres stabilirea obiectivelor expertizei, examinarea documentelor și probelor contabile și redactarea constatărilor în limitele mandatului. Dreptul de exercitare și competențele se verifică în funcție de natura concretă a misiunii; clasificarea editorială nu stabilește singură o cerință legală de autorizare. Termenele și onorariile nu pot fi deduse din acest etalon."
         }
-      ]
+      ],
+      "sources": [
+        {
+          "act": "OG nr. 65/1994 — profesiile contabile",
+          "url": "https://legislatie.just.ro/Public/FormaPrintabila/00000G0I0PA7SDEOV3C3G8NEC74WBQNL",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "ceccar_expert_accountant"
     },
     {
       "id": "S12",
@@ -4686,7 +5766,31 @@
           "question": "Ce limite profesionale și contractuale se aplică pentru „Contabilitatea impozitului amânat”?",
           "answer": "Mandatul trebuie să delimiteze expres identificarea diferențelor temporare, calculul efectelor fiscale și verificarea recuperabilității și documentarea prezentării în raportare. Dreptul de exercitare și competențele se verifică în funcție de natura concretă a misiunii; clasificarea editorială nu stabilește singură o cerință legală de autorizare. Termenele și onorariile nu pot fi deduse din acest etalon."
         }
-      ]
+      ],
+      "sources": [
+        {
+          "act": "OMFP nr. 1802/2014",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/260055",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "Legea nr. 227/2015 — Codul fiscal",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/309177",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "accountancy_reporting_scope"
     },
     {
       "id": "S13",
@@ -4776,7 +5880,31 @@
           "question": "Ce limite profesionale și contractuale se aplică pentru „Provizioane fiscale complexe”?",
           "answer": "Mandatul trebuie să delimiteze expres inventarierea pozițiilor fiscale incerte, evaluarea ipotezelor și probabilităților și documentarea recunoașterii și prezentării. Dreptul de exercitare și competențele se verifică în funcție de natura concretă a misiunii; clasificarea editorială nu stabilește singură o cerință legală de autorizare. Termenele și onorariile nu pot fi deduse din acest etalon."
         }
-      ]
+      ],
+      "sources": [
+        {
+          "act": "OMFP nr. 1802/2014",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/260055",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "Legea nr. 227/2015 — Codul fiscal",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/309177",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "accountancy_tax_scope"
     },
     {
       "id": "S14",
@@ -4867,7 +5995,31 @@
           "question": "Ce limite profesionale și contractuale se aplică pentru „Lichidări și reorganizări societare”?",
           "answer": "Mandatul trebuie să delimiteze expres inventarierea activelor și obligațiilor, pregătirea situațiilor specifice etapelor și reconcilierea operațiunilor de lichidare. Dreptul de exercitare și competențele se verifică în funcție de natura concretă a misiunii; clasificarea editorială nu stabilește singură o cerință legală de autorizare. Termenele și onorariile nu pot fi deduse din acest etalon."
         }
-      ]
+      ],
+      "sources": [
+        {
+          "act": "Legea contabilității nr. 82/1991",
+          "url": "https://legislatie.just.ro/Public/FormaPrintabila/00000G0G0TWP06Y0RB203NS3FFGT7RKT",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "OUG nr. 86/2006 — practicieni în insolvență",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/205293",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "authorized_insolvency_practitioner_if_acting_as_liquidator"
     },
     {
       "id": "S15",
@@ -4956,7 +6108,38 @@
           "question": "Ce limite profesionale și contractuale se aplică pentru „Asistență pentru acorduri de preț în avans”?",
           "answer": "Mandatul trebuie să delimiteze expres definirea tranzacțiilor vizate de acord, pregătirea analizei economice și a documentației și coordonarea clarificărilor procedurale. Dreptul de exercitare și competențele se verifică în funcție de natura concretă a misiunii; clasificarea editorială nu stabilește singură o cerință legală de autorizare. Termenele și onorariile nu pot fi deduse din acest etalon."
         }
-      ]
+      ],
+      "sources": [
+        {
+          "act": "Legea nr. 227/2015 — Codul fiscal",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/309177",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "Legea nr. 207/2015 — Codul de procedură fiscală",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocument/298826",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        },
+        {
+          "act": "OG nr. 71/2001 — consultanța fiscală",
+          "url": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/302145",
+          "scope": "relevant legal framework; specific applicability must be checked",
+          "reviewed_on": "2026-11-13",
+          "verification": "official source identified, not an article-by-article legal sign-off"
+        }
+      ],
+      "legal_review": {
+        "status": "editorially_checked_pending_qualified_professional_signoff",
+        "as_of": "2026-11-13",
+        "source_validation": "official_framework_identified",
+        "article_level_validation": "pending",
+        "contractual_provider_validation": "pending"
+      },
+      "professional_authorization_category": "tax_consultancy_representation_rights_case_dependent"
     }
   ],
   "benchmark_sources": [
