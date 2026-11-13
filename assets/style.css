@@ -843,3 +843,10 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
 .etalon-tier-service-detailed details[open]{padding:10px 0}
 .etalon-tier-service-detailed details p{margin:9px 0}
 .etalon-tier-service-detailed .etalon-tier-status{display:block;margin-top:8px}
+
+/* C6920 V3.4 professional service details */
+.etalon-tier-service-detailed details ul{padding-left:19px;margin:8px 0 15px;font-size:13px;line-height:1.65}
+.etalon-tier-service-detailed details li{margin:4px 0}
+.etalon-service-faq{border-top:1px solid var(--line);padding-top:10px;margin-top:12px}
+.etalon-service-faq p{margin:10px 0!important}
+.etalon-tier-service-detailed details strong{color:var(--ink)}
