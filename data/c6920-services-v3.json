@@ -1,6 +1,6 @@
 {
   "schema": "scara.c6920.service-catalog.v1",
-  "version": "3.3.0",
+  "version": "3.4.0",
   "generated_at": "2026-11-13",
   "default_publication_policy": "informational_only",
   "offer_states": [
@@ -34,7 +34,7 @@
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.2.0",
+      "version": "3.4.0",
       "client_problem": "Ce presupune serviciul de contabilitate financiară srl și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
       "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
@@ -42,7 +42,31 @@
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
-      }
+      },
+      "operations": [
+        "Clasificarea documentelor pe conturi",
+        "Înregistrarea operațiunilor și verificarea jurnalelor",
+        "Reconcilierea balanței cu evidențele auxiliare"
+      ],
+      "practical_example": "Un SRL de servicii vrea o balanță lunară explicată",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru contabilitate financiară srl.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune contabilitate financiară srl?",
+          "answer": "Organizarea evidenței contabile curente a societății, în concordanță cu reglementările aplicabile."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Facturi, extrase, contracte și documente justificative. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Registre, balanță și situații periodice convenite. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "E02",
@@ -62,7 +86,7 @@
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.2.0",
+      "version": "3.4.0",
       "client_problem": "Ce presupune serviciul de evidență fiscală pfa / ii și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
       "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
@@ -70,7 +94,31 @@
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
-      }
+      },
+      "operations": [
+        "Încadrarea veniturilor și cheltuielilor",
+        "Organizarea registrului de evidență fiscală",
+        "Verificarea documentelor justificative"
+      ],
+      "practical_example": "Un PFA cu încasări variabile dorește să își organizeze evidența",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru evidență fiscală pfa / ii.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune evidență fiscală pfa / ii?",
+          "answer": "Evidența veniturilor și cheltuielilor și evaluarea obligațiilor fiscale specifice formei de organizare."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Documente de încasări și plăți, activitate și regim fiscal. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Registre și informații pentru declarațiile aplicabile. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "E03",
@@ -91,7 +139,7 @@
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.2.0",
+      "version": "3.4.0",
       "client_problem": "Ce presupune serviciul de contabilitate ong și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
       "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
@@ -99,7 +147,31 @@
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
-      }
+      },
+      "operations": [
+        "Separarea activităților nonprofit și economice",
+        "Urmărirea fondurilor cu destinație specifică",
+        "Reconcilierea cheltuielilor pe proiecte"
+      ],
+      "practical_example": "O asociație gestionează donații și două proiecte finanțate",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru contabilitate ong.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune contabilitate ong?",
+          "answer": "Evidență distinctă pentru activități nonprofit, proiecte și surse de finanțare."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Contracte de finanțare, donații, cheltuieli și documente justificative. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Evidențe și situații adaptate raportării organizației. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "E04",
@@ -120,7 +192,7 @@
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.2.0",
+      "version": "3.4.0",
       "client_problem": "Ce presupune serviciul de prelucrare documente contabile și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
       "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
@@ -128,7 +200,31 @@
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
-      }
+      },
+      "operations": [
+        "Recepția și verificarea documentelor",
+        "Identificarea documentelor lipsă sau duplicate",
+        "Clasificarea și pregătirea pentru înregistrare"
+      ],
+      "practical_example": "O firmă transmite lunar facturi din mai multe canale",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru prelucrare documente contabile.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune prelucrare documente contabile?",
+          "answer": "Colectarea, clasificarea și înregistrarea documentelor, cu identificarea informațiilor incomplete."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Facturi, bonuri, extrase și alte justificative. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Documente înregistrate și listă de clarificări. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "E05",
@@ -149,7 +245,7 @@
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.2.0",
+      "version": "3.4.0",
       "client_problem": "Ce presupune serviciul de reconciliere bancară și solduri și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
       "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
@@ -157,7 +253,31 @@
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
-      }
+      },
+      "operations": [
+        "Potrivirea extraselor cu înregistrările",
+        "Investigarea sumelor nealocate",
+        "Documentarea diferențelor și corecțiilor"
+      ],
+      "practical_example": "O încasare prin procesator nu coincide cu suma din bancă",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru reconciliere bancară și solduri.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune reconciliere bancară și solduri?",
+          "answer": "Compararea extraselor, soldurilor și evidențelor pentru identificarea diferențelor."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Extrase bancare, jurnale, balanțe și fișe de cont. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Reconciliere și listă de diferențe de investigat. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "E06",
@@ -177,7 +297,7 @@
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.2.0",
+      "version": "3.4.0",
       "client_problem": "Ce presupune serviciul de închideri contabile lunare și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
       "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
@@ -185,7 +305,31 @@
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
-      }
+      },
+      "operations": [
+        "Verificarea perioadei și a soldurilor",
+        "Calculul ajustărilor necesare",
+        "Pregătirea balanței și a observațiilor"
+      ],
+      "practical_example": "Administratorul solicită rezultatul lunar înainte de decizii",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru închideri contabile lunare.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune închideri contabile lunare?",
+          "answer": "Verificarea operațiunilor perioadei și pregătirea închiderii contabile lunare."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Documente ale perioadei, solduri și ajustări. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Balanță și sinteză de închidere, după mandat. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "E07",
@@ -206,7 +350,7 @@
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.2.0",
+      "version": "3.4.0",
       "client_problem": "Ce presupune serviciul de situații financiare anuale și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
       "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
@@ -214,7 +358,31 @@
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
-      }
+      },
+      "operations": [
+        "Verificarea închiderii exercițiului",
+        "Pregătirea notelor și anexelor aplicabile",
+        "Controlul concordanței situațiilor financiare"
+      ],
+      "practical_example": "Un SRL pregătește situațiile anuale și documentele de aprobare",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru situații financiare anuale.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune situații financiare anuale?",
+          "answer": "Pregătirea datelor și documentației pentru situațiile financiare statutare."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Balanță finală, inventariere, note și ajustări. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Set de situații financiare aplicabile, în limita contractului. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "E08",
@@ -235,7 +403,7 @@
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.2.0",
+      "version": "3.4.0",
       "client_problem": "Ce presupune serviciul de declarații fiscale periodice și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
       "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
@@ -243,7 +411,31 @@
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
-      }
+      },
+      "operations": [
+        "Identificarea obligațiilor aplicabile",
+        "Reconcilierea bazelor de calcul",
+        "Pregătirea și verificarea formularelor"
+      ],
+      "practical_example": "O firmă își schimbă regimul fiscal și cere un calendar actualizat",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru declarații fiscale periodice.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune declarații fiscale periodice?",
+          "answer": "Identificarea și pregătirea declarațiilor fiscale aplicabile contribuabilului."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Regim fiscal, operațiuni, evidențe și perioade. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Declarații pregătite și verificări documentate. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "E09",
@@ -264,7 +456,7 @@
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.2.0",
+      "version": "3.4.0",
       "client_problem": "Ce presupune serviciul de tva și evidențe aferente și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
       "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
@@ -272,7 +464,31 @@
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
-      }
+      },
+      "operations": [
+        "Verificarea facturilor și jurnalelor TVA",
+        "Analiza operațiunilor cu tratament distinct",
+        "Reconcilierea decontului cu evidența contabilă"
+      ],
+      "practical_example": "O firmă efectuează achiziții interne și intracomunitare",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru tva și evidențe aferente.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune tva și evidențe aferente?",
+          "answer": "Organizarea evidenței TVA și analiza operațiunilor care influențează decontarea."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Facturi, jurnal TVA, tranzacții interne și externe. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Jurnale, reconciliere TVA și declarații aplicabile. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "E10",
@@ -293,7 +509,7 @@
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.2.0",
+      "version": "3.4.0",
       "client_problem": "Ce presupune serviciul de ro e-factura și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
       "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
@@ -301,7 +517,31 @@
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
-      }
+      },
+      "operations": [
+        "Verificarea fluxului de emitere și recepție",
+        "Identificarea documentelor respinse sau necorelate",
+        "Reconcilierea facturilor cu contabilitatea"
+      ],
+      "practical_example": "Un client constată facturi primite în sistem dar neînregistrate",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru ro e-factura.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune ro e-factura?",
+          "answer": "Organizarea fluxului de facturi electronice și tratarea erorilor de procesare."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Facturi, identificatori, fluxuri de emitere și primire. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Situație a documentelor și excepțiilor, după mandat. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "E11",
@@ -323,7 +563,7 @@
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.2.0",
+      "version": "3.4.0",
       "client_problem": "Ce presupune serviciul de salarizare și d112 și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
       "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
@@ -331,7 +571,31 @@
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
-      }
+      },
+      "operations": [
+        "Verificarea pontajelor și elementelor variabile",
+        "Calculul drepturilor și reținerilor",
+        "Reconcilierea statelor cu declarația fiscală"
+      ],
+      "practical_example": "O firmă are salarii, concedii și bonusuri în aceeași lună",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru salarizare și d112.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune salarizare și d112?",
+          "answer": "Calculul drepturilor salariale și pregătirea raportării fiscale aferente."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Contracte, pontaje, concedii, beneficii și rețineri. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: State salariale și declarația D112, după contract. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "E12",
@@ -352,7 +616,7 @@
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.2.0",
+      "version": "3.4.0",
       "client_problem": "Ce presupune serviciul de administrare personal și reges-online și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
       "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
@@ -360,7 +624,31 @@
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
-      }
+      },
+      "operations": [
+        "Pregătirea documentelor contractuale",
+        "Urmărirea modificărilor și termenelor",
+        "Controlul datelor transmise în registrul electronic"
+      ],
+      "practical_example": "Un angajat își modifică norma și locul muncii",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru administrare personal și reges-online.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune administrare personal și reges-online?",
+          "answer": "Administrarea operațiunilor de personal și a evidențelor electronice aplicabile."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Contracte, acte adiționale, modificări și încetări. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Documente de personal și operațiuni REGES, după mandat. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "E13",
@@ -382,7 +670,7 @@
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.2.0",
+      "version": "3.4.0",
       "client_problem": "Ce presupune serviciul de preluare contabilitate de la alt prestator și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
       "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
@@ -390,7 +678,31 @@
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
-      }
+      },
+      "operations": [
+        "Inventarierea evidențelor preluate",
+        "Reconcilierea soldurilor de deschidere",
+        "Documentarea lipsurilor și responsabilităților"
+      ],
+      "practical_example": "Un SRL schimbă contabilul la mijlocul exercițiului",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru preluare contabilitate de la alt prestator.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune preluare contabilitate de la alt prestator?",
+          "answer": "Transferul organizat al evidenței de la prestatorul precedent, cu identificarea diferențelor."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Balanțe, registre, declarații, solduri și documente istorice. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Proces-verbal de preluare și listă de neconcordanțe. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "E14",
@@ -410,7 +722,7 @@
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.2.0",
+      "version": "3.4.0",
       "client_problem": "Ce presupune serviciul de inventariere și imobilizări și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
       "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
@@ -418,7 +730,31 @@
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
-      }
+      },
+      "operations": [
+        "Actualizarea registrului activelor",
+        "Calculul amortizării aplicabile",
+        "Reconcilierea inventarului fizic cu evidența"
+      ],
+      "practical_example": "O firmă achiziționează echipamente și scoate din uz active vechi",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru inventariere și imobilizări.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune inventariere și imobilizări?",
+          "answer": "Evidența activelor, amortizării și diferențelor rezultate din inventariere."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Registru mijloace fixe, inventare și documente de achiziție. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Fișe de active și situații de reconciliere. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "E15",
@@ -439,7 +775,7 @@
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.2.0",
+      "version": "3.4.0",
       "client_problem": "Ce presupune serviciul de asistență la înființare srl/pfa și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
       "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
@@ -447,7 +783,31 @@
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
-      }
+      },
+      "operations": [
+        "Analiza formei juridice și activităților",
+        "Pregătirea listei de documente",
+        "Stabilirea obligațiilor de după înregistrare"
+      ],
+      "practical_example": "Un antreprenor compară organizarea ca PFA și SRL",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru asistență la înființare srl/pfa.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune asistență la înființare srl/pfa?",
+          "answer": "Orientare privind etapele și documentele pentru constituirea unei entități."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Formă juridică, activități, asociați și opțiuni fiscale. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Checklist și documentație orientativă, după competențe. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "A01",
@@ -468,7 +828,7 @@
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.2.0",
+      "version": "3.4.0",
       "client_problem": "Ce presupune serviciul de saf-t / d406 și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
       "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
@@ -476,7 +836,31 @@
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
-      }
+      },
+      "operations": [
+        "Maparea conturilor și nomenclatoarelor",
+        "Testarea structurii fișierelor",
+        "Analiza erorilor de validare"
+      ],
+      "practical_example": "Un ERP generează un fișier D406 cu erori de structură",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru saf-t / d406.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune saf-t / d406?",
+          "answer": "Evaluarea obligației SAF-T și structurarea datelor necesare raportării D406."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Registre, nomenclatoare, tranzacții și configurația sistemului. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Mapare de date, controale și fișier de raportare, dacă este contractat. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "A02",
@@ -498,7 +882,7 @@
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.2.0",
+      "version": "3.4.0",
       "client_problem": "Ce presupune serviciul de ro e-transport și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
       "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
@@ -506,7 +890,31 @@
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
-      }
+      },
+      "operations": [
+        "Identificarea fluxurilor de transport relevante",
+        "Verificarea datelor despre bunuri și parteneri",
+        "Controlul trasabilității documentelor"
+      ],
+      "practical_example": "Un distribuitor are livrări cu obligații de raportare specifice",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru ro e-transport.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune ro e-transport?",
+          "answer": "Identificarea operațiunilor relevante pentru RO e-Transport și organizarea datelor."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Transporturi, bunuri, parteneri, trasee și documente. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Flux de verificare și date pentru raportare, dacă este aplicabil. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "A03",
@@ -527,7 +935,7 @@
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.2.0",
+      "version": "3.4.0",
       "client_problem": "Ce presupune serviciul de contabilitate e-commerce și marketplace și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
       "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
@@ -535,7 +943,31 @@
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
-      }
+      },
+      "operations": [
+        "Reconcilierea comenzilor cu facturile",
+        "Potrivirea comisioanelor și decontărilor",
+        "Tratarea retururilor și diferențelor"
+      ],
+      "practical_example": "Un magazin vinde prin două marketplace-uri și un procesator",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru contabilitate e-commerce și marketplace.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune contabilitate e-commerce și marketplace?",
+          "answer": "Reconcilierea vânzărilor, comisioanelor, retururilor și încasărilor din canale online."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Exporturi marketplace, procesatori de plăți, facturi și retururi. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Situații de reconciliere pe platforme și perioade. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "A04",
@@ -556,7 +988,7 @@
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.2.0",
+      "version": "3.4.0",
       "client_problem": "Ce presupune serviciul de operațiuni intracomunitare și valutare și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
       "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
@@ -564,7 +996,31 @@
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
-      }
+      },
+      "operations": [
+        "Clasificarea operațiunilor externe",
+        "Verificarea documentelor justificative",
+        "Calculul diferențelor de curs și reconcilierea"
+      ],
+      "practical_example": "Un SRL facturează servicii către clienți din UE",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru operațiuni intracomunitare și valutare.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune operațiuni intracomunitare și valutare?",
+          "answer": "Analiza documentară a tranzacțiilor transfrontaliere și a diferențelor valutare."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Facturi externe, contracte, cursuri și dovezi de transport. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Evidențe și tratamente contabile propuse spre validare. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "A05",
@@ -585,7 +1041,7 @@
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.2.0",
+      "version": "3.4.0",
       "client_problem": "Ce presupune serviciul de gestiune stocuri și costuri și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
       "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
@@ -593,7 +1049,31 @@
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
-      }
+      },
+      "operations": [
+        "Definirea metodei de evaluare",
+        "Reconcilierea mișcărilor de stoc",
+        "Analiza diferențelor de inventar și cost"
+      ],
+      "practical_example": "Un comerciant are retururi și stocuri în mai multe depozite",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru gestiune stocuri și costuri.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune gestiune stocuri și costuri?",
+          "answer": "Organizarea evidenței stocurilor și a calculului costurilor pentru decizii operaționale."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Intrări-ieșiri, inventare, consumuri și politici de cost. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Fișe de stoc, analize de cost și diferențe. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "A06",
@@ -615,7 +1095,7 @@
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.2.0",
+      "version": "3.4.0",
       "client_problem": "Ce presupune serviciul de bugete și prognoze cash-flow și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
       "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
@@ -623,7 +1103,31 @@
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
-      }
+      },
+      "operations": [
+        "Stabilirea ipotezelor și scadențelor",
+        "Modelarea încasărilor și plăților",
+        "Testarea scenariilor optimist și prudent"
+      ],
+      "practical_example": "O firmă vrea să știe dacă poate finanța o investiție",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru bugete și prognoze cash-flow.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune bugete și prognoze cash-flow?",
+          "answer": "Modelarea lichidității și a scenariilor financiare pornind de la datele disponibile."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Încasări, plăți, scadențe, bugete și ipoteze. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Buget și proiecție cash-flow cu ipoteze explicite. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "A07",
@@ -644,7 +1148,7 @@
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.2.0",
+      "version": "3.4.0",
       "client_problem": "Ce presupune serviciul de raportare managerială și kpi și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
       "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
@@ -652,7 +1156,31 @@
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
-      }
+      },
+      "operations": [
+        "Definirea indicatorilor de management",
+        "Reconcilierea surselor de date",
+        "Explicarea variațiilor și tendințelor"
+      ],
+      "practical_example": "Administratorul compară marja pe trei linii de business",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru raportare managerială și kpi.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune raportare managerială și kpi?",
+          "answer": "Transformarea datelor contabile în indicatori de management și rapoarte recurente."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Balanțe, venituri, cheltuieli și obiective de management. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Tablou de bord și raport managerial convenit. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "A08",
@@ -673,7 +1201,7 @@
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.2.0",
+      "version": "3.4.0",
       "client_problem": "Ce presupune serviciul de digitalizare fluxuri contabile și integrare erp și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
       "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
@@ -681,7 +1209,31 @@
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
-      }
+      },
+      "operations": [
+        "Cartografierea fluxurilor între sisteme",
+        "Definirea regulilor de import și mapare",
+        "Testarea și reconcilierea transferurilor"
+      ],
+      "practical_example": "O firmă conectează magazinul online cu programul contabil",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru digitalizare fluxuri contabile și integrare erp.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune digitalizare fluxuri contabile și integrare erp?",
+          "answer": "Analiza fluxului documentelor și integrarea aplicațiilor contabile cu sistemele operaționale."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Sisteme folosite, formate de export, procese și permisiuni. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Hartă de integrare, reguli de import și plan de testare. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "A09",
@@ -701,7 +1253,7 @@
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.2.0",
+      "version": "3.4.0",
       "client_problem": "Ce presupune serviciul de politici și proceduri contabile și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
       "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
@@ -709,7 +1261,31 @@
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
-      }
+      },
+      "operations": [
+        "Inventarierea politicilor existente",
+        "Documentarea tratamentelor contabile",
+        "Definirea controalelor și responsabililor"
+      ],
+      "practical_example": "O companie are practici contabile neuniforme între departamente",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru politici și proceduri contabile.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune politici și proceduri contabile?",
+          "answer": "Documentarea regulilor de recunoaștere, înregistrare și control intern contabil."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Procese, reglementări aplicabile și practici existente. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Manual de politici și proceduri adaptat, dacă este contractat. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "A10",
@@ -730,7 +1306,7 @@
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.2.0",
+      "version": "3.4.0",
       "client_problem": "Ce presupune serviciul de asistență documentară la controale fiscale și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
       "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
@@ -738,7 +1314,31 @@
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
-      }
+      },
+      "operations": [
+        "Centralizarea solicitărilor autorității",
+        "Verificarea integrității dosarului",
+        "Pregătirea răspunsurilor documentare"
+      ],
+      "practical_example": "ANAF solicită justificări pentru anumite tranzacții",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru asistență documentară la controale fiscale.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune asistență documentară la controale fiscale?",
+          "answer": "Pregătirea evidențelor și răspunsurilor documentare pentru verificări fiscale."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Notificări, perioade controlate, registre și justificative. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Dosar de documente și listă de întrebări de clarificat. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "A11",
@@ -758,7 +1358,7 @@
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.2.0",
+      "version": "3.4.0",
       "client_problem": "Ce presupune serviciul de analiză fiscală preventivă și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
       "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
@@ -766,7 +1366,31 @@
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
-      }
+      },
+      "operations": [
+        "Identificarea operațiunilor cu risc",
+        "Verificarea tratamentelor fiscale",
+        "Escaladarea chestiunilor care necesită opinie autorizată"
+      ],
+      "practical_example": "O societate planifică o tranzacție neobișnuită",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru analiză fiscală preventivă.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune analiză fiscală preventivă?",
+          "answer": "Identificarea riscurilor fiscale înainte de tranzacții sau raportări semnificative."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Structura operațiunilor, contracte și tratamente propuse. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Memoriu de risc și puncte ce necesită opinie autorizată. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "A12",
@@ -787,7 +1411,7 @@
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.2.0",
+      "version": "3.4.0",
       "client_problem": "Ce presupune serviciul de raportare pe proiecte și finanțări și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
       "professional_note": "Nu se presupune că serviciul este oferit de orice cabinet.",
@@ -795,7 +1419,31 @@
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
-      }
+      },
+      "operations": [
+        "Definirea centrelor de cost pe proiect",
+        "Alocarea documentelor și cheltuielilor",
+        "Reconcilierea bugetelor cu cheltuielile"
+      ],
+      "practical_example": "Un ONG raportează cheltuieli pentru două granturi",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru raportare pe proiecte și finanțări.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune raportare pe proiecte și finanțări?",
+          "answer": "Evidență analitică a cheltuielilor și surselor de finanțare pe proiecte."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Bugete, contracte de finanțare, cheltuieli și centre de cost. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Rapoarte pe proiect și reconciliere cu evidența contabilă. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "S01",
@@ -815,7 +1463,7 @@
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.2.0",
+      "version": "3.4.0",
       "client_problem": "Ce presupune serviciul de consultanță fiscală rezervată profesiilor reglementate și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
       "professional_note": "Publicabil ca ofertă numai după verificarea dreptului de exercitare, autorizărilor, independenței și limitelor mandatului, după caz.",
@@ -823,7 +1471,31 @@
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
-      }
+      },
+      "operations": [
+        "Delimitarea întrebării fiscale și a faptelor",
+        "Analiza legislației și practicii relevante",
+        "Formularea opiniei în limitele mandatului"
+      ],
+      "practical_example": "Un contribuabil solicită tratamentul fiscal al unei restructurări",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru consultanță fiscală rezervată profesiilor reglementate.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune consultanță fiscală rezervată profesiilor reglementate?",
+          "answer": "Analiză și opinii de consultanță fiscală în limitele drepturilor profesionale aplicabile."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Documente fiscale, contracte și fapte relevante. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Opinie fiscală sau recomandări, conform mandatului autorizat. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "S02",
@@ -843,7 +1515,7 @@
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.2.0",
+      "version": "3.4.0",
       "client_problem": "Ce presupune serviciul de audit financiar și servicii de asigurare și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
       "professional_note": "Publicabil ca ofertă numai după verificarea dreptului de exercitare, autorizărilor, independenței și limitelor mandatului, după caz.",
@@ -851,7 +1523,31 @@
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
-      }
+      },
+      "operations": [
+        "Planificarea misiunii și evaluarea riscurilor",
+        "Obținerea probelor de audit",
+        "Formularea concluziilor conform standardelor"
+      ],
+      "practical_example": "O entitate are obligația unui audit statutar",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru audit financiar și servicii de asigurare.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune audit financiar și servicii de asigurare?",
+          "answer": "Misiuni de audit și asigurare realizate exclusiv de profesioniști și entități autorizate."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Situații financiare, evidențe și documente de control. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Raport de audit sau de asigurare, conform standardelor aplicabile. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "S03",
@@ -872,7 +1568,7 @@
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.2.0",
+      "version": "3.4.0",
       "client_problem": "Ce presupune serviciul de revizuire independentă și misiuni de asigurare și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
       "professional_note": "Publicabil ca ofertă numai după verificarea dreptului de exercitare, autorizărilor, independenței și limitelor mandatului, după caz.",
@@ -880,7 +1576,31 @@
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
-      }
+      },
+      "operations": [
+        "Stabilirea tipului și nivelului de asigurare",
+        "Aplicarea procedurilor convenite sau de revizuire",
+        "Documentarea constatărilor și concluziilor"
+      ],
+      "practical_example": "Un finanțator cere o misiune independentă delimitată",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru revizuire independentă și misiuni de asigurare.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune revizuire independentă și misiuni de asigurare?",
+          "answer": "Revizuiri și alte misiuni independente, cu delimitarea clară a nivelului de asigurare."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Situații, proceduri, contractul misiunii și probe. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Raport profesional conform standardului misiunii. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "S04",
@@ -900,7 +1620,7 @@
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.2.0",
+      "version": "3.4.0",
       "client_problem": "Ce presupune serviciul de consolidare și raportare ifrs și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
       "professional_note": "Publicabil ca ofertă numai după verificarea dreptului de exercitare, autorizărilor, independenței și limitelor mandatului, după caz.",
@@ -908,7 +1628,31 @@
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
-      }
+      },
+      "operations": [
+        "Maparea diferențelor dintre standarde",
+        "Pregătirea ajustărilor de conversie",
+        "Eliminarea tranzacțiilor intra-grup"
+      ],
+      "practical_example": "O filială raportează local și către grup în IFRS",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru consolidare și raportare ifrs.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune consolidare și raportare ifrs?",
+          "answer": "Asistență pentru raportare de grup, conversii de standarde și consolidări."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Pachete de raportare, politici de grup și ajustări. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Situații consolidate sau reconcilieri de conversie. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "S05",
@@ -929,7 +1673,7 @@
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.2.0",
+      "version": "3.4.0",
       "client_problem": "Ce presupune serviciul de prețuri de transfer și documentație aferentă și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
       "professional_note": "Publicabil ca ofertă numai după verificarea dreptului de exercitare, autorizărilor, independenței și limitelor mandatului, după caz.",
@@ -937,7 +1681,31 @@
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
-      }
+      },
+      "operations": [
+        "Analiza funcțiilor, activelor și riscurilor",
+        "Selectarea metodologiei de comparabilitate",
+        "Documentarea tranzacțiilor intra-grup"
+      ],
+      "practical_example": "O societate facturează servicii către o companie afiliată",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru prețuri de transfer și documentație aferentă.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune prețuri de transfer și documentație aferentă?",
+          "answer": "Analiza tranzacțiilor intra-grup și documentarea politicilor de prețuri de transfer."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Contracte intra-grup, funcții, riscuri și date financiare. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Analiză de comparabilitate și dosar, după mandat. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "S06",
@@ -958,7 +1726,7 @@
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.2.0",
+      "version": "3.4.0",
       "client_problem": "Ce presupune serviciul de fiscalitate internațională complexă și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
       "professional_note": "Publicabil ca ofertă numai după verificarea dreptului de exercitare, autorizărilor, independenței și limitelor mandatului, după caz.",
@@ -966,7 +1734,31 @@
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
-      }
+      },
+      "operations": [
+        "Identificarea jurisdicțiilor relevante",
+        "Analiza tratatelor și obligațiilor locale",
+        "Documentarea scenariilor și riscurilor"
+      ],
+      "practical_example": "O firmă deschide un sediu în alt stat",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru fiscalitate internațională complexă.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune fiscalitate internațională complexă?",
+          "answer": "Analiză fiscală a tranzacțiilor cu elemente de extraneitate și jurisdicții multiple."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Rezidență, contracte, fluxuri și structuri transfrontaliere. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Memoriu fiscal și scenarii de conformare. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "S07",
@@ -987,7 +1779,7 @@
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.2.0",
+      "version": "3.4.0",
       "client_problem": "Ce presupune serviciul de due diligence financiar și fiscal și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
       "professional_note": "Publicabil ca ofertă numai după verificarea dreptului de exercitare, autorizărilor, independenței și limitelor mandatului, după caz.",
@@ -995,7 +1787,31 @@
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
-      }
+      },
+      "operations": [
+        "Analiza calității rezultatului și capitalului circulant",
+        "Identificarea datoriilor și riscurilor",
+        "Documentarea ajustărilor și constatărilor"
+      ],
+      "practical_example": "Un investitor examinează achiziția unei societăți",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru due diligence financiar și fiscal.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune due diligence financiar și fiscal?",
+          "answer": "Examinarea financiară și fiscală a unei ținte de investiție sau tranzacție."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Situații financiare, contracte, datorii și riscuri. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Raport de constatări și riscuri, potrivit mandatului. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "S08",
@@ -1016,7 +1832,7 @@
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.2.0",
+      "version": "3.4.0",
       "client_problem": "Ce presupune serviciul de asistență și reprezentare în litigii fiscale și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
       "professional_note": "Publicabil ca ofertă numai după verificarea dreptului de exercitare, autorizărilor, independenței și limitelor mandatului, după caz.",
@@ -1024,7 +1840,31 @@
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
-      }
+      },
+      "operations": [
+        "Analiza actelor și termenelor procedurale",
+        "Organizarea probelor și argumentelor",
+        "Pregătirea documentelor prin profesioniști competenți"
+      ],
+      "practical_example": "O firmă contestă un act administrativ fiscal",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru asistență și reprezentare în litigii fiscale.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune asistență și reprezentare în litigii fiscale?",
+          "answer": "Asistență în proceduri și dispute fiscale, cu reprezentare numai în limitele legale."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Acte administrative, notificări, probe și termene. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Analiză de poziție și documente procedurale, după competență. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "S09",
@@ -1045,7 +1885,7 @@
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.2.0",
+      "version": "3.4.0",
       "client_problem": "Ce presupune serviciul de evaluări de întreprinderi și active și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
       "professional_note": "Publicabil ca ofertă numai după verificarea dreptului de exercitare, autorizărilor, independenței și limitelor mandatului, după caz.",
@@ -1053,7 +1893,31 @@
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
-      }
+      },
+      "operations": [
+        "Definirea scopului și bazei evaluării",
+        "Selectarea abordărilor și ipotezelor",
+        "Analiza sensibilității valorii estimate"
+      ],
+      "practical_example": "Un asociat solicită evaluarea participației sale",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru evaluări de întreprinderi și active.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune evaluări de întreprinderi și active?",
+          "answer": "Estimarea valorii activelor sau afacerilor prin metode și standarde aplicabile."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Situații financiare, active, proiecții și scopul evaluării. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Raport de evaluare, numai prin evaluator competent. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "S10",
@@ -1073,7 +1937,7 @@
       ],
       "exclusions": "Nu reprezintă o ofertă sau un angajament al unui cabinet.",
       "sources": [],
-      "version": "3.2.0",
+      "version": "3.4.0",
       "client_problem": "Ce presupune serviciul de consultanță în tranzacții și restructurări și ce informații trebuie pregătite?",
       "scope_note": "Activitățile exacte, termenele, responsabilitățile și onorariul se stabilesc numai prin oferta și contractul cabinetului.",
       "professional_note": "Publicabil ca ofertă numai după verificarea dreptului de exercitare, autorizărilor, independenței și limitelor mandatului, după caz.",
@@ -1081,7 +1945,31 @@
         "reference": "Forvis Mazars Romania - public service taxonomy",
         "method": "Independent original description; benchmarked for scope, deliverables and client needs; no copied marketing claims",
         "source_url": "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/contabilitate-si-raportari-financiare-fiscale"
-      }
+      },
+      "operations": [
+        "Modelarea scenariilor de tranzacție",
+        "Analiza efectelor financiare și fiscale",
+        "Pregătirea informațiilor pentru decizie"
+      ],
+      "practical_example": "Un grup analizează o fuziune sau separare",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru consultanță în tranzacții și restructurări.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune consultanță în tranzacții și restructurări?",
+          "answer": "Asistență financiară în reorganizări, achiziții și restructurări."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Structura tranzacției, situații financiare și obiective. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Analize de scenarii și documentație de tranzacție. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "E16",
@@ -1101,7 +1989,7 @@
         "Situații statistice și verificări de consistență"
       ],
       "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
-      "version": "3.3.0",
+      "version": "3.4.0",
       "client_problem": "Când este necesar serviciul raportări statistice și ce rezultat poate produce?",
       "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
       "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
@@ -1109,7 +1997,31 @@
         "reference": "Big 5 editorial comparison",
         "method": "Original editorial synthesis, not an assertion of provider availability",
         "source_url": null
-      }
+      },
+      "operations": [
+        "Identificarea formularelor statistice aplicabile",
+        "Corelarea indicatorilor cu evidențele",
+        "Controlul consistenței înainte de transmitere"
+      ],
+      "practical_example": "O societate primește o solicitare periodică de raportare statistică",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru raportări statistice.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune raportări statistice?",
+          "answer": "Pregătirea situațiilor statistice aplicabile activității, pe baza datelor contabile și operaționale."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Date financiare, personal, indicatori operaționali. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Situații statistice și verificări de consistență. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "E17",
@@ -1129,7 +2041,7 @@
         "Raport de diferențe și recomandări de corecție"
       ],
       "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
-      "version": "3.3.0",
+      "version": "3.4.0",
       "client_problem": "Când este necesar serviciul revizuire salarizare și ce rezultat poate produce?",
       "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
       "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
@@ -1137,7 +2049,31 @@
         "reference": "Big 5 editorial comparison",
         "method": "Original editorial synthesis, not an assertion of provider availability",
         "source_url": null
-      }
+      },
+      "operations": [
+        "Recalcularea selectivă a drepturilor",
+        "Verificarea tratamentului beneficiilor",
+        "Identificarea diferențelor între state și declarații"
+      ],
+      "practical_example": "Un angajator suspectează diferențe în calculul concediilor",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru revizuire salarizare.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune revizuire salarizare?",
+          "answer": "Verificarea calculului salarial, a pontajelor, reținerilor și raportărilor pentru identificarea diferențelor."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: State de plată, contracte, pontaje și declarații. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Raport de diferențe și recomandări de corecție. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "E18",
@@ -1156,7 +2092,7 @@
         "Centralizatoare și tratamente propuse spre validare"
       ],
       "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
-      "version": "3.3.0",
+      "version": "3.4.0",
       "client_problem": "Când este necesar serviciul administrarea beneficiilor salariaților și ce rezultat poate produce?",
       "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
       "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
@@ -1164,7 +2100,31 @@
         "reference": "Big 5 editorial comparison",
         "method": "Original editorial synthesis, not an assertion of provider availability",
         "source_url": null
-      }
+      },
+      "operations": [
+        "Inventarierea tipurilor de beneficii",
+        "Verificarea documentelor și încadrării",
+        "Reconcilierea beneficiilor cu statele de plată"
+      ],
+      "practical_example": "O firmă oferă tichete și alte avantaje angajaților",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru administrarea beneficiilor salariaților.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune administrarea beneficiilor salariaților?",
+          "answer": "Evidența și tratarea operațională a beneficiilor, în corelare cu salarizarea și documentele justificative."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Politici de beneficii, documente și date salariale. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Centralizatoare și tratamente propuse spre validare. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "E19",
@@ -1184,7 +2144,7 @@
         "Dosar de audit și registru de clarificări"
       ],
       "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
-      "version": "3.3.0",
+      "version": "3.4.0",
       "client_problem": "Când este necesar serviciul suport documentar pentru auditul anual și ce rezultat poate produce?",
       "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
       "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
@@ -1192,7 +2152,31 @@
         "reference": "Big 5 editorial comparison",
         "method": "Original editorial synthesis, not an assertion of provider availability",
         "source_url": null
-      }
+      },
+      "operations": [
+        "Pregătirea balanțelor și reconcilierilor",
+        "Colectarea documentelor solicitate",
+        "Urmărirea întrebărilor auditorilor"
+      ],
+      "practical_example": "Auditorul solicită justificarea soldurilor de la final de an",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru suport documentar pentru auditul anual.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune suport documentar pentru auditul anual?",
+          "answer": "Pregătirea documentelor, reconcilierea soldurilor și gestionarea solicitărilor auditorilor."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Balanțe, registre, contracte și solicitări de audit. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Dosar de audit și registru de clarificări. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "A13",
@@ -1212,7 +2196,7 @@
         "Matrice de conversie și reconciliere post-migrare"
       ],
       "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
-      "version": "3.3.0",
+      "version": "3.4.0",
       "client_problem": "Când este necesar serviciul migrare plan de conturi și date contabile și ce rezultat poate produce?",
       "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
       "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
@@ -1220,7 +2204,31 @@
         "reference": "Big 5 editorial comparison",
         "method": "Original editorial synthesis, not an assertion of provider availability",
         "source_url": null
-      }
+      },
+      "operations": [
+        "Inventarierea conturilor din sistemele sursă",
+        "Construirea matricei de corespondență",
+        "Testarea soldurilor migrate"
+      ],
+      "practical_example": "O societate schimbă programul contabil la început de an",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru migrare plan de conturi și date contabile.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune migrare plan de conturi și date contabile?",
+          "answer": "Maparea conturilor și transferul controlat al soldurilor și istoricului între sisteme."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Planuri de conturi, balanțe, exporturi și reguli de mapare. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Matrice de conversie și reconciliere post-migrare. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "A14",
@@ -1240,7 +2248,7 @@
         "Raport de abateri și indicatori de performanță"
       ],
       "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
-      "version": "3.3.0",
+      "version": "3.4.0",
       "client_problem": "Când este necesar serviciul controlling financiar și ce rezultat poate produce?",
       "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
       "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
@@ -1248,7 +2256,31 @@
         "reference": "Big 5 editorial comparison",
         "method": "Original editorial synthesis, not an assertion of provider availability",
         "source_url": null
-      }
+      },
+      "operations": [
+        "Definirea centrelor de responsabilitate",
+        "Calculul abaterilor buget-realizat",
+        "Analiza cauzelor și acțiunilor corective"
+      ],
+      "practical_example": "Un producător observă creșterea costului pe unitate",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru controlling financiar.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune controlling financiar?",
+          "answer": "Analiza abaterilor dintre buget și realizat, a marjelor și a performanței pe centre de cost."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Bugete, costuri, venituri și date analitice. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Raport de abateri și indicatori de performanță. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "A15",
@@ -1268,7 +2300,7 @@
         "Plan de control și rapoarte de supervizare"
       ],
       "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
-      "version": "3.3.0",
+      "version": "3.4.0",
       "client_problem": "Când este necesar serviciul externalizarea funcției de contabil-șef și ce rezultat poate produce?",
       "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
       "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
@@ -1276,7 +2308,31 @@
         "reference": "Big 5 editorial comparison",
         "method": "Original editorial synthesis, not an assertion of provider availability",
         "source_url": null
-      }
+      },
+      "operations": [
+        "Stabilirea matricei de responsabilități",
+        "Revizuirea calendarului de închidere",
+        "Supravegherea controalelor contabile"
+      ],
+      "practical_example": "Un IMM are contabil intern dar nu are coordonare financiară",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru externalizarea funcției de contabil-șef.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune externalizarea funcției de contabil-șef?",
+          "answer": "Coordonarea și supravegherea proceselor contabile, cu delimitarea atribuțiilor și răspunderii legale."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Organigramă, procese, evidențe și calendar de raportare. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Plan de control și rapoarte de supervizare. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "A16",
@@ -1295,7 +2351,7 @@
         "Calendar consolidat și matrice de conformare"
       ],
       "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
-      "version": "3.3.0",
+      "version": "3.4.0",
       "client_problem": "Când este necesar serviciul coordonarea raportării fiscale de grup și ce rezultat poate produce?",
       "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
       "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
@@ -1303,7 +2359,31 @@
         "reference": "Big 5 editorial comparison",
         "method": "Original editorial synthesis, not an assertion of provider availability",
         "source_url": null
-      }
+      },
+      "operations": [
+        "Inventarierea obligațiilor pe entități",
+        "Centralizarea calendarelor și statusurilor",
+        "Controlul diferențelor între jurisdicții"
+      ],
+      "practical_example": "Un grup are filiale cu termene fiscale diferite",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru coordonarea raportării fiscale de grup.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune coordonarea raportării fiscale de grup?",
+          "answer": "Organizarea raportărilor fiscale ale entităților dintr-un grup și urmărirea termenelor și diferențelor."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Structura grupului, calendare fiscale și raportări locale. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Calendar consolidat și matrice de conformare. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "A17",
@@ -1323,7 +2403,7 @@
         "Matrice de riscuri și controale, plan de remediere"
       ],
       "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
-      "version": "3.3.0",
+      "version": "3.4.0",
       "client_problem": "Când este necesar serviciul controale interne financiar-contabile și ce rezultat poate produce?",
       "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
       "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
@@ -1331,7 +2411,31 @@
         "reference": "Big 5 editorial comparison",
         "method": "Original editorial synthesis, not an assertion of provider availability",
         "source_url": null
-      }
+      },
+      "operations": [
+        "Identificarea riscurilor de proces",
+        "Testarea controalelor selectate",
+        "Documentarea deficiențelor și remediilor"
+      ],
+      "practical_example": "O firmă dorește separarea aprobării plăților de înregistrare",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru controale interne financiar-contabile.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune controale interne financiar-contabile?",
+          "answer": "Evaluarea punctelor de control din procesele de aprobare, înregistrare și reconciliere."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Proceduri, roluri, fluxuri și eșantioane de tranzacții. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Matrice de riscuri și controale, plan de remediere. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "A18",
@@ -1351,7 +2455,7 @@
         "Hartă de procese și plan etapizat de transformare"
       ],
       "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
-      "version": "3.3.0",
+      "version": "3.4.0",
       "client_problem": "Când este necesar serviciul transformarea funcției financiare și ce rezultat poate produce?",
       "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
       "professional_note": "Disponibilitatea serviciului se confirmă de cabinet.",
@@ -1359,7 +2463,31 @@
         "reference": "Big 5 editorial comparison",
         "method": "Original editorial synthesis, not an assertion of provider availability",
         "source_url": null
-      }
+      },
+      "operations": [
+        "Evaluarea proceselor și timpilor de execuție",
+        "Prioritizarea automatizărilor",
+        "Definirea etapelor și indicatorilor de succes"
+      ],
+      "practical_example": "Un departament financiar procesează manual sute de documente",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru transformarea funcției financiare.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune transformarea funcției financiare?",
+          "answer": "Reproiectarea proceselor de contabilitate și raportare pentru eficiență, trasabilitate și automatizare."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Procese curente, sisteme, indicatori și obiective. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Hartă de procese și plan etapizat de transformare. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "S11",
@@ -1378,7 +2506,7 @@
         "Raport de expertiză, numai prin profesionist competent"
       ],
       "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
-      "version": "3.3.0",
+      "version": "3.4.0",
       "client_problem": "Când este necesar serviciul expertize contabile și ce rezultat poate produce?",
       "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
       "professional_note": "Dreptul de exercitare și competențele se verifică în funcție de natura concretă a misiunii; clasificarea editorială nu stabilește singură o cerință legală de autorizare.",
@@ -1386,7 +2514,31 @@
         "reference": "Big 5 editorial comparison",
         "method": "Original editorial synthesis, not an assertion of provider availability",
         "source_url": null
-      }
+      },
+      "operations": [
+        "Stabilirea obiectivelor expertizei",
+        "Examinarea documentelor și probelor contabile",
+        "Redactarea constatărilor în limitele mandatului"
+      ],
+      "practical_example": "O instanță solicită lămurirea unor operațiuni contabile",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru expertize contabile.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune expertize contabile?",
+          "answer": "Analize și constatări contabile efectuate în limitele calificărilor și cadrului legal aplicabil."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Documente contabile, obiectivele expertizei și mandat. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Raport de expertiză, numai prin profesionist competent. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "S12",
@@ -1405,7 +2557,7 @@
         "Calculul impozitului amânat și note explicative"
       ],
       "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
-      "version": "3.3.0",
+      "version": "3.4.0",
       "client_problem": "Când este necesar serviciul contabilitatea impozitului amânat și ce rezultat poate produce?",
       "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
       "professional_note": "Dreptul de exercitare și competențele se verifică în funcție de natura concretă a misiunii; clasificarea editorială nu stabilește singură o cerință legală de autorizare.",
@@ -1413,7 +2565,31 @@
         "reference": "Big 5 editorial comparison",
         "method": "Original editorial synthesis, not an assertion of provider availability",
         "source_url": null
-      }
+      },
+      "operations": [
+        "Identificarea diferențelor temporare",
+        "Calculul efectelor fiscale și verificarea recuperabilității",
+        "Documentarea prezentării în raportare"
+      ],
+      "practical_example": "O filială IFRS are diferențe între amortizarea fiscală și contabilă",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru contabilitatea impozitului amânat.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune contabilitatea impozitului amânat?",
+          "answer": "Determinarea diferențelor temporare și a efectelor fiscale în raportarea financiară aplicabilă."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Baze fiscale, valori contabile și proiecții. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Calculul impozitului amânat și note explicative. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "S13",
@@ -1433,7 +2609,7 @@
         "Memoriu de evaluare și tratament contabil propus"
       ],
       "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
-      "version": "3.3.0",
+      "version": "3.4.0",
       "client_problem": "Când este necesar serviciul provizioane fiscale complexe și ce rezultat poate produce?",
       "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
       "professional_note": "Dreptul de exercitare și competențele se verifică în funcție de natura concretă a misiunii; clasificarea editorială nu stabilește singură o cerință legală de autorizare.",
@@ -1441,7 +2617,31 @@
         "reference": "Big 5 editorial comparison",
         "method": "Original editorial synthesis, not an assertion of provider availability",
         "source_url": null
-      }
+      },
+      "operations": [
+        "Inventarierea pozițiilor fiscale incerte",
+        "Evaluarea ipotezelor și probabilităților",
+        "Documentarea recunoașterii și prezentării"
+      ],
+      "practical_example": "O societate are un control fiscal în desfășurare",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru provizioane fiscale complexe.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune provizioane fiscale complexe?",
+          "answer": "Analiza expunerilor fiscale și documentarea tratamentului contabil al riscurilor și incertitudinilor."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Poziții fiscale, controale, litigii și estimări. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Memoriu de evaluare și tratament contabil propus. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "S14",
@@ -1462,7 +2662,7 @@
         "Situații contabile și documentație specifică etapei"
       ],
       "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
-      "version": "3.3.0",
+      "version": "3.4.0",
       "client_problem": "Când este necesar serviciul lichidări și reorganizări societare și ce rezultat poate produce?",
       "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
       "professional_note": "Dreptul de exercitare și competențele se verifică în funcție de natura concretă a misiunii; clasificarea editorială nu stabilește singură o cerință legală de autorizare.",
@@ -1470,7 +2670,31 @@
         "reference": "Big 5 editorial comparison",
         "method": "Original editorial synthesis, not an assertion of provider availability",
         "source_url": null
-      }
+      },
+      "operations": [
+        "Inventarierea activelor și obligațiilor",
+        "Pregătirea situațiilor specifice etapelor",
+        "Reconcilierea operațiunilor de lichidare"
+      ],
+      "practical_example": "Asociații decid încetarea activității societății",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru lichidări și reorganizări societare.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune lichidări și reorganizări societare?",
+          "answer": "Asistență financiar-contabilă în operațiuni de dizolvare, lichidare sau reorganizare, cu delimitarea atribuțiilor juridice."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Hotărâri, bilanțuri, active, datorii și documente societare. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Situații contabile și documentație specifică etapei. Livrabilele se confirmă prin contract."
+        }
+      ]
     },
     {
       "id": "S15",
@@ -1489,7 +2713,7 @@
         "Dosar de susținere și documentație pentru procedură"
       ],
       "exclusions": "Referință editorială; nu reprezintă ofertă comercială sau calificare profesională verificată.",
-      "version": "3.3.0",
+      "version": "3.4.0",
       "client_problem": "Când este necesar serviciul asistență pentru acorduri de preț în avans și ce rezultat poate produce?",
       "scope_note": "Operațiunile, termenele și responsabilitățile se confirmă contractual.",
       "professional_note": "Dreptul de exercitare și competențele se verifică în funcție de natura concretă a misiunii; clasificarea editorială nu stabilește singură o cerință legală de autorizare.",
@@ -1497,7 +2721,31 @@
         "reference": "Big 5 editorial comparison",
         "method": "Original editorial synthesis, not an assertion of provider availability",
         "source_url": null
-      }
+      },
+      "operations": [
+        "Definirea tranzacțiilor vizate de acord",
+        "Pregătirea analizei economice și a documentației",
+        "Coordonarea clarificărilor procedurale"
+      ],
+      "practical_example": "Un grup dorește predictibilitate pentru prețurile intra-grup",
+      "client_benefits": [
+        "Înțelegerea documentelor și verificărilor necesare pentru asistență pentru acorduri de preț în avans.",
+        "Trasabilitatea activităților și a rezultatelor convenite contractual."
+      ],
+      "faq": [
+        {
+          "question": "Ce presupune asistență pentru acorduri de preț în avans?",
+          "answer": "Pregătirea analizelor și documentației necesare procedurilor privind prețurile de transfer."
+        },
+        {
+          "question": "Ce documente sunt necesare pentru începere?",
+          "answer": "În mod orientativ: Tranzacții intra-grup, politici și analize economice. Lista finală depinde de situația clientului."
+        },
+        {
+          "question": "Ce rezultat poate primi clientul?",
+          "answer": "Posibil: Dosar de susținere și documentație pentru procedură. Livrabilele se confirmă prin contract."
+        }
+      ]
     }
   ],
   "benchmark_sources": [
@@ -1505,5 +2753,12 @@
     "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/servicii-administrative",
     "https://www.forvismazars.com/ro/ro/servicii/consultanta-contabila-si-servicii-externalizate/hr-si-salarizare/consultanta-in-salarizare-si-legislatia-muncii/conformitate-administrativa-in-hr"
   ],
-  "editorial_note": "Catalog de referință: clasificarea în nivelul specializat nu implică automat că fiecare activitate este rezervată legal unei profesii. Verificarea se face pe misiune."
+  "editorial_note": "Catalog de referință: clasificarea în nivelul specializat nu implică automat că fiecare activitate este rezervată legal unei profesii. Verificarea se face pe misiune.",
+  "editorial_enrichment": {
+    "operations_per_service": 3,
+    "faq_per_service": 3,
+    "examples_per_service": 1,
+    "benefits_per_service": 2,
+    "faq_disclaimer": "Răspunsurile sunt generale; nu substituie consultanța profesională ori verificarea normelor actuale."
+  }
 }
