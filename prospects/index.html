@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Prospects CAEN 6920 — București</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--ink:#1c2430;--mut:#5d6b7a;--line:#e3e7ec;--acc:#0b5cad;--ok:#1d7a46;--warn:#a15c00}
+@media (prefers-color-scheme:dark){:root{--bg:#12161c;--card:#1b2129;--ink:#e8edf2;--mut:#9aa7b5;--line:#2b333d;--acc:#5aa2ef;--ok:#5cc58a;--warn:#e0a24a}}
+*{box-sizing:border-box}
+body{margin:0;font:15px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--ink)}
+header{padding:20px 16px 8px;max-width:1200px;margin:auto}
+h1{font-size:22px;margin:0 0 4px}
+.sub{color:var(--mut);margin:0}
+main{max-width:1200px;margin:auto;padding:8px 16px 40px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;margin:12px 0}
+.card h2{font-size:17px;margin:0 0 10px}
+textarea{width:100%;min-height:140px;font:13px ui-monospace,Menlo,Consolas,monospace;padding:10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:10px}
+label{font-size:13px;color:var(--mut)}
+input[type=text],input[type=date]{padding:7px 9px;border:1px solid var(--line);border-radius:7px;background:var(--bg);color:var(--ink)}
+button{padding:9px 14px;border:0;border-radius:8px;background:var(--acc);color:#fff;font-weight:600;cursor:pointer}
+button.sec{background:transparent;color:var(--acc);border:1px solid var(--acc)}
+button:disabled{opacity:.45;cursor:default}
+.meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+.kv{border:1px solid var(--line);border-radius:8px;padding:8px 10px}
+.kv b{display:block;font-size:12px;color:var(--mut);font-weight:500}
+.kv span{font-size:15px;word-break:break-all}
+.hash{font:12px ui-monospace,Menlo,Consolas,monospace;word-break:break-all}
+.tablewrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top;white-space:nowrap}
+th{position:sticky;top:0;background:var(--card)}
+td input{width:170px;padding:4px 6px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);font-size:13px}
+.ok{color:var(--ok)}.warn{color:var(--warn)}
+.note{font-size:13px;color:var(--mut)}
+a{color:var(--acc)}
+</style>
+</head>
+<body>
+<header>
+  <h1>Prospects — CAEN 6920, București</h1>
+  <p class="sub">Lista firmelor de contabilitate fără site, folosită de generator pentru <b>prefix.inweb.ro</b>. Fiecare import primește dată, oră și amprentă SHA-256.</p>
+</header>
+<main>
+
+<section class="card" id="saved">
+  <h2 id="savedTitle">Prospects 6920 v0.1 2026-11-15</h2>
+  <p class="note" id="savedInfo">Se încarcă lista…</p>
+  <p class="note warn" id="savedWarn"></p>
+  <div class="row">
+    <label>Caută <input type="text" id="flt" placeholder="denumire, CUI, telefon, sector…"></label>
+    <label><input type="checkbox" id="hideBig"> ascunde firmele „de reverificat”</label>
+    <span class="note" id="fltN"></span>
+    <a id="savedDl" class="note" href="#" download>Descarcă JSON</a>
+  </div>
+  <div class="tablewrap" style="margin-top:12px;max-height:70vh;overflow:auto">
+    <table><thead><tr><th>#</th><th>Adresă site (pre-producție)</th><th>CUI</th><th>Denumire</th><th>Sector</th><th>Adresă</th><th>Telefon</th><th>Cifra afaceri 2024 (lei)</th><th>Salariați</th><th>Telefon la data</th><th>Site verificat la</th><th>Stare</th></tr></thead><tbody id="stb"></tbody></table>
+  </div>
+</section>
+
+<section class="card">
+  <h2>Import listă nouă — lipiți lista extrasă din FirmsFinder</h2>
+  <p class="note">Format acceptat: CSV, TSV sau separat cu „;”, cu rând de antet. Coloane recunoscute: CUI, Denumire, Adresă, Telefon, E-mail, CAEN, Prefix (opțional), Data informației (opțional). Dacă lipsește prefixul, se generează din denumire.</p>
+  <textarea id="src" placeholder="CUI;Denumire;Adresa;Telefon;Email;CAEN&#10;12345678;EXEMPLU CONTA SRL;București, Sector 1;07xxxxxxxx;office@exemplu.ro;6920"></textarea>
+  <div class="row">
+    <input type="file" id="file" accept=".csv,.tsv,.txt">
+    <label>Sursa <input type="text" id="sursa" value="FirmsFinder"></label>
+    <label>Data extragerii <input type="date" id="dataExtr"></label>
+    <button id="proc">Procesează</button>
+  </div>
+</section>
+
+<section class="card" id="res" hidden>
+  <h2>2. Rezultat</h2>
+  <div class="meta">
+    <div class="kv"><b>Data și ora importului</b><span id="mTs"></span></div>
+    <div class="kv"><b>Data extragerii din sursă</b><span id="mExtr"></span></div>
+    <div class="kv"><b>Firme</b><span id="mN"></span></div>
+    <div class="kv"><b>Dubluri CUI eliminate</b><span id="mDup"></span></div>
+    <div class="kv"><b>Fără telefon și fără e-mail</b><span id="mNoC"></span></div>
+    <div class="kv"><b>SHA-256 al listei</b><span class="hash" id="mHash"></span></div>
+  </div>
+  <div class="row">
+    <button id="dlJson">Descarcă JSON pentru generator</button>
+    <button class="sec" id="dlCsv">Descarcă CSV</button>
+    <button class="sec" id="cpJson">Copiază JSON</button>
+    <span class="note" id="msg"></span>
+  </div>
+  <div class="tablewrap" style="margin-top:12px">
+    <table><thead><tr><th>#</th><th>Prefix (editabil)</th><th>Adresă site (pre-producție)</th><th>CUI</th><th>Denumire</th><th>Adresă</th><th>Telefon</th><th>E-mail</th><th>CAEN</th><th>Data informației</th></tr></thead><tbody id="tb"></tbody></table>
+  </div>
+  <p class="note">Prefixul se poate corecta în tabel; amprenta SHA-256 și fișierul exportat se recalculează automat.</p>
+</section>
+
+<section class="card">
+  <h2>Confidențialitate</h2>
+  <p class="note">Lista conține date de contact. Pagina are <code>noindex</code>, dar fișierul JSON publicat lângă ea ar fi accesibil oricui cunoaște adresa. Recomandare: protejați ruta <code>/prospects/</code> cu Cloudflare Access sau țineți lista în baza D1, nu ca fișier public.</p>
+</section>
+
+</main>
+<script>
+const $=id=>document.getElementById(id);
+const DOMAIN='inweb.ro', CAEN='6920', VER='1.0';
+const LIST_FILE='prospects_6920_v0.1_2026-11-15.json';
+let rows=[], meta={};
+const today=()=>new Date().toISOString().slice(0,10);
+$('dataExtr').value=today();
+
+function norm(s){return (s||'').toString().normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().trim()}
+function slug(name){
+  let s=norm(name).replace(/\b(s\.?\s?r\.?\s?l\.?(-?d)?|s\.?\s?a\.?|p\.?\s?f\.?\s?a\.?|i\.?\s?i\.?|i\.?\s?f\.?|srl|sa|pfa|ii|if|ong)\b/g,' ');
+  s=s.replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'').slice(0,40).replace(/-+$/,'');
+  return s||'firma';
+}
+function detectDelim(line){const c={';':0,'\t':0,',':0};for(const ch of line)if(ch in c)c[ch]++;return Object.entries(c).sort((a,b)=>b[1]-a[1])[0][0]}
+function parseLine(line,d){const out=[];let cur='',q=false;for(let i=0;i<line.length;i++){const ch=line[i];if(q){if(ch=='"'){if(line[i+1]=='"'){cur+='"';i++}else q=false}else cur+=ch}else if(ch=='"')q=true;else if(ch==d){out.push(cur);cur=''}else cur+=ch}out.push(cur);return out.map(x=>x.trim())}
+const MAP={cui:/^(cui|cif|cod ?fiscal|cod unic)/,den:/^(denumire|nume|firma|company|societate)/,adr:/^(adresa|address|sediu)/,tel:/^(telefon|tel|phone|mobil)/,email:/^(e-?mail|mail)/,caen:/^(caen|cod caen)/,prefix:/^(prefix|subdomeniu|slug)/,data:/^(data|actualizat|update)/};
+function colIndex(h){const idx={};h.forEach((c,i)=>{const n=norm(c);for(const k in MAP)if(!(k in idx)&&MAP[k].test(n))idx[k]=i});return idx}
+
+async function sha256(txt){const b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(txt));return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('')}
+function tsLocal(d){return d.toLocaleString('ro-RO',{timeZone:'Europe/Bucharest'})+' (Europe/Bucharest)'}
+
+function uniquePrefixes(){const seen={};rows.forEach(r=>{let p=slug(r.prefix||r.denumire);let base=p,i=2;while(seen[p]){p=base+'-'+i++}seen[p]=1;r.prefix=p})}
+
+async function buildMeta(){
+  const payload=JSON.stringify(rows.map(r=>[r.prefix,r.cui,r.denumire,r.adresa,r.telefon,r.email,r.caen,r.data_informatiei]));
+  meta.sha256=await sha256(payload);
+  $('mHash').textContent=meta.sha256;
+}
+function render(){
+  $('res').hidden=false;
+  $('mTs').textContent=tsLocal(new Date(meta.importat_la));
+  $('mExtr').textContent=meta.data_extragerii+' — '+meta.sursa;
+  $('mN').textContent=rows.length;
+  $('mDup').textContent=meta.dubluri_eliminate;
+  const noc=rows.filter(r=>!r.telefon&&!r.email).length;
+  $('mNoC').innerHTML=noc?'<span class="warn">'+noc+'</span>':'<span class="ok">0</span>';
+  const tb=$('tb');tb.innerHTML='';
+  rows.forEach((r,i)=>{
+    const tr=document.createElement('tr');
+    const url='https://'+r.prefix+'.'+DOMAIN;
+    tr.innerHTML=`<td>${i+1}</td><td><input value="${r.prefix}" data-i="${i}"></td><td><a href="${url}" target="_blank" rel="noopener">${r.prefix}.${DOMAIN}</a></td><td>${esc(r.cui)}</td><td>${esc(r.denumire)}</td><td>${esc(r.adresa)}</td><td>${esc(r.telefon)}</td><td>${esc(r.email)}</td><td>${esc(r.caen)}</td><td>${esc(r.data_informatiei)}</td>`;
+    tb.appendChild(tr);
+  });
+  tb.querySelectorAll('input').forEach(inp=>inp.addEventListener('change',async e=>{
+    rows[+e.target.dataset.i].prefix=e.target.value;uniquePrefixes();await buildMeta();render();
+  }));
+}
+function esc(s){return (s||'').toString().replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+
+$('file').addEventListener('change',e=>{const f=e.target.files[0];if(!f)return;const rd=new FileReader();rd.onload=()=>{$('src').value=rd.result};rd.readAsText(f,'utf-8')});
+
+$('proc').addEventListener('click',async()=>{
+  const lines=$('src').value.split(/\r?\n/).filter(l=>l.trim());
+  if(lines.length<2){$('msg').textContent='Lipsește antetul sau datele.';$('res').hidden=false;return}
+  const d=detectDelim(lines[0]);const head=parseLine(lines[0],d);const ix=colIndex(head);
+  if(!('cui' in ix)||!('den' in ix)){alert('Antetul trebuie să conțină cel puțin coloanele CUI și Denumire.');return}
+  const seen=new Set();let dup=0;rows=[];
+  for(const l of lines.slice(1)){
+    const c=parseLine(l,d);const cui=(c[ix.cui]||'').replace(/^RO/i,'').replace(/\D/g,'');
+    if(!cui)continue; if(seen.has(cui)){dup++;continue} seen.add(cui);
+    const g=k=>k in ix?(c[ix[k]]||''):'';
+    rows.push({prefix:g('prefix'),cui,denumire:g('den'),adresa:g('adr'),telefon:g('tel'),email:g('email'),caen:g('caen')||CAEN,data_informatiei:g('data')||$('dataExtr').value});
+  }
+  uniquePrefixes();
+  meta={caen:CAEN,oras:'București',domeniu:DOMAIN,sursa:$('sursa').value||'FirmsFinder',data_extragerii:$('dataExtr').value,importat_la:new Date().toISOString(),dubluri_eliminate:dup};
+  await buildMeta();render();
+  try{localStorage.setItem('prospects6920_draft',JSON.stringify({meta,rows}))}catch(e){}
+  $('msg').textContent='';
+});
+
+function exportObj(){return {meta:{...meta,versiune:VER,numar_firme:rows.length},prospects:rows}}
+function fname(ext){return `prospects_6920_v${VER}_${(meta.importat_la||'').slice(0,10)}.${ext}`}
+function dl(name,txt,type){const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([txt],{type}));a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)}
+$('dlJson').onclick=()=>dl(fname('json'),JSON.stringify(exportObj(),null,2),'application/json');
+$('dlCsv').onclick=()=>{const h=['prefix','url','cui','denumire','adresa','telefon','email','caen','data_informatiei'];const q=v=>'"'+(v||'').toString().replace(/"/g,'""')+'"';dl(fname('csv'),'﻿'+[h.join(';'),...rows.map(r=>[r.prefix,'https://'+r.prefix+'.'+DOMAIN,r.cui,r.denumire,r.adresa,r.telefon,r.email,r.caen,r.data_informatiei].map(q).join(';'))].join('\n'),'text/csv')};
+$('cpJson').onclick=async()=>{try{await navigator.clipboard.writeText(JSON.stringify(exportObj(),null,2));$('msg').textContent='JSON copiat.'}catch(e){$('msg').textContent='Copierea nu este permisă aici; folosiți descărcarea.'}};
+
+let saved=[];
+function fmtN(n){return n==null?'':Number(n).toLocaleString('ro-RO')}
+function renderSaved(){
+  const q=norm($('flt').value), hide=$('hideBig').checked;
+  const f=saved.filter(r=>(!hide||!r.de_reverificat_site)&&(!q||norm([r.denumire,r.cui,r.telefon,r.sector,r.adresa,r.prefix].join(' ')).includes(q)));
+  $('fltN').textContent=f.length+' din '+saved.length+' firme';
+  $('stb').innerHTML=f.map((r,i)=>{const url='https://'+r.prefix+'.'+DOMAIN;return `<tr><td>${i+1}</td><td><a href="${url}" target="_blank" rel="noopener">${esc(r.prefix)}.${DOMAIN}</a></td><td>${esc(r.cui)}</td><td>${esc(r.denumire)}</td><td>${esc(r.sector)}</td><td>${esc(r.adresa)}</td><td><a href="tel:${esc(r.telefon)}">${esc(r.telefon)}</a></td><td style="text-align:right">${fmtN(r.cifra_afaceri_2024)}</td><td>${r.salariati_2024??''}</td><td>${esc(r.data_informatiei)}</td><td>${esc((r.site_verificat_la||'').slice(0,10))}</td><td>${r.de_reverificat_site?'<span class="warn">de reverificat</span>':'<span class="ok">fără site</span>'}</td></tr>`}).join('');
+}
+(async()=>{
+  try{
+    const r=await fetch(LIST_FILE,{cache:'no-store'});
+    if(!r.ok)throw 0;const j=await r.json();
+    saved=j.prospects||[];
+    if(j.meta.titlu)$('savedTitle').textContent=j.meta.titlu;
+    $('savedInfo').innerHTML=`<b>${j.meta.numar_firme}</b> firme · importate la <b>${tsLocal(new Date(j.meta.importat_la))}</b> · extrase din ${esc(j.meta.sursa)} la ${esc(j.meta.data_extragerii)}<br>Criterii: ${esc(j.meta.criterii||'')}<br>SHA-256 <span class="hash">${esc(j.meta.sha256)}</span>`;
+    $('savedWarn').textContent=j.meta.atentie?j.meta.atentie+' ('+(j.meta.de_reverificat||0)+' firme)':'';
+    $('savedDl').href=LIST_FILE;
+    $('flt').addEventListener('input',renderSaved);$('hideBig').addEventListener('change',renderSaved);
+    renderSaved();
+  }catch(e){
+    let d=null;try{d=JSON.parse(localStorage.getItem('prospects6920_draft'))}catch(_){}
+    $('savedInfo').textContent=d?`Nicio listă publicată încă. Ultima ciornă din acest browser: ${d.rows.length} firme, importate la ${tsLocal(new Date(d.meta.importat_la))}.`:'Nicio listă publicată încă. Lipiți lista mai jos.';
+  }
+})();
+</script>
+</body>
+</html>
