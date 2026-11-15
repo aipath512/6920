@@ -10,10 +10,10 @@
 @media (prefers-color-scheme:dark){:root{--bg:#12161c;--card:#1b2129;--ink:#e8edf2;--mut:#9aa7b5;--line:#2b333d;--acc:#5aa2ef;--ok:#5cc58a;--warn:#e0a24a}}
 *{box-sizing:border-box}
 body{margin:0;font:15px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--ink)}
-header{padding:20px 16px 8px;max-width:1200px;margin:auto}
+header{padding:20px 16px 8px;max-width:1600px;margin:auto}
 h1{font-size:22px;margin:0 0 4px}
 .sub{color:var(--mut);margin:0}
-main{max-width:1200px;margin:auto;padding:8px 16px 40px}
+main{max-width:1600px;margin:auto;padding:8px 16px 40px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;margin:12px 0}
 .card h2{font-size:17px;margin:0 0 10px}
 textarea{width:100%;min-height:140px;font:13px ui-monospace,Menlo,Consolas,monospace;padding:10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)}
@@ -33,7 +33,8 @@ table{border-collapse:collapse;width:100%;font-size:13px}
 th,td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top;white-space:nowrap}
 th{position:sticky;top:0;background:var(--card)}
 td input{width:170px;padding:4px 6px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);font-size:13px}
-td.loc{white-space:normal;min-width:340px}
+td.loc{white-space:normal;min-width:280px}
+td.num{text-align:right}
 td.den{white-space:normal;min-width:200px;max-width:300px}
 .ok{color:var(--ok)}.warn{color:var(--warn)}
 .note{font-size:13px;color:var(--mut)}
@@ -56,7 +57,7 @@ a{color:var(--acc)}
     <button class="sec" id="savedCsv">Descarcă lista (CSV)</button>
   </div>
   <div class="tablewrap" style="margin-top:12px;max-height:75vh;overflow:auto">
-    <table><thead><tr><th>#</th><th>CAEN</th><th>CUI</th><th>Nume firmă</th><th>Telefon</th><th>E-mail</th><th>Site</th><th>Locație</th><th>Data creare</th></tr></thead><tbody id="stb"></tbody></table>
+    <table><thead><tr><th>#</th><th>CAEN</th><th>CUI</th><th>Nume firmă</th><th>Telefon</th><th>E-mail</th><th>Site</th><th>Locație</th><th>Data creare</th><th>CA 2023 (lei)</th><th>CA 2024 (lei)</th><th>CA 2025 (lei)</th></tr></thead><tbody id="stb"></tbody></table>
   </div>
 </section>
 
@@ -103,7 +104,7 @@ a{color:var(--acc)}
 <script>
 const $=id=>document.getElementById(id);
 const DOMAIN='inweb.ro', CAEN='6920', VER='1.0';
-const LIST_FILE='prospects_6920_v0.2_2026-11-15.json';
+const LIST_FILE='prospects_6920_v0.3_2026-11-15.json';
 let rows=[], meta={};
 const today=()=>new Date().toISOString().slice(0,10);
 $('dataExtr').value=today();
@@ -184,7 +185,7 @@ function renderSaved(){
   const q=norm($('flt').value);
   const f=saved.filter(r=>(!q||norm([r.denumire,r.cui,r.telefon,r.sector,r.adresa,r.prefix].join(' ')).includes(q)));
   $('fltN').textContent=f.length+' din '+saved.length+' firme';
-  $('stb').innerHTML=f.map((r,i)=>`<tr><td>${i+1}</td><td>${esc(r.caen)}</td><td>${esc(r.cui)}</td><td class="den">${esc(r.denumire)}</td><td>${esc(r.telefon)}</td><td>${esc(r.email)||'—'}</td><td>nu are</td><td class="loc">${esc(r.adresa)}</td><td>${esc(r.data_inmatriculare)}</td></tr>`).join('');
+  $('stb').innerHTML=f.map((r,i)=>`<tr><td>${i+1}</td><td>${esc(r.caen)}</td><td>${esc(r.cui)}</td><td class="den">${esc(r.denumire)}</td><td>${esc(r.telefon)}</td><td>${esc(r.email)||'—'}</td><td>nu are</td><td class="loc">${esc(r.adresa)}</td><td>${esc(r.data_inmatriculare)}</td><td class="num">${fmtN(r.cifra_afaceri_2023)}</td><td class="num">${fmtN(r.cifra_afaceri_2024)}</td><td class="num">${fmtN(r.cifra_afaceri_2025)}</td></tr>`).join('');
   window._f=f;
 }
 (async()=>{
@@ -195,7 +196,7 @@ function renderSaved(){
     if(j.meta.titlu)$('savedTitle').textContent=j.meta.titlu;
     $('savedInfo').innerHTML=`<b>${j.meta.numar_firme}</b> firme · extrase din FirmsFinder la <b>${tsLocal(new Date(j.meta.importat_la))}</b>`;
     
-    $('savedCsv').onclick=()=>{const h=['CAEN','CUI','Nume firma','Telefon','Email','Site','Locatie','Data creare'];const q=v=>'"'+(v??'').toString().replace(/"/g,'""')+'"';dl('prospects_6920_v0.2_2026-11-15.csv','\ufeff'+[h.join(';'),...window._f.map(r=>[r.caen,r.cui,r.denumire,r.telefon,r.email,'nu are',r.adresa,r.data_inmatriculare].map(q).join(';'))].join('\n'),'text/csv')};
+    $('savedCsv').onclick=()=>{const h=['CAEN','CUI','Nume firma','Telefon','Email','Site','Locatie','Data creare','CA 2023','CA 2024','CA 2025'];const q=v=>'"'+(v??'').toString().replace(/"/g,'""')+'"';dl('prospects_6920_v0.3_2026-11-15.csv','\ufeff'+[h.join(';'),...window._f.map(r=>[r.caen,r.cui,r.denumire,r.telefon,r.email,'nu are',r.adresa,r.data_inmatriculare,r.cifra_afaceri_2023,r.cifra_afaceri_2024,r.cifra_afaceri_2025].map(q).join(';'))].join('\n'),'text/csv')};
     $('flt').addEventListener('input',renderSaved);
     renderSaved();
   }catch(e){
