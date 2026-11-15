@@ -53,10 +53,10 @@ a{color:var(--acc)}
     <label>Caută <input type="text" id="flt" placeholder="denumire, CUI, telefon, sector…"></label>
     <label><input type="checkbox" id="hideBig"> ascunde firmele „de reverificat”</label>
     <span class="note" id="fltN"></span>
-    <a id="savedDl" class="note" href="#" download>Descarcă JSON</a>
+    <button class="sec" id="savedCsv">Descarcă lista (CSV)</button>
   </div>
-  <div class="tablewrap" style="margin-top:12px;max-height:70vh;overflow:auto">
-    <table><thead><tr><th>#</th><th>Adresă site (pre-producție)</th><th>CUI</th><th>Denumire</th><th>Sector</th><th>Adresă</th><th>Telefon</th><th>Cifra afaceri 2024 (lei)</th><th>Salariați</th><th>Telefon la data</th><th>Site verificat la</th><th>Stare</th></tr></thead><tbody id="stb"></tbody></table>
+  <div class="tablewrap" style="margin-top:12px;max-height:75vh;overflow:auto">
+    <table><thead><tr><th>#</th><th>CAEN</th><th>CUI</th><th>Nume firmă</th><th>Telefon</th><th>E-mail</th><th>Site</th><th>Locație</th><th>Data creare</th></tr></thead><tbody id="stb"></tbody></table>
   </div>
 </section>
 
@@ -184,7 +184,8 @@ function renderSaved(){
   const q=norm($('flt').value), hide=$('hideBig').checked;
   const f=saved.filter(r=>(!hide||!r.de_reverificat_site)&&(!q||norm([r.denumire,r.cui,r.telefon,r.sector,r.adresa,r.prefix].join(' ')).includes(q)));
   $('fltN').textContent=f.length+' din '+saved.length+' firme';
-  $('stb').innerHTML=f.map((r,i)=>{const url='https://'+r.prefix+'.'+DOMAIN;return `<tr><td>${i+1}</td><td><a href="${url}" target="_blank" rel="noopener">${esc(r.prefix)}.${DOMAIN}</a></td><td>${esc(r.cui)}</td><td>${esc(r.denumire)}</td><td>${esc(r.sector)}</td><td>${esc(r.adresa)}</td><td><a href="tel:${esc(r.telefon)}">${esc(r.telefon)}</a></td><td style="text-align:right">${fmtN(r.cifra_afaceri_2024)}</td><td>${r.salariati_2024??''}</td><td>${esc(r.data_informatiei)}</td><td>${esc((r.site_verificat_la||'').slice(0,10))}</td><td>${r.de_reverificat_site?'<span class="warn">de reverificat</span>':'<span class="ok">fără site</span>'}</td></tr>`}).join('');
+  $('stb').innerHTML=f.map((r,i)=>`<tr><td>${i+1}</td><td>${esc(r.caen)}</td><td>${esc(r.cui)}</td><td>${esc(r.denumire)}</td><td>${esc(r.telefon)}</td><td>${esc(r.email)||'—'}</td><td>${r.de_reverificat_site?'<span class="warn">de reverificat</span>':'fără site'}</td><td>${esc(r.adresa)}</td><td>${esc(r.data_inmatriculare)}</td></tr>`).join('');
+  window._f=f;
 }
 (async()=>{
   try{
@@ -192,9 +193,9 @@ function renderSaved(){
     if(!r.ok)throw 0;const j=await r.json();
     saved=j.prospects||[];
     if(j.meta.titlu)$('savedTitle').textContent=j.meta.titlu;
-    $('savedInfo').innerHTML=`<b>${j.meta.numar_firme}</b> firme · importate la <b>${tsLocal(new Date(j.meta.importat_la))}</b> · extrase din ${esc(j.meta.sursa)} la ${esc(j.meta.data_extragerii)}<br>Criterii: ${esc(j.meta.criterii||'')}<br>SHA-256 <span class="hash">${esc(j.meta.sha256)}</span>`;
+    $('savedInfo').innerHTML=`<b>${j.meta.numar_firme}</b> firme · extrase din FirmsFinder la <b>${tsLocal(new Date(j.meta.importat_la))}</b>`;
     $('savedWarn').textContent=j.meta.atentie?j.meta.atentie+' ('+(j.meta.de_reverificat||0)+' firme)':'';
-    $('savedDl').href=LIST_FILE;
+    $('savedCsv').onclick=()=>{const h=['CAEN','CUI','Nume firma','Telefon','Email','Site','Locatie','Data creare'];const q=v=>'"'+(v??'').toString().replace(/"/g,'""')+'"';dl('prospects_6920_v0.1_2026-11-15.csv','\ufeff'+[h.join(';'),...window._f.map(r=>[r.caen,r.cui,r.denumire,r.telefon,r.email,r.de_reverificat_site?'de reverificat':'fara site',r.adresa,r.data_inmatriculare].map(q).join(';'))].join('\n'),'text/csv')};
     $('flt').addEventListener('input',renderSaved);$('hideBig').addEventListener('change',renderSaved);
     renderSaved();
   }catch(e){
