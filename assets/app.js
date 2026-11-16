@@ -149,3 +149,15 @@ if(!read()){const banner=document.createElement("aside");banner.className="cooki
     t.addEventListener("click",()=>{const linii=[...log.querySelectorAll(".bubble")].map(b=>(b.classList.contains("user")?"Eu: ":"EVA: ")+textMesaj(b));copiaza(linii.join("\n\n"),null).then(()=>{t.textContent="✓";setTimeout(()=>{t.textContent="⧉"},1600)})});
     if(ref)ref.parentNode.insertBefore(t,ref);else head.appendChild(t)}
 })();
+
+/* EVA — jurnal anonim al conversațiilor (memorarea intențiilor): fiecare mesaj nou se trimite la /_eva/jurnal.
+   Fără IP sau date de identificare; doar sesiune aleatorie, rol, text, pagină. 16.11.2026 */
+(function(){
+  const log=document.getElementById("eva-history");if(!log||!window.fetch)return;
+  let ses="";try{ses=sessionStorage.getItem("eva_sesiune")||""}catch(e){}
+  if(!ses){ses=(crypto.randomUUID?crypto.randomUUID():String(Date.now())+Math.random().toString(16).slice(2));try{sessionStorage.setItem("eva_sesiune",ses)}catch(e){}}
+  const trimite=b=>{if(!b.classList||!b.classList.contains("bubble")||b.dataset.jurnal)return;b.dataset.jurnal="1";
+    const c=b.cloneNode(true);c.querySelectorAll(".eva-copy").forEach(x=>x.remove());const text=c.innerText.trim();if(!text)return;
+    fetch("/_eva/jurnal",{method:"POST",headers:{"content-type":"application/json"},keepalive:true,body:JSON.stringify({sesiune:ses,rol:b.classList.contains("user")?"vizitator":"eva",text:text.slice(0,2000),pagina:location.pathname})}).catch(()=>{})};
+  new MutationObserver(m=>m.forEach(r=>r.addedNodes.forEach(trimite))).observe(log,{childList:true});
+})();
