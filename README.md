@@ -52,5 +52,7 @@ Etalonul nu conține date ale vreunei firme. Generatorul înlocuiește:
 | `{{adresa}}` | sediul social complet |
 | `{{telefon}}` | telefon |
 | `{{email}}` | e-mail |
+| `{{contact}}` | telefon + e-mail ca linkuri (e-mailul se ascunde dacă lipsește) |
+| `{{program}}` | programul de lucru; implicit „L–V 9:00–18:00”, modificabil de OWNER |
 
 Autorizația profesională (CECCAR) aparține stratului OWNER și se confirmă în Admin înainte de publicare.
