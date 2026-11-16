@@ -38,3 +38,19 @@ Detalii de inventar: `site-manifest.json`.
 
 ### Simulator comercial
 Pagina /preturi/ conține un simulator client-side cu 14 dimensiuni, care calculează **complexitatea**, NU un preț. Rezultatul se transferă către formularul local /contact/ prin parametri URL (fără informații fiscale sensibile sau date de identificare).
+
+## Locuri goale (strat CUI) — SPEC_GENERATOR_CAEN_CUI v1.2
+Etalonul nu conține date ale vreunei firme. Generatorul înlocuiește:
+
+| Loc gol | Sursă (FirmsFinder) |
+|---|---|
+| `{{denumire}}` | denumirea firmei |
+| `{{subdomeniu}}` | prefixul din `subdomeniu.inweb.ro` |
+| `{{initiala1}}` `{{initiala2}}` | primele două litere ale denumirii (iconița logo) |
+| `{{cui}}` | CUI |
+| `{{nr_reg_com}}` | număr Registrul Comerțului |
+| `{{adresa}}` | sediul social complet |
+| `{{telefon}}` | telefon |
+| `{{email}}` | e-mail |
+
+Autorizația profesională (CECCAR) aparține stratului OWNER și se confirmă în Admin înainte de publicare.
