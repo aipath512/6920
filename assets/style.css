@@ -868,3 +868,13 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
 .eva-trigger .eva-avatar.eva-avatar-portrait::after{content:""!important;position:absolute!important;left:10px;bottom:-7px;width:14px;height:14px;background:#fff;transform:rotate(45deg);border-radius:0 0 3px 0;z-index:-1}
 @keyframes eva-puncte{0%,100%{opacity:.45}50%{opacity:1}}
 @media (prefers-reduced-motion:reduce){.eva-trigger .eva-avatar.eva-avatar-portrait::before{animation:none}}
+
+/* EVA — mărime variabilă: buton ecran complet + colț de tragere (16.11.2026) */
+.eva-head .eva-max{color:#fff;border:0;background:transparent;font-size:20px;line-height:1;margin-left:auto;margin-right:6px;cursor:pointer;padding:4px 8px;border-radius:8px}
+.eva-head .eva-max:hover,.eva-head .eva-max:focus-visible{background:#ffffff22}
+.eva-box .eva-grip{position:absolute;top:0;left:0;width:22px;height:22px;cursor:nwse-resize;z-index:3;background:linear-gradient(135deg,#ffffff88 0 2px,transparent 2px 6px,#ffffff88 6px 8px,transparent 8px);border-top-left-radius:18px;touch-action:none}
+.eva-box.eva-full{inset:0!important;right:0!important;bottom:0!important;width:100vw!important;height:100dvh!important;max-height:none!important;border-radius:0!important;z-index:2147483002!important}
+.eva-box.eva-full .eva-grip{display:none}
+.eva-box.eva-full .eva-history,.eva-box.eva-full .eva-suggestions,.eva-box.eva-full .eva-input,.eva-box.eva-full .eva-foot{width:min(820px,100%);margin-left:auto;margin-right:auto;box-sizing:border-box}
+@media (max-width:640px){.eva-box .eva-grip{display:none}}
+body:has(.eva-box.eva-full) #page-scroll-controls{display:none!important}

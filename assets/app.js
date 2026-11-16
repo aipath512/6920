@@ -116,3 +116,21 @@ document.addEventListener("click",e=>{if(e.target.closest("#footer-cookie-settin
 /* Banner appears only when no prior selection exists. */
 if(!read()){const banner=document.createElement("aside");banner.className="cookie-consent-banner";banner.setAttribute("aria-label","Preferințe cookie-uri");banner.innerHTML='<p><strong>Preferințele tale privind cookie-urile</strong><span class="cookie-banner-description">Folosim cookie-uri necesare pentru funcționarea site-ului și, cu acordul tău, cookie-uri pentru statistici și marketing. Poți accepta toate, refuza toate sau alege categoriile dorite.</span><a href="/politica-cookies/">Politica de cookie-uri</a></p><div><button type="button" data-cookie="reject">Refuză toate</button><button type="button" data-cookie="settings">Personalizează</button><button type="button" data-cookie="accept">Acceptă toate</button></div>';document.body.append(banner);banner.addEventListener("click",e=>{const action=e.target.closest("[data-cookie]")?.dataset.cookie;if(!action)return;if(action==="settings"){open();return}save({statistics:action==="accept",marketing:action==="accept",external:action==="accept"});banner.remove()})}
 })();
+
+/* EVA — fereastra de chat cu mărime variabilă: de la mărimea inițială la tot ecranul (ca ChatGPT).
+   Buton ⤢/⤡ în antet + colț de tragere (stânga-sus) pentru orice mărime intermediară. 16.11.2026 */
+(function(){
+  const box=document.getElementById("eva-box");if(!box)return;
+  const head=box.querySelector(".eva-head"),close=document.getElementById("eva-close");if(!head)return;
+  const max=document.createElement("button");max.type="button";max.id="eva-max";max.className="eva-max";
+  const set=(full)=>{box.classList.toggle("eva-full",full);max.textContent=full?"⤡":"⤢";max.setAttribute("aria-label",full?"Micșorează fereastra EVA":"Mărește fereastra EVA la tot ecranul");max.setAttribute("aria-pressed",String(full));max.title=full?"Micșorează":"Ecran complet";if(full){box.style.width="";box.style.height=""}};
+  set(false);
+  max.addEventListener("click",()=>set(!box.classList.contains("eva-full")));
+  if(close)close.parentNode.insertBefore(max,close);else head.appendChild(max);
+  const grip=document.createElement("div");grip.className="eva-grip";grip.setAttribute("aria-hidden","true");grip.title="Trage pentru a schimba mărimea";box.appendChild(grip);
+  let st=null;
+  grip.addEventListener("pointerdown",e=>{if(box.classList.contains("eva-full"))return;const r=box.getBoundingClientRect();st={x:e.clientX,y:e.clientY,w:r.width,h:r.height,minW:Math.min(r.width,360),minH:Math.min(r.height,420)};grip.setPointerCapture(e.pointerId);e.preventDefault()});
+  grip.addEventListener("pointermove",e=>{if(!st)return;const w=Math.max(st.minW,Math.min(window.innerWidth-20,st.w+(st.x-e.clientX))),h=Math.max(st.minH,Math.min(window.innerHeight-20,st.h+(st.y-e.clientY)));box.style.width=w+"px";box.style.height=h+"px";box.style.maxHeight="none"});
+  const stop=()=>{st=null};grip.addEventListener("pointerup",stop);grip.addEventListener("pointercancel",stop);
+  document.addEventListener("keydown",e=>{if(e.key==="Escape"&&box.classList.contains("eva-full")){set(false);e.stopImmediatePropagation()}},true);
+})();
