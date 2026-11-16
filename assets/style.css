@@ -860,3 +860,11 @@ html[data-theme="dark"] .main-nav a{color:#d4d4d2}
 /* EVA — dimensiune fixă a butonului cu avatar pe toate ecranele (16.11.2026: pe desktop GIF-ul ocupa un sfert de ecran) */
 .eva-trigger .eva-avatar.eva-avatar-portrait{width:72px!important;height:72px!important;min-width:72px!important;max-width:72px!important;flex:0 0 72px!important}
 .eva-trigger .eva-gif{width:72px!important;height:72px!important;max-width:72px!important;max-height:72px!important}
+
+/* EVA — balon alb de chat cu „…” în locul avatarului animat (16.11.2026) */
+.eva-trigger .eva-gif{display:none!important}
+.eva-trigger .eva-avatar.eva-avatar-portrait{width:60px!important;height:48px!important;min-width:60px!important;max-width:60px!important;flex:0 0 60px!important;background:#fff!important;border-radius:24px!important;box-shadow:0 6px 20px #0005!important;display:flex!important;align-items:center!important;justify-content:center!important;gap:6px!important;position:relative!important;overflow:visible!important}
+.eva-trigger .eva-avatar.eva-avatar-portrait::before{content:""!important;display:block!important;width:8px;height:8px;border-radius:50%;background:#3a3f45;box-shadow:14px 0 0 #3a3f45,-14px 0 0 #3a3f45;animation:eva-puncte 1.4s infinite ease-in-out}
+.eva-trigger .eva-avatar.eva-avatar-portrait::after{content:""!important;position:absolute!important;left:10px;bottom:-7px;width:14px;height:14px;background:#fff;transform:rotate(45deg);border-radius:0 0 3px 0;z-index:-1}
+@keyframes eva-puncte{0%,100%{opacity:.45}50%{opacity:1}}
+@media (prefers-reduced-motion:reduce){.eva-trigger .eva-avatar.eva-avatar-portrait::before{animation:none}}
