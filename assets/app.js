@@ -134,3 +134,18 @@ if(!read()){const banner=document.createElement("aside");banner.className="cooki
   const stop=()=>{st=null};grip.addEventListener("pointerup",stop);grip.addEventListener("pointercancel",stop);
   document.addEventListener("keydown",e=>{if(e.key==="Escape"&&box.classList.contains("eva-full")){set(false);e.stopImmediatePropagation()}},true);
 })();
+
+/* EVA — copiere: fiecare mesaj are butonul „Copiază”, iar antetul are „Copiază conversația”. Textul se poate și selecta liber. 16.11.2026 */
+(function(){
+  const box=document.getElementById("eva-box"),log=document.getElementById("eva-history");if(!box||!log)return;
+  const copiaza=async(text,btn)=>{let ok=false;try{await navigator.clipboard.writeText(text);ok=true}catch(e){const t=document.createElement("textarea");t.value=text;t.setAttribute("readonly","");t.style.position="fixed";t.style.opacity="0";document.body.appendChild(t);t.select();try{ok=document.execCommand("copy")}catch(_){}t.remove()}
+    if(btn){const v=btn.textContent;btn.textContent=ok?"Copiat ✓":"Nu s-a putut copia";setTimeout(()=>{btn.textContent=v},1600)}};
+  const textMesaj=b=>{const c=b.cloneNode(true);c.querySelectorAll(".eva-copy").forEach(x=>x.remove());return c.innerText.trim()};
+  const adauga=b=>{if(!b.classList||!b.classList.contains("bubble")||b.querySelector(".eva-copy"))return;const k=document.createElement("button");k.type="button";k.className="eva-copy";k.textContent="Copiază";k.setAttribute("aria-label","Copiază mesajul");k.addEventListener("click",e=>{e.stopPropagation();copiaza(textMesaj(b),k)});b.appendChild(k)};
+  log.querySelectorAll(".bubble").forEach(adauga);
+  new MutationObserver(m=>m.forEach(r=>r.addedNodes.forEach(n=>adauga(n)))).observe(log,{childList:true});
+  const head=box.querySelector(".eva-head"),ref=document.getElementById("eva-max")||document.getElementById("eva-close");
+  if(head){const t=document.createElement("button");t.type="button";t.id="eva-copy-all";t.className="eva-max";t.textContent="⧉";t.title="Copiază conversația";t.setAttribute("aria-label","Copiază toată conversația");
+    t.addEventListener("click",()=>{const linii=[...log.querySelectorAll(".bubble")].map(b=>(b.classList.contains("user")?"Eu: ":"EVA: ")+textMesaj(b));copiaza(linii.join("\n\n"),null).then(()=>{t.textContent="✓";setTimeout(()=>{t.textContent="⧉"},1600)})});
+    if(ref)ref.parentNode.insertBefore(t,ref);else head.appendChild(t)}
+})();
