@@ -41,7 +41,7 @@ const knowledge=[
 {re:/shopify|woocommerce|magazin|online|ecommerce|marketplace/i,text:"Pentru un magazin online sunt relevante procesatorii de plăți, retururile, comisioanele marketplace și operațiunile transfrontaliere. Integrările sunt evaluate individual.",url:"/contabilitate-ecommerce/",label:"E-commerce"}
 ];
 function say(text,who="eva",url,label){const el=document.createElement("div");el.className="bubble"+(who==="user"?" user":"");el.append(document.createTextNode(text));if(url){const a=document.createElement("a");a.href=url;a.textContent=" "+label+" ↗";a.style.display="block";a.style.marginTop="7px";a.style.fontWeight="800";el.append(a)}log.append(el);log.scrollTop=log.scrollHeight}
-function openPanel(open){panel.hidden=!open;toggle.setAttribute("aria-expanded",String(open));if(open){input.focus();if(!log.children.length)say("Bună! Sunt EVA, asistentul {{denumire}}. Pot explica servicii, preluarea, costurile și pașii uzuali. Nu sunt consultant fiscal și nu primesc documente confidențiale.")}}
+function openPanel(open){panel.hidden=!open;toggle.setAttribute("aria-expanded",String(open));if(open){input.focus();if(!log.children.length)say("Bună! Sunt EVA, asistentul dvs. AI. Pot explica servicii, preluarea, costurile și pașii uzuali. Nu sunt consultant fiscal și nu primesc documente confidențiale.")}}
 toggle?.addEventListener("click",()=>openPanel(panel.hidden));close?.addEventListener("click",()=>openPanel(false));document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!panel.hidden)openPanel(false)});
 /* EVA 6920: approved owner corpus, canonical search with deterministic weighted retrieval. */
 const evaKB={items:[],ready:false};
