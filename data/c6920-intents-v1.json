@@ -1,0 +1,1172 @@
+{
+ "versiune": "1.0",
+ "data": "2026-11-17",
+ "etalon": "6920",
+ "descriere": "Catalogul de intenții al etalonului 6920 — răspunsuri generice (etalon), fără date ale vreunei firme. Faptele fiscale poartă sursa și data verificării; sursele secundare se confirmă cu sursa oficială înainte de publicare. Firma (OWNER) confirmă, adaptează sau ascunde fiecare răspuns în Admin; o intenție apare ca ofertă doar dacă serviciul legat este oferit.",
+ "segmente_ordine": [
+  "6210",
+  "4100",
+  "7020",
+  "6820",
+  "7112",
+  "8622",
+  "4321",
+  "5611"
+ ],
+ "huburi": {
+  "H1": {
+   "pagina": "/contabilitate-it/",
+   "titlu": "Înființare și contabilitate pentru SRL IT"
+  },
+  "H2": {
+   "pagina": "/contabilitate-it/clienti-ue/",
+   "titlu": "Facturare și TVA pentru clienți din UE"
+  },
+  "H3": {
+   "pagina": "/contabilitate-it/clienti-non-ue/",
+   "titlu": "Clienți non-UE și furnizori internaționali"
+  },
+  "H4": {
+   "pagina": "/contabilitate-it/salarii-dividende/",
+   "titlu": "Echipă, salarii și administrare"
+  },
+  "H5": {
+   "pagina": "/contabilitate-it/servicii/",
+   "titlu": "Model de facturare și servicii contabile IT"
+  },
+  "H6": {
+   "pagina": "/contabilitate-it/impozit-micro-profit/",
+   "titlu": "Impozite și microîntreprindere pentru SRL IT"
+  },
+  "H7": {
+   "pagina": "/contabilitate-it/echipa-pfa/",
+   "titlu": "Angajări, PFA și costuri cu echipa"
+  },
+  "H8": {
+   "pagina": "/contabilitate-it/contracte/",
+   "titlu": "Contracte, cod sursă și proprietate intelectuală"
+  },
+  "H9": {
+   "pagina": "/contabilitate-it/e-factura-incasari/",
+   "titlu": "Facturare electronică și încasări internaționale"
+  },
+  "H10": {
+   "pagina": "/contabilitate-it/proiecte-control/",
+   "titlu": "Profitabilitatea proiectelor și pregătirea pentru control"
+  }
+ },
+ "intentii": [
+  {
+   "id": "6920I0004",
+   "alias": "IT-001",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Află",
+   "hub": "H1",
+   "pagina": "/contabilitate-it/",
+   "ancora": "6920I0004",
+   "intrebare": "Cum înființez un SRL pentru dezvoltare software în România?",
+   "raspuns_scurt": "Un SRL se înființează la Registrul Comerțului (ONRC), online cu semnătură electronică calificată sau la ghișeu. În 2026, costul obligatoriu este taxa de publicare de aproximativ 152 lei, iar capitalul social minim este de 500 lei; dosarul complet se soluționează de regulă în 3–5 zile lucrătoare. Activitatea principală pentru software la comandă este CAEN 6210.",
+   "fapte": [
+    {
+     "afirmatie": "Taxa ONRC pentru publicare este de aproximativ 152 lei; capitalul social minim 500 lei (Legea 239/2025, din 1 ianuarie 2026); durata 3–5 zile lucrătoare.",
+     "sursa": {
+      "titlu": "bono.ro — Cum înființezi un SRL în 2026 (taxă ONRC, capital minim, durată)",
+      "url": "https://bono.ro/blog/cum-infiintezi-un-srl-in-2025"
+     },
+     "verificat_la": "2026-11-17",
+     "sursa_oficiala": false
+    },
+    {
+     "afirmatie": "Software la comandă = CAEN Rev.3 clasa 6210.",
+     "sursa": {
+      "titlu": "ONRC — nomenclatorul CAEN Rev.3 (clasa 6210)",
+      "url": "https://www.onrc.ro/documente/caen/CAEN_Rev.3_structura_completa.pdf"
+     },
+     "verificat_la": "2026-11-17",
+     "sursa_oficiala": true
+    }
+   ],
+   "servicii": [
+    "E15"
+   ],
+   "juridic": false,
+   "stare": "în verificare profesională",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0005",
+   "alias": "IT-002",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Află",
+   "hub": "H1",
+   "pagina": "/contabilitate-it/",
+   "ancora": "6920I0005",
+   "intrebare": "Ce cod CAEN trebuie pentru o firmă de software la comandă?",
+   "raspuns_scurt": "În nomenclatorul CAEN Rev.3, realizarea software-ului la comandă este clasa 6210 (în CAEN Rev.2 era 6201). Consultanța IT și administrarea sistemelor sunt clasa 6220, iar alte servicii IT sunt clasa 6290. Codurile secundare se aleg la înființare după activitățile reale.",
+   "fapte": [
+    {
+     "afirmatie": "6210 = Activități de realizare a soft-ului la comandă (software orientat client); 6220 = consultanță IT și management al mijloacelor de calcul; 6290 = alte servicii IT.",
+     "sursa": {
+      "titlu": "ONRC — nomenclatorul CAEN Rev.3 (clasa 6210)",
+      "url": "https://www.onrc.ro/documente/caen/CAEN_Rev.3_structura_completa.pdf"
+     },
+     "verificat_la": "2026-11-17",
+     "sursa_oficiala": true
+    }
+   ],
+   "servicii": [
+    "E15"
+   ],
+   "juridic": false,
+   "stare": "în verificare profesională",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0006",
+   "alias": "IT-003",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Compară",
+   "hub": "H1",
+   "pagina": "/contabilitate-it/",
+   "ancora": "6920I0006",
+   "intrebare": "Merită să deschid SRL sau rămân PFA ca developer?",
+   "raspuns_scurt": "Alegerea depinde de venit, de cheltuieli, de câți bani scoateți din firmă și de riscul asumat. SRL-ul separă patrimoniul personal de cel al firmei și, ca microîntreprindere, plătește în 2026 impozit de 1% pe venituri (plafon 100.000 euro), dar banii se scot ca salariu sau dividende, cu taxele lor. PFA-ul are evidență mai simplă, dar contribuțiile sociale se calculează pe venitul persoanei. Un calcul pe cifrele dumneavoastră arată varianta potrivită.",
+   "fapte": [
+    {
+     "afirmatie": "Micro 2026: cotă 1%, plafon 100.000 euro; la depășire, impozit pe profit 16% din trimestrul depășirii.",
+     "sursa": {
+      "titlu": "Expert Mind — Noutăți Ordonanța „trenuleț” 2026 (micro 1%, plafon 100.000 euro)",
+      "url": "https://www.expertmind.ro/wp-content/uploads/2026/01/Noutati-de-impact-din-Ordonanta-Trenulet-2026-publicate-in-MO-Centrul-de-Afaceri-Expert-Mind.pdf"
+     },
+     "verificat_la": "2026-11-17",
+     "sursa_oficiala": false
+    }
+   ],
+   "servicii": [
+    "S01",
+    "E15"
+   ],
+   "juridic": false,
+   "stare": "în verificare profesională",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0007",
+   "alias": "IT-004",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Alege",
+   "hub": "H1",
+   "pagina": "/contabilitate-it/",
+   "ancora": "6920I0007",
+   "intrebare": "Am nevoie de contabil pentru un SRL IT nou?",
+   "raspuns_scurt": "Da: orice SRL are obligația de a-și organiza și conduce contabilitatea, fie printr-un contabil angajat, fie printr-o firmă de contabilitate autorizată. Contabilul se alege înainte de prima factură, pentru ca înregistrarea fiscală, e-Factura și declarațiile să fie corecte din prima lună.",
+   "fapte": [],
+   "servicii": [
+    "E01"
+   ],
+   "juridic": false,
+   "stare": "în verificare profesională",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0008",
+   "alias": "IT-005",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Află",
+   "hub": "H1",
+   "pagina": "/contabilitate-it/",
+   "ancora": "6920I0008",
+   "intrebare": "Ce obligații contabile și fiscale are un SRL IT nou înființat?",
+   "raspuns_scurt": "Din prima lună: evidența documentelor, facturarea prin RO e-Factura, declarațiile periodice (impozit micro trimestrial, D112 dacă există salariați, decont și D390 dacă există operațiuni cu UE) și accesul firmei în Spațiul Privat Virtual (SPV) ANAF. Lista exactă depinde de regimul de TVA și de clienți.",
+   "fapte": [
+    {
+     "afirmatie": "Facturile B2B cu locul prestării în România se transmit în RO e-Factura.",
+     "sursa": {
+      "titlu": "contabilul.manager.ro — e-Factura: obligații, termen de transmitere",
+      "url": "https://contabilul.manager.ro/a/27989/noutati-e-factura-obligatii-termen-de-transmitere-si-sanctiuni.html"
+     },
+     "verificat_la": "2026-11-17",
+     "sursa_oficiala": false
+    }
+   ],
+   "servicii": [
+    "E01",
+    "E08",
+    "E10"
+   ],
+   "juridic": false,
+   "stare": "în verificare profesională",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0009",
+   "alias": "IT-006",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Află",
+   "hub": "H1",
+   "pagina": "/contabilitate-it/",
+   "ancora": "6920I0009",
+   "intrebare": "Cum emit prima factură către un client din România?",
+   "raspuns_scurt": "Factura către o firmă din România se emite cu elementele obligatorii și se transmite în RO e-Factura. Din 1 ianuarie 2026, termenul de transmitere este de 5 zile lucrătoare de la emitere; amenzile pentru netransmitere pot ajunge, în relația B2B, la 15% din valoarea facturii.",
+   "fapte": [
+    {
+     "afirmatie": "Termen de transmitere e-Factura: 5 zile lucrătoare de la emitere, din 1 ianuarie 2026 (OUG 89/2025).",
+     "sursa": {
+      "titlu": "zarinacrm.ro — e-Factura 2026: 5 zile lucrătoare (OUG 89/2025)",
+      "url": "https://www.zarinacrm.ro/e-factura-ghid-complet/"
+     },
+     "verificat_la": "2026-11-17",
+     "sursa_oficiala": false
+    },
+    {
+     "afirmatie": "Amendă B2B: 15% din valoarea facturii pentru netransmitere.",
+     "sursa": {
+      "titlu": "zarinacrm.ro — e-Factura 2026: 5 zile lucrătoare (OUG 89/2025)",
+      "url": "https://www.zarinacrm.ro/e-factura-ghid-complet/"
+     },
+     "verificat_la": "2026-11-17",
+     "sursa_oficiala": false
+    }
+   ],
+   "servicii": [
+    "E10"
+   ],
+   "juridic": false,
+   "stare": "în verificare profesională",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0010",
+   "alias": "IT-007",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Află",
+   "hub": "H2",
+   "pagina": "/contabilitate-it/clienti-ue/",
+   "ancora": "6920I0010",
+   "intrebare": "Cum facturez un client din UE ca firmă IT din România?",
+   "raspuns_scurt": "Pentru servicii IT către o firmă din alt stat UE se aplică de regulă regula generală B2B: locul prestării este la client (art. 278 alin. (2) Cod fiscal). Factura se emite fără TVA românesc, cu mențiunea „taxare inversă”; clientul plătește TVA în țara lui. Operațiunea se raportează în declarația 390 și în decontul de TVA.",
+   "fapte": [
+    {
+     "afirmatie": "Serviciile B2B urmează regula generală: locul prestării este la sediul clientului (art. 278 alin. (2)).",
+     "sursa": {
+      "titlu": "contapp.ro — Ghid TVA la vânzarea de bunuri și servicii în UE (art. 278, 317, D700, D390)",
+      "url": "https://contapp.ro/blog/tva-vanzari-ue-non-ue-neplatitori/"
+     },
+     "verificat_la": "2026-11-17",
+     "sursa_oficiala": false
+    },
+    {
+     "afirmatie": "Excepțiile de la art. 278 alin. (4)–(7) prevalează asupra regulii generale.",
+     "sursa": {
+      "titlu": "fiscalitatea.ro — excepțiile art. 278 alin. (4)–(7) prevalează",
+      "url": "https://www.fiscalitatea.ro/achizitii-prestari-de-servicii-ce-tratament-fiscal-si-contabil-se-aplica-15837/"
+     },
+     "verificat_la": "2026-11-17",
+     "sursa_oficiala": false
+    }
+   ],
+   "servicii": [
+    "E09",
+    "A04"
+   ],
+   "juridic": false,
+   "stare": "în verificare profesională",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0011",
+   "alias": "IT-008",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Află",
+   "hub": "H2",
+   "pagina": "/contabilitate-it/clienti-ue/",
+   "ancora": "6920I0011",
+   "intrebare": "Aplic TVA românesc pe factura către o firmă din UE?",
+   "raspuns_scurt": "De regulă nu: pentru servicii B2B care urmează regula generală, locul prestării este în țara clientului, deci factura nu conține TVA românesc, iar clientul aplică taxarea inversă. Excepție fac serviciile cu reguli speciale (de exemplu cele legate de bunuri imobile), care se verifică de la caz la caz.",
+   "fapte": [
+    {
+     "afirmatie": "Locul prestării se mută la client (art. 278 alin. (2)); clientul aplică taxarea inversă.",
+     "sursa": {
+      "titlu": "contapp.ro — Ghid TVA la vânzarea de bunuri și servicii în UE (art. 278, 317, D700, D390)",
+      "url": "https://contapp.ro/blog/tva-vanzari-ue-non-ue-neplatitori/"
+     },
+     "verificat_la": "2026-11-17",
+     "sursa_oficiala": false
+    },
+    {
+     "afirmatie": "Excepțiile art. 278 alin. (4)–(7) prevalează.",
+     "sursa": {
+      "titlu": "fiscalitatea.ro — excepțiile art. 278 alin. (4)–(7) prevalează",
+      "url": "https://www.fiscalitatea.ro/achizitii-prestari-de-servicii-ce-tratament-fiscal-si-contabil-se-aplica-15837/"
+     },
+     "verificat_la": "2026-11-17",
+     "sursa_oficiala": false
+    }
+   ],
+   "servicii": [
+    "E09",
+    "A04"
+   ],
+   "juridic": false,
+   "stare": "în verificare profesională",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0012",
+   "alias": "IT-009",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Află",
+   "hub": "H2",
+   "pagina": "/contabilitate-it/clienti-ue/",
+   "ancora": "6920I0012",
+   "intrebare": "Cum obțin codul special de TVA pentru servicii către UE?",
+   "raspuns_scurt": "Depinde dacă firma este deja înregistrată în scopuri de TVA. O firmă înregistrată normal (art. 316) își folosește codul de TVA existent. O firmă neînregistrată normal cere, înainte de prima factură către un client din UE, codul special de TVA (art. 317) prin Declarația 700; obligația apare de la primul euro și nu transformă firma în plătitor de TVA.",
+   "fapte": [
+    {
+     "afirmatie": "Codul special (art. 317) se obține prin Declarația 700, înainte de prima operațiune, fără plafon pentru servicii; nu face firma plătitoare de TVA.",
+     "sursa": {
+      "titlu": "contapp.ro — Ghid TVA la vânzarea de bunuri și servicii în UE (art. 278, 317, D700, D390)",
+      "url": "https://contapp.ro/blog/tva-vanzari-ue-non-ue-neplatitori/"
+     },
+     "verificat_la": "2026-11-17",
+     "sursa_oficiala": false
+    }
+   ],
+   "servicii": [
+    "E09",
+    "A04"
+   ],
+   "juridic": false,
+   "stare": "în verificare profesională",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0013",
+   "alias": "IT-010",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Află",
+   "hub": "H2",
+   "pagina": "/contabilitate-it/clienti-ue/",
+   "ancora": "6920I0013",
+   "intrebare": "Cum verific codul de TVA al unui client din UE în VIES?",
+   "raspuns_scurt": "Codul de TVA al clientului se verifică în sistemul VIES al Comisiei Europene înainte de facturare, iar rezultatul (cu data verificării) se păstrează la dosar. Un cod valid susține tratamentul fără TVA românesc; un cod invalid schimbă tratamentul și trebuie analizat înainte de emiterea facturii.",
+   "fapte": [
+    {
+     "afirmatie": "Partenerul din UE trebuie să comunice un cod de TVA valid.",
+     "sursa": {
+      "titlu": "infotva.manager.ro — prestări și achiziții de servicii intracomunitare",
+      "url": "https://infotva.manager.ro/articole/studii-de-caz/prestari-servicii-si-achizitii-de-servicii-intracomunitare-perioada-fiscala-pentru-tva-20114.html"
+     },
+     "verificat_la": "2026-11-17",
+     "sursa_oficiala": false
+    }
+   ],
+   "servicii": [
+    "A04"
+   ],
+   "juridic": false,
+   "stare": "în verificare profesională",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0014",
+   "alias": "IT-011",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Află",
+   "hub": "H2",
+   "pagina": "/contabilitate-it/clienti-ue/",
+   "ancora": "6920I0014",
+   "intrebare": "Ce mențiuni trebuie să aibă factura pentru taxare inversă?",
+   "raspuns_scurt": "Pe lângă elementele obligatorii ale oricărei facturi, factura către clientul din UE conține codul de TVA al clientului, codul de TVA al firmei (normal sau special) și mențiunea „taxare inversă”, fără TVA românesc calculat.",
+   "fapte": [
+    {
+     "afirmatie": "Prestatorul emite factura fără TVA și scrie pe ea „taxare inversă”.",
+     "sursa": {
+      "titlu": "bono.ro — TVA intracomunitar: cod, VIES, facturare",
+      "url": "https://bono.ro/blog/tva-intracomunitar-cum-obtii-cod-cum-il-verifici-pe-vies-si-cum-platesti-tva-ul"
+     },
+     "verificat_la": "2026-11-17",
+     "sursa_oficiala": false
+    }
+   ],
+   "servicii": [
+    "E09",
+    "A04"
+   ],
+   "juridic": false,
+   "stare": "în verificare profesională",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0015",
+   "alias": "IT-012",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Află",
+   "hub": "H2",
+   "pagina": "/contabilitate-it/clienti-ue/",
+   "ancora": "6920I0015",
+   "intrebare": "Când și cum depun declarația recapitulativă 390?",
+   "raspuns_scurt": "Declarația 390 se depune până pe 25 ale lunii următoare, doar pentru lunile în care au existat operațiuni intracomunitare. Prestările de servicii către clienți din UE se declară cu simbolul „P”.",
+   "fapte": [
+    {
+     "afirmatie": "D390 cu simbolul „P” pentru prestări intracomunitare, până pe 25 ale lunii următoare, doar în lunile cu facturi.",
+     "sursa": {
+      "titlu": "contapp.ro — Ghid TVA la vânzarea de bunuri și servicii în UE (art. 278, 317, D700, D390)",
+      "url": "https://contapp.ro/blog/tva-vanzari-ue-non-ue-neplatitori/"
+     },
+     "verificat_la": "2026-11-17",
+     "sursa_oficiala": false
+    },
+    {
+     "afirmatie": "D390 se depune lunar, până pe 25 inclusiv a lunii următoare.",
+     "sursa": {
+      "titlu": "contapp.ro — Declarația 390",
+      "url": "https://contapp.ro/blog/declaratia-390-tot-ce-trebuie-sa-stii-despre-declaratia-recapitulativa/"
+     },
+     "verificat_la": "2026-11-17",
+     "sursa_oficiala": false
+    }
+   ],
+   "servicii": [
+    "E08",
+    "A04"
+   ],
+   "juridic": false,
+   "stare": "în verificare profesională",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0016",
+   "alias": "IT-013",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Află",
+   "hub": "H2",
+   "pagina": "/contabilitate-it/clienti-ue/",
+   "ancora": "6920I0016",
+   "intrebare": "Ce declar în decontul de TVA pentru servicii prestate în UE?",
+   "raspuns_scurt": "Firmele înregistrate în scopuri de TVA declară în decontul 300 prestările de servicii cu locul în alt stat membru, la rândul dedicat acestor operațiuni din modelul în vigoare (Ordinul ANAF 174/2026). Operațiunea nu generează TVA de plată în România, dar are obligații declarative.",
+   "fapte": [
+    {
+     "afirmatie": "Operațiune neimpozabilă în România, cu obligații declarative: Decont 300 (Ordinul ANAF 174/2026) și declarația recapitulativă.",
+     "sursa": {
+      "titlu": "Ghid ANAF 2026 operațiuni TVA (Ordinul ANAF 174/2026 — Decont 300)",
+      "url": "https://startupcafe.ro/wp-content/uploads/2026/08/ghid-anaf-2026-operatiuni-TVA.pdf"
+     },
+     "verificat_la": "2026-11-17",
+     "sursa_oficiala": false
+    }
+   ],
+   "servicii": [
+    "E08",
+    "E09"
+   ],
+   "juridic": false,
+   "stare": "în verificare profesională",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0017",
+   "alias": "IT-014",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Află",
+   "hub": "H3",
+   "pagina": "/contabilitate-it/clienti-non-ue/",
+   "ancora": "6920I0017",
+   "intrebare": "Cum facturez clienți din SUA, Marea Britanie sau alte țări non-UE?",
+   "raspuns_scurt": null,
+   "fapte": [],
+   "servicii": [
+    "E09",
+    "A04"
+   ],
+   "juridic": false,
+   "stare": "de scris",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0018",
+   "alias": "IT-015",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Află",
+   "hub": "H3",
+   "pagina": "/contabilitate-it/clienti-non-ue/",
+   "ancora": "6920I0018",
+   "intrebare": "Cumpăr servicii de la un furnizor din UE; ce obligații de TVA am?",
+   "raspuns_scurt": null,
+   "fapte": [],
+   "servicii": [
+    "E09",
+    "A04"
+   ],
+   "juridic": false,
+   "stare": "de scris",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0019",
+   "alias": "IT-016",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Află",
+   "hub": "H4",
+   "pagina": "/contabilitate-it/salarii-dividende/",
+   "ancora": "6920I0019",
+   "intrebare": "Cum angajez primul programator și ce obligații salariale am?",
+   "raspuns_scurt": null,
+   "fapte": [],
+   "servicii": [
+    "E12"
+   ],
+   "juridic": false,
+   "stare": "de scris",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0020",
+   "alias": "IT-017",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Compară",
+   "hub": "H4",
+   "pagina": "/contabilitate-it/salarii-dividende/",
+   "ancora": "6920I0020",
+   "intrebare": "Cum îmi plătesc salariul și dividendele din SRL-ul IT?",
+   "raspuns_scurt": null,
+   "fapte": [],
+   "servicii": [
+    "S01"
+   ],
+   "juridic": false,
+   "stare": "de scris",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0021",
+   "alias": "IT-018",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Află",
+   "hub": "H4",
+   "pagina": "/contabilitate-it/salarii-dividende/",
+   "ancora": "6920I0021",
+   "intrebare": "Ce cheltuieli pot deduce ca firmă de software: laptop, licențe, cloud, training?",
+   "raspuns_scurt": null,
+   "fapte": [],
+   "servicii": [
+    "S01",
+    "E01"
+   ],
+   "juridic": false,
+   "stare": "de scris",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0022",
+   "alias": "IT-019",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Află",
+   "hub": "H5",
+   "pagina": "/contabilitate-it/servicii/",
+   "ancora": "6920I0022",
+   "intrebare": "Cum contabilizez facturarea lunară, milestone-urile și avansurile?",
+   "raspuns_scurt": null,
+   "fapte": [],
+   "servicii": [
+    "E01"
+   ],
+   "juridic": false,
+   "stare": "de scris",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0023",
+   "alias": "IT-020",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Alege",
+   "hub": "H5",
+   "pagina": "/contabilitate-it/servicii/",
+   "ancora": "6920I0023",
+   "intrebare": "Ce servicii de contabilitate îmi trebuie ca firmă IT cu clienți din UE?",
+   "raspuns_scurt": "O firmă IT cu clienți din UE are nevoie, pe lângă contabilitatea lunară, de evidența TVA pentru operațiuni intracomunitare (cod de TVA, VIES, facturare cu taxare inversă), de declarațiile 390 și decont, de facturare prin RO e-Factura pentru clienții din România și, dacă are angajați, de salarizare și D112.",
+   "fapte": [],
+   "servicii": [
+    "E01",
+    "E09",
+    "E10",
+    "A04",
+    "E12"
+   ],
+   "juridic": false,
+   "stare": "în verificare profesională",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0024",
+   "alias": "IT-021",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Compară",
+   "hub": "H6",
+   "pagina": "/contabilitate-it/impozit-micro-profit/",
+   "ancora": "6920I0024",
+   "intrebare": "Ce impozit plătește un SRL IT în România: micro sau impozit pe profit?",
+   "raspuns_scurt": null,
+   "fapte": [
+    {
+     "afirmatie": "Micro 2026: cotă 1%, plafon 100.000 euro; la depășire, impozit pe profit 16% din trimestrul depășirii.",
+     "sursa": {
+      "titlu": "Expert Mind — Noutăți Ordonanța „trenuleț” 2026 (micro 1%, plafon 100.000 euro)",
+      "url": "https://www.expertmind.ro/wp-content/uploads/2026/01/Noutati-de-impact-din-Ordonanta-Trenulet-2026-publicate-in-MO-Centrul-de-Afaceri-Expert-Mind.pdf"
+     },
+     "verificat_la": "2026-11-17",
+     "sursa_oficiala": false
+    }
+   ],
+   "servicii": [
+    "S01"
+   ],
+   "juridic": false,
+   "stare": "de scris",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0025",
+   "alias": "IT-022",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Află",
+   "hub": "H6",
+   "pagina": "/contabilitate-it/impozit-micro-profit/",
+   "ancora": "6920I0025",
+   "intrebare": "Cum știu dacă SRL-ul meu IT se încadrează la microîntreprindere?",
+   "raspuns_scurt": null,
+   "fapte": [],
+   "servicii": [
+    "S01"
+   ],
+   "juridic": false,
+   "stare": "de scris",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0026",
+   "alias": "IT-023",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Află",
+   "hub": "H6",
+   "pagina": "/contabilitate-it/impozit-micro-profit/",
+   "ancora": "6920I0026",
+   "intrebare": "Ce se întâmplă dacă depășesc plafonul de venituri pentru micro?",
+   "raspuns_scurt": null,
+   "fapte": [],
+   "servicii": [
+    "S01"
+   ],
+   "juridic": false,
+   "stare": "de scris",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0027",
+   "alias": "IT-024",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Află",
+   "hub": "H6",
+   "pagina": "/contabilitate-it/impozit-micro-profit/",
+   "ancora": "6920I0027",
+   "intrebare": "Când pot scoate dividende din SRL și ce taxe plătesc?",
+   "raspuns_scurt": null,
+   "fapte": [],
+   "servicii": [
+    "S01"
+   ],
+   "juridic": false,
+   "stare": "de scris",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0028",
+   "alias": "IT-025",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Află",
+   "hub": "H6",
+   "pagina": "/contabilitate-it/impozit-micro-profit/",
+   "ancora": "6920I0028",
+   "intrebare": "Cum îmi stabilesc salariul de administrator fără riscuri fiscale?",
+   "raspuns_scurt": null,
+   "fapte": [],
+   "servicii": [
+    "S01",
+    "E12"
+   ],
+   "juridic": false,
+   "stare": "de scris",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0029",
+   "alias": "IT-026",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Află",
+   "hub": "H7",
+   "pagina": "/contabilitate-it/echipa-pfa/",
+   "ancora": "6920I0029",
+   "intrebare": "Cât mă costă un programator angajat în SRL, cu toate taxele?",
+   "raspuns_scurt": null,
+   "fapte": [],
+   "servicii": [
+    "E12"
+   ],
+   "juridic": false,
+   "stare": "de scris",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0030",
+   "alias": "IT-027",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Compară",
+   "hub": "H7",
+   "pagina": "/contabilitate-it/echipa-pfa/",
+   "ancora": "6920I0030",
+   "intrebare": "Pot lucra cu programatori PFA și cum trebuie să fie contractul?",
+   "raspuns_scurt": null,
+   "fapte": [],
+   "servicii": [
+    "S01"
+   ],
+   "juridic": false,
+   "stare": "de scris",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0031",
+   "alias": "IT-028",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Află",
+   "hub": "H7",
+   "pagina": "/contabilitate-it/echipa-pfa/",
+   "ancora": "6920I0031",
+   "intrebare": "Când un colaborator PFA poate fi considerat salariat de ANAF?",
+   "raspuns_scurt": null,
+   "fapte": [],
+   "servicii": [
+    "S01"
+   ],
+   "juridic": false,
+   "stare": "de scris",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0032",
+   "alias": "IT-029",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Află",
+   "hub": "H8",
+   "pagina": "/contabilitate-it/contracte/",
+   "ancora": "6920I0032",
+   "intrebare": "Ce trebuie să conțină contractul pentru dezvoltarea unui software la comandă?",
+   "raspuns_scurt": null,
+   "fapte": [],
+   "servicii": [],
+   "juridic": true,
+   "stare": "de scris",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0033",
+   "alias": "IT-030",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Află",
+   "hub": "H8",
+   "pagina": "/contabilitate-it/contracte/",
+   "ancora": "6920I0033",
+   "intrebare": "Cine deține codul sursă și drepturile asupra software-ului dezvoltat?",
+   "raspuns_scurt": null,
+   "fapte": [],
+   "servicii": [],
+   "juridic": true,
+   "stare": "de scris",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0034",
+   "alias": "IT-031",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Află",
+   "hub": "H8",
+   "pagina": "/contabilitate-it/contracte/",
+   "ancora": "6920I0034",
+   "intrebare": "Am nevoie de NDA pentru clienți și colaboratori în IT?",
+   "raspuns_scurt": null,
+   "fapte": [],
+   "servicii": [],
+   "juridic": true,
+   "stare": "de scris",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0035",
+   "alias": "IT-032",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Află",
+   "hub": "H8",
+   "pagina": "/contabilitate-it/contracte/",
+   "ancora": "6920I0035",
+   "intrebare": "Ce obligații GDPR are o firmă IT care dezvoltă aplicații pentru clienți?",
+   "raspuns_scurt": null,
+   "fapte": [],
+   "servicii": [],
+   "juridic": true,
+   "stare": "de scris",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0036",
+   "alias": "IT-033",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Află",
+   "hub": "H8",
+   "pagina": "/contabilitate-it/contracte/",
+   "ancora": "6920I0036",
+   "intrebare": "Pot folosi licențe open-source în produsul livrat clientului?",
+   "raspuns_scurt": null,
+   "fapte": [],
+   "servicii": [],
+   "juridic": true,
+   "stare": "de scris",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0037",
+   "alias": "IT-034",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Află",
+   "hub": "H9",
+   "pagina": "/contabilitate-it/e-factura-incasari/",
+   "ancora": "6920I0037",
+   "intrebare": "Trebuie să emit facturi prin RO e-Factura ca SRL IT?",
+   "raspuns_scurt": null,
+   "fapte": [
+    {
+     "afirmatie": "Facturile B2B cu locul prestării în România se transmit în RO e-Factura; termen 5 zile lucrătoare din 2026.",
+     "sursa": {
+      "titlu": "zarinacrm.ro — e-Factura 2026: 5 zile lucrătoare (OUG 89/2025)",
+      "url": "https://www.zarinacrm.ro/e-factura-ghid-complet/"
+     },
+     "verificat_la": "2026-11-17",
+     "sursa_oficiala": false
+    }
+   ],
+   "servicii": [
+    "E10"
+   ],
+   "juridic": false,
+   "stare": "de scris",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0038",
+   "alias": "IT-035",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Află",
+   "hub": "H9",
+   "pagina": "/contabilitate-it/e-factura-incasari/",
+   "ancora": "6920I0038",
+   "intrebare": "Cum încasez din UE, SUA sau Marea Britanie și cum înregistrez încasările?",
+   "raspuns_scurt": null,
+   "fapte": [],
+   "servicii": [
+    "E01"
+   ],
+   "juridic": false,
+   "stare": "de scris",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0039",
+   "alias": "IT-036",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Află",
+   "hub": "H9",
+   "pagina": "/contabilitate-it/e-factura-incasari/",
+   "ancora": "6920I0039",
+   "intrebare": "La ce curs înregistrez veniturile în euro sau dolari?",
+   "raspuns_scurt": null,
+   "fapte": [],
+   "servicii": [
+    "E01"
+   ],
+   "juridic": false,
+   "stare": "de scris",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0040",
+   "alias": "IT-037",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Află",
+   "hub": "H9",
+   "pagina": "/contabilitate-it/e-factura-incasari/",
+   "ancora": "6920I0040",
+   "intrebare": "Cum contabilizez un avans primit pentru un proiect software?",
+   "raspuns_scurt": null,
+   "fapte": [],
+   "servicii": [
+    "E01"
+   ],
+   "juridic": false,
+   "stare": "de scris",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0041",
+   "alias": "IT-038",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Alege",
+   "hub": "H10",
+   "pagina": "/contabilitate-it/proiecte-control/",
+   "ancora": "6920I0041",
+   "intrebare": "Cum urmăresc costurile și profitabilitatea unui proiect IT?",
+   "raspuns_scurt": null,
+   "fapte": [],
+   "servicii": [
+    "A07"
+   ],
+   "juridic": false,
+   "stare": "de scris",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0042",
+   "alias": "IT-039",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Află",
+   "hub": "H10",
+   "pagina": "/contabilitate-it/proiecte-control/",
+   "ancora": "6920I0042",
+   "intrebare": "Cât TVA și impozit trebuie să păstrez din încasări?",
+   "raspuns_scurt": null,
+   "fapte": [],
+   "servicii": [
+    "A06"
+   ],
+   "juridic": false,
+   "stare": "de scris",
+   "verificat_de": null,
+   "data_verificarii": null
+  },
+  {
+   "id": "6920I0043",
+   "alias": "IT-040",
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Alege → Acționează",
+   "hub": "H10",
+   "pagina": "/contabilitate-it/proiecte-control/",
+   "ancora": "6920I0043",
+   "intrebare": "Ce documente trebuie să păstrez ca firmă IT pentru un control fiscal?",
+   "raspuns_scurt": null,
+   "fapte": [],
+   "servicii": [
+    "A11"
+   ],
+   "juridic": false,
+   "stare": "de scris",
+   "verificat_de": null,
+   "data_verificarii": null
+  }
+ ]
+}
