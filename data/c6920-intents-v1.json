@@ -98,7 +98,8 @@
    "data_verificarii": null,
    "intrebare_publicata": "Ce pași legali am pentru înființarea unui SRL?",
    "origine_fuziune": "listă OWNER (Dan) BOFU #19, 17.11.2026",
-   "raspuns_publicat": "Un SRL se înființează la Registrul Comerțului (ONRC), online cu semnătură electronică calificată sau la ghișeu. Verifici și rezervi denumirea firmei. Stabilești sediul social și codurile CAEN (de exemplu, software la comandă: CAEN Rev.3 6210). Pregătești actul constitutiv și declarațiile asociaților și administratorului. Depui dosarul la ONRC; înregistrarea fiscală (CUI) se face odată cu înmatricularea, fără dosar separat la ANAF. Înregistrarea în scopuri de TVA se face separat, doar dacă e cazul. Deschizi contul bancar al firmei și verși capitalul social. Activezi Spațiul Privat Virtual (SPV) și RO e-Factura. Organizezi contabilitatea din prima lună. Pentru regimul de microîntreprindere: cel puțin un angajat cu normă întreagă în primele 90 de zile de la înființare sau contract de mandat plătit pentru administrator (OUG 8/2026). Ne ocupăm noi de dosar și de contabilitate →"
+   "raspuns_publicat": "Un SRL se înființează la Registrul Comerțului (ONRC), online cu semnătură electronică calificată sau la ghișeu. Verifici și rezervi denumirea firmei. Stabilești sediul social și codurile CAEN (de exemplu, software la comandă: CAEN Rev.3 6210). Pregătești actul constitutiv și declarațiile asociaților și administratorului. Depui dosarul la ONRC; înregistrarea fiscală (CUI) se face odată cu înmatricularea, fără dosar separat la ANAF. Înregistrarea în scopuri de TVA se face separat, doar dacă e cazul. Deschizi contul bancar al firmei și verși capitalul social. Activezi Spațiul Privat Virtual (SPV) și RO e-Factura. Organizezi contabilitatea din prima lună. Pentru regimul de microîntreprindere: cel puțin un angajat cu normă întreagă în primele 90 de zile de la înființare sau contract de mandat plătit pentru administrator (OUG 8/2026). Ne ocupăm noi de dosar și de contabilitate →",
+   "funnel": "TOF"
   },
   {
    "id": "6920I0005",
@@ -167,7 +168,8 @@
    "data_verificarii": null,
    "intrebare_publicata": "SRL sau PFA, ce aleg?",
    "origine_fuziune": "listă OWNER (Dan) TOFU #6, 17.11.2026",
-   "raspuns_publicat": "Alegerea depinde de venit, de cheltuieli, de câți bani scoți din firmă și de riscul asumat. PFA : evidență mai simplă, potrivit pentru o activitate individuală și venituri mici; contribuțiile sociale se calculează pe venitul persoanei. SRL : separă patrimoniul personal de cel al firmei; ca microîntreprindere plătește în 2026 impozit de 1% pe venituri (plafon 100.000 euro), dar banii se scot ca salariu sau dividende, cu taxele lor. Pentru echipă, parteneri, angajați, investitori sau risc operațional mai mare, SRL-ul este de obicei varianta potrivită. Un calcul pe cifrele tale arată varianta potrivită. Cere calculul →"
+   "raspuns_publicat": "Alegerea depinde de venit, de cheltuieli, de câți bani scoți din firmă și de riscul asumat. PFA : evidență mai simplă, potrivit pentru o activitate individuală și venituri mici; contribuțiile sociale se calculează pe venitul persoanei. SRL : separă patrimoniul personal de cel al firmei; ca microîntreprindere plătește în 2026 impozit de 1% pe venituri (plafon 100.000 euro), dar banii se scot ca salariu sau dividende, cu taxele lor. Pentru echipă, parteneri, angajați, investitori sau risc operațional mai mare, SRL-ul este de obicei varianta potrivită. Un calcul pe cifrele tale arată varianta potrivită. Cere calculul →",
+   "funnel": "MOF"
   },
   {
    "id": "6920I0007",
@@ -1214,7 +1216,8 @@
    "data_verificarii": null,
    "origine": "listă OWNER (Dan) TOFU #5, 17.11.2026",
    "intrebare_publicata": "Cât costă să înființez o firmă și ce buget îmi trebuie?",
-   "raspuns_publicat": "Costurile obligatorii sunt mici: taxa ONRC de aproximativ 152 lei și capitalul social minim de 500 lei (Legea 239/2025), care rămâne în firmă. Bugetul real vine după înființare: contabilitatea (la ECB Tax de la 300 lei/lună + TVA, pachetul Start), salariul și contribuțiile pentru angajatul sau administratorul cu contract de mandat cerut microîntreprinderilor, echipamente, eventual stocuri, licențe și marketing. Pregătește o rezervă pentru 3–6 luni de cheltuieli fixe, mai mult dacă încasările întârzie. Site-ul, hosting-ul, emailul profesional și asistentul AI sunt incluse gratuit prin Start-Up Pack . Vezi prețurile →"
+   "raspuns_publicat": "Costurile obligatorii sunt mici: taxa ONRC de aproximativ 152 lei și capitalul social minim de 500 lei (Legea 239/2025), care rămâne în firmă. Bugetul real vine după înființare: contabilitatea (la ECB Tax de la 300 lei/lună + TVA, pachetul Start), salariul și contribuțiile pentru angajatul sau administratorul cu contract de mandat cerut microîntreprinderilor, echipamente, eventual stocuri, licențe și marketing. Pregătește o rezervă pentru 3–6 luni de cheltuieli fixe, mai mult dacă încasările întârzie. Site-ul, hosting-ul, emailul profesional și asistentul AI sunt incluse gratuit prin Start-Up Pack . Vezi prețurile →",
+   "funnel": "TOF"
   },
   {
    "id": "6920I0045",
@@ -1238,7 +1241,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "listă OWNER (Dan) MOFU #14, 17.11.2026"
+   "origine": "listă OWNER (Dan) MOFU #14, 17.11.2026",
+   "funnel": "MOF"
   },
   {
    "id": "6920I0046",
@@ -1261,7 +1265,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026",
+   "funnel": "TOF"
   },
   {
    "id": "6920I0047",
@@ -1284,7 +1289,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026",
+   "funnel": "TOF"
   },
   {
    "id": "6920I0048",
@@ -1307,7 +1313,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026",
+   "funnel": "TOF"
   },
   {
    "id": "6920I0049",
@@ -1330,7 +1337,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026",
+   "funnel": "TOF"
   },
   {
    "id": "6920I0050",
@@ -1353,7 +1361,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026",
+   "funnel": "MOF"
   },
   {
    "id": "6920I0051",
@@ -1376,7 +1385,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026",
+   "funnel": "MOF"
   },
   {
    "id": "6920I0052",
@@ -1399,7 +1409,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026",
+   "funnel": "MOF"
   },
   {
    "id": "6920I0053",
@@ -1422,7 +1433,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026",
+   "funnel": "MOF"
   },
   {
    "id": "6920I0054",
@@ -1445,7 +1457,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026",
+   "funnel": "MOF"
   },
   {
    "id": "6920I0055",
@@ -1468,7 +1481,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026",
+   "funnel": "MOF"
   },
   {
    "id": "6920I0056",
@@ -1491,7 +1505,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026",
+   "funnel": "MOF"
   },
   {
    "id": "6920I0057",
@@ -1514,7 +1529,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026",
+   "funnel": "MOF"
   },
   {
    "id": "6920I0058",
@@ -1537,7 +1553,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026",
+   "funnel": "BOF"
   },
   {
    "id": "6920I0059",
@@ -1560,7 +1577,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026",
+   "funnel": "BOF"
   },
   {
    "id": "6920I0060",
@@ -1583,7 +1601,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026",
+   "funnel": "BOF"
   },
   {
    "id": "6920I0061",
@@ -1606,7 +1625,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026",
+   "funnel": "BOF"
   },
   {
    "id": "6920I0062",
@@ -1629,7 +1649,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026",
+   "funnel": "BOF"
   },
   {
    "id": "6920I0063",
@@ -1652,7 +1673,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026",
+   "funnel": "BOF"
   },
   {
    "id": "6920I0064",
@@ -1675,7 +1697,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026",
+   "funnel": "BOF"
   },
   {
    "id": "6920I0065",
@@ -1684,7 +1707,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Află",
    "hub": null,
    "pagina": "/infiintare-firma/",
    "ancora": "6920I0065",
@@ -1697,7 +1720,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "TOF"
   },
   {
    "id": "6920I0066",
@@ -1706,7 +1730,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Află",
    "hub": null,
    "pagina": "/infiintare-firma/",
    "ancora": "6920I0066",
@@ -1719,7 +1743,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "TOF"
   },
   {
    "id": "6920I0067",
@@ -1728,7 +1753,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Află",
    "hub": null,
    "pagina": "/infiintare-firma/",
    "ancora": "6920I0067",
@@ -1741,7 +1766,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "TOF"
   },
   {
    "id": "6920I0068",
@@ -1750,7 +1776,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Află",
    "hub": null,
    "pagina": "/infiintare-firma/",
    "ancora": "6920I0068",
@@ -1763,7 +1789,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "TOF"
   },
   {
    "id": "6920I0069",
@@ -1772,7 +1799,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Află",
    "hub": null,
    "pagina": "/infiintare-firma/",
    "ancora": "6920I0069",
@@ -1785,7 +1812,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "TOF"
   },
   {
    "id": "6920I0070",
@@ -1794,7 +1822,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Află",
    "hub": null,
    "pagina": "/infiintare-firma/",
    "ancora": "6920I0070",
@@ -1807,7 +1835,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "TOF"
   },
   {
    "id": "6920I0071",
@@ -1816,7 +1845,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Află",
    "hub": null,
    "pagina": "/infiintare-firma/",
    "ancora": "6920I0071",
@@ -1829,7 +1858,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "TOF"
   },
   {
    "id": "6920I0072",
@@ -1838,7 +1868,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Compară",
    "hub": null,
    "pagina": "/infiintare-firma/",
    "ancora": "6920I0072",
@@ -1851,7 +1881,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "MOF"
   },
   {
    "id": "6920I0073",
@@ -1860,7 +1891,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Află",
    "hub": null,
    "pagina": "/infiintare-srl/",
    "ancora": "6920I0073",
@@ -1873,7 +1904,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "TOF"
   },
   {
    "id": "6920I0074",
@@ -1882,7 +1914,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Află",
    "hub": null,
    "pagina": "/infiintare-srl/",
    "ancora": "6920I0074",
@@ -1895,7 +1927,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "TOF"
   },
   {
    "id": "6920I0075",
@@ -1904,7 +1937,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Alege",
    "hub": null,
    "pagina": "/infiintare-srl/",
    "ancora": "6920I0075",
@@ -1917,7 +1950,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "BOF"
   },
   {
    "id": "6920I0076",
@@ -1926,7 +1960,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Alege",
    "hub": null,
    "pagina": "/infiintare-srl/",
    "ancora": "6920I0076",
@@ -1939,7 +1973,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "BOF"
   },
   {
    "id": "6920I0077",
@@ -1948,7 +1983,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Alege",
    "hub": null,
    "pagina": "/infiintare-srl/",
    "ancora": "6920I0077",
@@ -1961,7 +1996,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "BOF"
   },
   {
    "id": "6920I0078",
@@ -1970,7 +2006,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Compară",
    "hub": null,
    "pagina": "/infiintare-srl/",
    "ancora": "6920I0078",
@@ -1983,7 +2019,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "MOF"
   },
   {
    "id": "6920I0079",
@@ -1992,7 +2029,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Compară",
    "hub": null,
    "pagina": "/infiintare-srl/",
    "ancora": "6920I0079",
@@ -2005,7 +2042,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "MOF"
   },
   {
    "id": "6920I0080",
@@ -2014,7 +2052,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Compară",
    "hub": null,
    "pagina": "/infiintare-srl/",
    "ancora": "6920I0080",
@@ -2027,7 +2065,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "MOF"
   },
   {
    "id": "6920I0081",
@@ -2036,7 +2075,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Alege",
    "hub": null,
    "pagina": "/infiintare-srl/",
    "ancora": "6920I0081",
@@ -2049,7 +2088,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "BOF"
   },
   {
    "id": "6920I0082",
@@ -2058,7 +2098,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Alege",
    "hub": null,
    "pagina": "/infiintare-pfa/",
    "ancora": "6920I0082",
@@ -2071,7 +2111,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "BOF"
   },
   {
    "id": "6920I0083",
@@ -2080,7 +2121,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Compară",
    "hub": null,
    "pagina": "/infiintare-pfa/",
    "ancora": "6920I0083",
@@ -2093,7 +2134,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "MOF"
   },
   {
    "id": "6920I0084",
@@ -2102,7 +2144,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Compară",
    "hub": null,
    "pagina": "/infiintare-pfa/",
    "ancora": "6920I0084",
@@ -2115,7 +2157,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "MOF"
   },
   {
    "id": "6920I0085",
@@ -2124,7 +2167,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Află",
    "hub": null,
    "pagina": "/infiintare-pfa/",
    "ancora": "6920I0085",
@@ -2137,7 +2180,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "TOF"
   },
   {
    "id": "6920I0086",
@@ -2146,7 +2190,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Compară",
    "hub": null,
    "pagina": "/infiintare-pfa/",
    "ancora": "6920I0086",
@@ -2159,7 +2203,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "MOF"
   },
   {
    "id": "6920I0087",
@@ -2168,7 +2213,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Află",
    "hub": null,
    "pagina": "/contabilitate-pfa/",
    "ancora": "6920I0087",
@@ -2181,7 +2226,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "TOF"
   },
   {
    "id": "6920I0088",
@@ -2190,7 +2236,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Află",
    "hub": null,
    "pagina": "/contabilitate-pfa/",
    "ancora": "6920I0088",
@@ -2203,7 +2249,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "TOF"
   },
   {
    "id": "6920I0089",
@@ -2212,7 +2259,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Compară",
    "hub": null,
    "pagina": "/contabilitate-pfa/",
    "ancora": "6920I0089",
@@ -2225,7 +2272,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "MOF"
   },
   {
    "id": "6920I0090",
@@ -2234,7 +2282,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Află",
    "hub": null,
    "pagina": "/contabilitate-pfa/",
    "ancora": "6920I0090",
@@ -2247,7 +2295,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "TOF"
   },
   {
    "id": "6920I0091",
@@ -2256,7 +2305,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Compară",
    "hub": null,
    "pagina": "/contabilitate-srl/",
    "ancora": "6920I0091",
@@ -2269,7 +2318,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "MOF"
   },
   {
    "id": "6920I0092",
@@ -2278,7 +2328,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Află",
    "hub": null,
    "pagina": "/contabilitate-srl/",
    "ancora": "6920I0092",
@@ -2291,7 +2341,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "TOF"
   },
   {
    "id": "6920I0093",
@@ -2300,7 +2351,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Află",
    "hub": null,
    "pagina": "/contabilitate-srl/",
    "ancora": "6920I0093",
@@ -2313,7 +2364,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "TOF"
   },
   {
    "id": "6920I0094",
@@ -2322,7 +2374,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Află",
    "hub": null,
    "pagina": "/contabilitate-srl/",
    "ancora": "6920I0094",
@@ -2335,7 +2387,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "TOF"
   },
   {
    "id": "6920I0095",
@@ -2344,7 +2397,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Compară",
    "hub": null,
    "pagina": "/contabilitate-srl/",
    "ancora": "6920I0095",
@@ -2357,7 +2410,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "MOF"
   },
   {
    "id": "6920I0096",
@@ -2366,7 +2420,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Află",
    "hub": null,
    "pagina": "/contabilitate-srl/",
    "ancora": "6920I0096",
@@ -2379,7 +2433,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "TOF"
   },
   {
    "id": "6920I0097",
@@ -2388,7 +2443,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Compară",
    "hub": null,
    "pagina": "/contabilitate-srl/",
    "ancora": "6920I0097",
@@ -2401,7 +2456,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "MOF"
   },
   {
    "id": "6920I0098",
@@ -2410,7 +2466,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Află",
    "hub": null,
    "pagina": "/tva-e-factura/",
    "ancora": "6920I0098",
@@ -2423,7 +2479,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "TOF"
   },
   {
    "id": "6920I0099",
@@ -2432,7 +2489,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Află",
    "hub": null,
    "pagina": "/tva-e-factura/",
    "ancora": "6920I0099",
@@ -2445,7 +2502,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "TOF"
   },
   {
    "id": "6920I0100",
@@ -2454,7 +2512,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Află",
    "hub": null,
    "pagina": "/tva-e-factura/",
    "ancora": "6920I0100",
@@ -2467,7 +2525,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "TOF"
   },
   {
    "id": "6920I0101",
@@ -2476,7 +2535,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Află",
    "hub": null,
    "pagina": "/tva-e-factura/",
    "ancora": "6920I0101",
@@ -2489,7 +2548,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "TOF"
   },
   {
    "id": "6920I0102",
@@ -2498,7 +2558,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Află",
    "hub": null,
    "pagina": "/tva-e-factura/",
    "ancora": "6920I0102",
@@ -2511,7 +2571,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "TOF"
   },
   {
    "id": "6920I0103",
@@ -2520,7 +2581,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Află",
    "hub": null,
    "pagina": "/tva-e-factura/",
    "ancora": "6920I0103",
@@ -2533,7 +2594,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "TOF"
   },
   {
    "id": "6920I0104",
@@ -2542,7 +2604,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Află",
    "hub": null,
    "pagina": "/consultanta-fiscala/",
    "ancora": "6920I0104",
@@ -2555,7 +2617,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "TOF"
   },
   {
    "id": "6920I0105",
@@ -2564,7 +2627,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Află",
    "hub": null,
    "pagina": "/consultanta-fiscala/",
    "ancora": "6920I0105",
@@ -2577,7 +2640,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "TOF"
   },
   {
    "id": "6920I0106",
@@ -2586,7 +2650,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Alege",
    "hub": null,
    "pagina": "/consultanta-fiscala/",
    "ancora": "6920I0106",
@@ -2599,7 +2663,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "BOF"
   },
   {
    "id": "6920I0107",
@@ -2608,7 +2673,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Află",
    "hub": null,
    "pagina": "/salarizare-srl/",
    "ancora": "6920I0107",
@@ -2621,7 +2686,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "TOF"
   },
   {
    "id": "6920I0108",
@@ -2630,7 +2696,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Alege",
    "hub": null,
    "pagina": "/preturi/",
    "ancora": "6920I0108",
@@ -2643,7 +2709,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "BOF"
   },
   {
    "id": "6920I0109",
@@ -2652,7 +2719,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Alege",
    "hub": null,
    "pagina": "/preturi/",
    "ancora": "6920I0109",
@@ -2665,7 +2732,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "BOF"
   },
   {
    "id": "6920I0110",
@@ -2674,7 +2742,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Alege",
    "hub": null,
    "pagina": "/preturi/",
    "ancora": "6920I0110",
@@ -2687,7 +2755,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "BOF"
   },
   {
    "id": "6920I0111",
@@ -2696,7 +2765,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Alege",
    "hub": null,
    "pagina": "/preturi/",
    "ancora": "6920I0111",
@@ -2709,7 +2778,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "BOF"
   },
   {
    "id": "6920I0112",
@@ -2718,7 +2788,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Compară",
    "hub": null,
    "pagina": "/contabilitate/",
    "ancora": "6920I0112",
@@ -2731,7 +2801,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "MOF"
   },
   {
    "id": "6920I0113",
@@ -2740,7 +2811,7 @@
     "caen_rev3": null,
     "denumire": "general — orice firmă (include 6210)"
    },
-   "etapa": null,
+   "etapa": "Compară",
    "hub": null,
    "pagina": "/contabilitate/",
    "ancora": "6920I0113",
@@ -2753,7 +2824,8 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026"
+   "origine": "liste OWNER (Dan) MOF/BOF + master_intents_300, 17.11.2026",
+   "funnel": "MOF"
   }
  ]
 }

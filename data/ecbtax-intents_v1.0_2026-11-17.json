@@ -1,0 +1,744 @@
+{
+ "$schema_note": "Intențiile clienților ECB Tax: întrebare (Q) și răspuns (A), în ordinea pâlniei TOF → MOF → BOF.",
+ "fisier": "intents.json",
+ "versiune": "1.0",
+ "data": "2026-11-17",
+ "firma": {
+  "denumire": "ECB TAX, ACCOUNTING & HR SRL",
+  "cui": "35136588",
+  "caen": "6920"
+ },
+ "sursa": "Răspunsurile sunt identice cu cele afișate pe paginile indicate în url (secțiunea Întrebări frecvente). Stare: în verificare profesională până la validarea ECB Tax.",
+ "legenda": {
+  "TOF": "conștientizare (Află)",
+  "MOF": "evaluare și comparație (Compară)",
+  "BOF": "decizie și acțiune (Alege / Acționează)"
+ },
+ "total": 72,
+ "TOF": [
+  {
+   "Q": "Ce pași legali am pentru înființarea unui SRL?",
+   "A": "Un SRL se înființează la Registrul Comerțului (ONRC), online cu semnătură electronică calificată sau la ghișeu. Verifici și rezervi denumirea firmei. Stabilești sediul social și codurile CAEN (de exemplu, software la comandă: CAEN Rev.3 6210). Pregătești actul constitutiv și declarațiile asociaților și administratorului. Depui dosarul la ONRC; înregistrarea fiscală (CUI) se face odată cu înmatricularea, fără dosar separat la ANAF. Înregistrarea în scopuri de TVA se face separat, doar dacă e cazul. Deschizi contul bancar al firmei și verși capitalul social. Activezi Spațiul Privat Virtual (SPV) și RO e-Factura. Organizezi contabilitatea din prima lună. Pentru regimul de microîntreprindere: cel puțin un angajat cu normă întreagă în primele 90 de zile de la înființare sau contract de mandat plătit pentru administrator (OUG 8/2026). Ne ocupăm noi de dosar și de contabilitate →",
+   "id": "6920I0004",
+   "url": "/infiintare-srl/#6920I0004",
+   "pagina": "/infiintare-srl/",
+   "etapa": "Află",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Cât costă să înființez o firmă și ce buget îmi trebuie?",
+   "A": "Costurile obligatorii sunt mici: taxa ONRC de aproximativ 152 lei și capitalul social minim de 500 lei (Legea 239/2025), care rămâne în firmă. Bugetul real vine după înființare: contabilitatea (la ECB Tax de la 300 lei/lună + TVA, pachetul Start), salariul și contribuțiile pentru angajatul sau administratorul cu contract de mandat cerut microîntreprinderilor, echipamente, eventual stocuri, licențe și marketing. Pregătește o rezervă pentru 3–6 luni de cheltuieli fixe, mai mult dacă încasările întârzie. Site-ul, hosting-ul, emailul profesional și asistentul AI sunt incluse gratuit prin Start-Up Pack . Vezi prețurile →",
+   "id": "6920I0044",
+   "url": "/infiintare-srl/#6920I0044",
+   "pagina": "/infiintare-srl/",
+   "etapa": "Află",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Vreau să îmi deschid o firmă, dar nu știu de unde să încep.",
+   "A": "Pornește de la trei răspunsuri: ce problemă rezolvi, pentru cine și cum vei încasa bani. Apoi alegi forma juridică (PFA sau SRL), codurile CAEN și sediul, și abia după aceea pregătești dosarul pentru Registrul Comerțului. O discuție scurtă cu un contabil înainte de înființare te ajută să alegi forma și regimul fiscal potrivite. Programează o discuție →",
+   "id": "6920I0046",
+   "url": "/infiintare-firma/#6920I0046",
+   "pagina": "/infiintare-firma/",
+   "etapa": "Află",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Ce tip de firmă pot înființa în România?",
+   "A": "Cele mai folosite forme sunt PFA (persoană fizică autorizată), întreprinderea individuală și SRL (societate cu răspundere limitată). Alegerea depinde de activitate, de venitul estimat, de numărul de asociați și de câtă răspundere personală accepți. Diferențele dintre SRL și PFA: vezi SRL sau PFA?",
+   "id": "6920I0047",
+   "url": "/infiintare-firma/#6920I0047",
+   "pagina": "/infiintare-firma/",
+   "etapa": "Află",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Pot să înființez o firmă dacă sunt salariat?",
+   "A": "În general, da: poți fi asociat sau administrator al unei firme și în același timp salariat în altă parte. Verifică însă contractul de muncă: clauzele de neconcurență, de exclusivitate și eventualele conflicte de interese cu angajatorul actual.",
+   "id": "6920I0048",
+   "url": "/infiintare-firma/#6920I0048",
+   "pagina": "/infiintare-firma/",
+   "etapa": "Află",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Ce este un SRL și când merită?",
+   "A": "SRL este o societate cu răspundere limitată: patrimoniul firmei este separat de cel personal, iar asociații răspund în limita capitalului subscris. Poate avea de la 1 la 50 de asociați. Merită când ai parteneri, vrei protecție patrimonială, angajezi personal sau te aștepți să crești.",
+   "id": "6920I0049",
+   "url": "/infiintare-srl/#6920I0049",
+   "pagina": "/infiintare-srl/",
+   "etapa": "Află",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Pot să înființez o firmă dacă sunt pensionar?",
+   "A": "În general, da. Pensia pentru limită de vârstă se poate cumula cu veniturile din firmă. Verifică însă cum se aplică în cazul tău contribuțiile (în special CASS) și eventualele condiții ale tipului tău de pensie.",
+   "id": "6920I0065",
+   "url": "/infiintare-firma/#6920I0065",
+   "pagina": "/infiintare-firma/",
+   "etapa": "Află",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Pot să înființez o firmă dacă sunt student?",
+   "A": "Da, dacă ai împlinit 18 ani. Poți fi asociat sau administrator; statutul de student nu este un impediment. Pentru regimul de microîntreprindere ai nevoie de un angajat sau de contract de mandat pentru administrator.",
+   "id": "6920I0066",
+   "url": "/infiintare-firma/#6920I0066",
+   "pagina": "/infiintare-firma/",
+   "etapa": "Află",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Pot să înființez o firmă dacă sunt cetățean străin?",
+   "A": "Da. Un cetățean străin poate fi asociat într-un SRL din România. Pentru a locui și a lucra efectiv în România, cetățenii din afara UE au nevoie de drept de ședere sau de permis, după caz. Vezi și How to Open a Company in Romania și Accounting Services for Foreign Investors . Cere ofertă →",
+   "id": "6920I0067",
+   "url": "/infiintare-firma/#6920I0067",
+   "pagina": "/infiintare-firma/",
+   "etapa": "Află",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Ce coduri CAEN să aleg și le pot schimba ulterior?",
+   "A": "Alege codurile care acoperă activitatea de acum și pe cea previzibilă pe termen scurt, din nomenclatorul CAEN Rev.3. Nu e nevoie de zeci de coduri „de siguranță”; verifică dacă vreuna dintre activități este reglementată. Codurile se pot adăuga, modifica sau elimina ulterior, printr-o cerere de mențiuni la Registrul Comerțului.",
+   "id": "6920I0068",
+   "url": "/infiintare-firma/#6920I0068",
+   "pagina": "/infiintare-firma/",
+   "etapa": "Află",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Pot lucra online, fără local, sau vinde pe Instagram ori Shopify?",
+   "A": "Da. Multe activități (consultanță, software, design, marketing, vânzări online) se pot desfășura de acasă; sediul social poate fi locuința ta. Și pentru vânzările online ai nevoie de firmă sau PFA, de documente corecte, de regulile de protecție a consumatorului și, după caz, de înregistrare în scopuri de TVA.",
+   "id": "6920I0069",
+   "url": "/infiintare-firma/#6920I0069",
+   "pagina": "/infiintare-firma/",
+   "etapa": "Află",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Ce finanțări există pentru o firmă nouă?",
+   "A": "Fonduri europene, programe naționale (de exemplu, Start-up Nation, când există o ediție activă), credite, leasing, investitori și business angels. Fiecare program are condiții stricte de vechime, activitate și cheltuieli eligibile; verifică ghidul activ la momentul aplicării.",
+   "id": "6920I0070",
+   "url": "/infiintare-firma/#6920I0070",
+   "pagina": "/infiintare-firma/",
+   "etapa": "Află",
+   "stare": "în verificare profesională",
+   "oferta": false
+  },
+  {
+   "Q": "Mi-e frică să fac greșeli fiscale. Este complicat să ai firmă?",
+   "A": "Este gestionabil dacă începi simplu: un contabil implicat din prima zi, banii firmei separați de cei personali și declarațiile depuse la timp. Complicațiile apar de regulă la activități reglementate, angajați, TVA și stocuri. La ECB Tax pregătim și depunem declarațiile și urmărim termenele; tu primești confirmările. Programează o discuție →",
+   "id": "6920I0071",
+   "url": "/infiintare-firma/#6920I0071",
+   "pagina": "/infiintare-firma/",
+   "etapa": "Află",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Pot fi asociat și administrator în același timp?",
+   "A": "Da. În multe SRL-uri asociatul este și administrator. Poate exista și un administrator separat, care nu este asociat. Pentru regimul micro, administratorul poate avea contract de mandat plătit în locul unui angajat.",
+   "id": "6920I0073",
+   "url": "/infiintare-srl/#6920I0073",
+   "pagina": "/infiintare-srl/",
+   "etapa": "Află",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Ce este sediul social și îl pot schimba?",
+   "A": "Sediul social este adresa oficială a firmei, la care se primesc comunicările și la care este înregistrată. Poate fi diferit de locul în care lucrezi efectiv, dacă activitatea permite. Se poate schimba ulterior, printr-o cerere de mențiuni la Registrul Comerțului, cu acte și costuri; de aceea e bine să alegi de la început o adresă stabilă.",
+   "id": "6920I0074",
+   "url": "/infiintare-srl/#6920I0074",
+   "pagina": "/infiintare-srl/",
+   "etapa": "Află",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Pot emite facturi fără firmă? Am nevoie de firmă doar pentru o factură?",
+   "A": "Fără PFA sau firmă nu poți emite facturi pentru activități economice. Pentru o colaborare ocazională pot exista alternative (de exemplu, un contract de drepturi de autor, unde se aplică). Pentru activitate repetată, ai nevoie de PFA sau SRL.",
+   "id": "6920I0085",
+   "url": "/infiintare-pfa/#6920I0085",
+   "pagina": "/infiintare-pfa/",
+   "etapa": "Află",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Ce impozite și contribuții plătește un PFA în 2026?",
+   "A": "Impozit pe venit: 10% din venitul net. CAS (pensie) 25%: obligatoriu dacă venitul net ajunge la cel puțin 12 salarii minime (48.600 lei); baza minimă urcă la 24 de salarii (97.200 lei) peste acest prag. CASS (sănătate) 10%: pe venitul net, cu bază minimă de 6 salarii (24.300 lei) și plafon maxim de 72 de salarii (291.600 lei). Calculul se face anual, prin Declarația unică. Cifrele folosesc salariul minim de 4.050 lei.",
+   "id": "6920I0087",
+   "url": "/contabilitate-pfa/#6920I0087",
+   "pagina": "/contabilitate-pfa/",
+   "etapa": "Află",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Ce este norma de venit?",
+   "A": "Este o sumă anuală stabilită pe activitate și județ, pe baza căreia se calculează impozitul, în locul venitului real. Se poate aplica doar pentru activitățile eligibile. Pentru venituri mici nu te avantajează, pentru că norma este cel puțin 12 salarii minime, iar CAS și CASS se raportează la ea.",
+   "id": "6920I0088",
+   "url": "/contabilitate-pfa/#6920I0088",
+   "pagina": "/contabilitate-pfa/",
+   "etapa": "Află",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Trebuie un PFA să facă bilanț?",
+   "A": "Nu. PFA-ul ține contabilitate în partidă simplă (registru de încasări și plăți) și depune Declarația unică pentru veniturile din anul anterior, de regulă până la 25 mai. Bilanțul este obligatoriu pentru societăți (SRL), nu pentru PFA.",
+   "id": "6920I0090",
+   "url": "/contabilitate-pfa/#6920I0090",
+   "pagina": "/contabilitate-pfa/",
+   "etapa": "Află",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Pot suspenda firma dacă nu mai activez?",
+   "A": "Da. Suspendarea (întreruperea temporară a activității) se înscrie la Registrul Comerțului și se comunică organelor fiscale; poate dura cel mult 3 ani. În acest timp firma nu desfășoară activitate, iar raportările periodice se reduc mult, dar unele obligații rămân.",
+   "id": "6920I0092",
+   "url": "/contabilitate-srl/#6920I0092",
+   "pagina": "/contabilitate-srl/",
+   "etapa": "Află",
+   "stare": "în verificare profesională",
+   "oferta": false
+  },
+  {
+   "Q": "Cum închid o firmă?",
+   "A": "De regulă prin dizolvare și lichidare: hotărârea asociaților, plata datoriilor, situații financiare de lichidare și radierea din Registrul Comerțului. Procedura depinde de situația firmei (datorii, bunuri, angajați).",
+   "id": "6920I0093",
+   "url": "/contabilitate-srl/#6920I0093",
+   "pagina": "/contabilitate-srl/",
+   "etapa": "Află",
+   "stare": "în verificare profesională",
+   "oferta": false
+  },
+  {
+   "Q": "Ce este impozitul pe profit și când îl plătește un SRL?",
+   "A": "Este impozitul de 16% calculat pe rezultatul fiscal (veniturile minus cheltuielile deductibile, cu ajustările legale). Un SRL îl plătește dacă nu se încadrează sau iese din regimul micro, de exemplu când depășește plafonul de 100.000 euro venituri, din trimestrul depășirii.",
+   "id": "6920I0094",
+   "url": "/contabilitate-srl/#6920I0094",
+   "pagina": "/contabilitate-srl/",
+   "etapa": "Află",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Ce este SAF-T (D406) și cine îl depune?",
+   "A": "SAF-T este fișierul standard de control fiscal: datele din contabilitate transmise la ANAF prin declarația informativă D406. Din 2025 îl depun și contribuabilii mici, deci în 2026 practic toate SRL-urile, cu excepțiile prevăzute de lege. Se depune lunar sau trimestrial, după perioada fiscală de TVA, iar partea de active o dată pe an. La ECB Tax, D406 face parte din serviciul de contabilitate.",
+   "id": "6920I0096",
+   "url": "/contabilitate-srl/#6920I0096",
+   "pagina": "/contabilitate-srl/",
+   "etapa": "Află",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Când devin plătitor de TVA?",
+   "A": "Obligatoriu, când cifra de afaceri depășește plafonul de scutire de 395.000 lei pe an; te înregistrezi în termenul legal de la depășire. Poți opta și voluntar, dacă îți este util. Vezi și Când devii plătitor de TVA .",
+   "id": "6920I0098",
+   "url": "/tva-e-factura/#6920I0098",
+   "pagina": "/tva-e-factura/",
+   "etapa": "Află",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Care sunt cotele de TVA în 2026?",
+   "A": "Cota standard este 21%, iar cota redusă unică este 11% (alimente, medicamente, cărți, cazare, restaurante), ambele de la 1 august 2025. Cota de 9% mai există doar tranzitoriu, pentru anumite locuințe.",
+   "id": "6920I0099",
+   "url": "/tva-e-factura/#6920I0099",
+   "pagina": "/tva-e-factura/",
+   "etapa": "Află",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Pot deduce TVA din bonuri fiscale?",
+   "A": "Da, dacă bonul are codul fiscal al firmei tale, valoarea nu depășește 100 de euro și achiziția este pentru activitatea firmei: un astfel de bon ține loc de factură simplificată. Peste această valoare ai nevoie de factură.",
+   "id": "6920I0100",
+   "url": "/tva-e-factura/#6920I0100",
+   "pagina": "/tva-e-factura/",
+   "etapa": "Află",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Ce este taxarea inversă?",
+   "A": "Prin taxarea inversă, cumpărătorul (nu vânzătorul) contabilizează TVA-ul, în cazurile prevăzute de lege. Se aplică, de exemplu, la serviciile cumpărate de la furnizori din străinătate și, între firme românești plătitoare de TVA, doar la o listă scurtă de bunuri. Între firme din România, la servicii obișnuite, se facturează cu TVA.",
+   "id": "6920I0101",
+   "url": "/tva-e-factura/#6920I0101",
+   "pagina": "/tva-e-factura/",
+   "etapa": "Află",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Ce este RO e-Factura și ce risc dacă nu transmit factura?",
+   "A": "RO e-Factura este sistemul național prin care facturile se transmit electronic la ANAF. Din 2026, facturile B2B și B2C se transmit în 5 zile lucrătoare de la emitere. În relația B2B, netransmiterea poate fi sancționată cu 15% din valoarea facturii, iar întârzierea cu amenzi separate. La ECB Tax, transmiterea și verificarea facturilor în e-Factura fac parte din serviciu.",
+   "id": "6920I0102",
+   "url": "/tva-e-factura/#6920I0102",
+   "pagina": "/tva-e-factura/",
+   "etapa": "Află",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Ce este TVA la încasare?",
+   "A": "Este un regim opțional în care TVA-ul devine exigibil abia când încasezi factura, nu când o emiți. Îl pot aplica firmele care se încadrează în plafonul legal și optează pentru el; are reguli speciale și la deducerea TVA de către clienți. Verificăm împreună dacă ți se potrivește.",
+   "id": "6920I0103",
+   "url": "/tva-e-factura/#6920I0103",
+   "pagina": "/tva-e-factura/",
+   "etapa": "Află",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Ce cheltuieli pot deduce într-un SRL?",
+   "A": "Cheltuielile făcute în interesul activității și justificate cu documente: chirie, utilități, echipamente, software, publicitate, deplasări, servicii profesionale; unele au limite (protocol, autoturisme). Atenție: o microîntreprindere plătește impozit pe venituri, nu pe profit, deci cheltuielile nu reduc impozitul micro; contează însă pentru profitul din care se pot distribui dividende.",
+   "id": "6920I0104",
+   "url": "/consultanta-fiscala/#6920I0104",
+   "pagina": "/consultanta-fiscala/",
+   "etapa": "Află",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Pot folosi mașina personală pentru firmă?",
+   "A": "Da, de exemplu printr-un contract de închiriere sau comodat cu firma și cu evidența deplasărilor (foaie de parcurs). Pentru autoturismele care nu sunt folosite exclusiv în activitate, cheltuielile se deduc în general 50%. Modul potrivit se stabilește cu contabilul, în funcție de regimul firmei. Întreabă un consultant →",
+   "id": "6920I0105",
+   "url": "/consultanta-fiscala/#6920I0105",
+   "pagina": "/consultanta-fiscala/",
+   "etapa": "Află",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Ce este REGES-ONLINE și ce risc dacă nu raportez?",
+   "A": "REGES-ONLINE este platforma actuală a registrului general de evidență a salariaților. Contractul de muncă se înregistrează cel târziu în ziua dinaintea începerii activității, iar modificările și încetările, în termenele legale. Munca fără înregistrare este sancționată sever. La ECB Tax, administrarea personalului și REGES-ONLINE fac parte din serviciul de salarizare. Cere ofertă salarizare →",
+   "id": "6920I0107",
+   "url": "/salarizare-srl/#6920I0107",
+   "pagina": "/salarizare-srl/",
+   "etapa": "Află",
+   "stare": "în verificare profesională",
+   "oferta": true
+  }
+ ],
+ "MOF": [
+  {
+   "Q": "SRL sau PFA, ce aleg?",
+   "A": "Alegerea depinde de venit, de cheltuieli, de câți bani scoți din firmă și de riscul asumat. PFA : evidență mai simplă, potrivit pentru o activitate individuală și venituri mici; contribuțiile sociale se calculează pe venitul persoanei. SRL : separă patrimoniul personal de cel al firmei; ca microîntreprindere plătește în 2026 impozit de 1% pe venituri (plafon 100.000 euro), dar banii se scot ca salariu sau dividende, cu taxele lor. Pentru echipă, parteneri, angajați, investitori sau risc operațional mai mare, SRL-ul este de obicei varianta potrivită. Un calcul pe cifrele tale arată varianta potrivită. Cere calculul →",
+   "id": "6920I0006",
+   "url": "/infiintare-pfa/#6920I0006",
+   "pagina": "/infiintare-pfa/",
+   "etapa": "Compară",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Ce echipă îmi trebuie la începutul unei firme IT?",
+   "A": "Un fondator care vinde și coordonează și un specialist tehnic care livrează; contabilul și juristul pot fi externi. Contabilul extern ține evidența și termenele ANAF; la ECB Tax contractul include Start-Up Pack. ECB Tax nu prestează servicii juridice.",
+   "id": "6920I0045",
+   "url": "/startup-pack/#6920I0045",
+   "pagina": "/startup-pack/",
+   "etapa": "Compară",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Ce documente îmi trebuie pentru înființarea unui SRL?",
+   "A": "De regulă: actele de identitate ale asociaților și administratorului, denumirea aleasă, documentul pentru sediul social (contract sau acordul proprietarului), obiectul de activitate (codurile CAEN), capitalul social și declarațiile pe propria răspundere. Lista exactă diferă după structura societății; ți-o pregătim personalizat.",
+   "id": "6920I0050",
+   "url": "/infiintare-srl/#6920I0050",
+   "pagina": "/infiintare-srl/",
+   "etapa": "Compară",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Pot să folosesc domiciliul ca sediu social?",
+   "A": "Da: sediul social poate fi locuința ta sau a altcuiva, cu acordul scris al proprietarului. Pentru unele activități desfășurate efectiv la sediu pot fi necesare condiții sau avize suplimentare.",
+   "id": "6920I0051",
+   "url": "/infiintare-srl/#6920I0051",
+   "pagina": "/infiintare-srl/",
+   "etapa": "Compară",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Cine mă poate ajuta să înființez firma?",
+   "A": "Un consultant în înființări, un avocat, un contabil sau un serviciu complet. Alege pe cineva care îți explică clar costurile, termenele și riscurile, nu doar cine depune dosarul. ECB Tax se ocupă de dosarul ONRC și de contabilitate din prima zi, astfel încât firma pornește cu evidența și termenele ANAF organizate. Cere ofertă pentru înființare →",
+   "id": "6920I0052",
+   "url": "/infiintare-firma/#6920I0052",
+   "pagina": "/infiintare-firma/",
+   "etapa": "Compară",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Cât durează înființarea unei firme?",
+   "A": "Pentru un SRL simplu, cu dosarul complet, soluționarea la ONRC durează de regulă 3–5 zile lucrătoare. Termenul crește dacă denumirea trebuie schimbată, dacă lipsesc documente pentru sediu sau dacă activitatea cere avize.",
+   "id": "6920I0053",
+   "url": "/infiintare-srl/#6920I0053",
+   "pagina": "/infiintare-srl/",
+   "etapa": "Compară",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Ce taxe are un SRL în România?",
+   "A": "Ca microîntreprindere, un SRL plătește în 2026 impozit de 1% pe venituri, până la plafonul de 100.000 euro; peste plafon trece la impozit pe profit de 16%. Dividendele se impozitează cu 16%, reținut de firmă. Dacă ai angajați, firma reține și plătește contribuțiile salariale (CAS 25%, CASS 10%, impozit pe venit). TVA se datorează după înregistrare, obligatorie la depășirea plafonului de scutire de 395.000 lei sau opțională. Pentru regimul micro e nevoie de un angajat sau de un administrator cu contract de mandat.",
+   "id": "6920I0054",
+   "url": "/infiintare-srl/#6920I0054",
+   "pagina": "/infiintare-srl/",
+   "etapa": "Compară",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Am nevoie de autorizații pentru activitatea mea?",
+   "A": "Depinde de domeniu. Comerțul cu alimente, alimentația publică, construcțiile, transportul, înfrumusețarea, sănătatea și alte activități reglementate pot cere avize, autorizații de funcționare sau calificări. Activitățile de birou (IT, consultanță) de regulă nu au nevoie de avize speciale. Verificăm împreună, pe codurile CAEN alese, ce ți se aplică.",
+   "id": "6920I0055",
+   "url": "/infiintare-firma/#6920I0055",
+   "pagina": "/infiintare-firma/",
+   "etapa": "Compară",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Ce cont bancar trebuie să deschid?",
+   "A": "Un cont bancar al firmei, separat de contul personal, pentru încasări, plăți, salarii și taxe. Cheltuielile firmei se plătesc din contul firmei, iar cele personale din contul personal; așa evidența rămâne curată.",
+   "id": "6920I0056",
+   "url": "/infiintare-srl/#6920I0056",
+   "pagina": "/infiintare-srl/",
+   "etapa": "Compară",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Cum aleg un contabil pentru firma nouă?",
+   "A": "Caută pe cineva care înțelege domeniul tău, îți explică obligațiile pe înțeles, are prețuri transparente și te avertizează din timp despre TVA, salarii, declarații și termene. Cere să vezi calificările: membru CECCAR sau CCF, ACCA. Credențialele ECB Tax (FCCA, CECCAR, CCF) sunt verificabile în Trust Center . Mai multe în Cum alegi o firmă de contabilitate .",
+   "id": "6920I0057",
+   "url": "/infiintare-firma/#6920I0057",
+   "pagina": "/infiintare-firma/",
+   "etapa": "Compară",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Am nevoie de avocat sau este suficient contabilul?",
+   "A": "Pentru o înființare simplă, un contabil sau un serviciu specializat este de regulă suficient. Pentru acorduri complexe între asociați, investiții, proprietate intelectuală sau contracte mari, adaugă un avocat. ECB Tax nu prestează servicii juridice.",
+   "id": "6920I0072",
+   "url": "/infiintare-firma/#6920I0072",
+   "pagina": "/infiintare-firma/",
+   "etapa": "Compară",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Nu vreau să plătesc taxe mari la început. Ce costuri fixe am?",
+   "A": "Impozitul micro este 1% din venituri: fără venituri, nu plătești impozit. Costurile fixe reale sunt contabilitatea și salariul (cu contribuțiile) pentru angajatul sau administratorul cu contract de mandat, cerut pentru regimul micro. Pe acestea le planificăm împreună înainte de înființare.",
+   "id": "6920I0078",
+   "url": "/infiintare-srl/#6920I0078",
+   "pagina": "/infiintare-srl/",
+   "etapa": "Compară",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Pot înființa firma cu soțul/soția sau pentru un membru al familiei?",
+   "A": "Da. Stabiliți de la început cotele, cine administrează, cum se iau deciziile financiare și ce se întâmplă la divorț, deces sau ieșirea din asociere. O firmă „de fațadă”, pusă pe numele altcuiva ca să eviți obligații, este riscantă: răspunderea rămâne a celor care administrează efectiv.",
+   "id": "6920I0079",
+   "url": "/infiintare-srl/#6920I0079",
+   "pagina": "/infiintare-srl/",
+   "etapa": "Compară",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Ce risc am dacă firma are datorii?",
+   "A": "La SRL, răspunderea asociaților este în principiu limitată la capitalul firmei. Administratorii pot răspunde însă personal în anumite situații prevăzute de lege, de exemplu pentru datorii fiscale rămase neplătite din vina lor sau în procedura de insolvență. De aceea contează evidența la zi și plata la termen a obligațiilor.",
+   "id": "6920I0080",
+   "url": "/infiintare-srl/#6920I0080",
+   "pagina": "/infiintare-srl/",
+   "etapa": "Compară",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Pot transforma PFA-ul în SRL?",
+   "A": "Nu există o conversie automată. De regulă înființezi un SRL nou și muți activitatea, contractele, clienții și eventual bunurile, apoi închizi sau suspenzi PFA-ul. Tranziția se planifică fiscal, ca să nu facturezi aceeași activitate pe ambele. Planificăm tranziția →",
+   "id": "6920I0083",
+   "url": "/infiintare-pfa/#6920I0083",
+   "pagina": "/infiintare-pfa/",
+   "etapa": "Compară",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Pot avea și PFA, și SRL?",
+   "A": "Da, dacă ții evidențe separate și nu facturezi aceeași activitate pe ambele. Verifică riscul ca relația dintre ele să fie privită ca o împărțire artificială a veniturilor.",
+   "id": "6920I0084",
+   "url": "/infiintare-pfa/#6920I0084",
+   "pagina": "/infiintare-pfa/",
+   "etapa": "Compară",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "PFA sau întreprindere individuală (II)?",
+   "A": "Ambele sunt forme fără personalitate juridică, organizate de o persoană fizică. Diferențele practice: PFA poate avea cel mult 5 clase CAEN și cel mult 3 angajați; II poate avea cel mult 10 clase CAEN și cel mult 8 angajați.",
+   "id": "6920I0086",
+   "url": "/infiintare-pfa/#6920I0086",
+   "pagina": "/infiintare-pfa/",
+   "etapa": "Compară",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Poate un PFA să fie plătitor de TVA?",
+   "A": "Da. Devine obligatoriu plătitor de TVA la depășirea plafonului de scutire de 395.000 lei pe an și poate opta și voluntar, dacă îi este util (de exemplu, lucrează cu firme plătitoare de TVA și are achiziții mari).",
+   "id": "6920I0089",
+   "url": "/contabilitate-pfa/#6920I0089",
+   "pagina": "/contabilitate-pfa/",
+   "etapa": "Compară",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Ce se întâmplă dacă firma nu are venituri? Plătesc contabilitate?",
+   "A": "Firma poate exista fără venituri, dar obligațiile rămân: declarațiile periodice, SAF-T, situațiile financiare anuale și contabilitatea. De aceea costul contabilității continuă și în lunile fără încasări. Dacă nu mai vrei activitate o perioadă, suspendarea oficială reduce mult raportările.",
+   "id": "6920I0091",
+   "url": "/contabilitate-srl/#6920I0091",
+   "pagina": "/contabilitate-srl/",
+   "etapa": "Compară",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Contabil intern sau contabilitate externalizată?",
+   "A": "Un contabil intern are sens când volumul de muncă umple o normă întreagă. Pentru majoritatea firmelor mici, externalizarea costă mai puțin decât un salariu cu contribuții, asigură continuitate în concedii și aduce mai multe competențe (fiscalitate, salarizare, raportare). Cere ofertă →",
+   "id": "6920I0095",
+   "url": "/contabilitate-srl/#6920I0095",
+   "pagina": "/contabilitate-srl/",
+   "etapa": "Compară",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Pot primi rapoarte lunare de profit, cash-flow și cheltuieli?",
+   "A": "Da. Raportarea managerială (profit, cheltuieli, creanțe, datorii) și bugetele și prognozele de cash-flow sunt servicii ECB Tax. Formatul, indicatorii și termenul lunar se stabilesc în ofertă. Cash-flow-ul arată banii care intră și ies efectiv: o firmă poate avea profit pe hârtie și să rămână fără lichidități dacă clienții plătesc târziu. Cere raportare lunară →",
+   "id": "6920I0097",
+   "url": "/contabilitate-srl/#6920I0097",
+   "pagina": "/contabilitate-srl/",
+   "etapa": "Compară",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Caut contabil pentru firma mea în București.",
+   "A": "ECB Tax este o firmă de contabilitate din București, cu echipă calificată FCCA, CECCAR și CCF. Ținem contabilitatea SRL-urilor și PFA-urilor, declarațiile, TVA, RO e-Factura, SAF-T și salarizarea, de la 300 lei/lună + TVA. Pentru ofertă, spune-ne forma juridică, activitatea, volumul de documente, angajații și situația TVA. Cere ofertă →",
+   "id": "6920I0112",
+   "url": "/contabilitate/#6920I0112",
+   "pagina": "/contabilitate/",
+   "etapa": "Compară",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Caut contabil pentru o firmă nou înființată sau un startup.",
+   "A": "Pentru o firmă nouă, ne ocupăm de înființare și de contabilitate din prima lună: SPV, e-Factura, calendarul primelor declarații, regimul micro și condiția angajatului sau a contractului de mandat. Pachetul Start începe de la 300 lei/lună + TVA, iar Start-Up Pack (site, hosting, email, asistent AI) este inclus. Cere ofertă →",
+   "id": "6920I0113",
+   "url": "/contabilitate/#6920I0113",
+   "pagina": "/contabilitate/",
+   "etapa": "Compară",
+   "stare": "în verificare profesională",
+   "oferta": true
+  }
+ ],
+ "BOF": [
+  {
+   "Q": "Vreau să înființez un SRL săptămâna aceasta. Ce faceți?",
+   "A": "Verificăm denumirea, te ajutăm cu forma juridică și codurile CAEN, pregătim dosarul ONRC, iar după înmatriculare activăm SPV și e-Factura și organizăm contabilitatea din prima lună. Cu dosarul complet, ONRC soluționează de regulă în 3–5 zile lucrătoare. Începe acum →",
+   "id": "6920I0058",
+   "url": "/infiintare-srl/#6920I0058",
+   "pagina": "/infiintare-srl/",
+   "etapa": "Alege",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Cât costă serviciul vostru de înființare și ce plătesc separat?",
+   "A": "Separat de onorariu se plătesc taxele de stat (taxa ONRC de aproximativ 152 lei) și capitalul social (minimum 500 lei, rămâne în firmă). Contabilitatea lunară începe de la 300 lei/lună + TVA (pachetul Start), iar Start-Up Pack (site, hosting, email profesional, asistent AI) este inclus gratuit în contract. Onorariul pentru dosarul de înființare și ce anume intră în el îl confirmăm în ofertă, după ce știm structura firmei. Cere oferta →",
+   "id": "6920I0059",
+   "url": "/infiintare-srl/#6920I0059",
+   "pagina": "/infiintare-srl/",
+   "etapa": "Alege",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Puteți să îmi înființați firma fără să mă deplasez?",
+   "A": "Dosarul se poate depune online la ONRC, cu semnătură electronică calificată. Spune-ne că vrei varianta fără deplasare și îți confirmăm în ofertă pașii și documentele de semnat. Cere ofertă pentru înființare →",
+   "id": "6920I0060",
+   "url": "/infiintare-srl/#6920I0060",
+   "pagina": "/infiintare-srl/",
+   "etapa": "Alege",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Pot să rezerv acum o consultanță?",
+   "A": "Da. Scrie-ne ce activitate vrei să desfășori și câți asociați veți fi; îți pregătim lista de documente și costurile estimate. Cere consultanță → · 0755 110 012 · WhatsApp",
+   "id": "6920I0061",
+   "url": "/infiintare-firma/#6920I0061",
+   "pagina": "/infiintare-firma/",
+   "etapa": "Acționează",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Pot să încep firma cu un partener?",
+   "A": "Da. Stabiliți de la început, în actul constitutiv, cotele de participare, cine administrează, cum se iau deciziile importante și ce se întâmplă dacă un asociat vrea să iasă. Pentru clauzele actului constitutiv recomandăm un avocat; ECB Tax nu prestează servicii juridice.",
+   "id": "6920I0062",
+   "url": "/infiintare-srl/#6920I0062",
+   "pagina": "/infiintare-srl/",
+   "etapa": "Alege",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Am nevoie de capital social mare?",
+   "A": "Nu. Capitalul social minim este de 500 lei (Legea 239/2025). Nu-l confunda cu banii necesari pentru funcționare: planifică separat lichidități pentru primele luni. Atenție: dacă activul net al firmei scade sub jumătate din capitalul social, nu se pot distribui dividende.",
+   "id": "6920I0063",
+   "url": "/infiintare-srl/#6920I0063",
+   "pagina": "/infiintare-srl/",
+   "etapa": "Alege",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Ce se întâmplă după înființare?",
+   "A": "Deschizi contul bancar, activezi SPV și e-Factura, organizezi contabilitatea, obții avizele necesare activității și, pentru regimul micro, angajezi pe cineva sau încheii contract de mandat cu administratorul în 90 de zile. Apoi pregătești oferta și începi să cauți primii clienți.",
+   "id": "6920I0064",
+   "url": "/infiintare-srl/#6920I0064",
+   "pagina": "/infiintare-srl/",
+   "etapa": "Acționează",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Mă ajutați cu denumirea firmei? Pot folosi numele altei firme?",
+   "A": "Da, verificăm disponibilitatea denumirii și îți propunem variante. Denumirea trebuie să fie unică la nivel național și să nu creeze confuzie cu firme sau mărci existente. Marca înregistrată nu este obligatorie la înființare, dar e utilă dacă numele sau logo-ul pot fi copiate; verifică și domeniul web înainte de a investi în branding.",
+   "id": "6920I0075",
+   "url": "/infiintare-srl/#6920I0075",
+   "pagina": "/infiintare-srl/",
+   "etapa": "Alege",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Aveți pachet complet: înființare, contabilitate și TVA?",
+   "A": "Da. Ne ocupăm de dosarul de înființare și apoi de contabilitatea lunară, declarații, TVA (dacă firma este sau devine plătitoare) și RO e-Factura, într-un singur contract. Start-Up Pack (site, hosting, email, asistent AI) este inclus. Cere oferta completă →",
+   "id": "6920I0076",
+   "url": "/infiintare-srl/#6920I0076",
+   "pagina": "/infiintare-srl/",
+   "etapa": "Alege",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Ce garanție am că firma va fi înființată?",
+   "A": "Decizia aparține Registrului Comerțului și nu poate fi garantată de nimeni. Ce controlăm noi: un dosar complet și verificat înainte de depunere și o comunicare clară despre riscurile care pot produce întârzieri (denumire, sediu, avize).",
+   "id": "6920I0077",
+   "url": "/infiintare-srl/#6920I0077",
+   "pagina": "/infiintare-srl/",
+   "etapa": "Alege",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "De ce să vă aleg pe voi?",
+   "A": "Pentru că firma pornește corect, nu doar înregistrată: formă juridică, regim fiscal, dosar ONRC, apoi contabilitate din prima zi, cu termenele ANAF urmărite de noi. Credențialele echipei (FCCA, CECCAR, CCF) sunt verificabile în Trust Center , iar Start-Up Pack (site, hosting, email, asistent AI) este inclus în contract. Cere ofertă →",
+   "id": "6920I0081",
+   "url": "/infiintare-srl/#6920I0081",
+   "pagina": "/infiintare-srl/",
+   "etapa": "Alege",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Vreau să mă autorizez ca PFA. Ce pași sunt?",
+   "A": "Alegi activitățile (cel mult 5 clase CAEN), stabilești sediul profesional, depui cererea de înregistrare la Registrul Comerțului (online sau la ghișeu) și primești CUI-ul odată cu înregistrarea. Apoi activezi SPV și RO e-Factura și alegi sistemul de impunere: sistem real sau normă de venit, unde activitatea permite. Ne ocupăm noi →",
+   "id": "6920I0082",
+   "url": "/infiintare-pfa/#6920I0082",
+   "pagina": "/infiintare-pfa/",
+   "etapa": "Alege",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Am primit control fiscal. Ce fac?",
+   "A": "Nu corecta singur declarațiile înainte de o evaluare: în timpul controlului, rectificarea poate fi limitată. Strânge documentele cerute, notează termenele și implică-ți contabilul înainte de prima întâlnire cu inspectorii. ECB Tax oferă asistență documentară la controale fiscale. Pentru datorii mari, risc de insolvență, poprire sau sechestru, implică și un avocat; eșalonarea sau anularea unei sancțiuni nu pot fi garantate. Cere asistență →",
+   "id": "6920I0106",
+   "url": "/consultanta-fiscala/#6920I0106",
+   "pagina": "/consultanta-fiscala/",
+   "etapa": "Alege",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Cât costă contabilitatea unui SRL la ECB Tax?",
+   "A": "Pachetele încep de la 300 lei/lună + TVA (Start), apoi Business (de la 550 lei), Growth (de la 900 lei), E-commerce (de la 700 lei) și Personalizat, cu ofertă individuală. Prețul final depinde de numărul de documente, TVA, angajați și complexitatea activității și îl confirmăm în ofertă. Start-Up Pack (site, hosting, email profesional, asistent AI) este inclus în orice contract. Cere oferta →",
+   "id": "6920I0108",
+   "url": "/preturi/#6920I0108",
+   "pagina": "/preturi/",
+   "etapa": "Alege",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Cât costă salarizarea per angajat?",
+   "A": "Salarizarea începe de la 50 lei/angajat pe lună , cu prețul final confirmat în ofertă după numărul de angajați și tipurile de contracte. Cere ofertă salarizare →",
+   "id": "6920I0109",
+   "url": "/preturi/#6920I0109",
+   "pagina": "/preturi/",
+   "etapa": "Alege",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "Cum primesc o ofertă? Se poate pe email sau pe WhatsApp?",
+   "A": "Da. Trimite forma juridică, activitatea, numărul aproximativ de documente pe lună, numărul de angajați și dacă firma este plătitoare de TVA, prin formularul de contact , la 0755 110 012 sau pe WhatsApp . Pe baza lor îți trimitem oferta.",
+   "id": "6920I0110",
+   "url": "/preturi/#6920I0110",
+   "pagina": "/preturi/",
+   "etapa": "Alege",
+   "stare": "în verificare profesională",
+   "oferta": true
+  },
+  {
+   "Q": "De ce costă mai mult decât la alt furnizor?",
+   "A": "Compară costul total, nu doar abonamentul: ce declarații și raportări sunt incluse, cine răspunde de termene, cât costă suplimentele (bilanț, salarizare, corecții). La ECB Tax pregătim și depunem declarațiile și urmărim termenele ANAF, echipa are calificări verificabile (FCCA, CECCAR, CCF), iar Start-Up Pack este inclus.",
+   "id": "6920I0111",
+   "url": "/preturi/#6920I0111",
+   "pagina": "/preturi/",
+   "etapa": "Alege",
+   "stare": "în verificare profesională",
+   "oferta": true
+  }
+ ]
+}
