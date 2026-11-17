@@ -1,5 +1,5 @@
 {
- "versiune": "1.1",
+ "versiune": "1.2",
  "data": "2026-11-17",
  "etalon": "6920",
  "descriere": "Catalogul de intenții al etalonului 6920 — răspunsuri generice (etalon), fără date ale vreunei firme. Faptele fiscale poartă sursa și data verificării; sursele secundare se confirmă cu sursa oficială înainte de publicare. Firma (OWNER) confirmă, adaptează sau ascunde fiecare răspuns în Admin; o intenție apare ca ofertă doar dacă serviciul legat este oferit.",
@@ -60,9 +60,8 @@
    "id": "6920I0004",
    "alias": "IT-001",
    "segment": {
-    "caen_rev3": "6210",
-    "caen_rev2": "6201",
-    "denumire": "Software la comandă"
+    "caen_rev3": null,
+    "denumire": "general — orice firmă nouă (include 6210)"
    },
    "etapa": "Află",
    "hub": "H1",
@@ -97,8 +96,9 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "intrebare_publicata": "Ce pași legali am pentru înființarea unui SRL de IT?",
-   "origine_fuziune": "listă OWNER (Dan) BOFU #19, 17.11.2026"
+   "intrebare_publicata": "Ce pași legali am pentru înființarea unui SRL?",
+   "origine_fuziune": "listă OWNER (Dan) BOFU #19, 17.11.2026",
+   "raspuns_publicat": "Un SRL se înființează la Registrul Comerțului (ONRC), online cu semnătură electronică calificată sau la ghișeu. Verifici și rezervi denumirea firmei. Stabilești sediul social și codurile CAEN (de exemplu, software la comandă: CAEN Rev.3 6210). Pregătești actul constitutiv și declarațiile asociaților și administratorului. Depui dosarul la ONRC; înregistrarea fiscală (CUI) se face odată cu înmatricularea, fără dosar separat la ANAF. Înregistrarea în scopuri de TVA se face separat, doar dacă e cazul. Deschizi contul bancar al firmei și verși capitalul social. Activezi Spațiul Privat Virtual (SPV) și RO e-Factura. Organizezi contabilitatea din prima lună. Pentru regimul de microîntreprindere: cel puțin un angajat cu normă întreagă în primele 90 de zile de la înființare sau contract de mandat plătit pentru administrator (OUG 8/2026). Ne ocupăm noi de dosar și de contabilitate →"
   },
   {
    "id": "6920I0005",
@@ -137,9 +137,8 @@
    "id": "6920I0006",
    "alias": "IT-003",
    "segment": {
-    "caen_rev3": "6210",
-    "caen_rev2": "6201",
-    "denumire": "Software la comandă"
+    "caen_rev3": null,
+    "denumire": "general — orice firmă nouă (include 6210)"
    },
    "etapa": "Compară",
    "hub": "H1",
@@ -166,8 +165,9 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "intrebare_publicata": "SRL sau PFA pentru o firmă IT?",
-   "origine_fuziune": "listă OWNER (Dan) TOFU #6, 17.11.2026"
+   "intrebare_publicata": "SRL sau PFA, ce aleg?",
+   "origine_fuziune": "listă OWNER (Dan) TOFU #6, 17.11.2026",
+   "raspuns_publicat": "Alegerea depinde de venit, de cheltuieli, de câți bani scoți din firmă și de riscul asumat. PFA : evidență mai simplă, potrivit pentru o activitate individuală și venituri mici; contribuțiile sociale se calculează pe venitul persoanei. SRL : separă patrimoniul personal de cel al firmei; ca microîntreprindere plătește în 2026 impozit de 1% pe venituri (plafon 100.000 euro), dar banii se scot ca salariu sau dividende, cu taxele lor. Pentru echipă, parteneri, angajați, investitori sau risc operațional mai mare, SRL-ul este de obicei varianta potrivită. Un calcul pe cifrele tale arată varianta potrivită. Cere calculul →"
   },
   {
    "id": "6920I0007",
@@ -1176,9 +1176,8 @@
    "id": "6920I0044",
    "alias": null,
    "segment": {
-    "caen_rev3": "6210",
-    "caen_rev2": "6201",
-    "denumire": "Software la comandă"
+    "caen_rev3": null,
+    "denumire": "general — orice firmă nouă (include 6210)"
    },
    "etapa": "Află",
    "hub": "H1",
@@ -1213,7 +1212,9 @@
    "stare": "în verificare profesională",
    "verificat_de": null,
    "data_verificarii": null,
-   "origine": "listă OWNER (Dan) TOFU #5, 17.11.2026"
+   "origine": "listă OWNER (Dan) TOFU #5, 17.11.2026",
+   "intrebare_publicata": "Cât costă să înființez o firmă și ce buget îmi trebuie?",
+   "raspuns_publicat": "Costurile obligatorii sunt mici: taxa ONRC de aproximativ 152 lei și capitalul social minim de 500 lei (Legea 239/2025), care rămâne în firmă. Bugetul real vine după înființare: contabilitatea (la ECB Tax de la 300 lei/lună + TVA, pachetul Start), salariul și contribuțiile pentru angajatul sau administratorul cu contract de mandat cerut microîntreprinderilor, echipamente, eventual stocuri, licențe și marketing. Pregătește o rezervă pentru 3–6 luni de cheltuieli fixe, mai mult dacă încasările întârzie. Site-ul, hosting-ul, emailul profesional și asistentul AI sunt incluse gratuit prin Start-Up Pack . Vezi prețurile →"
   },
   {
    "id": "6920I0045",
@@ -1238,6 +1239,443 @@
    "verificat_de": null,
    "data_verificarii": null,
    "origine": "listă OWNER (Dan) MOFU #14, 17.11.2026"
+  },
+  {
+   "id": "6920I0046",
+   "alias": null,
+   "segment": {
+    "caen_rev3": null,
+    "denumire": "general — orice firmă nouă (include 6210)"
+   },
+   "etapa": "Află",
+   "hub": null,
+   "pagina": "/infiintare-firma/",
+   "ancora": "6920I0046",
+   "intrebare": "Vreau să îmi deschid o firmă, dar nu știu de unde să încep.",
+   "raspuns_scurt": "Pornește de la trei răspunsuri: ce problemă rezolvi, pentru cine și cum vei încasa bani. Apoi alegi forma juridică (PFA sau SRL), codurile CAEN și sediul, și abia după aceea pregătești dosarul pentru Registrul Comerțului. O discuție scurtă cu un contabil înainte de înființare te ajută să alegi forma și regimul fiscal potrivite. Programează o discuție →",
+   "fapte": [],
+   "servicii": [
+    "E15"
+   ],
+   "juridic": false,
+   "stare": "în verificare profesională",
+   "verificat_de": null,
+   "data_verificarii": null,
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
+  },
+  {
+   "id": "6920I0047",
+   "alias": null,
+   "segment": {
+    "caen_rev3": null,
+    "denumire": "general — orice firmă nouă (include 6210)"
+   },
+   "etapa": "Află",
+   "hub": null,
+   "pagina": "/infiintare-firma/",
+   "ancora": "6920I0047",
+   "intrebare": "Ce tip de firmă pot înființa în România?",
+   "raspuns_scurt": "Cele mai folosite forme sunt PFA (persoană fizică autorizată), întreprinderea individuală și SRL (societate cu răspundere limitată). Alegerea depinde de activitate, de venitul estimat, de numărul de asociați și de câtă răspundere personală accepți. Diferențele dintre SRL și PFA: vezi SRL sau PFA?",
+   "fapte": [],
+   "servicii": [
+    "E15"
+   ],
+   "juridic": false,
+   "stare": "în verificare profesională",
+   "verificat_de": null,
+   "data_verificarii": null,
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
+  },
+  {
+   "id": "6920I0048",
+   "alias": null,
+   "segment": {
+    "caen_rev3": null,
+    "denumire": "general — orice firmă nouă (include 6210)"
+   },
+   "etapa": "Află",
+   "hub": null,
+   "pagina": "/infiintare-firma/",
+   "ancora": "6920I0048",
+   "intrebare": "Pot să înființez o firmă dacă sunt salariat?",
+   "raspuns_scurt": "În general, da: poți fi asociat sau administrator al unei firme și în același timp salariat în altă parte. Verifică însă contractul de muncă: clauzele de neconcurență, de exclusivitate și eventualele conflicte de interese cu angajatorul actual.",
+   "fapte": [],
+   "servicii": [
+    "E15"
+   ],
+   "juridic": true,
+   "stare": "în verificare profesională",
+   "verificat_de": null,
+   "data_verificarii": null,
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
+  },
+  {
+   "id": "6920I0049",
+   "alias": null,
+   "segment": {
+    "caen_rev3": null,
+    "denumire": "general — orice firmă nouă (include 6210)"
+   },
+   "etapa": "Află",
+   "hub": null,
+   "pagina": "/infiintare-srl/",
+   "ancora": "6920I0049",
+   "intrebare": "Ce este un SRL și când merită?",
+   "raspuns_scurt": "SRL este o societate cu răspundere limitată: patrimoniul firmei este separat de cel personal, iar asociații răspund în limita capitalului subscris. Poate avea de la 1 la 50 de asociați. Merită când ai parteneri, vrei protecție patrimonială, angajezi personal sau te aștepți să crești.",
+   "fapte": [],
+   "servicii": [
+    "E15"
+   ],
+   "juridic": false,
+   "stare": "în verificare profesională",
+   "verificat_de": null,
+   "data_verificarii": null,
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
+  },
+  {
+   "id": "6920I0050",
+   "alias": null,
+   "segment": {
+    "caen_rev3": null,
+    "denumire": "general — orice firmă nouă (include 6210)"
+   },
+   "etapa": "Compară",
+   "hub": null,
+   "pagina": "/infiintare-srl/",
+   "ancora": "6920I0050",
+   "intrebare": "Ce documente îmi trebuie pentru înființarea unui SRL?",
+   "raspuns_scurt": "De regulă: actele de identitate ale asociaților și administratorului, denumirea aleasă, documentul pentru sediul social (contract sau acordul proprietarului), obiectul de activitate (codurile CAEN), capitalul social și declarațiile pe propria răspundere. Lista exactă diferă după structura societății; ți-o pregătim personalizat.",
+   "fapte": [],
+   "servicii": [
+    "E15"
+   ],
+   "juridic": false,
+   "stare": "în verificare profesională",
+   "verificat_de": null,
+   "data_verificarii": null,
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
+  },
+  {
+   "id": "6920I0051",
+   "alias": null,
+   "segment": {
+    "caen_rev3": null,
+    "denumire": "general — orice firmă nouă (include 6210)"
+   },
+   "etapa": "Compară",
+   "hub": null,
+   "pagina": "/infiintare-srl/",
+   "ancora": "6920I0051",
+   "intrebare": "Pot să folosesc domiciliul ca sediu social?",
+   "raspuns_scurt": "Da: sediul social poate fi locuința ta sau a altcuiva, cu acordul scris al proprietarului. Pentru unele activități desfășurate efectiv la sediu pot fi necesare condiții sau avize suplimentare.",
+   "fapte": [],
+   "servicii": [
+    "E15"
+   ],
+   "juridic": false,
+   "stare": "în verificare profesională",
+   "verificat_de": null,
+   "data_verificarii": null,
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
+  },
+  {
+   "id": "6920I0052",
+   "alias": null,
+   "segment": {
+    "caen_rev3": null,
+    "denumire": "general — orice firmă nouă (include 6210)"
+   },
+   "etapa": "Compară",
+   "hub": null,
+   "pagina": "/infiintare-firma/",
+   "ancora": "6920I0052",
+   "intrebare": "Cine mă poate ajuta să înființez firma?",
+   "raspuns_scurt": "Un consultant în înființări, un avocat, un contabil sau un serviciu complet. Alege pe cineva care îți explică clar costurile, termenele și riscurile, nu doar cine depune dosarul. ECB Tax se ocupă de dosarul ONRC și de contabilitate din prima zi, astfel încât firma pornește cu evidența și termenele ANAF organizate. Cere ofertă pentru înființare →",
+   "fapte": [],
+   "servicii": [
+    "E15"
+   ],
+   "juridic": false,
+   "stare": "în verificare profesională",
+   "verificat_de": null,
+   "data_verificarii": null,
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
+  },
+  {
+   "id": "6920I0053",
+   "alias": null,
+   "segment": {
+    "caen_rev3": null,
+    "denumire": "general — orice firmă nouă (include 6210)"
+   },
+   "etapa": "Compară",
+   "hub": null,
+   "pagina": "/infiintare-srl/",
+   "ancora": "6920I0053",
+   "intrebare": "Cât durează înființarea unei firme?",
+   "raspuns_scurt": "Pentru un SRL simplu, cu dosarul complet, soluționarea la ONRC durează de regulă 3–5 zile lucrătoare. Termenul crește dacă denumirea trebuie schimbată, dacă lipsesc documente pentru sediu sau dacă activitatea cere avize.",
+   "fapte": [],
+   "servicii": [
+    "E15"
+   ],
+   "juridic": false,
+   "stare": "în verificare profesională",
+   "verificat_de": null,
+   "data_verificarii": null,
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
+  },
+  {
+   "id": "6920I0054",
+   "alias": null,
+   "segment": {
+    "caen_rev3": null,
+    "denumire": "general — orice firmă nouă (include 6210)"
+   },
+   "etapa": "Compară",
+   "hub": null,
+   "pagina": "/infiintare-srl/",
+   "ancora": "6920I0054",
+   "intrebare": "Ce taxe are un SRL în România?",
+   "raspuns_scurt": "Ca microîntreprindere, un SRL plătește în 2026 impozit de 1% pe venituri, până la plafonul de 100.000 euro; peste plafon trece la impozit pe profit de 16%. Dividendele se impozitează cu 16%, reținut de firmă. Dacă ai angajați, firma reține și plătește contribuțiile salariale (CAS 25%, CASS 10%, impozit pe venit). TVA se datorează după înregistrare, obligatorie la depășirea plafonului de scutire de 395.000 lei sau opțională. Pentru regimul micro e nevoie de un angajat sau de un administrator cu contract de mandat.",
+   "fapte": [],
+   "servicii": [
+    "E15"
+   ],
+   "juridic": false,
+   "stare": "în verificare profesională",
+   "verificat_de": null,
+   "data_verificarii": null,
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
+  },
+  {
+   "id": "6920I0055",
+   "alias": null,
+   "segment": {
+    "caen_rev3": null,
+    "denumire": "general — orice firmă nouă (include 6210)"
+   },
+   "etapa": "Compară",
+   "hub": null,
+   "pagina": "/infiintare-firma/",
+   "ancora": "6920I0055",
+   "intrebare": "Am nevoie de autorizații pentru activitatea mea?",
+   "raspuns_scurt": "Depinde de domeniu. Comerțul cu alimente, alimentația publică, construcțiile, transportul, înfrumusețarea, sănătatea și alte activități reglementate pot cere avize, autorizații de funcționare sau calificări. Activitățile de birou (IT, consultanță) de regulă nu au nevoie de avize speciale. Verificăm împreună, pe codurile CAEN alese, ce ți se aplică.",
+   "fapte": [],
+   "servicii": [
+    "E15"
+   ],
+   "juridic": false,
+   "stare": "în verificare profesională",
+   "verificat_de": null,
+   "data_verificarii": null,
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
+  },
+  {
+   "id": "6920I0056",
+   "alias": null,
+   "segment": {
+    "caen_rev3": null,
+    "denumire": "general — orice firmă nouă (include 6210)"
+   },
+   "etapa": "Compară",
+   "hub": null,
+   "pagina": "/infiintare-srl/",
+   "ancora": "6920I0056",
+   "intrebare": "Ce cont bancar trebuie să deschid?",
+   "raspuns_scurt": "Un cont bancar al firmei, separat de contul personal, pentru încasări, plăți, salarii și taxe. Cheltuielile firmei se plătesc din contul firmei, iar cele personale din contul personal; așa evidența rămâne curată.",
+   "fapte": [],
+   "servicii": [
+    "E15"
+   ],
+   "juridic": false,
+   "stare": "în verificare profesională",
+   "verificat_de": null,
+   "data_verificarii": null,
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
+  },
+  {
+   "id": "6920I0057",
+   "alias": null,
+   "segment": {
+    "caen_rev3": null,
+    "denumire": "general — orice firmă nouă (include 6210)"
+   },
+   "etapa": "Compară",
+   "hub": null,
+   "pagina": "/infiintare-firma/",
+   "ancora": "6920I0057",
+   "intrebare": "Cum aleg un contabil pentru firma nouă?",
+   "raspuns_scurt": "Caută pe cineva care înțelege domeniul tău, îți explică obligațiile pe înțeles, are prețuri transparente și te avertizează din timp despre TVA, salarii, declarații și termene. Cere să vezi calificările: membru CECCAR sau CCF, ACCA. Credențialele ECB Tax (FCCA, CECCAR, CCF) sunt verificabile în Trust Center . Mai multe în Cum alegi o firmă de contabilitate .",
+   "fapte": [],
+   "servicii": [
+    "E15"
+   ],
+   "juridic": false,
+   "stare": "în verificare profesională",
+   "verificat_de": null,
+   "data_verificarii": null,
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
+  },
+  {
+   "id": "6920I0058",
+   "alias": null,
+   "segment": {
+    "caen_rev3": null,
+    "denumire": "general — orice firmă nouă (include 6210)"
+   },
+   "etapa": "Alege",
+   "hub": null,
+   "pagina": "/infiintare-srl/",
+   "ancora": "6920I0058",
+   "intrebare": "Vreau să înființez un SRL săptămâna aceasta. Ce faceți?",
+   "raspuns_scurt": "Verificăm denumirea, te ajutăm cu forma juridică și codurile CAEN, pregătim dosarul ONRC, iar după înmatriculare activăm SPV și e-Factura și organizăm contabilitatea din prima lună. Cu dosarul complet, ONRC soluționează de regulă în 3–5 zile lucrătoare. Începe acum →",
+   "fapte": [],
+   "servicii": [
+    "E15"
+   ],
+   "juridic": false,
+   "stare": "în verificare profesională",
+   "verificat_de": null,
+   "data_verificarii": null,
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
+  },
+  {
+   "id": "6920I0059",
+   "alias": null,
+   "segment": {
+    "caen_rev3": null,
+    "denumire": "general — orice firmă nouă (include 6210)"
+   },
+   "etapa": "Alege",
+   "hub": null,
+   "pagina": "/infiintare-srl/",
+   "ancora": "6920I0059",
+   "intrebare": "Cât costă serviciul vostru de înființare și ce plătesc separat?",
+   "raspuns_scurt": "Separat de onorariu se plătesc taxele de stat (taxa ONRC de aproximativ 152 lei) și capitalul social (minimum 500 lei, rămâne în firmă). Contabilitatea lunară începe de la 300 lei/lună + TVA (pachetul Start), iar Start-Up Pack (site, hosting, email profesional, asistent AI) este inclus gratuit în contract. Onorariul pentru dosarul de înființare și ce anume intră în el îl confirmăm în ofertă, după ce știm structura firmei. Cere oferta →",
+   "fapte": [],
+   "servicii": [
+    "E15"
+   ],
+   "juridic": false,
+   "stare": "în verificare profesională",
+   "verificat_de": null,
+   "data_verificarii": null,
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
+  },
+  {
+   "id": "6920I0060",
+   "alias": null,
+   "segment": {
+    "caen_rev3": null,
+    "denumire": "general — orice firmă nouă (include 6210)"
+   },
+   "etapa": "Alege",
+   "hub": null,
+   "pagina": "/infiintare-srl/",
+   "ancora": "6920I0060",
+   "intrebare": "Puteți să îmi înființați firma fără să mă deplasez?",
+   "raspuns_scurt": "Dosarul se poate depune online la ONRC, cu semnătură electronică calificată. Spune-ne că vrei varianta fără deplasare și îți confirmăm în ofertă pașii și documentele de semnat. Cere ofertă pentru înființare →",
+   "fapte": [],
+   "servicii": [
+    "E15"
+   ],
+   "juridic": false,
+   "stare": "în verificare profesională",
+   "verificat_de": null,
+   "data_verificarii": null,
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
+  },
+  {
+   "id": "6920I0061",
+   "alias": null,
+   "segment": {
+    "caen_rev3": null,
+    "denumire": "general — orice firmă nouă (include 6210)"
+   },
+   "etapa": "Acționează",
+   "hub": null,
+   "pagina": "/infiintare-firma/",
+   "ancora": "6920I0061",
+   "intrebare": "Pot să rezerv acum o consultanță?",
+   "raspuns_scurt": "Da. Scrie-ne ce activitate vrei să desfășori și câți asociați veți fi; îți pregătim lista de documente și costurile estimate. Cere consultanță → · 0755 110 012 · WhatsApp",
+   "fapte": [],
+   "servicii": [
+    "E15"
+   ],
+   "juridic": false,
+   "stare": "în verificare profesională",
+   "verificat_de": null,
+   "data_verificarii": null,
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
+  },
+  {
+   "id": "6920I0062",
+   "alias": null,
+   "segment": {
+    "caen_rev3": null,
+    "denumire": "general — orice firmă nouă (include 6210)"
+   },
+   "etapa": "Alege",
+   "hub": null,
+   "pagina": "/infiintare-srl/",
+   "ancora": "6920I0062",
+   "intrebare": "Pot să încep firma cu un partener?",
+   "raspuns_scurt": "Da. Stabiliți de la început, în actul constitutiv, cotele de participare, cine administrează, cum se iau deciziile importante și ce se întâmplă dacă un asociat vrea să iasă. Pentru clauzele actului constitutiv recomandăm un avocat; ECB Tax nu prestează servicii juridice.",
+   "fapte": [],
+   "servicii": [
+    "E15"
+   ],
+   "juridic": true,
+   "stare": "în verificare profesională",
+   "verificat_de": null,
+   "data_verificarii": null,
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
+  },
+  {
+   "id": "6920I0063",
+   "alias": null,
+   "segment": {
+    "caen_rev3": null,
+    "denumire": "general — orice firmă nouă (include 6210)"
+   },
+   "etapa": "Alege",
+   "hub": null,
+   "pagina": "/infiintare-srl/",
+   "ancora": "6920I0063",
+   "intrebare": "Am nevoie de capital social mare?",
+   "raspuns_scurt": "Nu. Capitalul social minim este de 500 lei (Legea 239/2025). Nu-l confunda cu banii necesari pentru funcționare: planifică separat lichidități pentru primele luni. Atenție: dacă activul net al firmei scade sub jumătate din capitalul social, nu se pot distribui dividende.",
+   "fapte": [],
+   "servicii": [
+    "E15"
+   ],
+   "juridic": false,
+   "stare": "în verificare profesională",
+   "verificat_de": null,
+   "data_verificarii": null,
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
+  },
+  {
+   "id": "6920I0064",
+   "alias": null,
+   "segment": {
+    "caen_rev3": null,
+    "denumire": "general — orice firmă nouă (include 6210)"
+   },
+   "etapa": "Acționează",
+   "hub": null,
+   "pagina": "/infiintare-srl/",
+   "ancora": "6920I0064",
+   "intrebare": "Ce se întâmplă după înființare?",
+   "raspuns_scurt": "Deschizi contul bancar, activezi SPV și e-Factura, organizezi contabilitatea, obții avizele necesare activității și, pentru regimul micro, angajezi pe cineva sau încheii contract de mandat cu administratorul în 90 de zile. Apoi pregătești oferta și începi să cauți primii clienți.",
+   "fapte": [],
+   "servicii": [
+    "E15"
+   ],
+   "juridic": false,
+   "stare": "în verificare profesională",
+   "verificat_de": null,
+   "data_verificarii": null,
+   "origine": "listă OWNER (Dan) înființare TOF/MOF/BOF, 17.11.2026"
   }
  ]
 }
