@@ -1,5 +1,5 @@
 {
- "versiune": "1.0",
+ "versiune": "1.1",
  "data": "2026-11-17",
  "etalon": "6920",
  "descriere": "Catalogul de intenții al etalonului 6920 — răspunsuri generice (etalon), fără date ale vreunei firme. Faptele fiscale poartă sursa și data verificării; sursele secundare se confirmă cu sursa oficială înainte de publicare. Firma (OWNER) confirmă, adaptează sau ascunde fiecare răspuns în Admin; o intenție apare ca ofertă doar dacă serviciul legat este oferit.",
@@ -66,7 +66,7 @@
    },
    "etapa": "Află",
    "hub": "H1",
-   "pagina": "/contabilitate-it/",
+   "pagina": "/infiintare-srl/",
    "ancora": "6920I0004",
    "intrebare": "Cum înființez un SRL pentru dezvoltare software în România?",
    "raspuns_scurt": "Un SRL se înființează la Registrul Comerțului (ONRC), online cu semnătură electronică calificată sau la ghișeu. În 2026, costul obligatoriu este taxa de publicare de aproximativ 152 lei, iar capitalul social minim este de 500 lei; dosarul complet se soluționează de regulă în 3–5 zile lucrătoare. Activitatea principală pentru software la comandă este CAEN 6210.",
@@ -96,7 +96,9 @@
    "juridic": false,
    "stare": "în verificare profesională",
    "verificat_de": null,
-   "data_verificarii": null
+   "data_verificarii": null,
+   "intrebare_publicata": "Ce pași legali am pentru înființarea unui SRL de IT?",
+   "origine_fuziune": "listă OWNER (Dan) BOFU #19, 17.11.2026"
   },
   {
    "id": "6920I0005",
@@ -141,7 +143,7 @@
    },
    "etapa": "Compară",
    "hub": "H1",
-   "pagina": "/contabilitate-it/",
+   "pagina": "/infiintare-pfa/",
    "ancora": "6920I0006",
    "intrebare": "Merită să deschid SRL sau rămân PFA ca developer?",
    "raspuns_scurt": "Alegerea depinde de venit, de cheltuieli, de câți bani scoateți din firmă și de riscul asumat. SRL-ul separă patrimoniul personal de cel al firmei și, ca microîntreprindere, plătește în 2026 impozit de 1% pe venituri (plafon 100.000 euro), dar banii se scot ca salariu sau dividende, cu taxele lor. PFA-ul are evidență mai simplă, dar contribuțiile sociale se calculează pe venitul persoanei. Un calcul pe cifrele dumneavoastră arată varianta potrivită.",
@@ -163,7 +165,9 @@
    "juridic": false,
    "stare": "în verificare profesională",
    "verificat_de": null,
-   "data_verificarii": null
+   "data_verificarii": null,
+   "intrebare_publicata": "SRL sau PFA pentru o firmă IT?",
+   "origine_fuziune": "listă OWNER (Dan) TOFU #6, 17.11.2026"
   },
   {
    "id": "6920I0007",
@@ -1167,6 +1171,73 @@
    "stare": "de scris",
    "verificat_de": null,
    "data_verificarii": null
+  },
+  {
+   "id": "6920I0044",
+   "alias": null,
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Află",
+   "hub": "H1",
+   "pagina": "/infiintare-srl/",
+   "ancora": "6920I0044",
+   "intrebare": "Cât costă să înființez o firmă IT în România?",
+   "raspuns_scurt": "Costurile obligatorii sunt taxa ONRC de aproximativ 152 lei și capitalul social minim de 500 lei (Legea 239/2025). Bugetul real include contabilitatea (ECB Tax de la 300 lei/lună + TVA), salariul pentru angajatul sau administratorul cu contract de mandat cerut microîntreprinderilor, echipamente, licențe și marketing; rezervă recomandată 6–12 luni.",
+   "fapte": [
+    {
+     "afirmatie": "Taxa ONRC ~152 lei; capital social minim 500 lei.",
+     "sursa": {
+      "titlu": "bono.ro — Cum înființezi un SRL în 2026",
+      "url": "https://bono.ro/blog/cum-infiintezi-un-srl"
+     },
+     "verificat_la": "2026-11-17",
+     "sursa_oficiala": false
+    },
+    {
+     "afirmatie": "Micro: cel puțin un angajat cu normă întreagă în 90 de zile sau contract de mandat plătit pentru administrator (OUG 8/2026).",
+     "sursa": {
+      "titlu": "bono.ro — angajat în 90 de zile (OUG 8/2026)",
+      "url": "https://bono.ro/blog/cum-infiintezi-un-srl-in-2025"
+     },
+     "verificat_la": "2026-11-17",
+     "sursa_oficiala": false
+    }
+   ],
+   "servicii": [
+    "E15"
+   ],
+   "juridic": false,
+   "stare": "în verificare profesională",
+   "verificat_de": null,
+   "data_verificarii": null,
+   "origine": "listă OWNER (Dan) TOFU #5, 17.11.2026"
+  },
+  {
+   "id": "6920I0045",
+   "alias": null,
+   "segment": {
+    "caen_rev3": "6210",
+    "caen_rev2": "6201",
+    "denumire": "Software la comandă"
+   },
+   "etapa": "Compară",
+   "hub": "H1",
+   "pagina": "/startup-pack/",
+   "ancora": "6920I0045",
+   "intrebare": "Ce echipă îmi trebuie la începutul unei firme IT?",
+   "raspuns_scurt": "Un fondator care vinde și coordonează și un specialist tehnic care livrează; contabilul și juristul pot fi externi. Contabilul extern ține evidența și termenele ANAF; la ECB Tax contractul include Start-Up Pack. ECB Tax nu prestează servicii juridice.",
+   "fapte": [],
+   "servicii": [
+    "E15"
+   ],
+   "juridic": true,
+   "stare": "în verificare profesională",
+   "verificat_de": null,
+   "data_verificarii": null,
+   "origine": "listă OWNER (Dan) MOFU #14, 17.11.2026"
   }
  ]
 }
